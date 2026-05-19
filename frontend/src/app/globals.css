@@ -1,0 +1,352 @@
+/*
+ * Omniradar -- Editorial Press Design System
+ * GCPL / Godrej Consumer Products  --  Trend Intelligence Dashboard
+ *
+ * Palette : Hinterland (default)  |  GCPL Brand (data-theme="gcpl")
+ * Fonts   : Fraunces (display) / Inter Tight (body) / JetBrains Mono (data)
+ */
+
+/* ------------------------------------------------------------------ */
+/*  Google Fonts                                                       */
+/* ------------------------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter+Tight:ital,wght@0,300..700;1,400&family=JetBrains+Mono:wght@400..600&display=swap');
+
+/* ------------------------------------------------------------------ */
+/*  Tailwind directives                                                */
+/* ------------------------------------------------------------------ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ================================================================== */
+/*  1. CUSTOM PROPERTIES -- Hinterland (default)                       */
+/* ================================================================== */
+:root {
+  /* -- surfaces ---------------------------------------------------- */
+  --paper:         #EDF1EC;
+  --paper-deep:    #DDE5DC;
+  --surface:       #FFFFFF;
+  --surface-faint: rgba(181, 192, 184, 0.25);
+
+  /* -- ink --------------------------------------------------------- */
+  --ink:           #11181A;
+  --ink-soft:      #3b4445;
+  --ink-faint:     rgba(17, 24, 26, 0.45);
+
+  /* -- chrome ------------------------------------------------------ */
+  --rule:          #B5C0B8;
+  --accent:        oklch(0.58 0.14 145);
+  --accent-deep:   oklch(0.42 0.12 145);
+
+  /* -- functional -------------------------------------------------- */
+  --warning:       #BD1362;
+  --positive:      #5FB233;
+
+  /* -- type scale (rem, 16 px root) -------------------------------- */
+  --fs-xs:   0.6875rem;   /* 11 px */
+  --fs-sm:   0.75rem;     /* 12 px */
+  --fs-base: 0.875rem;    /* 14 px */
+  --fs-md:   1rem;        /* 16 px */
+  --fs-lg:   1.25rem;     /* 20 px */
+  --fs-xl:   1.75rem;     /* 28 px */
+  --fs-2xl:  2.5rem;      /* 40 px */
+
+  /* -- spacing ----------------------------------------------------- */
+  --gutter:  1.5rem;
+  --gap:     1rem;
+
+  /* -- radii ------------------------------------------------------- */
+  --radius:  2px;
+
+  /* -- transitions ------------------------------------------------- */
+  --ease:    cubic-bezier(0.4, 0, 0.2, 1);
+  --dur:     180ms;
+}
+
+/* ================================================================== */
+/*  2. GCPL BRAND THEME (opt-in via data-theme="gcpl" on <html>)       */
+/* ================================================================== */
+[data-theme='gcpl'] {
+  --paper:         #FBF9F4;
+  --paper-deep:    #F2EEE3;
+  --surface:       #FFFFFF;
+  --surface-faint: rgba(242, 238, 227, 0.5);
+
+  --ink:           #1A1816;
+  --ink-soft:      #4A4640;
+  --ink-faint:     rgba(26, 24, 22, 0.4);
+
+  --rule:          #D8D2C4;
+  --accent:        #5FB233;   /* Godrej green */
+  --accent-deep:   #4A8C28;
+  --warning:       #BD1362;   /* Godrej magenta */
+}
+
+/* ================================================================== */
+/*  3. BASE RESET & DEFAULTS                                           */
+/* ================================================================== */
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter Tight', 'Inter', system-ui, sans-serif;
+    font-weight: 400;
+    font-size: var(--fs-base);
+    line-height: 1.6;
+    color: var(--ink);
+    background: var(--paper);
+    min-height: 100dvh;
+    position: relative;
+  }
+
+  /* -- paper-grain texture overlay --------------------------------- */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0.35;
+    mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.15'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+  }
+
+  /* -- Headings ---------------------------------------------------- */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fraunces', 'Times New Roman', serif;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+  }
+
+  h1 { font-size: var(--fs-2xl); }
+  h2 { font-size: var(--fs-xl); }
+  h3 { font-size: var(--fs-lg); }
+
+  /* -- Links ------------------------------------------------------- */
+  a {
+    color: var(--accent-deep);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: color var(--dur) var(--ease);
+  }
+  a:hover {
+    color: var(--accent);
+  }
+
+  /* -- Images ------------------------------------------------------ */
+  img, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  /* -- Focus visible ----------------------------------------------- */
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  /* -- Selection --------------------------------------------------- */
+  ::selection {
+    background: var(--accent);
+    color: var(--paper);
+  }
+
+  /* -- Tabular numbers (data-heavy UI) ----------------------------- */
+  table,
+  [data-tabular],
+  .font-mono {
+    font-variant-numeric: tabular-nums lining-nums;
+    font-feature-settings: 'tnum' 1, 'lnum' 1;
+  }
+}
+
+/* ================================================================== */
+/*  4. SCROLLBAR                                                       */
+/* ================================================================== */
+@layer base {
+  /* -- Firefox ----------------------------------------------------- */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--surface-faint) transparent;
+  }
+
+  /* -- Webkit / Blink ---------------------------------------------- */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--surface-faint);
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--rule);
+  }
+}
+
+/* ================================================================== */
+/*  5. EDITORIAL UTILITY CLASSES                                       */
+/* ================================================================== */
+@layer components {
+  /* -- Eyebrow label (section slug / category tag) ----------------- */
+  .eyebrow {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: clamp(0.625rem, 0.55rem + 0.2vw, 0.6875rem); /* 10-11 px */
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    line-height: 1;
+  }
+
+  /* -- Large stat number (KPI / metric) ---------------------------- */
+  .stat-number {
+    font-family: 'Fraunces', 'Times New Roman', serif;
+    font-style: italic;
+    font-size: var(--fs-2xl);
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums lining-nums;
+    font-feature-settings: 'tnum' 1, 'lnum' 1;
+  }
+
+  /* -- Dark panel (inverted card / highlight block) ---------------- */
+  .dark-panel {
+    background: var(--ink);
+    color: var(--paper);
+    border-radius: var(--radius);
+    position: relative;
+    overflow: hidden;
+  }
+  .dark-panel::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: radial-gradient(
+      ellipse at 30% 0%,
+      rgba(255, 255, 255, 0.05) 0%,
+      transparent 70%
+    );
+  }
+
+  /* -- Rule / divider ---------------------------------------------- */
+  .editorial-rule {
+    border: none;
+    border-top: 1px solid var(--rule);
+  }
+
+  /* -- Mono data label --------------------------------------------- */
+  .data-label {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: var(--fs-xs);
+    font-weight: 400;
+    color: var(--ink-faint);
+    letter-spacing: 0.04em;
+  }
+
+  /* -- Trend badge ------------------------------------------------- */
+  .trend-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: var(--fs-xs);
+    font-weight: 500;
+    padding: 0.125rem 0.5rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--rule);
+    background: var(--surface);
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    line-height: 1.5;
+  }
+}
+
+/* ================================================================== */
+/*  6. KEYFRAME ANIMATIONS                                             */
+/* ================================================================== */
+@keyframes scout-pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* -- Tailwind-friendly animation utilities ------------------------- */
+@layer utilities {
+  .animate-scout-pulse {
+    animation: scout-pulse 2s var(--ease) infinite;
+  }
+  .animate-fade-in {
+    animation: fade-in 0.4s var(--ease) both;
+  }
+  .animate-slide-up {
+    animation: slide-up 0.45s var(--ease) both;
+  }
+}
+
+/* ================================================================== */
+/*  7. REDUCED MOTION                                                  */
+/* ================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  body::before {
+    display: none; /* remove grain to reduce visual noise */
+  }
+}

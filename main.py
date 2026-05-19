@@ -72,14 +72,29 @@ async def run_pipeline():
         logger.info("No trends found.")
         return
 
-    # 3. Save Insights (includes raw e-commerce signals)
+    # 3. Save Insights (all raw signals for frontend + AI digest)
     insights = {
         "timestamp": datetime.now().isoformat(),
         "trends": trends,
+        "raw_signals": {
+            "google": google[:50],
+            "reddit": reddit[:50],
+            "rss": rss[:50],
+            "social": social[:50],
+            "pinterest": pinterest[:30],
+            "amazon": amazon[:60],
+            "nykaa": nykaa[:60],
+            "flipkart": flipkart[:60],
+            "instagram": instagram[:30],
+        },
         "ecommerce_signals": {
             "amazon": amazon[:30],
             "nykaa": nykaa[:30],
             "flipkart": flipkart[:30],
+        },
+        "brands": {
+            "own": config.get("brands", {}).get("own", []),
+            "competitors": config.get("brands", {}).get("competitors", []),
         }
     }
     with open("daily_beauty_insights.json", "w") as f:
