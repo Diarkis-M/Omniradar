@@ -279,12 +279,15 @@ export function findSupportingSignals(trend, data) {
   if (!trend?.trend_name || !data) return null;
 
   const allSignals = getAllSignals(data);
-  const nameKw = extractKeywords(trend.trend_name);
-  const contextKw = extractKeywords(trend.context || '').slice(0, 6);
-  const resultKw = extractKeywords(trend.result || '').slice(0, 6);
-  const keywords = [...new Set([...nameKw, ...contextKw, ...resultKw])];
+  // ONLY use trend name keywords — context/result words are too generic
+  const keywords = [...new Set(extractKeywords(trend.trend_name))];
 
   if (keywords.length === 0) return null;
+
+  // Distinctive keywords (7+ chars like "niacinamide", "grooming") need only 1 match;
+  // short generic words need at least 2 co-occurring matches to avoid false positives
+  const hasDistinctive = keywords.some(kw => kw.length >= 7);
+  const minScore = hasDistinctive ? 1 : Math.min(2, keywords.length);
 
   // Score every raw signal against trend keywords
   const scored = [];
@@ -295,7 +298,7 @@ export function findSupportingSignals(trend, data) {
     for (const kw of keywords) {
       if (title.includes(kw)) { score++; matched.push(kw); }
     }
-    if (score >= 1) scored.push({ ...signal, _score: score, _matched: matched });
+    if (score >= minScore) scored.push({ ...signal, _score: score, _matched: matched });
   }
 
   if (scored.length === 0) return null;
