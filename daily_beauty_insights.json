@@ -1,45 +1,45 @@
 {
-    "timestamp": "2026-05-20T02:42:41.613114",
+    "timestamp": "2026-05-20T03:00:59.863542",
     "trends": [
         {
             "label": "[REDDIT EXCLUSIVE]",
             "trend_name": "Abbey Yung Hair Method Gaining Traction",
             "source_platform": "Reddit (r/Haircare)",
             "metric": "418 upvotes",
-            "context": "Users seeking advice on Abbey Yung hair care method for healthier hair",
-            "result": "Growing interest in specialized hair care routines and techniques"
+            "context": "Users seeking advice on Abbey Yung hair care method",
+            "result": "Growing interest in specialized hair care techniques"
         },
         {
             "label": "[GOOGLE/SOCIAL]",
-            "trend_name": "Mosquito Repellent Safety Concerns Rising",
+            "trend_name": "Professional Hair Care Market Expansion",
             "source_platform": "Google Trends",
             "metric": "Trending Search",
-            "context": "85% mosquito repellent agarbattis unregulated poses serious health concerns",
-            "result": "Increased demand for safer regulated mosquito repellent products"
+            "context": "Market projected to reach USD 57.5 billion by 2033",
+            "result": "Premium hair care segment growth opportunity"
         },
         {
             "label": "[CROSS-PLATFORM]",
-            "trend_name": "Men's Grooming Confidence Building Focus",
-            "source_platform": "Reddit (r/MaleGrooming)",
-            "metric": "197 upvotes",
-            "context": "30M feeling low confidence posts gaining significant engagement on grooming",
-            "result": "Male grooming products positioned as confidence boosters trending"
+            "trend_name": "Mosquito Repellent Safety Concerns",
+            "source_platform": "News/Social Media",
+            "metric": "Trending Search",
+            "context": "85% mosquito repellent agarbattis unregulated poses health risks",
+            "result": "Demand for safer regulated insect repellent products"
         },
         {
             "label": "[E-COMMERCE SIGNAL]",
-            "trend_name": "Niacinamide Face Wash Dominance",
-            "source_platform": "Flipkart Bestsellers",
-            "metric": "426,105 reviews",
-            "context": "Multiple niacinamide-based face washes topping bestseller charts across platforms",
-            "result": "Niacinamide becoming essential ingredient in men's face wash formulations"
+            "trend_name": "Salicylic Acid Face Wash Dominance",
+            "source_platform": "Amazon/Flipkart",
+            "metric": "Trending Search",
+            "context": "Multiple salicylic acid face washes in top 20 bestsellers",
+            "result": "Strong demand for acne-fighting men's cleansers"
         },
         {
             "label": "[INSTAGRAM BUZZ]",
             "trend_name": "Reginald Men's Sunscreen Viral Content",
             "source_platform": "Instagram",
             "metric": "Trending Search",
-            "context": "Telugu influencers creating viral content around Reginald men's sunscreen usage",
-            "result": "Regional language content driving men's sunscreen adoption significantly"
+            "context": "Multiple Telugu influencers promoting Reginald men's sunscreen",
+            "result": "Regional men's sunscreen brand gaining social traction"
         }
     ],
     "raw_signals": {
@@ -48,7 +48,7 @@
             "Dermatologist shares skincare tips to protect your skin from India\u2019s sudden weather shifts | Health",
             "M\u00b7A\u00b7C Cosmetics' Nicola Formichetti Doesn't Care For Expensive Creams",
             "Why Modi wants Indians to buy less gold and take fewer foreign holidays",
-            "\u2018Reduce China\u2019s ability to stockpile discounted oil\u2019: Trump admin extends sanctions waiver on Russian cru",
+            "India asks US for waiver on Russian oil as Iran war squeezes energy supply: Report",
             "India to have strategic petroleum stock in UAE. A massive 30 million barrels",
             "KT Men, Argentine Football Association join hands for India push ahead of FIFA World Cup 2026",
             "Carlos Sainz Didn\u2019t Realise He Had Great Hair \u2013 Who\u2019d Have Thought",
@@ -71,7 +71,7 @@
             "Weekly Edit: Coolest New Beauty Launches On Our Radar | Grazia India",
             "French highlights are this summer\u2019s most effortless hair colour trend",
             "Majirel 4 L'Oreal Majirel Professional Hair Colour 5.14B V511 | Permanent Salon-Grade Dye",
-            "Meghan Markle shares rare glimpse of Princess Lilibet\u2019s fiery red hair in mirror selfie, calls her \u2018Mama\u2019",
+            "One Year of Bellance: From Vision to Three Operational Outlets, with London Debut Headlining a 12-Salon Roadmap for 2026",
             "Delhi ITAT: Recovery of earlier advances cannot automatically be treated as unexplained income",
             "The surprising evolution of washing your hair",
             "New CHIK TVC targets everyday hair concerns",
@@ -84,128 +84,128 @@
             "Nat Habit tackles recurring dandruff with new film",
             "CESTAT Rules Xiaomi Technology India\u2019s Automatic Soap Dispensers Classifiable as Liquid Dispersing Appliances, Not Toiletry Sprays [Read Order]",
             "India Germ-Protecting Soap",
-            "Santoor vs Lifebuoy: Which is no.1 brand in India's soap market?",
+            "From 1929 to 2026: This toilet soap reminded almost every Indian film star of the bathroom and the bathtub",
             "Soap vs shower gel: Dermatologists reveal which one is better for your skin type",
-            "Russia Natural Shower Gel",
+            "Africa Gentle Shower Gel",
             "Is bar soap or body wash more hygienic? Scientists finally settle the debate",
             "I Tested 10 Automatic Soap Dispensers and These Ones Are Worth a Spot by Your Sink",
             "Mrs Hinch fans reveal clever soap hack solving common household problem",
             "Why Sulfur & Clay Face Wash Is Trending",
             "7 Must-Have Indian Summer Sunscreens",
-            "India Day Cream Kit",
-            "Beauty, personal care spending increases 5 times in 10 years: Not just kajal, powder & lipstick, but also m..."
+            "Beauty, personal care spending increases 5 times in 10 years: Not just kajal, powder & lipstick, but also m...",
+            "The 9 best curly hair products for crunch-free curls"
         ],
         "reddit": [
             {
                 "title": "graduation day makeup",
-                "score": 935,
+                "score": 953,
                 "num_comments": 42,
                 "subreddit": "MakeupAddiction",
-                "velocity": 113.13339782939502,
+                "velocity": 111.20987072180247,
                 "url": "https://reddit.com/r/MakeupAddiction/comments/1thm27i/graduation_day_makeup/"
             },
             {
                 "title": "Pink &amp; Gold Soft Glam",
-                "score": 705,
-                "num_comments": 33,
+                "score": 711,
+                "num_comments": 35,
                 "subreddit": "MakeupAddiction",
-                "velocity": 54.87865697147122,
+                "velocity": 54.062982701911864,
                 "url": "https://reddit.com/r/MakeupAddiction/comments/1thgdey/pink_gold_soft_glam/"
             },
             {
                 "title": "Advice Needed on the Abbey Yung Method",
                 "score": 418,
-                "num_comments": 104,
+                "num_comments": 105,
                 "subreddit": "Haircare",
-                "velocity": 22.86218255311785,
+                "velocity": 22.487297235798792,
                 "url": "https://reddit.com/r/Haircare/comments/1th9ykn/advice_needed_on_the_abbey_yung_method/"
             },
             {
                 "title": "My Bearded Brethren:",
-                "score": 369,
+                "score": 370,
                 "num_comments": 33,
                 "subreddit": "beards",
-                "velocity": 17.80995774590233,
+                "velocity": 17.599311343915087,
                 "url": "https://reddit.com/r/beards/comments/1th6k92/my_bearded_brethren/"
             },
             {
                 "title": "Thoughts?",
-                "score": 338,
+                "score": 347,
                 "num_comments": 25,
                 "subreddit": "beards",
-                "velocity": 16.586811633555183,
+                "velocity": 16.777518540001093,
                 "url": "https://reddit.com/r/beards/comments/1th71cx/thoughts/"
             },
             {
                 "title": "After months of CGM, realized I prefer my loose, soft waves",
-                "score": 314,
+                "score": 328,
                 "num_comments": 32,
                 "subreddit": "curlyhair",
-                "velocity": 73.70177175991012,
+                "velocity": 71.84763224439446,
                 "url": "https://reddit.com/r/curlyhair/comments/1thsudc/after_months_of_cgm_realized_i_prefer_my_loose/"
             },
             {
                 "title": "cardib used the laka lip liner",
-                "score": 284,
+                "score": 287,
                 "num_comments": 42,
                 "subreddit": "AsianBeauty",
-                "velocity": 16.026965568212596,
+                "velocity": 15.92238418019259,
                 "url": "https://reddit.com/r/AsianBeauty/comments/1thapkh/cardib_used_the_laka_lip_liner/"
             },
             {
                 "title": "Jiujitsu Silver medal beard \ud83d\ude01",
-                "score": 265,
+                "score": 269,
                 "num_comments": 11,
                 "subreddit": "beards",
-                "velocity": 17.71703308863211,
+                "velocity": 17.62528910872839,
                 "url": "https://reddit.com/r/beards/comments/1the3c3/jiujitsu_silver_medal_beard/"
             },
             {
                 "title": "5 years of taking 5 mg oral minoxidil.",
-                "score": 244,
+                "score": 249,
                 "num_comments": 34,
                 "subreddit": "MaleGrooming",
-                "velocity": 11.069038312272825,
+                "velocity": 11.141800976512705,
                 "url": "https://reddit.com/r/malegrooming/comments/1th4m7z/5_years_of_taking_5_mg_oral_minoxidil/"
             },
             {
                 "title": "My every day make up",
-                "score": 216,
-                "num_comments": 18,
+                "score": 226,
+                "num_comments": 20,
                 "subreddit": "MakeupAddiction",
-                "velocity": 65.98505049722121,
+                "velocity": 63.15897538190994,
                 "url": "https://reddit.com/r/MakeupAddiction/comments/1thumea/my_every_day_make_up/"
             },
             {
                 "title": "Blue collar beard",
-                "score": 215,
+                "score": 221,
                 "num_comments": 8,
                 "subreddit": "beards",
-                "velocity": 21.046055605063813,
+                "velocity": 21.006617470258135,
                 "url": "https://reddit.com/r/beards/comments/1thjbud/blue_collar_beard/"
             },
             {
                 "title": "30M Feeling low confidence.",
-                "score": 197,
-                "num_comments": 128,
+                "score": 215,
+                "num_comments": 133,
                 "subreddit": "MaleGrooming",
-                "velocity": 91.52754054828853,
+                "velocity": 87.49935402810551,
                 "url": "https://reddit.com/r/malegrooming/comments/1thwntd/30m_feeling_low_confidence/"
             },
             {
                 "title": "I don\u2019t understand how I can be THIS ugly.",
-                "score": 147,
+                "score": 150,
                 "num_comments": 311,
                 "subreddit": "MaleGrooming",
-                "velocity": 6.296665206798481,
+                "velocity": 6.342362147001959,
                 "url": "https://reddit.com/r/malegrooming/comments/1th2gih/i_dont_understand_how_i_can_be_this_ugly/"
             },
             {
                 "title": "Yesterdays look",
-                "score": 138,
-                "num_comments": 9,
+                "score": 148,
+                "num_comments": 11,
                 "subreddit": "MakeupAddiction",
-                "velocity": 27.86707892351165,
+                "velocity": 28.15356435017799,
                 "url": "https://reddit.com/r/MakeupAddiction/comments/1thrmxd/yesterdays_look/"
             },
             {
@@ -213,7 +213,7 @@
                 "score": 125,
                 "num_comments": 26,
                 "subreddit": "beards",
-                "velocity": 5.583508428346385,
+                "velocity": 5.508510186196079,
                 "url": "https://reddit.com/r/beards/comments/1th43kr/the_difference_sharp_lines_make/"
             },
             {
@@ -221,7 +221,7 @@
                 "score": 113,
                 "num_comments": 5,
                 "subreddit": "curlyhair",
-                "velocity": 5.299463494100259,
+                "velocity": 5.224777184602353,
                 "url": "https://reddit.com/r/curlyhair/comments/1th5oub/damp_styling_is_a_game_changer/"
             },
             {
@@ -229,87 +229,79 @@
                 "score": 106,
                 "num_comments": 41,
                 "subreddit": "beards",
-                "velocity": 4.881949980866452,
+                "velocity": 4.814365607336632,
                 "url": "https://reddit.com/r/beards/comments/1th54cj/opinions_please/"
             },
             {
-                "title": "Accidental Glam Because This Girl Just Does Glam By Default",
-                "score": 100,
-                "num_comments": 9,
+                "title": "What\u2019s everyone\u2019s opinion on the no mascara makeup looks ?",
+                "score": 104,
+                "num_comments": 225,
                 "subreddit": "MakeupAddiction",
-                "velocity": 4.198912396269492,
-                "url": "https://reddit.com/r/MakeupAddiction/comments/1th1mvp/accidental_glam_because_this_girl_just_does_glam/"
+                "velocity": 42.687197433039124,
+                "url": "https://reddit.com/r/MakeupAddiction/comments/1thwpb2/whats_everyones_opinion_on_the_no_mascara_makeup/"
             },
             {
                 "title": "Anyone know the name of this pallet??",
                 "score": 94,
                 "num_comments": 19,
                 "subreddit": "MakeupAddiction",
-                "velocity": 4.7868624419052495,
+                "velocity": 4.713697245420873,
                 "url": "https://reddit.com/r/MakeupAddiction/comments/1th82qf/anyone_know_the_name_of_this_pallet/"
-            },
-            {
-                "title": "Hard hat and beard anyone?!",
-                "score": 89,
-                "num_comments": 5,
-                "subreddit": "beards",
-                "velocity": 10.581770322722836,
-                "url": "https://reddit.com/r/beards/comments/1thlu0t/hard_hat_and_beard_anyone/"
             },
             {
                 "title": "Clean shaven or beard/stubble",
                 "score": 87,
                 "num_comments": 73,
                 "subreddit": "MaleGrooming",
-                "velocity": 7.175341985432574,
+                "velocity": 6.99938638869095,
                 "url": "https://reddit.com/r/malegrooming/comments/1thh4at/clean_shaven_or_beardstubble/"
             },
             {
+                "title": "Hard hat and beard anyone?!",
+                "score": 87,
+                "num_comments": 5,
+                "subreddit": "beards",
+                "velocity": 9.982222086358046,
+                "url": "https://reddit.com/r/beards/comments/1thlu0t/hard_hat_and_beard_anyone/"
+            },
+            {
                 "title": "Saying hello!",
-                "score": 82,
+                "score": 85,
                 "num_comments": 6,
                 "subreddit": "beards",
-                "velocity": 8.40606835420828,
+                "velocity": 8.449588909951446,
                 "url": "https://reddit.com/r/beards/comments/1thjx7w/saying_hello/"
             },
             {
                 "title": "Did I (M21) overcame receding hairline?",
-                "score": 70,
-                "num_comments": 27,
+                "score": 74,
+                "num_comments": 28,
                 "subreddit": "IndianHaircare",
-                "velocity": 4.08908443933791,
+                "velocity": 4.2471253265666515,
                 "url": "https://reddit.com/r/IndianHaircare/comments/1thbhkr/did_i_m21_overcame_receding_hairline/"
             },
             {
-                "title": "What\u2019s everyone\u2019s opinion on the no mascara makeup looks ?",
-                "score": 69,
-                "num_comments": 185,
-                "subreddit": "MakeupAddiction",
-                "velocity": 32.371200364839375,
-                "url": "https://reddit.com/r/MakeupAddiction/comments/1thwpb2/whats_everyones_opinion_on_the_no_mascara_makeup/"
-            },
-            {
                 "title": "Any advice will help!",
-                "score": 68,
+                "score": 74,
                 "num_comments": 12,
                 "subreddit": "curlyhair",
-                "velocity": 5.030258871058692,
+                "velocity": 5.353398708731575,
                 "url": "https://reddit.com/r/curlyhair/comments/1thfns3/any_advice_will_help/"
             },
             {
                 "title": "Can I pull off this style or is it making me look too old",
-                "score": 62,
+                "score": 65,
                 "num_comments": 12,
                 "subreddit": "beards",
-                "velocity": 3.241854198786271,
+                "velocity": 3.345400622753674,
                 "url": "https://reddit.com/r/beards/comments/1th8sv3/can_i_pull_off_this_style_or_is_it_making_me_look/"
             },
             {
                 "title": "Gen X55 beard",
-                "score": 61,
+                "score": 64,
                 "num_comments": 4,
                 "subreddit": "beards",
-                "velocity": 29.88370072822679,
+                "velocity": 27.279897319697874,
                 "url": "https://reddit.com/r/beards/comments/1thwvd0/gen_x55_beard/"
             },
             {
@@ -317,143 +309,151 @@
                 "score": 52,
                 "num_comments": 9,
                 "subreddit": "MakeupAddiction",
-                "velocity": 9.531331663754065,
+                "velocity": 9.027003068846872,
                 "url": "https://reddit.com/r/MakeupAddiction/comments/1thqqoq/my_no_makeup_makeup/"
             },
             {
                 "title": "Which is more appealing?",
-                "score": 50,
+                "score": 52,
                 "num_comments": 62,
                 "subreddit": "MaleGrooming",
-                "velocity": 19.776987094761537,
+                "velocity": 18.355137332661975,
                 "url": "https://reddit.com/r/malegrooming/comments/1thvzjr/which_is_more_appealing/"
             },
             {
                 "title": "M28: Did a HT back in Sep 2023.",
-                "score": 49,
+                "score": 51,
                 "num_comments": 26,
                 "subreddit": "IndianHaircare",
-                "velocity": 3.9875682398888013,
+                "velocity": 4.04987079810351,
                 "url": "https://reddit.com/r/IndianHaircare/comments/1thgy2m/m28_did_a_ht_back_in_sep_2023/"
             },
             {
-                "title": "Going to start my skin care journey",
-                "score": 38,
-                "num_comments": 9,
-                "subreddit": "IndianSkincareAddicts",
-                "velocity": 2.712429666583249,
-                "url": "https://reddit.com/r/IndianSkincareAddicts/comments/1thf51l/going_to_start_my_skin_care_journey/"
-            },
-            {
                 "title": "Stephanie Nicole either sold her channel or got hacked (or has a new interest)",
-                "score": 37,
+                "score": 39,
                 "num_comments": 9,
                 "subreddit": "BeautyGuruChatter",
-                "velocity": 2.739698558394424,
+                "velocity": 2.824053070430792,
                 "url": "https://reddit.com/r/BeautyGuruChatter/comments/1thfo9v/stephanie_nicole_either_sold_her_channel_or_got/"
             },
             {
-                "title": "Asian pressed pigments vs eyeshadow",
-                "score": 35,
-                "num_comments": 7,
-                "subreddit": "AsianBeauty",
-                "velocity": 1.787348446594807,
-                "url": "https://reddit.com/r/AsianBeauty/comments/1th85ka/asian_pressed_pigments_vs_eyeshadow/"
-            },
-            {
                 "title": "Gentleman, what look suits me best?",
-                "score": 34,
+                "score": 36,
                 "num_comments": 41,
                 "subreddit": "MaleGrooming",
-                "velocity": 3.873603132513584,
+                "velocity": 3.963814340112513,
                 "url": "https://reddit.com/r/malegrooming/comments/1thlalz/gentleman_what_look_suits_me_best/"
             },
             {
+                "title": "Going to start my skin care journey",
+                "score": 35,
+                "num_comments": 9,
+                "subreddit": "IndianSkincareAddicts",
+                "velocity": 2.445093125106258,
+                "url": "https://reddit.com/r/IndianSkincareAddicts/comments/1thf51l/going_to_start_my_skin_care_journey/"
+            },
+            {
                 "title": "Summer time",
-                "score": 34,
+                "score": 35,
                 "num_comments": 4,
                 "subreddit": "beards",
-                "velocity": 3.7502886874338017,
+                "velocity": 3.7350177333706425,
                 "url": "https://reddit.com/r/beards/comments/1thkvfj/summer_time/"
-            },
-            {
-                "title": "Judydoll Stay Shine Lipsticks 104 Calm Nude va 105 Confident Nude",
-                "score": 33,
-                "num_comments": 4,
-                "subreddit": "AsianBeauty",
-                "velocity": 5.142526004699311,
-                "url": "https://reddit.com/r/AsianBeauty/comments/1thp306/judydoll_stay_shine_lipsticks_104_calm_nude_va/"
-            },
-            {
-                "title": "Sarah Webb- how bad can bad lightening make makeup look?",
-                "score": 33,
-                "num_comments": 45,
-                "subreddit": "BeautyGuruChatter",
-                "velocity": 1.5212341340211988,
-                "url": "https://reddit.com/r/BeautyGuruChatter/comments/1th55ev/sarah_webb_how_bad_can_bad_lightening_make_makeup/"
             },
             {
                 "title": "BOJ AQUA REVIEW",
                 "score": 32,
                 "num_comments": 20,
                 "subreddit": "IndianSkincareAddicts",
-                "velocity": 1.9454369953757173,
+                "velocity": 1.91004295910614,
                 "url": "https://reddit.com/r/IndianSkincareAddicts/comments/1thcc2k/boj_aqua_review/"
             },
             {
-                "title": "M30 Finally decided on a hair transplant.",
-                "score": 29,
-                "num_comments": 21,
-                "subreddit": "IndianHaircare",
-                "velocity": 4.668741298900046,
-                "url": "https://reddit.com/r/IndianHaircare/comments/1thpfcs/m30_finally_decided_on_a_hair_transplant/"
+                "title": "Judydoll Stay Shine Lipsticks 104 Calm Nude va 105 Confident Nude",
+                "score": 32,
+                "num_comments": 4,
+                "subreddit": "AsianBeauty",
+                "velocity": 4.760570654877394,
+                "url": "https://reddit.com/r/AsianBeauty/comments/1thp306/judydoll_stay_shine_lipsticks_104_calm_nude_va/"
             },
             {
                 "title": "(18) \u2014-&gt; (20)",
-                "score": 29,
+                "score": 32,
                 "num_comments": 1,
                 "subreddit": "MaleGrooming",
-                "velocity": 7.135784115170662,
+                "velocity": 7.324619431546853,
                 "url": "https://reddit.com/r/malegrooming/comments/1tht76y/18_20/"
             },
             {
-                "title": "Bikes and tacos \ud83d\ude4c\ud83c\udffc (35)",
-                "score": 26,
-                "num_comments": 1,
-                "subreddit": "beards",
-                "velocity": 3.6685040275285625,
-                "url": "https://reddit.com/r/beards/comments/1thnyec/bikes_and_tacos_35/"
+                "title": "Asian pressed pigments vs eyeshadow",
+                "score": 31,
+                "num_comments": 7,
+                "subreddit": "AsianBeauty",
+                "velocity": 1.5588164147154884,
+                "url": "https://reddit.com/r/AsianBeauty/comments/1th85ka/asian_pressed_pigments_vs_eyeshadow/"
+            },
+            {
+                "title": "Sarah Webb- how bad can bad lightening make makeup look?",
+                "score": 30,
+                "num_comments": 47,
+                "subreddit": "BeautyGuruChatter",
+                "velocity": 1.3637779143131894,
+                "url": "https://reddit.com/r/BeautyGuruChatter/comments/1th55ev/sarah_webb_how_bad_can_bad_lightening_make_makeup/"
+            },
+            {
+                "title": "M30 Finally decided on a hair transplant.",
+                "score": 30,
+                "num_comments": 21,
+                "subreddit": "IndianHaircare",
+                "velocity": 4.603820057461054,
+                "url": "https://reddit.com/r/IndianHaircare/comments/1thpfcs/m30_finally_decided_on_a_hair_transplant/"
             },
             {
                 "title": "Beard",
-                "score": 25,
+                "score": 27,
                 "num_comments": 4,
                 "subreddit": "beards",
-                "velocity": 12.815971625192757,
+                "velocity": 11.97076828534948,
                 "url": "https://reddit.com/r/beards/comments/1thx1a1/beard/"
+            },
+            {
+                "title": "Bikes and tacos \ud83d\ude4c\ud83c\udffc (35)",
+                "score": 27,
+                "num_comments": 1,
+                "subreddit": "beards",
+                "velocity": 3.6525178510243332,
+                "url": "https://reddit.com/r/beards/comments/1thnyec/bikes_and_tacos_35/"
             },
             {
                 "title": "White liner Recs",
                 "score": 24,
                 "num_comments": 7,
                 "subreddit": "MakeupAddiction",
-                "velocity": 1.5278653067221932,
+                "velocity": 1.4987827700784147,
                 "url": "https://reddit.com/r/MakeupAddiction/comments/1thd8gc/white_liner_recs/"
+            },
+            {
+                "title": "Which product gives this shimmery look under budget",
+                "score": 24,
+                "num_comments": 14,
+                "subreddit": "MakeupAddicts",
+                "velocity": 2.2268167735228106,
+                "url": "https://reddit.com/r/MakeupAddicts/comments/1thj0fv/which_product_gives_this_shimmery_look_under/"
             },
             {
                 "title": "Warm makeup looks so off on me for some reason",
                 "score": 23,
-                "num_comments": 128,
+                "num_comments": 140,
                 "subreddit": "MakeupAddiction",
-                "velocity": 5.086467659457406,
+                "velocity": 4.765253816159854,
                 "url": "https://reddit.com/r/MakeupAddiction/comments/1thsdt8/warm_makeup_looks_so_off_on_me_for_some_reason/"
             },
             {
                 "title": "Rash on neck update",
                 "score": 22,
-                "num_comments": 14,
+                "num_comments": 15,
                 "subreddit": "IndianSkincareAddicts",
-                "velocity": 2.900091044249872,
+                "velocity": 2.7880668327458236,
                 "url": "https://reddit.com/r/IndianSkincareAddicts/comments/1thn4yq/rash_on_neck_update/"
             },
             {
@@ -461,7 +461,7 @@
                 "score": 22,
                 "num_comments": 38,
                 "subreddit": "SkincareAddiction",
-                "velocity": 1.2828925997204037,
+                "velocity": 1.2604885621295174,
                 "url": "https://reddit.com/r/SkincareAddiction/comments/1thbfze/misc_those_of_you_that_quit_tretinoin_or/"
             },
             {
@@ -469,31 +469,31 @@
                 "score": 22,
                 "num_comments": 4,
                 "subreddit": "MakeupAddiction",
-                "velocity": 2.8986050965031978,
+                "velocity": 2.7866934384821356,
                 "url": "https://reddit.com/r/MakeupAddiction/comments/1thn4qr/lil_red_look_i_did_to_see_the_mj_biopic/"
             },
             {
-                "title": "Which product gives this shimmery look under budget",
+                "title": "I love how desi and Katy have had such a strong and amazing friendship for literally over a decade",
                 "score": 22,
-                "num_comments": 14,
-                "subreddit": "MakeupAddicts",
-                "velocity": 2.1006571539405083,
-                "url": "https://reddit.com/r/MakeupAddicts/comments/1thj0fv/which_product_gives_this_shimmery_look_under/"
+                "num_comments": 8,
+                "subreddit": "BeautyGuruChatter",
+                "velocity": 6.823010325612152,
+                "url": "https://reddit.com/r/BeautyGuruChatter/comments/1thva1w/i_love_how_desi_and_katy_have_had_such_a_strong/"
             },
             {
-                "title": "Routine recommendations?",
+                "title": "29 years old, what would you change?",
                 "score": 22,
-                "num_comments": 11,
-                "subreddit": "curlyhair",
-                "velocity": 1.248296055040532,
-                "url": "https://reddit.com/r/curlyhair/comments/1thau03/routine_recommendations/"
+                "num_comments": 61,
+                "subreddit": "MaleGrooming",
+                "velocity": 1.5535876032531755,
+                "url": "https://reddit.com/r/malegrooming/comments/1thfaxx/29_years_old_what_would_you_change/"
             },
             {
                 "title": "Severe Dermal Hyperpigmentation for 3 Years \u2014 Nothing Has Worked, Need Genuine Advice Before Spending More",
                 "score": 21,
                 "num_comments": 14,
                 "subreddit": "IndianSkincareAddicts",
-                "velocity": 1.271347038068672,
+                "velocity": 1.2483120626871922,
                 "url": "https://reddit.com/r/IndianSkincareAddicts/comments/1thc91j/severe_dermal_hyperpigmentation_for_3_years/"
             }
         ],
@@ -534,13 +534,6 @@
                 "source": "https://news.google.com/rss/search?q=skincare+trends+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
             },
             {
-                "title": "SGA PR report projects India\u2019s retail market to cross USD 1.5 trillion by 2030 - Mediabrief.com",
-                "summary": "SGA PR report projects India\u2019s retail market to cross USD 1.5 trillion by 2030&nbsp;&nbsp;Mediabrief.com",
-                "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOd3lFc3pFWnY5Y1plS2ZYXzVZOUVQLXVxcWJzSktQcmhJQlJoR2lQeDdOSFZ3ZEZ5QVZUc2wwTkU4MHdVWGY3UjFUUlJiUElMSUdJdm9ZWjNjdWdxQWljSklzcTEwTXd3V2Z5QkcyU3FkNGNjTkNjWUh4M0otTG1pQVQ4d1g?oc=5",
-                "published": "2026-05-19T09:44:02+00:00",
-                "source": "https://news.google.com/rss/search?q=skincare+trends+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
-            },
-            {
                 "title": "From glazed skin to soft eye makeup: 5 easy makeup trends taking over summer evening beauty looks | Fashion Trends - Hindustan Times",
                 "summary": "From glazed skin to soft eye makeup: 5 easy makeup trends taking over summer evening beauty looks | Fashion Trends&nbsp;&nbsp;Hindustan Times",
                 "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNeWdlU3o5REZval84bDA0YkZRZ3p3MnQxOHgwbGJ2cjdEWnQ4MkwzT1ZPZVo4WV9qazFzS2xZcWlrdGRrc05aOEtMb0ZwdlBZa1ZvSVdVcEtvYnN6b3BhMlBIdWhYTkxMRzUzSzRpNzBqc1g2S0d0N3FjNGNqdkwzcEM0WlM4OHEtcEZEU3drT0VJUmhGQUI1YlRlY2dZeHg2bjEzZnhZWTVFZ0l0R2hvekJxSElLZmNqWXh1Um95OHlwMGc0V3Zfb25HN0s3dDFLQjNMV2R4dUlpTzNXRWpGN1U4b1lJQ2JWWkVreE84cUxxLTRtMHJQT3dB0gH_AUFVX3lxTE01NV9lNldzUm1ETUJEY1FiU3RMbk5DUGFWQ3ZuQk8wd25tdU0yemVHR3FwU0U3b01LYUV1aVpJMGpTd1VSY2w4LXJBYzNlNVRwLVh0VURwNFdsS3JSQl9QWUxtdzEzcEhkUFpMYmZjd1dhamMteVhTMy1GZUl2RnBJQWZ2V3Q0NjlfMUxNVXV3bDdVNGt5a2R0MUlCWkdvWV9vRmNJSXI2akFPbEtiWUhfTUZfX3NtNEJsWC1hUTZ6eDZPdzF3Xy05SE9RMlEyS0Y0NnFXTzIzMXM4eXVRcnZQUnVKVWJ1VUFEYmFLbHNiMGtveFlvOVVlWFBTSTRUQQ?oc=5",
@@ -552,6 +545,13 @@
                 "summary": "\u201cClean Girl\u201d Aesthetic: Lifestyle Inspiration Or Unrealistic Beauty Standards? Hailey Bieber\u2019s Philosophy&nbsp;&nbsp;Oneindia",
                 "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWWpfb3EyME1yWmdJQWVyd2ZGWDFKRW1HbEdCWXpaR2Z6QUFNT3RSdHgtNXVWckgwREQ1UTB4WUVjMFBMMTMwSlYwdDlfOHR3RFRiN0tONXhMNFdkbnZ0ZUhER0xUME1qZzFpQVVQSUZENnVCUmJyNjc3eEZpUlhWalpub29IU2xXNGNzMkxGS1hmVkhIXy1mVW1xaVZ1NkFLVEhMeEtYYjU3b0xPLUFnWkt1Y0djRDEtU2pRRW93bzliNWNqMm80SS1GV042ZElUOHcwY2RpYThLakpWSDBCTE13?oc=5",
                 "published": "2026-05-19T01:44:17+00:00",
+                "source": "https://news.google.com/rss/search?q=skincare+trends+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
+            },
+            {
+                "title": "SGA PR report projects India\u2019s retail market to cross USD 1.5 trillion by 2030 - Mediabrief.com",
+                "summary": "SGA PR report projects India\u2019s retail market to cross USD 1.5 trillion by 2030&nbsp;&nbsp;Mediabrief.com",
+                "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOd3lFc3pFWnY5Y1plS2ZYXzVZOUVQLXVxcWJzSktQcmhJQlJoR2lQeDdOSFZ3ZEZ5QVZUc2wwTkU4MHdVWGY3UjFUUlJiUElMSUdJdm9ZWjNjdWdxQWljSklzcTEwTXd3V2Z5QkcyU3FkNGNjTkNjWUh4M0otTG1pQVQ4d1g?oc=5",
+                "published": "2026-05-19T09:44:02+00:00",
                 "source": "https://news.google.com/rss/search?q=skincare+trends+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
             },
             {
@@ -653,13 +653,6 @@
                 "source": "https://news.google.com/rss/search?q=makeup+looks+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
             },
             {
-                "title": "\"It's 2026 for f**k's sake\": Indian influencer Ankush Bahugana faces homophobic abuse on London streets over pink suit - ANI News",
-                "summary": "\"It's 2026 for f**k's sake\": Indian influencer Ankush Bahugana faces homophobic abuse on London streets over pink suit&nbsp;&nbsp;ANI News",
-                "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNN2NLM0FWVURMUjYzbmE3UERRMEhBNVo2ZS1WXzcxZzdLdDFSb1pIUkhqM01hd1BaZTVFOGk2WHM0eW95WDktVHZMN1RuY3JaZjB3YkFxQXFGQTZ3RnpqRkxyVUlyQzFZWHIzTW81M0RDQ1prUURoaXFMVjFQMjMxZU5URTM5UUpRQVhEWWEyZzc3ai1LVzc2R1JJcmpZVXN3TkZYUGtidndBeEw0dEtmTXRwcl9feXp4ZWFjeG1HLWNhV0xEcHJpT1ZlX3NhUXhkYTVld1BMUW9hQkpPVXJwNjVHTlZGQXdCaS1BMXB6X1NMZ3B3d1JnVW95T0NNZFZsVFNwc3N5b2tOUQ?oc=5",
-                "published": "2026-05-18T21:24:00+00:00",
-                "source": "https://news.google.com/rss/search?q=makeup+looks+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
-            },
-            {
                 "title": "Latest Photos, Top Trending Photos, Exclusive Photo collection - ABP News",
                 "summary": "Latest Photos, Top Trending Photos, Exclusive Photo collection&nbsp;&nbsp;ABP News",
                 "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBNVUdXbW1XckppYnViUGZIcHNnQnp0eVRvcDRmS3dzMFpWX2xKMUx0b1kzV3ZIa0swbXpSUHMtRWdWQnRrNTctSXQyTTgtbFFwd25XdlBvMWZCMWZMY2N0TGZJcnh3ZWRIcEFYMFQ2ZFNrN24wS2ZjRHY2Tk4tZw?oc=5",
@@ -681,13 +674,6 @@
                 "source": "https://news.google.com/rss/search?q=makeup+looks+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
             },
             {
-                "title": "Cannes 2026: Kalyani Priyadarshan's black and maroon gown steals the spotlight and fans declare themselves 'Kalyaniholics' - MSN",
-                "summary": "Cannes 2026: Kalyani Priyadarshan's black and maroon gown steals the spotlight and fans declare themselves 'Kalyaniholics'&nbsp;&nbsp;MSN",
-                "link": "https://news.google.com/rss/articles/CBMi2gNBVV95cUxQQ3Q3YUotWEVuaFo4d3NSR1V2MjFTU0drWXdkcEVFVVQ3Vy16dDZpcXloaUNMZm5KalpiTGdub20xZFVpcENuWlByQUpxampyMHV0Sy0zaVF5ZEoteGlwUWVTV0kzN050OE1ZY2s3Q091Zmp4S2tOT1Nhalh0MkdienVpdGJYbVNoNC0xV0g3ZFdfRUM3MzNhckdZVWJSWjZpcmY5Y0VaUFdTT1pzX1hHd0s5MWRNMTlDUFc4ajVPcGh5SkV4b2J6RDlXLWptc1JaR3l6NS1GenI3YmJxNFZ6SFRNcDFoTXRwdFdYTlBJbGh6a1BKYkdLTzFPMkltRlNmXzRmOUIycmZiRloxNHVqaHliZXFLMkszRnhTejFCOXliVlZLLWV5SDZSLTZCT1gwLWlvTFlDNTFlMm5wc1BrR0hHQ09QVnp5bnBGb3NZV0Y2ZjBnckxlTEozVV9ZRzFJc29CRjBLMVZmYWlYV1ZFVWxkOTh3dTkweG5IQUlUNlBSVThEa1NPN3pFVG9XSE9kN1h0eGRxZWJjVTJISVJURTZJQ2RsRXNoRjRYTnF6ODhxSHcxckF4cmhxY2t2dEhFNmdDY2R6X2ZUbEI5NnRrR0dGUExhNmVXVVE?oc=5",
-                "published": "2026-05-19T01:56:14+00:00",
-                "source": "https://news.google.com/rss/search?q=makeup+looks+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
-            },
-            {
                 "title": "Latest Photos, Top Trending Photos, Exclusive Photo collection - ABP News",
                 "summary": "Latest Photos, Top Trending Photos, Exclusive Photo collection&nbsp;&nbsp;ABP News",
                 "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82NkVubGhUcVBaOS16dWw2MEpvMWNmaDlKNkVRc0RnMHVfVHhiVG5kdXFPWTAtNXA0RGNiZ2xITWQzamJRSkhMNGI3dV96dzlCZ3Zsdk9yR05xaUh3SGc0dFE5MWEta0IyOWljejNwRnlmTm9BOS1QMDI2bURiZw?oc=5",
@@ -706,13 +692,6 @@
                 "summary": "Textures Are Now Playing The Main Character In Beauty | Grazia India&nbsp;&nbsp;Grazia India",
                 "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUmtIWktGTnRSN29MS2lzUEZqOC13cVNqa1NLT0p3bTF1aFBBTUxNNGgwaGhvMWdlXzRRbWdiUTc1amphRXVSblZqczZSNV90WC00a25YSHVmRjVCeHVtZjdJcEFTRW5HUVNMUGF4cVJVNDlzTzMxa3RodkZNT19KUjdJYWVBQXdjTklPZzJRNVZXQmszUm0wbFBZTnlvVUI4OWxtOGtlQnEtNG_SAaoBQVVfeXFMUEgtRm1VTWlrLVVDa0poMGJhWlJzSUxqTVBPNm1MeWNZdVcxVThfc2lrZ0dRb2VQT1V2RFktWEVDUUJhVHRWd3dpM01saUJ0dmRKVEI3NTFoZ24yWmRsV2pBVjJ0bWdQdlBVdEZZajFJTHI2cUNCSGFOUnNLdFBrbHVZWW8takxjenoxQ0hVRXhMUUVraVQwZDJQNW1JUVZFOERYLXNxQ1pabEE?oc=5",
                 "published": "2026-05-19T04:52:40+00:00",
-                "source": "https://news.google.com/rss/search?q=makeup+looks+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
-            },
-            {
-                "title": "Disha Madan looks resplendent in outfit that celebrates South Indian craftsmanship in Cannes 2026 | Fashion Trends - Hindustan Times",
-                "summary": "Disha Madan looks resplendent in outfit that celebrates South Indian craftsmanship in Cannes 2026 | Fashion Trends&nbsp;&nbsp;Hindustan Times",
-                "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPLVRwMFFBMm1hd3lHZ3ZGOEtlQmN6Q0FycmZtcVp5LW8yci1zdGRzaDN3SU9GcjVGMlhrbm9GOGNwU1JhQXNGTDVJbFFjUFNhY1pIcUNLMUpqc1JhbWZEeU5lRGFsNC1oRWJROVlOV3dPT01GZzlvSUJCdkxTY3g4b045cTEydV9fc2M1U3AxQmhTQldISWdoYmFYci03VzVxR090YnhUQVJ5dDhCV1VQang3cGdWOGpXLXdoRHlfak9sRjdLWTFHRFhVUnpsV0JEd0RENXhBMDJVNC00aVJDUElGd1hUTC1wWUpaXzloVmJoV0ZGWlJTXzB1TdIBgAJBVV95cUxOLUVQSU5KTGN3UWJYU294VjJHZDd5RXFUbzhYc2RrRnVaODNNV0FiZ3lhQTRCS2JpLWFsbjVnT054bi1VUm5tNDdiSVpfVG5LQnNKLTVMbXpDVHdJSzd5WmRBOEtkdzZCeTVqZng1UWlTVEJET3pvUGVtaGI1eXJ6XzRlSUtyVVFPR3NCTmdMT0gwWkRqM1RMNTRsVTNYbG05VFlMdXljQzgtYTRvREVCWWptS1ZMZDY5cnhGQkFYZDNsNDVTN3dUV0RKYXp3a0l3dkxsSEFJNUJGUVB0UXBZd2wyd2h5bDFhOVp1U0xZQlhzd2luaXZIZkxHZ3ZXWGNl?oc=5",
-                "published": "2026-05-19T03:09:00+00:00",
                 "source": "https://news.google.com/rss/search?q=makeup+looks+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
             },
             {
@@ -744,13 +723,6 @@
                 "source": "https://news.google.com/rss/search?q=makeup+looks+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
             },
             {
-                "title": "Demi Moore, Jacqueline Fernandez dazzle as Cannes 2026 celebrates ageless glamour - MSN",
-                "summary": "Demi Moore, Jacqueline Fernandez dazzle as Cannes 2026 celebrates ageless glamour&nbsp;&nbsp;MSN",
-                "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPTmVFbUVEdmItbzlTZEZ6MUl3OUlOR05mTWZMREF3LXhPUVJXVE9BaHlWYUgtVXlwUzZ2aXRPcTU0V3EzRjRQdF83Zm1XdFh5V2pmbzVIaFd0M2trODZENkdqV0dxNzVWcUYwaFlkaXFPYnBDS1NuTkR4NVVhdS1xdUxuOE9KdndCMWRzS1FVaW5WMkxNTFVLT0lsYkN3Y3hSNG84SVNLZ21Tc1NZVkJidGdDMlluS25oR0ZNbDBkaUd2a2VSS3JjMjE4LXpfYUNESFpZNkxOTlM3bERtdEd2bmRFMjhxNzByVnlDbXFjdmdfbG45RXc1eGx5SE1lNU0?oc=5",
-                "published": "2026-05-18T23:41:52+00:00",
-                "source": "https://news.google.com/rss/search?q=makeup+looks+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
-            },
-            {
                 "title": "Exclusive: Sunny Hinduja on Vimal Khanna, being jobless for 6 years, celebrating failure with pizza, but 'didn't have money to buy it' - DNA India",
                 "summary": "Exclusive: Sunny Hinduja on Vimal Khanna, being jobless for 6 years, celebrating failure with pizza, but 'didn't have money to buy it'&nbsp;&nbsp;DNA India",
                 "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQX3dqZmFSV0xiMWdraEEtSWV3QktNZTZsbUxObnNVSE9oUEFNYjhCTXZBUlhfaFNuUDhIcHNUV0VwUFBBcUtXQUt5UDBrdEpHVnFWTHhwdWljSTc3VDZTem1SOWdGd3RwbmE1VG0yeDNicERKZnJkcnA2TGlpUFdGdjQ5WWtzdVZPdDRvVVVIUzdhRmVrX2JCdUlKZ1FwWlNFTWhYdktRSE5Ma1pCRy0yY0JNV1dlZW1oVF9BX0VMWU1NNHRKMGlEVlpqNnVYUmxUOTVZZzlnWHBtT3VZWlNmVmNqX0h2UlQyR1RzaHNwNHZsYmdBWXhQSDNsZ3dIb00xVlJ1RzJwc3lIa0FKQWNN0gGPAkFVX3lxTFBfd2pmYVJXTGIxZ2toQS1JZXdCS01lNmxtTE5uc1VIT2hQQU1iOEJNdkFSWF9oU25QOEhwc1RXRXBQUEFxS1dBS3lQMGt0SkdWcVZMeHB1aWNJNzdUNlN6bVI5Z0Z3dHBuYTVUbTJ4M2JwREpmcmRycDZMaWlQV0Z2NDlZa3N1Vk90NG9VVUhTN2FGZWtfYkJ1SUpnUXBaU0VNaFh2S1FITkxrWkJHLTJjQk1XV2VlbWhUX0FfRUxZTU00dEowaURWWmo2dVhSbFQ5NVlnOWdYcG1PdVlaU2ZWY2pfSHZSVDJHVHNoc3A0dmxiZ0FZeFBIM2xnd0hvTTFWUnVHMnBzeUhrQUpBY00?oc=5",
@@ -758,17 +730,17 @@
                 "source": "https://news.google.com/rss/search?q=makeup+looks+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
             },
             {
-                "title": "Huma Qureshi signs off from Cannes 2026 in black halter-neck gown, says modern Indian women are \u2018not about perfection\u2019 | Fashion Trends - Hindustan Times",
-                "summary": "Huma Qureshi signs off from Cannes 2026 in black halter-neck gown, says modern Indian women are \u2018not about perfection\u2019 | Fashion Trends&nbsp;&nbsp;Hindustan Times",
-                "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPV19taURaRTZYeUltNDgwMGNfRXVFZWZwbHY2TlFacUczdU9zalBmYk96VlA0X0RURTRvRjRFR0tyT0Itd0dLVjg1TlhwTjY2NXpvNkJoTzBVRlh0WXQtLVpucjRZcEdnSWd1LUVlWVB4VjEtblFCbXNreWFLWlVsYkVidzl5NVVkY09CbXdQODRkU25tUW1TQm41RElHM2dVXzBHUnpDN0VKdlhlUV9IbjJCRkZwNmxhb1VMQjc2Y19yYUlwQ3BkamkzVXJxeldUX1g0eWhDOFExYnhKaF9IU1BBOWhhdHNaQmRBWVJPams0ajkyaTJXNXlHeFVacmFvOVh0eHNScWZUWUNSMENodnVQd2VMOEdk0gGYAkFVX3lxTE9XX21pRFpFNlh5SW00ODAwY19FdUVlZnBsdjZOUVpxRzN1T3NqUGZiT3pWUDRfRFRFNG9GNEVHS3JPQi13R0tWODVOWHBONjY1em82QmhPMFVGWHRZdC0tWm5yNFlwR2dJZ3UtRWVZUHhWMS1uUUJtc2t5YUtaVWxiRWJ3OXk1VWRjT0Jtd1A4NGRTbm1RbVNCbjVESUczZ1VfMEdSekM3RUp2WGVRX0huMkJGRnA2bGFvVUxCNzZjX3JhSXBDcGRqaTNVcnF6V1RfWDR5aEM4UTFieEpoX0hTUEE5aGF0c1pCZEFZUk9qazRqOTJpMlc1eUd4VVpyYW85WHR4c1JxZlRZQ1IwQ2h2dVB3ZUw4R2Q?oc=5",
-                "published": "2026-05-19T01:13:23+00:00",
-                "source": "https://news.google.com/rss/search?q=makeup+looks+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
-            },
-            {
                 "title": "It's 2026 for f**k's sake: Indian influencer Ankush Bahugana faces homophobic abuse in London - Mid-day",
                 "summary": "It's 2026 for f**k's sake: Indian influencer Ankush Bahugana faces homophobic abuse in London&nbsp;&nbsp;Mid-day",
                 "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQX1BQWldhc2g4YUR1UnkzQm9qMmJXcFl6THNsR0JVVHdJTGlZSnhLUUFqWEdwNlUzdDJIcGRselpTd2l0d2lOWl9Db2ZLb0pJU0xvaTFoWlJxcFpQVU1NZXhkeW5nUzhwaGdCc01SMEZKRF9QVWpaNmNoRkdPMXB5XzlhaWhsX1p1eDNqUnU0MmRQWWMwQ3E0eUJsZXVGSGRlT1FCS00tbmRzdlIxZmRzQTk1SEE1WDh2TUpOZ2lkY0xMMy1JOVN2cWxpS2JqQW4tbFU3Q0FMLS00T3YwVUJLTDYyY2x4ZkFyWmh0UUpya2dYZW5adV93MEFWQ3FtNGVEaXZ4M2JLQ2pRd9IBjwJBVV95cUxONkh6djJacVV1cy01WFliYjdWWGtDdFhDVElkZU1EcnNVWjAzdm1TbkpBUXN1aXJkUU1sY081SWZZX1ZiRTZnVlhPZ21QeHNoVm1FdmtkQzZEMWJTU1VJNmRQUDBiSzFRR0JIYnBwNVA3QlllbGlKUG5VWWl6NENWM2pTT0IxVkp0NTAxTDZrcVJmV0ZsQXNwaVJZRTJuLVhyb1cyMlZVcVZWT3U5SE5kR2JRbVN3bEhfY24zLUEwbVRjXy1nU1JWdV9yWVZrZ2RKSEZKcmRfeDRHbWxRSGJWOVJjRklubkVvRTcxcTJTSTd4M0tocEJDOVpnaHhZRmoyYV9WR1FjMTVVSGk1X1RB?oc=5",
                 "published": "2026-05-18T22:31:00+00:00",
+                "source": "https://news.google.com/rss/search?q=makeup+looks+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
+            },
+            {
+                "title": "Grace Jones' Beauty & Style Evolution - essence.com",
+                "summary": "Grace Jones' Beauty & Style Evolution&nbsp;&nbsp;essence.com",
+                "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pdm5GcjJnaTAtTUl1QldXUlpzYWRQaUM5U2pHR2txN0NHcUJINDg1Q0dReUVNYVlkVTRXRWE1OVhGVFZBUThKd2lJN3JOWDhwbjdsVWhMOTBQR1RGLTVmRktZZDlXZkNKNXE4OFB2VENBRlQ1?oc=5",
+                "published": "2026-05-19T15:35:24+00:00",
                 "source": "https://news.google.com/rss/search?q=makeup+looks+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
             },
             {
@@ -786,17 +758,17 @@
                 "source": "https://news.google.com/rss/search?q=makeup+looks+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
             },
             {
+                "title": "Cannes 2026: Kalyani Priyadarshan's black and maroon gown steals the spotlight and fans declare themselves 'Kalyaniholics' - MSN",
+                "summary": "Cannes 2026: Kalyani Priyadarshan's black and maroon gown steals the spotlight and fans declare themselves 'Kalyaniholics'&nbsp;&nbsp;MSN",
+                "link": "https://news.google.com/rss/articles/CBMi2gNBVV95cUxQQ3Q3YUotWEVuaFo4d3NSR1V2MjFTU0drWXdkcEVFVVQ3Vy16dDZpcXloaUNMZm5KalpiTGdub20xZFVpcENuWlByQUpxampyMHV0Sy0zaVF5ZEoteGlwUWVTV0kzN050OE1ZY2s3Q091Zmp4S2tOT1Nhalh0MkdienVpdGJYbVNoNC0xV0g3ZFdfRUM3MzNhckdZVWJSWjZpcmY5Y0VaUFdTT1pzX1hHd0s5MWRNMTlDUFc4ajVPcGh5SkV4b2J6RDlXLWptc1JaR3l6NS1GenI3YmJxNFZ6SFRNcDFoTXRwdFdYTlBJbGh6a1BKYkdLTzFPMkltRlNmXzRmOUIycmZiRloxNHVqaHliZXFLMkszRnhTejFCOXliVlZLLWV5SDZSLTZCT1gwLWlvTFlDNTFlMm5wc1BrR0hHQ09QVnp5bnBGb3NZV0Y2ZjBnckxlTEozVV9ZRzFJc29CRjBLMVZmYWlYV1ZFVWxkOTh3dTkweG5IQUlUNlBSVThEa1NPN3pFVG9XSE9kN1h0eGRxZWJjVTJISVJURTZJQ2RsRXNoRjRYTnF6ODhxSHcxckF4cmhxY2t2dEhFNmdDY2R6X2ZUbEI5NnRrR0dGUExhNmVXVVE?oc=5",
+                "published": "2026-05-19T01:56:14+00:00",
+                "source": "https://news.google.com/rss/search?q=makeup+looks+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
+            },
+            {
                 "title": "Diana Penty Cannes 2026 Looks: Actor Turns Heads In Golden Saree And Sculptural Red Couture At Cannes Film Festival - Bombay Times",
                 "summary": "Diana Penty Cannes 2026 Looks: Actor Turns Heads In Golden Saree And Sculptural Red Couture At Cannes Film Festival&nbsp;&nbsp;Bombay Times",
                 "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQTXhfdmdGdUctZUFtcWFwWlExd0ZOTEtzLXE3M09MU1h6czV3QnRGRzF4TWxWallsQkhYSXRKdXhKbm1Mckl0WWNpMVNmNU15RFV0OXVocWZaeU5Vb19aNk1pRW1jWG5odG1tdi1fRE5DcGwxeVpwdzlTdzJrRjJSVm1kRGtGYTVRb1pMTTlmalRuZ2dsTjBpYUFvUm90NnRaYi16bW45a2NaOXFXbzRuSi02UnNYWDJDLVlWWDZvY2E1eEdaaXRnbDVVcFB5akNWVEIyRHE2QzAzMVU3UnV6ZjZjTWxldEpjVWhzc2RXYjFFY2RPTmRuenozeFFCdURM0gGAAkFVX3lxTFBNeF92Z0Z1Ry1lQW1xYXBaUTF3Rk5MS3MtcTczT0xTWHpzNXdCdEZHMXhNbFZqWWxCSFhJdEp1eEpubUxySXRZY2kxU2Y1TXlEVXQ5dWhxZlp5TlVvX1o2TWlFbWNYbmh0bW12LV9ETkNwbDF5WnB3OVN3MmtGMlJWbWREa0ZhNVFvWkxNOWZqVG5nZ2xOMGlhQW9Sb3Q2dFpiLXptbjlrY1o5cVdvNG5KLTZSc1hYMkMtWVZYNm9jYTV4R1ppdGdsNVVwUHlqQ1ZUQjJEcTZDMDMxVTdSdXpmNmNNbGV0SmNVaHNzZFdiMUVjZE9OZG56ejN4UUJ1REw?oc=5",
                 "published": "2026-05-19T02:42:47+00:00",
-                "source": "https://news.google.com/rss/search?q=makeup+looks+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
-            },
-            {
-                "title": "Actress Lindsay Lohan rocks a leather skirt in a striking black outfit - The Body Optimist",
-                "summary": "Actress Lindsay Lohan rocks a leather skirt in a striking black outfit&nbsp;&nbsp;The Body Optimist",
-                "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONVFaektnMmtnZERzVWFvbjV5MFp1bjVhSi1mX1dRN3ZPeVFsV1JWRlJIY1owZm5lZU96VDlJX1VfZjNTNTctTDJ4QjJsVWtXbDlCV1BnRXhEUy1ETm5xUHlLQXNsemtMZWY2ZF9PdkFfQXZ4V3pIT3VVaS1FOE9EclM5aUdSbmp6TTUxcTNkS08yaGluVlgyX0EtNExRYndocVZDaHVHZjlwOGhTQklLY1d1ZXFXVFZwTjFtOUY4LVlaRWQxSmtn?oc=5",
-                "published": "2026-05-19T01:14:20+00:00",
                 "source": "https://news.google.com/rss/search?q=makeup+looks+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
             },
             {
@@ -823,8 +795,8 @@
             {
                 "title": "'We've decided to step away': Hairstylist Aalim Hakim refuses to work with actors having disrespectful teams - MSN",
                 "summary": "'We've decided to step away': Hairstylist Aalim Hakim refuses to work with actors having disrespectful teams&nbsp;&nbsp;MSN",
-                "link": "https://news.google.com/rss/articles/CBMiswNBVV95cUxOclI5a1dybDJhc2MyMmFUOGFOdWRXeFpPcXktdDlETDV1UTI4ZndPYmVzdU54YzJibnIzM3RiRThHa1JhQ3ZIUlZHUWFWOTFxSDB2c01Gb2M0c3liUlZKZ3FBNmQ4amdNVEo5UlAtSVZ2aFRnQ2syRTl5X1EyMUxabmc0dVRIT1B5RTRZX1duQjRMRjJTM09aOGRHY2xXc3RJOV84d05SU2p1d1JWQThScDRpWWVMYWlwMzRxVm1JazQ2QjRwOHVrUC1qMDhXYWtPV0txM3pwTWk5YjRoanpobGk3Zi1pYWc2X3htWlRFOFVPdmxmeE5GZ09IQUVXR2xuMTM5TTdaY3dXTmY5M3BJaEkzM2ZrV2x1QjRwWVl1aFphXzZYcUlPM2dzbnczaWU5MjVHT0E0U1NkMVVXYjNVVnY1c25kUnlvemhTV1hNZE1UNXNLTU51RXUyRmdlSjVUdGpzNXJaWGNPeEJQdXFlbzhSNlRLMFpGWmdfMm9YMi1JdXEydFlsbEVpSWdNNXNadW4xenpXNGF2RGNmVmNvV2lvUUJrQThGWGsybDlmZnA0TDQ?oc=5",
-                "published": "2026-05-19T01:53:27+00:00",
+                "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPWmUtbkQ1RGVnbmJocWpfTWFJaTBjYWV2MVY2NU9ZQkRjVXVBMllfOG1ZdDlLY2dyYUZGaWREaTlVc3BPQnJDX21OSWhMMkNWNGV1YnV3MW1iSVBncEwxUjE3am9pYkNSc2o5Y3dRZmNzNGFROGJFT3ViQjg4XzdLdmMwQjFqby1pT1JTaEwxdzNJSEJaUzJHMjFJU3NEcXhpeXRTaWNyZElDZW5BMXhKX1ZpY054RTZXYzl1Qm5JbFhNUnppU0J5S2lwdmFCaDJrNTlJYXd4OEZFWGZnWUhWMXZXLUJVd2ZncWZ6el9wQ1oxX1ZIeFg2NVNfWQ?oc=5",
+                "published": "2026-05-19T08:08:22+00:00",
                 "source": "https://news.google.com/rss/search?q=hair+style+trends+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
             },
             {
@@ -847,22 +819,50 @@
                 "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQV0FybTVkclEtMHctcFZFNDdpMWl2UnBpUDZJVGV5MDltZ3dYVHdGSGJEYlFLNXUwWmpiSkFWYW83SnBLZ2xIRkUtWDlQWGtfaUpLaXRpb0JKaUR5VTNXTTZIMTQwX0VKSEJRMm90bkx2R2oycmZPVlpUTTNJeFhTMmxLS3NiU2FMMEZjeDZjNjBWQmhKUnptZ185MlJpMEtBOE5PRGJaMVlsQ2c1S2hrbDRJY1pHazEyS1RuZ2dFME5ISk53MjA4UUVhbXV5WnZXbmVrS0c0UzBaR2dGa0FCLUEtS1JmZ9IB5gFBVV95cUxQV0FybTVkclEtMHctcFZFNDdpMWl2UnBpUDZJVGV5MDltZ3dYVHdGSGJEYlFLNXUwWmpiSkFWYW83SnBLZ2xIRkUtWDlQWGtfaUpLaXRpb0JKaUR5VTNXTTZIMTQwX0VKSEJRMm90bkx2R2oycmZPVlpUTTNJeFhTMmxLS3NiU2FMMEZjeDZjNjBWQmhKUnptZ185MlJpMEtBOE5PRGJaMVlsQ2c1S2hrbDRJY1pHazEyS1RuZ2dFME5ISk53MjA4UUVhbXV5WnZXbmVrS0c0UzBaR2dGa0FCLUEtS1JmZw?oc=5",
                 "published": "2026-05-19T08:00:18+00:00",
                 "source": "https://news.google.com/rss/search?q=hair+style+trends+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
+            },
+            {
+                "title": "Summer Fashion Trends 2026: Stay Cool & Stylish - Investment Guru",
+                "summary": "Summer Fashion Trends 2026: Stay Cool & Stylish&nbsp;&nbsp;Investment Guru",
+                "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNY3B3Mm9tdGswVmtmVkFzR0xJT0xzdzFxZE5PZjZOMVd1M2Y4M0cwbm9KRDZaNXc3Ynk4VWVxNHFCS2xTZ0k1bU5WR0xLRmgxY2pPTHVMajZyM2FRSkdHVU5JNl9CSmJIM1RDX0ZrUVNHS0c1dW56RzI5OHpjOFFhX3E5ckRyd21seHpGcjdqaC1RMEJ5YVA4VmxtLU1DUQ?oc=5",
+                "published": "2026-05-19T00:39:06+00:00",
+                "source": "https://news.google.com/rss/search?q=hair+style+trends+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
+            },
+            {
+                "title": "Tara Sutaria\u2019s Cannes debut blends vintage glamour with global impact - MSN",
+                "summary": "Tara Sutaria\u2019s Cannes debut blends vintage glamour with global impact&nbsp;&nbsp;MSN",
+                "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQQ2JtaUVZVzEta2FvSnJ4ZWY1aEV6UXU2cm83RkxnTWZINzBybmhzRl9COFo2SFZMVzQ4SnVGN2ZYdTdURGJyYWdKei0zR1NyS0RmSmx2NkNTT3JjcGdOTzZvWFhKaWw4a2FwQ0tNTWpRV1kxdzZfVENFOVdMNWlBZWROM1gzalQxanhsRGhqXzAwa190OVhWazgwa2VrRHgzbVFLLUNaS1NpZjh2T0dHMDgtN2RIVXRqM2dVU2NIa1FSaDR1Mzhnd0hWTm82Z25HLW00UUtBYmowaElYWFk4Z2JvVHpnX2EwN29Za042VUNMX1psOWFXSEZEa0dOQW50TEE?oc=5",
+                "published": "2026-05-18T23:13:34+00:00",
+                "source": "https://news.google.com/rss/search?q=hair+style+trends+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
+            },
+            {
+                "title": "Huma Qureshi signs off from Cannes 2026 in black halter-neck gown, says modern Indian women are \u2018not about perfection\u2019 | Fashion Trends - Hindustan Times",
+                "summary": "Huma Qureshi signs off from Cannes 2026 in black halter-neck gown, says modern Indian women are \u2018not about perfection\u2019 | Fashion Trends&nbsp;&nbsp;Hindustan Times",
+                "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPV19taURaRTZYeUltNDgwMGNfRXVFZWZwbHY2TlFacUczdU9zalBmYk96VlA0X0RURTRvRjRFR0tyT0Itd0dLVjg1TlhwTjY2NXpvNkJoTzBVRlh0WXQtLVpucjRZcEdnSWd1LUVlWVB4VjEtblFCbXNreWFLWlVsYkVidzl5NVVkY09CbXdQODRkU25tUW1TQm41RElHM2dVXzBHUnpDN0VKdlhlUV9IbjJCRkZwNmxhb1VMQjc2Y19yYUlwQ3BkamkzVXJxeldUX1g0eWhDOFExYnhKaF9IU1BBOWhhdHNaQmRBWVJPams0ajkyaTJXNXlHeFVacmFvOVh0eHNScWZUWUNSMENodnVQd2VMOEdk0gGYAkFVX3lxTE9XX21pRFpFNlh5SW00ODAwY19FdUVlZnBsdjZOUVpxRzN1T3NqUGZiT3pWUDRfRFRFNG9GNEVHS3JPQi13R0tWODVOWHBONjY1em82QmhPMFVGWHRZdC0tWm5yNFlwR2dJZ3UtRWVZUHhWMS1uUUJtc2t5YUtaVWxiRWJ3OXk1VWRjT0Jtd1A4NGRTbm1RbVNCbjVESUczZ1VfMEdSekM3RUp2WGVRX0huMkJGRnA2bGFvVUxCNzZjX3JhSXBDcGRqaTNVcnF6V1RfWDR5aEM4UTFieEpoX0hTUEE5aGF0c1pCZEFZUk9qazRqOTJpMlc1eUd4VVpyYW85WHR4c1JxZlRZQ1IwQ2h2dVB3ZUw4R2Q?oc=5",
+                "published": "2026-05-19T01:13:23+00:00",
+                "source": "https://news.google.com/rss/search?q=hair+style+trends+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
+            },
+            {
+                "title": "Aditi Rao Hydari gently roasts fashion trends in 'revolutionary' saree by Jade - MSN",
+                "summary": "Aditi Rao Hydari gently roasts fashion trends in 'revolutionary' saree by Jade&nbsp;&nbsp;MSN",
+                "link": "https://news.google.com/rss/articles/CBMiogNBVV95cUxQejJpTGg1MDVSRmJHc3lPOVRMUU81QXR6V00ySjBCTlIzbUZPdkNER0x3LThibHVKVTZiOFdYa2RhS3ljRjhWTXNrV0RQUndsVDZlbWpDZlZZX1FVNW5WdUNtUFhMYlBydEpUeDZLb3I4ZXlJRy1vZWlFVDZoZC1KczRVU3EyUmdxeWM1WEs5allhdEJieUIweXJVX1BzVDlkZHN5Ym1PRS1pMU1FdHNWa2tFV2QtbDZadmtpczhCellZT014REdQZ0JkZFZ6RmRkTG5JcGtqVF9ZQ0E5NGJYaE5vYjBOYnR3SWdMbVgxRmRvdmdtTEcxTGtla3FEZWNETHRxNHJkaTdBWGJ0bjlaSFd1VXdhR1FfTEZ6b1M2Rm8xcEJHUHBOWXhfOWN3Z1BUMWY0elFFUWJDUWNMMzB6R0loZV8wbDFkSlI0RXJlX3lqTjB5enRsM2xKRXJrNW4tODBYUndIY1lQRTJBNVJiVzRsdThSQXhPcXlyM2xrcXJuQkM3N3BsSk1sRWNkSWhNLTVZZGRndlRrbHlMSC1zSDlR?oc=5",
+                "published": "2026-05-19T07:32:14+00:00",
+                "source": "https://news.google.com/rss/search?q=hair+style+trends+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
             }
         ],
         "social": [
             "Chennai",
             "Godrej Consumer Sets Investor Meeting Schedule; What to Watch",
             "Godrej Consumer Products schedules investor meets from May 25 to June 9, 2026",
-            "Godrej Consumer Products Limited Strong Q4 FY26 Financial Performance and Strategic Growth",
+            "\u2018It was a career mistake\u2019: Swati Bhattacharya on Global Head role at Godrej Creative Lab",
             "KT Men, Argentine Football Association join hands for India push ahead of FIFA World Cup 2026",
             "Professional Hair Care Market to Reach USD 57.5 billion by 2033, Growing at a CAGR of 5.3% -- Allied Market Research",
             "Level up your styling game with these 7 grooming tools that deserve a spot in your cabinet | Fashion Trends",
             "Microwave, deodorants, sugar: Cancer myths oncologist wants you to stop believing",
             "Asia Deodorant Refill",
             "Germany Travel Size Deodorant",
-            "6 easy ways to keep mosquitoes away without using repellants",
             "National Dengue Day | 85% mosquito repellent agarbattis unregulated, poses serious health concerns",
             "Mosquito repellent agarbattis pose serious health risks, public health survey warns",
+            "Brazil Mosquito Repellent",
             "Veerhealth Care Lands \u20b92.45 Cr Repeat Order, Eyes Stronger FY27 Outlook",
             "Henkel to Conclude Pril and Fa Brand Licensing Agreement with Jyothy Labs",
             "FMCG price hikes back in focus: How Dabur, HUL, Tata Consumer are navigating cost pressures",
@@ -879,18 +879,18 @@
             "Traditional Indian Hair Jewelry",
             "38 Long hair styles ra ideas | long hair styles, indian long hair braid, long indian hair",
             "8 Wavy hairstyles ideas | long hair styles, beautiful hair, hair styles",
-            "Alexander Krull So jealous of that glorious hair.",
             "55 Saadhu ideas | bohemian diesel, photography, fashion photography",
-            "Ashok Varma (rashokvarma173) \u2013 Profile",
+            "53 Celeb Home Decor ideas | asian paints, where the heart is, home",
+            "Alexander Krull So jealous of that glorious hair.",
             "Mr. Bean Coffee Bean Scrub",
             "Hand Lotion Aesthetic",
             "Cute Body Products",
             "Hocus-pocus Car freshener cup,aroma beads car freshener ( Halloween)",
             "900+ Our Moodboard ideas | vitruvi, candle alternatives, diy cleaning products",
-            "Turquoise Squash Car Air Freshener (sandalwood Scent)",
+            "Diy Essential Oil Still",
             "Pin by Stoops on Body Care | Bath and body works perfume, Bath and body care, Bath body works candles",
             "Sol De Janero Scents",
-            "Dance Competition Checklist Template"
+            "Creed Aberdeen Lavender Fragrance | Nordstrom | Fragrance, Fresh fragrances, Oud fragrance"
         ],
         "amazon": [
             {
@@ -982,11 +982,22 @@
                 "source": "amazon"
             },
             {
+                "title": "Bulldog Natural Skincare Original Face Wash - 5.9 Fl Oz",
+                "price": "\u20b91,450",
+                "rating": 4.7,
+                "review_count": 96667,
+                "rank": 9,
+                "brand": "Bulldog",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
                 "title": "PROWL by Tiger Shroff Facewash 2% Salicylic Acid | Anti Acne For Dry Combination Oily & Acne Prone Man Skin Care with 1% Lactic Acid, Hyaluronic Acid | Exfoliating Brightening Cleanser Face Wash For Men | 100ml",
                 "price": "\u20b9178",
                 "rating": 4.7,
                 "review_count": 178,
-                "rank": 9,
+                "rank": 10,
                 "brand": "PROWL",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -997,7 +1008,7 @@
                 "price": "\u20b9414",
                 "rating": 4.9,
                 "review_count": 0,
-                "rank": 10,
+                "rank": 11,
                 "brand": "Vitamin",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -1008,7 +1019,7 @@
                 "price": "\u20b9420",
                 "rating": 5.0,
                 "review_count": 420,
-                "rank": 11,
+                "rank": 12,
                 "brand": "Ayurvedic",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -1019,7 +1030,7 @@
                 "price": "\u20b93,149",
                 "rating": 4.7,
                 "review_count": 236679,
-                "rank": 12,
+                "rank": 13,
                 "brand": "Mary",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -1030,7 +1041,7 @@
                 "price": "\u20b9269",
                 "rating": 5.0,
                 "review_count": 269,
-                "rank": 13,
+                "rank": 14,
                 "brand": "Salicylic",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -1041,7 +1052,7 @@
                 "price": "\u20b9559",
                 "rating": 4.8,
                 "review_count": 74533,
-                "rank": 14,
+                "rank": 15,
                 "brand": "Dr.",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -1052,7 +1063,7 @@
                 "price": "\u20b9659",
                 "rating": 4.7,
                 "review_count": 26360,
-                "rank": 15,
+                "rank": 16,
                 "brand": "Venusia",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -1063,7 +1074,7 @@
                 "price": "\u20b9299",
                 "rating": 5.0,
                 "review_count": 299,
-                "rank": 16,
+                "rank": 17,
                 "brand": "Ovya",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -1074,7 +1085,7 @@
                 "price": "\u20b9338",
                 "rating": 5.0,
                 "review_count": 338,
-                "rank": 17,
+                "rank": 18,
                 "brand": "Dermacy",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -1085,7 +1096,7 @@
                 "price": "\u20b91,723",
                 "rating": 4.6,
                 "review_count": 34460,
-                "rank": 18,
+                "rank": 19,
                 "brand": "Nivea",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -1096,19 +1107,8 @@
                 "price": "\u20b91,450",
                 "rating": 4.6,
                 "review_count": 725,
-                "rank": 19,
-                "brand": "La",
-                "category": "Men's Face Wash",
-                "url": "",
-                "source": "amazon"
-            },
-            {
-                "title": "L\u2019Or\u00e9al Paris Men Expert Wake-up Effect Face Wash 100ml, Hydra Energetic Face Wash With Vitamin C*, for Dull and Tired-Looking Skin, Cleanses Pores and Energises Skin",
-                "price": "\u20b9975",
-                "rating": 4.6,
-                "review_count": 975,
                 "rank": 20,
-                "brand": "L\u2019Or\u00e9al",
+                "brand": "La",
                 "category": "Men's Face Wash",
                 "url": "",
                 "source": "amazon"
@@ -1499,11 +1499,22 @@
                 "source": "amazon"
             },
             {
+                "title": "Hydrating Sunscreen SPF 50+ PA++++ \u2013 Non-Greasy, No White Cast, Lightweight Daily Face Sunscreen with Hyaluronic Acid & Moringa Ceramide \u2013 Broad-Spectrum UV Protection for Sensitive Skin 50 ml",
+                "price": "\u20b91,580",
+                "rating": 4.7,
+                "review_count": 3160,
+                "rank": 16,
+                "brand": "Hydrating",
+                "category": "Men's Sunscreen",
+                "url": "",
+                "source": "amazon"
+            },
+            {
                 "title": "Beauty of Joseon Relief Sun Aqua-fresh Rice + B5, SPF 50+ PA++++ Sun Cream, Moisturizing & Calming Formula, Korean Skincare, 50ml",
                 "price": "\u20b91,275",
                 "rating": 4.6,
                 "review_count": 2550,
-                "rank": 16,
+                "rank": 17,
                 "brand": "Beauty",
                 "category": "Men's Sunscreen",
                 "url": "",
@@ -1514,7 +1525,7 @@
                 "price": "\u20b91,967",
                 "rating": 4.6,
                 "review_count": 221758,
-                "rank": 17,
+                "rank": 18,
                 "brand": "Thinksport",
                 "category": "Men's Sunscreen",
                 "url": "",
@@ -1525,7 +1536,7 @@
                 "price": "\u20b91,499",
                 "rating": 4.6,
                 "review_count": 2998,
-                "rank": 18,
+                "rank": 19,
                 "brand": "La",
                 "category": "Men's Sunscreen",
                 "url": "",
@@ -1536,19 +1547,8 @@
                 "price": "\u20b9413",
                 "rating": 4.6,
                 "review_count": 826,
-                "rank": 19,
-                "brand": "Deconstruct",
-                "category": "Men's Sunscreen",
-                "url": "",
-                "source": "amazon"
-            },
-            {
-                "title": "Glow Sunscreen SPF 35 & PA+++ | UVA and UVB filters Prevents Tanning | For Men & Women | 100 ml",
-                "price": "\u20b9299",
-                "rating": 4.9,
-                "review_count": 299,
                 "rank": 20,
-                "brand": "Glow",
+                "brand": "Deconstruct",
                 "category": "Men's Sunscreen",
                 "url": "",
                 "source": "amazon"
@@ -1567,11 +1567,22 @@
                 "source": "nykaa"
             },
             {
-                "title": "From Muse To Honeymoon, We Found Exact Dupes For Bestselling Huda Beauty Lipsticks To Try Out",
+                "title": "ind\u0113 wild secures $5 million from Unilever Ventures to fuel international growth",
                 "price": "",
                 "rating": 0.0,
                 "review_count": 0,
                 "rank": 2,
+                "brand": "",
+                "category": "Hair Colour",
+                "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQa0U1WmtNMEFVcUpoV2d4OHRRLTFrX3dISFU4cTh5R3BiblFFV1JjeVNDUFloZEUwa1M1UTRJMXNMbk9oU3BEeUxUeHIyMS1CeG92UC10QUtubldlLVJwNTF5V0RHdmt3NUc0aUZNR1NvTVNZWlppSTJyQnFxcnAtb3hNb3QwN2dVNnJfbTZB?oc=5",
+                "source": "nykaa"
+            },
+            {
+                "title": "From Muse To Honeymoon, We Found Exact Dupes For Bestselling Huda Beauty Lipsticks To Try Out",
+                "price": "",
+                "rating": 0.0,
+                "review_count": 0,
+                "rank": 3,
                 "brand": "",
                 "category": "Hair Colour",
                 "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR0pGTmVRUG1KUXJDRGJMM29Yei0wWWJfdHZPR19XVWNzWTJFSk51b3YyLUo3MHdjdW1uM1F2SWVjSE9sQnY3UWdmYUxxdHdYRXJ4OVZZODRYRXVsX2dDbFJEbm1JQ2xxemUxRENFZmMwVGJES0w3RUZJTWN3Ym4yRDB5bEVTR2Q4bndmVTNURHBPdFNzeEZCWmlwN2RFaVc2c0hIbnJwWE1jSS1BWVZiOTZ2Q2NMYm1QRURxSnFqa1DSAcYBQVVfeXFMUFFJSUEtVE94R3lzZ01XV1VCNmxKT3Z1RUNKSHhiNTVUeTVKUVlFUkRoSjdETkdGajNUVDJxWGNMMDU3TnEtU2x0My1GekNuc3Ztd1dXa1VoRUJ4UzZnMmdWVHY0TkUtdXE4cHZld3oxUnN4RVRWelo2R095VGVJRXd1OHduNXVEX0hWWE00ZElrcUhhckFveGR6NDJUazhfcVg1MnYtRloyY1dzMWFIMVdTNmlVVFdGZldZbE93dDZmSWg5ZDhn?oc=5",
@@ -1675,7 +1686,7 @@
                 "rank": 1,
                 "brand": "Ghar",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/ghar-soaps-magic-sandalwood-saffron-glutathione-face-wash/p/itmc452143aa9e0d?pid=FCWHF88CNJYKPP9Z&lid=LSTFCWHF88CNJYKPP9Z4K1PKY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_1&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrIQOSYj5vinsUaVCAN52gVKneldh8dqv1uEzx4aIQf0D2Q%3D%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/ghar-soaps-magic-sandalwood-saffron-glutathione-face-wash/p/itmc452143aa9e0d?pid=FCWHF88CNJYKPP9Z&lid=LSTFCWHF88CNJYKPP9Z4K1PKY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_1&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6vsi9qk3umVTeaPqAjVTwz0eldh8dqv1uEzx4aIQf0D2Q%3D%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1686,7 +1697,7 @@
                 "rank": 2,
                 "brand": "Dermatouch",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/dermatouch-bright-even-tone-niacinamide-vitamin-e-kojic-acid-face-wash/p/itmb307868da4089?pid=FCWGQXV7NBWCH5FZ&lid=LSTFCWGQXV7NBWCH5FZTEXHDA&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_2&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrISKL8E8nweAC_wHo0JpcqpSO-ZylpsWrHhVSW4uuiwdrQ%3D%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/dermatouch-bright-even-tone-niacinamide-vitamin-e-kojic-acid-face-wash/p/itmb307868da4089?pid=FCWGQXV7NBWCH5FZ&lid=LSTFCWGQXV7NBWCH5FZTEXHDA&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_2&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6skSh_TUVJMOd3ccCF4pnNQb7cXps86bY1s0jZEXbQ7Xg%3D%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1697,7 +1708,7 @@
                 "rank": 3,
                 "brand": "Foxtale",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/foxtale-vit-c-super-glow-face-wash-papaya-enzyme-reduces-tan-boosts/p/itm494e29702330b?pid=FCWHBNCNEFS6VKGV&lid=LSTFCWHBNCNEFS6VKGVQ6SSLF&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_3&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrISbhF-uvQPYesUfcY4gudg_l9lGeKxQnUS5A3kMtJUgCg%3D%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/foxtale-vit-c-super-glow-face-wash-papaya-enzyme-reduces-tan-boosts/p/itm494e29702330b?pid=FCWHBNCNEFS6VKGV&lid=LSTFCWHBNCNEFS6VKGVQ6SSLF&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_3&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6tRX5ZbuGreogP8ibVIPk4Vl9lGeKxQnUS5A3kMtJUgCg%3D%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1708,7 +1719,7 @@
                 "rank": 4,
                 "brand": "Dot",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/dot-key-vitamin-c-e-super-bright-gel-glowing-brightening-skin-all-type-face-wash/p/itm398980ca599bb?pid=FCWHH34NETTCCHPU&lid=LSTFCWHH34NETTCCHPUSQGFDZ&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_4&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.FCWHH34NETTCCHPU.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/dot-key-vitamin-c-e-super-bright-gel-glowing-brightening-skin-all-type-face-wash/p/itm398980ca599bb?pid=FCWHH34NETTCCHPU&lid=LSTFCWHH34NETTCCHPUSQGFDZ&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_4&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.FCWHH34NETTCCHPU.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1719,18 +1730,18 @@
                 "rank": 5,
                 "brand": "MUUCHSTAC",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/muuchstac-ocean-men-fights-acne-pimple-brighten-skin-all-skin-types-face-wash/p/itm1b3dcca8a2456?pid=FCWFMNZH4CCAZNHS&lid=LSTFCWFMNZH4CCAZNHS2AUUNV&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&spotlightTagId=default_BestsellerId_g9b%2Fema%2F5la%2Fjav&srno=b_1_5&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.FCWFMNZH4CCAZNHS.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/muuchstac-ocean-men-fights-acne-pimple-brighten-skin-all-skin-types-face-wash/p/itm1b3dcca8a2456?pid=FCWFMNZH4CCAZNHS&lid=LSTFCWFMNZH4CCAZNHS2AUUNV&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&spotlightTagId=default_BestsellerId_g9b%2Fema%2F5la%2Fjav&srno=b_1_5&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.FCWFMNZH4CCAZNHS.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
-                "title": "Dermatouch Bye Bye Pigmentation  Niacinamide, Kojic Acid, & Glutathione Face Wash",
-                "price": "\u20b9136",
+                "title": "deconstruct Salicylic Acid + Niacinamide  for Oil Control & Acne-Prone Skin Face Wash",
+                "price": "\u20b9275",
                 "rating": 0.0,
-                "review_count": 83692,
+                "review_count": 12713,
                 "rank": 6,
-                "brand": "Dermatouch",
+                "brand": "deconstruct",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/dermatouch-bye-pigmentation-niacinamide-kojic-acid-glutathione-face-wash/p/itm887803b4fb488?pid=FCWGQXV76BVCRGME&lid=LSTFCWGQXV76BVCRGMEZAMYG5&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_6&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrITY8KgliEIuA94-K6IRjyVq61om0zhbz_L-zjexoqQqzPUFjCTyOHoHZs-Z5_PS_w0%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/deconstruct-salicylic-acid-niacinamide-oil-control-acne-prone-skin-face-wash/p/itm0a51463bbe73a?pid=FCWGAYNH5TGBZ2QZ&lid=LSTFCWGAYNH5TGBZ2QZVEILBI&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_6&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6tIDUKSo7pxqCA_zZr0JrvAtkSMilol55Q5u4j2kteL7Q%3D%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1741,7 +1752,7 @@
                 "rank": 7,
                 "brand": "Mamaearth",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/mamaearth-tea-tree-oil-control-facewash-neem-normal-oily-skin-upto-12-hrs-cleanses-gently-controls-acne-pimples-face-wash/p/itm64526ac580a29?pid=FCWH93HDGGGTFRSJ&lid=LSTFCWH93HDGGGTFRSJKR4DNP&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_7&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.FCWH93HDGGGTFRSJ.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/mamaearth-tea-tree-oil-control-facewash-neem-normal-oily-skin-upto-12-hrs-cleanses-gently-controls-acne-pimples-face-wash/p/itm64526ac580a29?pid=FCWH93HDGGGTFRSJ&lid=LSTFCWH93HDGGGTFRSJKR4DNP&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_7&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.FCWH93HDGGGTFRSJ.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1752,29 +1763,29 @@
                 "rank": 8,
                 "brand": "Ghar",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/ghar-soaps-magic-sandalwood-saffron-glutathione-face-wash/p/itmc452143aa9e0d?pid=FCWHF88CNJYKPP9Z&lid=LSTFCWHF88CNJYKPP9Z4K1PKY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_8&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.FCWHF88CNJYKPP9Z.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/ghar-soaps-magic-sandalwood-saffron-glutathione-face-wash/p/itmc452143aa9e0d?pid=FCWHF88CNJYKPP9Z&lid=LSTFCWHF88CNJYKPP9Z4K1PKY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_8&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.FCWHF88CNJYKPP9Z.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
-                "title": "deconstruct Salicylic Acid + Niacinamide  for Oil Control & Acne-Prone Skin Face Wash",
-                "price": "\u20b9275",
+                "title": "Dermatouch Bye Bye Pigmentation  Niacinamide, Kojic Acid, & Glutathione Face Wash",
+                "price": "\u20b9136",
                 "rating": 0.0,
-                "review_count": 12713,
+                "review_count": 83692,
                 "rank": 9,
-                "brand": "deconstruct",
+                "brand": "Dermatouch",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/deconstruct-salicylic-acid-niacinamide-oil-control-acne-prone-skin-face-wash/p/itm0a51463bbe73a?pid=FCWGAYNH5TGBZ2QZ&lid=LSTFCWGAYNH5TGBZ2QZVEILBI&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_9&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrIQbQlRR2bCsGjREBu-1PQgIPQiJB44PlEKgFKO--WcC2w%3D%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/dermatouch-bye-pigmentation-niacinamide-kojic-acid-glutathione-face-wash/p/itm887803b4fb488?pid=FCWGQXV76BVCRGME&lid=LSTFCWGQXV76BVCRGMEZAMYG5&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_9&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6tiT30M0o3DygT3xCAB4PqPRI40jrXx9WdIHxqolwmhQPUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
-                "title": "RoseBrite Neem Tulsi  with Green Tea Extract, Niacinamide & Allantoin for Oil Control, Acne Care & Soothing Cleanser Face Wash",
-                "price": "\u20b9127",
+                "title": "NewClick Activated Charcoal  100ml | Deep Cleansing Formula | For Oily & Acne Prone Skin a2091 Face Wash",
+                "price": "\u20b9170",
                 "rating": 0.0,
-                "review_count": 8,
+                "review_count": 0,
                 "rank": 10,
-                "brand": "RoseBrite",
+                "brand": "NewClick",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/rosebrite-neem-tulsi-green-tea-extract-niacinamide-allantoin-oil-control-acne-care-soothing-cleanser-face-wash/p/itm44bde73d023c7?pid=FCWHJGZ9HHCPACVE&lid=LSTFCWHJGZ9HHCPACVEGSPMZE&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_10&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.FCWHJGZ9HHCPACVE.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/newclick-activated-charcoal-100ml-deep-cleansing-formula-oily-acne-prone-skin-a2091-face-wash/p/itmbb71e26b7f6e9?pid=FCWHMGKCBZVGUVTV&lid=LSTFCWHMGKCBZVGUVTVY46N8M&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_10&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.FCWHMGKCBZVGUVTV.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1785,18 +1796,18 @@
                 "rank": 11,
                 "brand": "Dermatouch",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/dermatouch-bright-even-skin-tone-gentle-cleanser-helps-reduce-dark-spots-uneven-ph-5-5-daily-face-wash/p/itmb13ed1bcd9af8?pid=FCWHK66Y2XXHR32H&lid=LSTFCWHK66Y2XXHR32HJEER2A&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_11&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrIQGJMFwjUGKonIouION1HnxYZaCTairNCawjzSYo278-vUFjCTyOHoHZs-Z5_PS_w0%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/dermatouch-bright-even-skin-tone-gentle-cleanser-helps-reduce-dark-spots-uneven-ph-5-5-daily-face-wash/p/itmb13ed1bcd9af8?pid=FCWHK66Y2XXHR32H&lid=LSTFCWHK66Y2XXHR32HJEER2A&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_11&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6sowiFGePRRbbxGB5Bs4MY5YZaCTairNCawjzSYo278-vUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
-                "title": "Chemist at Play Acne Control Face wash | Salicylic Acid, Niacinamide Facewash| For Men & Women Face Wash",
-                "price": "\u20b9199",
+                "title": "SAYY Balance 1-O-1 Gentle Hydrating Face Cleanser with Niacinamide & Hyaluronic Acid Face Wash",
+                "price": "\u20b9265",
                 "rating": 0.0,
-                "review_count": 25103,
+                "review_count": 4131,
                 "rank": 12,
-                "brand": "Chemist",
+                "brand": "SAYY",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/chemist-play-acne-control-face-wash-salicylic-acid-niacinamide-facewash-men-women/p/itmef250117a2967?pid=FCWHBA2YTGKBNYZK&lid=LSTFCWHBA2YTGKBNYZKAMTLWM&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_12&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrIRMRjq9xMC-0L22MiPQ5SnwNhc5XUMVj_xD73rXSnrr5A%3D%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/sayy-balance-1-o-1-gentle-hydrating-face-cleanser-niacinamide-hyaluronic-acid-wash/p/itm704ad4a10d6d7?pid=FCWHHF4YWEMDCRCR&lid=LSTFCWHHF4YWEMDCRCRATZX5W&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_12&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6sojnxNiq_WNSItwenHVqTeYuAJ-VhZHdIQzdWznnA4Og%3D%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1807,7 +1818,7 @@
                 "rank": 13,
                 "brand": "Mamaearth",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/mamaearth-tea-tree-natural-acne-pimples-removal-neem-face-wash/p/itm6569fa6f05849?pid=FCWF7DWUZJNFDFHD&lid=LSTFCWF7DWUZJNFDFHD4LSGOQ&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_13&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.FCWF7DWUZJNFDFHD.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/mamaearth-tea-tree-natural-acne-pimples-removal-neem-face-wash/p/itm6569fa6f05849?pid=FCWF7DWUZJNFDFHD&lid=LSTFCWF7DWUZJNFDFHD4LSGOQ&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_13&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.FCWF7DWUZJNFDFHD.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1818,18 +1829,18 @@
                 "rank": 14,
                 "brand": "Mamaearth",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/mamaearth-ubtan-natural-all-skin-types-turmeric-saffron-tan-face-wash/p/itmd6ec871d69748?pid=FCWGS7FFQGRP2ZCR&lid=LSTFCWGS7FFQGRP2ZCRCBYJAP&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_14&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.FCWGS7FFQGRP2ZCR.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/mamaearth-ubtan-natural-all-skin-types-turmeric-saffron-tan-face-wash/p/itmd6ec871d69748?pid=FCWGS7FFQGRP2ZCR&lid=LSTFCWGS7FFQGRP2ZCRCBYJAP&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_14&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.FCWGS7FFQGRP2ZCR.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
-                "title": "SAYY Balance 1-O-1 Gentle Hydrating Face Cleanser with Niacinamide & Hyaluronic Acid Face Wash",
-                "price": "\u20b9265",
+                "title": "Dermatouch Salicylic Acid 2%  | For Acne & Oil Control |Suitable to All Skin Types Face Wash",
+                "price": "\u20b9136",
                 "rating": 0.0,
-                "review_count": 4131,
+                "review_count": 75205,
                 "rank": 15,
-                "brand": "SAYY",
+                "brand": "Dermatouch",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/sayy-balance-1-o-1-gentle-hydrating-face-cleanser-niacinamide-hyaluronic-acid-wash/p/itm704ad4a10d6d7?pid=FCWHHF4YWEMDCRCR&lid=LSTFCWHHF4YWEMDCRCRATZX5W&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_15&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrITIHHpGUkdQjK5UR3NMWoLZwP0VAlnL4He5I_TZmxfkbQ%3D%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/dermatouch-salicylic-acid-2-acne-oil-control-suitable-all-skin-types-face-wash/p/itm75d96bc76c9ec?pid=FCWGTGWQF5UB78UJ&lid=LSTFCWGTGWQF5UB78UJOKSHKS&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_15&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6sptBFqgVMMIqRPps73qiRwBf3xR-kTMc1tTV9Z5QLGGPUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1840,18 +1851,7 @@
                 "rank": 16,
                 "brand": "Dermatouch",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/dermatouch-bright-even-skin-tone-face-wash/p/itm50197726d5ba4?pid=FCWHGEHSKDFKX87F&lid=LSTFCWHGEHSKDFKX87FTORSQP&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_16&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.FCWHGEHSKDFKX87F.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
-                "source": "flipkart"
-            },
-            {
-                "title": "Dermatouch Salicylic Acid 2%  | For Acne & Oil Control |Suitable to All Skin Types Face Wash",
-                "price": "\u20b9136",
-                "rating": 0.0,
-                "review_count": 75205,
-                "rank": 17,
-                "brand": "Dermatouch",
-                "category": "Face Wash",
-                "url": "https://www.flipkart.com/dermatouch-salicylic-acid-2-acne-oil-control-suitable-all-skin-types-face-wash/p/itm75d96bc76c9ec?pid=FCWGTGWQF5UB78UJ&lid=LSTFCWGTGWQF5UB78UJOKSHKS&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_17&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrIQ_2oiliqHbIkzEl3XKEe_9ePn0MmhFKzhBN_240IUHrPUFjCTyOHoHZs-Z5_PS_w0%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/dermatouch-bright-even-skin-tone-face-wash/p/itm50197726d5ba4?pid=FCWHGEHSKDFKX87F&lid=LSTFCWHGEHSKDFKX87FTORSQP&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_16&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.FCWHGEHSKDFKX87F.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1859,10 +1859,21 @@
                 "price": "\u20b9159",
                 "rating": 0.0,
                 "review_count": 5746,
-                "rank": 18,
+                "rank": 17,
                 "brand": "BELLAVITA",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/bellavita-niacinamide-ph-balanced-non-irritating-treats-pigmentation-evens-out-skin-tone-all-types-face-wash/p/itm04a0a34a877be?pid=FCWH6BHHZYAPVJVX&lid=LSTFCWH6BHHZYAPVJVXIJ0ECU&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_18&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrIQ8kgKY30lK0XuVp2wSkyLUOKosVNo3lDkbFx9I-nnvSa1KaJFgl7OeEdnchgqx4tA%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/bellavita-niacinamide-ph-balanced-non-irritating-treats-pigmentation-evens-out-skin-tone-all-types-face-wash/p/itm04a0a34a877be?pid=FCWH6BHHZYAPVJVX&lid=LSTFCWH6BHHZYAPVJVXIJ0ECU&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_17&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6tJh2lCoO0eX2_7W7AwI7GiOKosVNo3lDkbFx9I-nnvSfNzSJq5vUoApsGIr4piuio%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "Becalm Airy face wash for oily skin Face Wash",
+                "price": "\u20b9197",
+                "rating": 0.0,
+                "review_count": 7521,
+                "rank": 18,
+                "brand": "Becalm",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/becalm-airy-face-wash-oily-skin/p/itm3a41035bf2b8c?pid=FCWHKEGYR8KK5KCC&lid=LSTFCWHKEGYR8KK5KCCMZ3FZ5&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_18&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6u8udMQJrSoEF2-f49vzP2rK4s_7Ae4auPdx2qgs2Uh1g%3D%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1873,7 +1884,7 @@
                 "rank": 19,
                 "brand": "ETHIGLO",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/ethiglo-skin-lightening-deeply-clean-kojic-acid-niacinamide-vitamin-c-face-wash/p/itmca5bbfcc3dec2?pid=BBLG7GWX8HQMEARY&lid=LSTBBLG7GWX8HQMEARYKB6KQR&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_19&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.BBLG7GWX8HQMEARY.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/ethiglo-skin-lightening-deeply-clean-kojic-acid-niacinamide-vitamin-c-face-wash/p/itmca5bbfcc3dec2?pid=BBLG7GWX8HQMEARY&lid=LSTBBLG7GWX8HQMEARYKB6KQR&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_19&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.BBLG7GWX8HQMEARY.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1884,7 +1895,7 @@
                 "rank": 20,
                 "brand": "Plum",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/plum-2-niacinamide-rice-water-bright-soft-skin-non-drying-gentle-face-wash/p/itmd297bf8eb89a5?pid=FCWHHE886Q67TS2J&lid=LSTFCWHHE886Q67TS2JEHWJIL&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_20&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.FCWHHE886Q67TS2J.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/plum-2-niacinamide-rice-water-bright-soft-skin-non-drying-gentle-face-wash/p/itmd297bf8eb89a5?pid=FCWHHE886Q67TS2J&lid=LSTFCWHHE886Q67TS2JEHWJIL&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_20&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.FCWHHE886Q67TS2J.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1895,7 +1906,7 @@
                 "rank": 1,
                 "brand": "deconstruct",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/deconstruct-sunscreen-spf-50-pa-lightweight-gel-in-vivo-tested-non-greasy-men-women/p/itm5f0007953439e?pid=SNRGFA6Y2FNDGHHH&lid=LSTSNRGFA6Y2FNDGHHHCLX3IY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_1&otracker=browse&fm=organic&iid=en_rRnr21yaKIAu49-vexOjBEaQ1HScnhYQFRf5GHKDsfa4wgWQ_QMDgm7vdUed9tVI8Zt5AxVIw-euDG-FQzlQOw%3D%3D&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/deconstruct-sunscreen-spf-50-pa-lightweight-gel-in-vivo-tested-non-greasy-men-women/p/itm5f0007953439e?pid=SNRGFA6Y2FNDGHHH&lid=LSTSNRGFA6Y2FNDGHHHCLX3IY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_1&otracker=browse&fm=organic&iid=en_1QM468e6WYw8sTcg6paw7yLAnO4z7Athmuim41noBsYSntZ2ZncgZStqOU4KocUa8Zt5AxVIw-euDG-FQzlQOw%3D%3D&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1906,7 +1917,7 @@
                 "rank": 2,
                 "brand": "LOTUS",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/lotus-herbals-sunscreen-spf-50-pa-safe-sun-hydroactivated-2x-protection-tan-10-hr-water-resistant/p/itm1dd0108af5a9c?pid=SNRHM9VZGPQVKTMF&lid=LSTSNRHM9VZGPQVKTMFUYMKNO&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_2&otracker=browse&fm=organic&iid=en_rRnr21yaKIAu49-vexOjBEaQ1HScnhYQFRf5GHKDsfbJVXioeqdlJBECbAiu87qvy7AFT7XWHFUVamde1Ry-yA%3D%3D&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/lotus-herbals-sunscreen-spf-50-pa-safe-sun-hydroactivated-2x-protection-tan-10-hr-water-resistant/p/itm1dd0108af5a9c?pid=SNRHM9VZGPQVKTMF&lid=LSTSNRHM9VZGPQVKTMFUYMKNO&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_2&otracker=browse&fm=organic&iid=en_1QM468e6WYw8sTcg6paw7yLAnO4z7Athmuim41noBsYmj2LtOO-4E-rBKSEhp5Kqy7AFT7XWHFUVamde1Ry-yA%3D%3D&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1917,7 +1928,7 @@
                 "rank": 3,
                 "brand": "Reginald",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/reginald-men-sunscreen-spf-50-pa-moisturising-50-11-actives-combo/p/itmf352884cda7b8?pid=SNRH5VVFVTDESHGT&lid=LSTSNRH5VVFVTDESHGTVXIE4U&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_3&otracker=browse&fm=organic&iid=en_rRnr21yaKIAu49-vexOjBEaQ1HScnhYQFRf5GHKDsfaRb7qks8M7wNftTxZ_NGsD-wENe0Zg3PG1ZcO0DmBoMw%3D%3D&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/reginald-men-sunscreen-spf-50-pa-moisturising-50-11-actives-combo/p/itmf352884cda7b8?pid=SNRH5VVFVTDESHGT&lid=LSTSNRH5VVFVTDESHGTVXIE4U&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_3&otracker=browse&fm=organic&iid=en_1QM468e6WYw8sTcg6paw7yLAnO4z7Athmuim41noBsaODBhktFMDhcw5PQFRKrVD-wENe0Zg3PG1ZcO0DmBoMw%3D%3D&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1928,7 +1939,7 @@
                 "rank": 4,
                 "brand": "Dot",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/dot-key-sunscreen-spf-50-pa-blueberry-hydrate-barrier-repair-in-vivo-tested-ceramides/p/itmfc685fd217749?pid=SNRHGXGPAZKKGTFS&lid=LSTSNRHGXGPAZKKGTFSLQOBLB&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_4&otracker=browse&fm=organic&iid=4c363bfe-15e7-4af5-a7ad-b09bcfece6c0.SNRHGXGPAZKKGTFS.SEARCH&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/dot-key-sunscreen-spf-50-pa-blueberry-hydrate-barrier-repair-in-vivo-tested-ceramides/p/itmfc685fd217749?pid=SNRHGXGPAZKKGTFS&lid=LSTSNRHGXGPAZKKGTFSLQOBLB&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_4&otracker=browse&fm=organic&iid=f4cff741-9ef2-4dae-bada-467fbfbb27f5.SNRHGXGPAZKKGTFS.SEARCH&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1939,7 +1950,7 @@
                 "rank": 5,
                 "brand": "POND's",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/pond-s-sunscreen-spf-55-pa-light-sun-miracle-protect-bright-3-active-niacinamide/p/itma1027d8b6bfbf?pid=SNRGMTAGSVE2GCVF&lid=LSTSNRGMTAGSVE2GCVFTOST8K&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_5&otracker=browse&fm=organic&iid=4c363bfe-15e7-4af5-a7ad-b09bcfece6c0.SNRGMTAGSVE2GCVF.SEARCH&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/pond-s-sunscreen-spf-55-pa-light-sun-miracle-protect-bright-3-active-niacinamide/p/itma1027d8b6bfbf?pid=SNRGMTAGSVE2GCVF&lid=LSTSNRGMTAGSVE2GCVFTOST8K&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_5&otracker=browse&fm=organic&iid=f4cff741-9ef2-4dae-bada-467fbfbb27f5.SNRGMTAGSVE2GCVF.SEARCH&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1950,7 +1961,7 @@
                 "rank": 6,
                 "brand": "Reginald",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/reginaldmen-sunscreen-spf-50-pa-sunscreen-spf-pa-moisturising-50-pa-11-actives-mini/p/itm0c16bba934cfd?pid=SNRHEB7Q74QJHEJQ&lid=LSTSNRHEB7Q74QJHEJQFXTQZC&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_6&otracker=browse&fm=organic&iid=4c363bfe-15e7-4af5-a7ad-b09bcfece6c0.SNRHEB7Q74QJHEJQ.SEARCH&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/reginaldmen-sunscreen-spf-50-pa-sunscreen-spf-pa-moisturising-50-pa-11-actives-mini/p/itm0c16bba934cfd?pid=SNRHEB7Q74QJHEJQ&lid=LSTSNRHEB7Q74QJHEJQFXTQZC&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_6&otracker=browse&fm=organic&iid=f4cff741-9ef2-4dae-bada-467fbfbb27f5.SNRHEB7Q74QJHEJQ.SEARCH&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1961,7 +1972,7 @@
                 "rank": 7,
                 "brand": "Sonavi",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/sonavi-sunscreen-spf-50-pa-daily-glow-vitamin-c-e-sun-protection/p/itm3e33d7ba2a367?pid=SNRH5ZWUHCA4YWMD&lid=LSTSNRH5ZWUHCA4YWMDAS6JWH&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_7&otracker=browse&fm=organic&iid=4c363bfe-15e7-4af5-a7ad-b09bcfece6c0.SNRH5ZWUHCA4YWMD.SEARCH&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/sonavi-sunscreen-spf-50-pa-daily-glow-vitamin-c-e-sun-protection/p/itm3e33d7ba2a367?pid=SNRH5ZWUHCA4YWMD&lid=LSTSNRH5ZWUHCA4YWMDAS6JWH&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_7&otracker=browse&fm=organic&iid=f4cff741-9ef2-4dae-bada-467fbfbb27f5.SNRH5ZWUHCA4YWMD.SEARCH&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1972,7 +1983,7 @@
                 "rank": 8,
                 "brand": "Dermatouch",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/dermatouch-sunscreen-spf-50-pa-multivitamin-gel-uva-uvb-protection-zero-white-cast/p/itm60edd9d448b33?pid=SNRGXU4MFZZCGSZD&lid=LSTSNRGXU4MFZZCGSZDTUEQBA&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_8&otracker=browse&fm=organic&iid=en_rRnr21yaKIAu49-vexOjBEaQ1HScnhYQFRf5GHKDsfY9K2qeNTt2T22jKwHCP9k9im2J1ZPpLugp7EsJKKyL4vUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/dermatouch-sunscreen-spf-50-pa-multivitamin-gel-uva-uvb-protection-zero-white-cast/p/itm60edd9d448b33?pid=SNRGXU4MFZZCGSZD&lid=LSTSNRGXU4MFZZCGSZDTUEQBA&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_8&otracker=browse&fm=organic&iid=en_1QM468e6WYw8sTcg6paw7yLAnO4z7Athmuim41noBsYcz50VCBlTsOMIxzzWCWPRim2J1ZPpLugp7EsJKKyL4vUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -1983,18 +1994,18 @@
                 "rank": 9,
                 "brand": "smartdrops",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/smartdrops-sunscreen-spf-50-pa-collagen-skin-lift-50-hydrating-sun-cream/p/itm35448ab7d32ef?pid=SNRHH64NZ7EUVRS6&lid=LSTSNRHH64NZ7EUVRS6HRWVKY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_9&otracker=browse&fm=organic&iid=en_rRnr21yaKIAu49-vexOjBEaQ1HScnhYQFRf5GHKDsfblxFiIVbiJnFPAuSIQzrINAET7xIcdLPPjFsNBFxstofUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/smartdrops-sunscreen-spf-50-pa-collagen-skin-lift-50-hydrating-sun-cream/p/itm35448ab7d32ef?pid=SNRHH64NZ7EUVRS6&lid=LSTSNRHH64NZ7EUVRS6HRWVKY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_9&otracker=browse&fm=organic&iid=en_1QM468e6WYw8sTcg6paw7yLAnO4z7Athmuim41noBsZzswFTURS_bYYoWN0rw862xrWyVH_N6DEw5MApLlILHvUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
-                "title": "smartdrops Sunscreen - SPF 50 PA++++ Collagen & Hyaluronic Acid Sunscreen SPF 50+ PA++++",
-                "price": "\u20b9153",
+                "title": "Helocare Sunscreen - SPF 50 PA++++ 360\u00ba Water Gel Ultra-Light, Hydrating Sunscreen for Dry & Dehydrated Skin",
+                "price": "\u20b9305",
                 "rating": 0.0,
-                "review_count": 430,
+                "review_count": 0,
                 "rank": 10,
-                "brand": "smartdrops",
+                "brand": "Helocare",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/smartdrops-sunscreen-spf-50-pa-collagen-hyaluronic-acid-50/p/itmfaf71d9720a4f?pid=SNRHH3NFRTBNFEQF&lid=LSTSNRHH3NFRTBNFEQFDYUN9D&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_10&otracker=browse&fm=organic&iid=4c363bfe-15e7-4af5-a7ad-b09bcfece6c0.SNRHH3NFRTBNFEQF.SEARCH&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/helocare-sunscreen-spf-50-pa-360-water-gel-ultra-light-hydrating-dry-dehydrated-skin/p/itm1387d070d1d30?pid=SNRHN2SZM2WKGZYC&lid=LSTSNRHN2SZM2WKGZYCUW3WRH&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_10&otracker=browse&fm=organic&iid=f4cff741-9ef2-4dae-bada-467fbfbb27f5.SNRHN2SZM2WKGZYC.SEARCH&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2005,7 +2016,7 @@
                 "rank": 11,
                 "brand": "deconstruct",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/deconstruct-sunscreen-spf-50-pa-fluid-brightening-niacinamide-brightens-skin-men-women/p/itm89890d02da066?pid=SNRHYMYM4E2WUHTR&lid=LSTSNRHYMYM4E2WUHTRQ6MODG&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_11&otracker=browse&fm=organic&iid=en_rRnr21yaKIAu49-vexOjBEaQ1HScnhYQFRf5GHKDsfbVpNNKkfFu1fIWjg4uUsPL5XHkgufhrmRG6qR6jsxQZU4IsYyWu-Pj9cxFjFAoaLk%3D&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/deconstruct-sunscreen-spf-50-pa-fluid-brightening-niacinamide-brightens-skin-men-women/p/itm89890d02da066?pid=SNRHYMYM4E2WUHTR&lid=LSTSNRHYMYM4E2WUHTRQ6MODG&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_11&otracker=browse&fm=organic&iid=en_1QM468e6WYw8sTcg6paw7yLAnO4z7Athmuim41noBsY0GVr8zK6R19kqSIW2KXRg5XHkgufhrmRG6qR6jsxQZU4IsYyWu-Pj9cxFjFAoaLk%3D&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2016,7 +2027,7 @@
                 "rank": 12,
                 "brand": "Undry",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/undry-sunscreen-spf-50-pa-hydrating-dry-skin-50g-lightweight-photostable-broad-spectrum/p/itm5017322eb764d?pid=SNRGKF7KNZBZ2QZR&lid=LSTSNRGKF7KNZBZ2QZR8RBXTE&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_12&otracker=browse&fm=organic&iid=en_rRnr21yaKIAu49-vexOjBEaQ1HScnhYQFRf5GHKDsfbo9EUvp66jI91iHl4ubcT_xY_FMI_xWUhhUw1kYL2Fz4QEIsITtCzc4bHaOMTqL08%3D&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/undry-sunscreen-spf-50-pa-hydrating-dry-skin-50g-lightweight-photostable-broad-spectrum/p/itm5017322eb764d?pid=SNRGKF7KNZBZ2QZR&lid=LSTSNRGKF7KNZBZ2QZR8RBXTE&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_12&otracker=browse&fm=organic&iid=en_1QM468e6WYw8sTcg6paw7yLAnO4z7Athmuim41noBsbldLBntWmiYPJFpmB5fhqCxY_FMI_xWUhhUw1kYL2Fz4QEIsITtCzc4bHaOMTqL08%3D&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2027,7 +2038,7 @@
                 "rank": 13,
                 "brand": "SAYY",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/sayy-sunscreen-spf-ectoraa-50-pa-daily-use-uva-uvb-protection-lightweight-non-greasy-all-skin-types/p/itme867df2119e26?pid=SNRHHZWZGZA2WDGH&lid=LSTSNRHHZWZGZA2WDGHGWHQEZ&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&spotlightTagId=default_TrendingId_g9b%2Fema%2F5la%2Fxrh&srno=b_1_13&otracker=browse&fm=organic&iid=4c363bfe-15e7-4af5-a7ad-b09bcfece6c0.SNRHHZWZGZA2WDGH.SEARCH&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/sayy-sunscreen-spf-ectoraa-50-pa-daily-use-uva-uvb-protection-lightweight-non-greasy-all-skin-types/p/itme867df2119e26?pid=SNRHHZWZGZA2WDGH&lid=LSTSNRHHZWZGZA2WDGHGWHQEZ&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&spotlightTagId=default_TrendingId_g9b%2Fema%2F5la%2Fxrh&srno=b_1_13&otracker=browse&fm=organic&iid=f4cff741-9ef2-4dae-bada-467fbfbb27f5.SNRHHZWZGZA2WDGH.SEARCH&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2038,7 +2049,7 @@
                 "rank": 14,
                 "brand": "The",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/derma-co-sunscreen-spf-50-pa-1-hyaluronic-aqua-ultra-light-gel-broad-spectrum-uv-a-b-blue-protection/p/itme144324f59479?pid=SNRG3HF6TCVFXJMV&lid=LSTSNRG3HF6TCVFXJMV6SP0F4&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_14&otracker=browse&fm=organic&iid=en_rRnr21yaKIAu49-vexOjBEaQ1HScnhYQFRf5GHKDsfbpXT3AnWVnPRRSFcUpwc62v9lX8wD4JjWULuXVWCxlcnxHajYNyuWOMhuZi0IpbY0%3D&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/derma-co-sunscreen-spf-50-pa-1-hyaluronic-aqua-ultra-light-gel-broad-spectrum-uv-a-b-blue-protection/p/itme144324f59479?pid=SNRG3HF6TCVFXJMV&lid=LSTSNRG3HF6TCVFXJMV6SP0F4&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_14&otracker=browse&fm=organic&iid=en_1QM468e6WYw8sTcg6paw7yLAnO4z7Athmuim41noBsYdMFJkTVfrthu-Whf8C6hKv9lX8wD4JjWULuXVWCxlcnxHajYNyuWOMhuZi0IpbY0%3D&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2049,7 +2060,7 @@
                 "rank": 15,
                 "brand": "Molecular",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/molecular-company-sunscreen-spf-50-pa-5-niacinamide-combo/p/itmda2a50414facc?pid=SNRH92GJ2RGYSMJY&lid=LSTSNRH92GJ2RGYSMJY85KMG2&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_15&otracker=browse&fm=organic&iid=en_rRnr21yaKIAu49-vexOjBEaQ1HScnhYQFRf5GHKDsfbO3NZOR7eTgEI6OAXilff4h5M1O-iM104102SXCUn2MPUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/molecular-company-sunscreen-spf-50-pa-5-niacinamide-combo/p/itmda2a50414facc?pid=SNRH92GJ2RGYSMJY&lid=LSTSNRH92GJ2RGYSMJY85KMG2&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_15&otracker=browse&fm=organic&iid=en_1QM468e6WYw8sTcg6paw7yLAnO4z7Athmuim41noBsbqHMSX6olLqzJBPV1LFjGsh5M1O-iM104102SXCUn2MPUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2060,7 +2071,7 @@
                 "rank": 16,
                 "brand": "POND's",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/pond-s-sunscreen-spf-50-pa-creme-gel-sun-miracle-protect-bright-niacinamide/p/itm35cfec43cd9e7?pid=SNRGMTAGMKS8JRMB&lid=LSTSNRGMTAGMKS8JRMBQIOMWT&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_16&otracker=browse&fm=organic&iid=4c363bfe-15e7-4af5-a7ad-b09bcfece6c0.SNRGMTAGMKS8JRMB.SEARCH&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/pond-s-sunscreen-spf-50-pa-creme-gel-sun-miracle-protect-bright-niacinamide/p/itm35cfec43cd9e7?pid=SNRGMTAGMKS8JRMB&lid=LSTSNRGMTAGMKS8JRMBQIOMWT&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_16&otracker=browse&fm=organic&iid=f4cff741-9ef2-4dae-bada-467fbfbb27f5.SNRGMTAGMKS8JRMB.SEARCH&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2071,7 +2082,7 @@
                 "rank": 17,
                 "brand": "Reginald",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/reginald-men-sunscreen-spf-50-pa-moisturising-50-11-actives/p/itm09a32fff4a24a?pid=SNRHHHE6SZC6ZFVT&lid=LSTSNRHHHE6SZC6ZFVTTY5N4M&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_17&otracker=browse&fm=organic&iid=en_rRnr21yaKIAu49-vexOjBEaQ1HScnhYQFRf5GHKDsfZq8QN6ssxcqLm9K-0vQLvKUM9OMEy1bwLBu293Ew6CxQ%3D%3D&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/reginald-men-sunscreen-spf-50-pa-moisturising-50-11-actives/p/itm09a32fff4a24a?pid=SNRHHHE6SZC6ZFVT&lid=LSTSNRHHHE6SZC6ZFVTTY5N4M&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_17&otracker=browse&fm=organic&iid=en_1QM468e6WYw8sTcg6paw7yLAnO4z7Athmuim41noBsZ9GtULxsntDrkOjJA4txrxUM9OMEy1bwLBu293Ew6CxQ%3D%3D&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2082,7 +2093,7 @@
                 "rank": 18,
                 "brand": "Dermatouch",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/dermatouch-sunscreen-spf-50-pa-multivitamin-pa-gel/p/itmf98dee698e745?pid=SNRHGEKGQUJHFTBQ&lid=LSTSNRHGEKGQUJHFTBQ1WIKUV&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_18&otracker=browse&fm=organic&iid=en_rRnr21yaKIAu49-vexOjBEaQ1HScnhYQFRf5GHKDsfbJPEqLFtvpgHNYTpOg5lKmWvolWscOBYCT-iZCcTEV1fUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/dermatouch-sunscreen-spf-50-pa-multivitamin-pa-gel/p/itmf98dee698e745?pid=SNRHGEKGQUJHFTBQ&lid=LSTSNRHGEKGQUJHFTBQ1WIKUV&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_18&otracker=browse&fm=organic&iid=en_1QM468e6WYw8sTcg6paw7yLAnO4z7Athmuim41noBsZZe-WmO23ogOz-_J1MD1CDWvolWscOBYCT-iZCcTEV1fUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2093,7 +2104,7 @@
                 "rank": 19,
                 "brand": "Dot",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/dot-key-sunscreen-spf-50-pa-vitamin-c-e-super-bright-sunscreen-in-vivo-tested-all-skin/p/itm63ccf2b9aa6eb?pid=SNRH8AHXSCANARJG&lid=LSTSNRH8AHXSCANARJGOMSM8N&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_19&otracker=browse&fm=organic&iid=4c363bfe-15e7-4af5-a7ad-b09bcfece6c0.SNRH8AHXSCANARJG.SEARCH&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/dot-key-sunscreen-spf-50-pa-vitamin-c-e-super-bright-sunscreen-in-vivo-tested-all-skin/p/itm63ccf2b9aa6eb?pid=SNRH8AHXSCANARJG&lid=LSTSNRH8AHXSCANARJGOMSM8N&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_19&otracker=browse&fm=organic&iid=f4cff741-9ef2-4dae-bada-467fbfbb27f5.SNRH8AHXSCANARJG.SEARCH&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2104,7 +2115,7 @@
                 "rank": 20,
                 "brand": "Dot",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/dot-key-sunscreen-spf-50-pa-vitamin-c-e-super-bright-sunscreen-in-vivo-tested-all-skin/p/itm4b15fb958e8d9?pid=SNRGJZUDJZKGH9HF&lid=LSTSNRGJZUDJZKGH9HF0UBOAH&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&spotlightTagId=default_BestsellerId_g9b%2Fema%2F5la%2Fxrh&srno=b_1_20&otracker=browse&fm=organic&iid=4c363bfe-15e7-4af5-a7ad-b09bcfece6c0.SNRGJZUDJZKGH9HF.SEARCH&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/dot-key-sunscreen-spf-50-pa-vitamin-c-e-super-bright-sunscreen-in-vivo-tested-all-skin/p/itm4b15fb958e8d9?pid=SNRGJZUDJZKGH9HF&lid=LSTSNRGJZUDJZKGH9HF0UBOAH&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_20&otracker=browse&fm=organic&iid=f4cff741-9ef2-4dae-bada-467fbfbb27f5.SNRGJZUDJZKGH9HF.SEARCH&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2115,7 +2126,7 @@
                 "rank": 1,
                 "brand": "FOGG",
                 "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/fogg-black-night-wave-long-lasting-perfume-body-spray-men/p/itm84296f0e5b3bd?pid=DEOHGPXGQYZVGTNH&lid=LSTDEOHGPXGQYZVGTNHTHSVRI&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_1&otracker=browse&fm=organic&iid=en_dOBbL8VoaoTe8ryFSo0N7OSZfWfR0UrDFsiErXcENTXJ2bU6delDdoqtYKxGJOskZzThOjjLEmuiG29VyqbQd04IsYyWu-Pj9cxFjFAoaLk%3D&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/fogg-black-night-wave-long-lasting-perfume-body-spray-men/p/itm84296f0e5b3bd?pid=DEOHGPXGQYZVGTNH&lid=LSTDEOHGPXGQYZVGTNHTHSVRI&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_1&otracker=browse&fm=organic&iid=en_STVF8GZKDAtJvvXOfISGxA3tIQwRGsOf-2_DADt3FYTeTw1cAfli2zO5UwIo8Qq-ZzThOjjLEmuiG29VyqbQd04IsYyWu-Pj9cxFjFAoaLk%3D&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2126,7 +2137,7 @@
                 "rank": 2,
                 "brand": "LAYER'R",
                 "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/layer-r-wottagirl-secret-crush-amber-kiss-body-splash-long-lasting-fragrance-combo-mist-women/p/itm764c61cbccce3?pid=DEOHFT5VHMHZSCYS&lid=LSTDEOHFT5VHMHZSCYSJ25GO1&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_2&otracker=browse&fm=organic&iid=en_dOBbL8VoaoTe8ryFSo0N7OSZfWfR0UrDFsiErXcENTUF8egcfKetD2vvLJ3ubGs2ZytQg8nVvGAHnPjB3Ey1aA%3D%3D&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/layer-r-wottagirl-secret-crush-amber-kiss-body-splash-long-lasting-fragrance-combo-mist-women/p/itm764c61cbccce3?pid=DEOHFT5VHMHZSCYS&lid=LSTDEOHFT5VHMHZSCYSJ25GO1&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_2&otracker=browse&fm=organic&iid=en_STVF8GZKDAtJvvXOfISGxA3tIQwRGsOf-2_DADt3FYRQZ8zVbmFAM7LDGM3OrxqZZytQg8nVvGAHnPjB3Ey1aA%3D%3D&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2137,18 +2148,7 @@
                 "rank": 3,
                 "brand": "FOGG",
                 "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/fogg-napoleon-deodorant-long-lasting-perfume-body-spray-men/p/itmdc4ea7e06c292?pid=DEOEZ9TYDBBVZHH4&lid=LSTDEOEZ9TYDBBVZHH4LNDQAM&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_3&otracker=browse&fm=organic&iid=en_dOBbL8VoaoTe8ryFSo0N7OSZfWfR0UrDFsiErXcENTVbLcIfBqp9GYZQVh76oYLDvoula0oZ2o0rLAwqGqyQoUKsf8s6I2Oz2HOgbXTo_9U%3D&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
-                "source": "flipkart"
-            },
-            {
-                "title": "AXE Gold Temptation, Dark Temptation and Intense Deodorant Spray  -  For Men",
-                "price": "\u20b9995",
-                "rating": 0.0,
-                "review_count": 31589,
-                "rank": 4,
-                "brand": "AXE",
-                "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/axe-gold-temptation-dark-temptation-intense-deodorant-spray-men/p/itm7c7c83579ba0a?pid=DEOGHAHXQQJFZ4NH&lid=LSTDEOGHAHXQQJFZ4NHZETADC&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_4&otracker=browse&fm=organic&iid=df8f80b0-cfcc-43e2-8643-7f779ae47551.DEOGHAHXQQJFZ4NH.SEARCH&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/fogg-napoleon-deodorant-long-lasting-perfume-body-spray-men/p/itmdc4ea7e06c292?pid=DEOEZ9TYDBBVZHH4&lid=LSTDEOEZ9TYDBBVZHH4LNDQAM&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_3&otracker=browse&fm=organic&iid=en_STVF8GZKDAtJvvXOfISGxA3tIQwRGsOf-2_DADt3FYQ1Tr0E6ahBKoP7E0BIAIGPvoula0oZ2o0rLAwqGqyQoUKsf8s6I2Oz2HOgbXTo_9U%3D&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2156,10 +2156,21 @@
                 "price": "\u20b9711",
                 "rating": 0.0,
                 "review_count": 63680,
+                "rank": 4,
+                "brand": "AXE",
+                "category": "Men's Deodorant",
+                "url": "https://www.flipkart.com/axe-signature-mysterious-intense-deodorant-no-gas-body-perfume-spray-men/p/itm37fa0c3cc8fe8?pid=DEOGHQGYTHPFEKYW&lid=LSTDEOGHQGYTHPFEKYWOR4QNL&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_4&otracker=browse&fm=organic&iid=466549e0-baa9-4fb2-80bc-de75d3ba20de.DEOGHQGYTHPFEKYW.SEARCH&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "AXE Gold Temptation, Dark Temptation and Intense Deodorant Spray  -  For Men",
+                "price": "\u20b9388",
+                "rating": 0.0,
+                "review_count": 31589,
                 "rank": 5,
                 "brand": "AXE",
                 "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/axe-signature-mysterious-intense-deodorant-no-gas-body-perfume-spray-men/p/itm37fa0c3cc8fe8?pid=DEOGHQGYTHPFEKYW&lid=LSTDEOGHQGYTHPFEKYWOR4QNL&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_5&otracker=browse&fm=organic&iid=df8f80b0-cfcc-43e2-8643-7f779ae47551.DEOGHQGYTHPFEKYW.SEARCH&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/axe-gold-temptation-dark-temptation-intense-deodorant-spray-men/p/itm7c7c83579ba0a?pid=DEOGHAHXQQJFZ4NH&lid=LSTDEOGHAHXQQJFZ4NH3RONYM&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_5&otracker=browse&fm=organic&iid=466549e0-baa9-4fb2-80bc-de75d3ba20de.DEOGHAHXQQJFZ4NH.SEARCH&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2170,7 +2181,7 @@
                 "rank": 6,
                 "brand": "DENVER",
                 "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/denver-black-code-caliber-honour-imperial-nano-deo-long-lasting-set-4-deodorant-spray-men/p/itm7089e0b505830?pid=DEOGEDWYFFTQRQR5&lid=LSTDEOGEDWYFFTQRQR5DWBWTR&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_6&otracker=browse&fm=organic&iid=en_dOBbL8VoaoTe8ryFSo0N7OSZfWfR0UrDFsiErXcENTVL67c_yYZbzGnhtUOI1OpCyxmy3DD1uIarlJ3W8zTdXh7zrT4gkWAkPCdPBnPCejA%3D&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/denver-black-code-caliber-honour-imperial-nano-deo-long-lasting-set-4-deodorant-spray-men/p/itm7089e0b505830?pid=DEOGEDWYFFTQRQR5&lid=LSTDEOGEDWYFFTQRQR5DWBWTR&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_6&otracker=browse&fm=organic&iid=en_STVF8GZKDAtJvvXOfISGxA3tIQwRGsOf-2_DADt3FYRSDMKdWIc4SwWj4RaYJK1Wyxmy3DD1uIarlJ3W8zTdXh7zrT4gkWAkPCdPBnPCejA%3D&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2181,18 +2192,18 @@
                 "rank": 7,
                 "brand": "Rexona",
                 "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/rexona-aloe-vera-shower-fresh-powder-dry-underarm-roll-deodorant-roll-on-women/p/itm777dba9e2a0c6?pid=DEOGGRFAPGUR9NGV&lid=LSTDEOGGRFAPGUR9NGVX8DQLS&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_7&otracker=browse&fm=organic&iid=df8f80b0-cfcc-43e2-8643-7f779ae47551.DEOGGRFAPGUR9NGV.SEARCH&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/rexona-aloe-vera-shower-fresh-powder-dry-underarm-roll-deodorant-roll-on-women/p/itm777dba9e2a0c6?pid=DEOGGRFAPGUR9NGV&lid=LSTDEOGGRFAPGUR9NGVX8DQLS&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_7&otracker=browse&fm=organic&iid=466549e0-baa9-4fb2-80bc-de75d3ba20de.DEOGGRFAPGUR9NGV.SEARCH&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
                 "title": "FOGG Marco,Royal & Napoleon Deodorant With Long Lasting Perfume Body Spray  -  For Men",
                 "price": "\u20b9639",
                 "rating": 0.0,
-                "review_count": 21067,
+                "review_count": 21083,
                 "rank": 8,
                 "brand": "FOGG",
                 "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/fogg-marco-royal-napoleon-deodorant-long-lasting-perfume-body-spray-men/p/itm192e9f6b3f252?pid=DEOH3FGQHHXHBRSD&lid=LSTDEOH3FGQHHXHBRSDSI23KY&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_8&otracker=browse&fm=organic&iid=df8f80b0-cfcc-43e2-8643-7f779ae47551.DEOH3FGQHHXHBRSD.SEARCH&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/fogg-marco-royal-napoleon-deodorant-long-lasting-perfume-body-spray-men/p/itm192e9f6b3f252?pid=DEOH3FGQHHXHBRSD&lid=LSTDEOH3FGQHHXHBRSDSI23KY&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_8&otracker=browse&fm=organic&iid=466549e0-baa9-4fb2-80bc-de75d3ba20de.DEOH3FGQHHXHBRSD.SEARCH&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2203,18 +2214,18 @@
                 "rank": 9,
                 "brand": "FOGG",
                 "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/fogg-marco-deodorant-long-lasting-perfume-body-spray-men/p/itm909bfd77c10a2?pid=DEOETRVV4STFXXN7&lid=LSTDEOETRVV4STFXXN7NKGPHA&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_9&otracker=browse&fm=organic&iid=en_dOBbL8VoaoTe8ryFSo0N7OSZfWfR0UrDFsiErXcENTUnhEmScAsvVaToo7xNbNOEaOKHmaER1aB6o6nC5rkT7Csp2Pb6ljaD52iOeV1GD4o%3D&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/fogg-marco-deodorant-long-lasting-perfume-body-spray-men/p/itm909bfd77c10a2?pid=DEOETRVV4STFXXN7&lid=LSTDEOETRVV4STFXXN7NKGPHA&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_9&otracker=browse&fm=organic&iid=en_STVF8GZKDAtJvvXOfISGxA3tIQwRGsOf-2_DADt3FYRJ8AunkMB--fKk1ImHHeDBaOKHmaER1aB6o6nC5rkT7Csp2Pb6ljaD52iOeV1GD4o%3D&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
-                "title": "Yardley London GENTLEMAN TOBACCO WOOD DEODORANT 150 ML, Perfume Body Spray  -  For Men & Women",
-                "price": "\u20b9248",
+                "title": "Flower Organics Mystic_Deodorant Perfume Body Spray  -  For Men & Women",
+                "price": "\u20b9129",
                 "rating": 0.0,
                 "review_count": 0,
                 "rank": 10,
-                "brand": "Yardley",
+                "brand": "Flower",
                 "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/yardley-london-gentleman-tobacco-wood-deodorant-150-ml-perfume-body-spray-men-women/p/itmb2508ca74db2c?pid=DEOHMSUSFAZYVAZZ&lid=LSTDEOHMSUSFAZYVAZZQLDUHF&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_10&otracker=browse&fm=organic&iid=df8f80b0-cfcc-43e2-8643-7f779ae47551.DEOHMSUSFAZYVAZZ.SEARCH&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/flower-organics-mystic-deodorant-perfume-body-spray-men-women/p/itmd24d417977651?pid=DEOHHNG8DNZ9WGMH&lid=LSTDEOHHNG8DNZ9WGMHSU17EY&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_10&otracker=browse&fm=organic&iid=466549e0-baa9-4fb2-80bc-de75d3ba20de.DEOHHNG8DNZ9WGMH.SEARCH&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2225,7 +2236,7 @@
                 "rank": 11,
                 "brand": "FOGG",
                 "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/fogg-royal-paradise-deodorant-long-lasting-perfume-body-spray-men-women/p/itme283b468f98eb?pid=DEOGY9CRGHXV66GT&lid=LSTDEOGY9CRGHXV66GT22B3AI&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_11&otracker=browse&fm=organic&iid=en_dOBbL8VoaoTe8ryFSo0N7OSZfWfR0UrDFsiErXcENTXWmMogynPCEIudwwZBk4snoX2BNq720E-nDUAaLFWyQkF-RT516lNv_aeXIPaRjgQ%3D&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/fogg-royal-paradise-deodorant-long-lasting-perfume-body-spray-men-women/p/itme283b468f98eb?pid=DEOGY9CRGHXV66GT&lid=LSTDEOGY9CRGHXV66GT22B3AI&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_11&otracker=browse&fm=organic&iid=en_STVF8GZKDAtJvvXOfISGxA3tIQwRGsOf-2_DADt3FYQzdRo7FjrLfmy-bV1-r5_UoX2BNq720E-nDUAaLFWyQkF-RT516lNv_aeXIPaRjgQ%3D&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2236,7 +2247,7 @@
                 "rank": 12,
                 "brand": "FOGG",
                 "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/fogg-neu-super-wood-deodorant-long-lasting-perfume-body-spray-men/p/itm17da4d0071a6f?pid=DEOHDTFQQUGHCZXK&lid=LSTDEOHDTFQQUGHCZXKW2ZQ7Q&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_12&otracker=browse&fm=organic&iid=en_dOBbL8VoaoTe8ryFSo0N7OSZfWfR0UrDFsiErXcENTWz5Cbwc_gGkH3IJahMmtFxa1VDKHJ1a79ExElKqbVl5awh4GJdccUSVsNPTiGrw-0%3D&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/fogg-neu-super-wood-deodorant-long-lasting-perfume-body-spray-men/p/itm17da4d0071a6f?pid=DEOHDTFQQUGHCZXK&lid=LSTDEOHDTFQQUGHCZXKW2ZQ7Q&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_12&otracker=browse&fm=organic&iid=en_STVF8GZKDAtJvvXOfISGxA3tIQwRGsOf-2_DADt3FYTlRIayKDDk5llUkHHbmpNoFJM34HByIdT_XjqfRu-UV6wh4GJdccUSVsNPTiGrw-0%3D&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2247,18 +2258,18 @@
                 "rank": 13,
                 "brand": "FOGG",
                 "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/fogg-royal-marco-napoleon-deodorant-long-lasting-perfume-body-spray-men/p/itmd24e44b6bfe97?pid=DEOGSUVPFWVVJQ7P&lid=LSTDEOGSUVPFWVVJQ7PNNQOHQ&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_13&otracker=browse&fm=organic&iid=df8f80b0-cfcc-43e2-8643-7f779ae47551.DEOGSUVPFWVVJQ7P.SEARCH&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/fogg-royal-marco-napoleon-deodorant-long-lasting-perfume-body-spray-men/p/itmd24e44b6bfe97?pid=DEOGSUVPFWVVJQ7P&lid=LSTDEOGSUVPFWVVJQ7PNNQOHQ&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_13&otracker=browse&fm=organic&iid=466549e0-baa9-4fb2-80bc-de75d3ba20de.DEOGSUVPFWVVJQ7P.SEARCH&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
-                "title": "AXE Dark Temptation & Intense Deodorant Spray  -  For Men",
-                "price": "\u20b9658",
+                "title": "NIVEA Pearl and Beauty Roll On for Smooth Underarms, 0% Alcohol, 72h Active Protection Deodorant Roll-on  -  For Women",
+                "price": "\u20b9574",
                 "rating": 0.0,
-                "review_count": 42280,
+                "review_count": 156703,
                 "rank": 14,
-                "brand": "AXE",
+                "brand": "NIVEA",
                 "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/axe-dark-temptation-intense-deodorant-spray-men/p/itm91ae6e052880f?pid=DEOGHQGYX6GB2N4Z&lid=LSTDEOGHQGYX6GB2N4Z7BQ0FM&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_14&otracker=browse&fm=organic&iid=df8f80b0-cfcc-43e2-8643-7f779ae47551.DEOGHQGYX6GB2N4Z.SEARCH&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/nivea-pearl-beauty-roll-smooth-underarms-0-alcohol-72h-active-protection-deodorant-roll-on-women/p/itm09b7f33e35656?pid=DEOF6Y84DWYWXT3W&lid=LSTDEOF6Y84DWYWXT3WXSIDCO&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_14&otracker=browse&fm=organic&iid=466549e0-baa9-4fb2-80bc-de75d3ba20de.DEOF6Y84DWYWXT3W.SEARCH&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2269,18 +2280,18 @@
                 "rank": 15,
                 "brand": "FOGG",
                 "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/fogg-neu-bold-fougere-deodorant-long-lasting-perfume-body-spray-men/p/itmada1f3f8b0d9d?pid=DEOHDTFQANZUHGN8&lid=LSTDEOHDTFQANZUHGN8MD5FRX&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_15&otracker=browse&fm=organic&iid=en_dOBbL8VoaoTe8ryFSo0N7OSZfWfR0UrDFsiErXcENTVNT477poJHOJDGg7Cw8t10YF6fTwpYSoQO7baQr7dbyHxHajYNyuWOMhuZi0IpbY0%3D&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/fogg-neu-bold-fougere-deodorant-long-lasting-perfume-body-spray-men/p/itmada1f3f8b0d9d?pid=DEOHDTFQANZUHGN8&lid=LSTDEOHDTFQANZUHGN8MD5FRX&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_15&otracker=browse&fm=organic&iid=en_STVF8GZKDAtJvvXOfISGxA3tIQwRGsOf-2_DADt3FYQOecQlEykYHhN93hCQoq-xYF6fTwpYSoQO7baQr7dbyHxHajYNyuWOMhuZi0IpbY0%3D&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
                 "title": "AXE Dark_Temptation Deodorant Spray  -  For Men",
-                "price": "\u20b9759",
+                "price": "\u20b9763",
                 "rating": 0.0,
                 "review_count": 36028,
                 "rank": 16,
                 "brand": "AXE",
                 "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/axe-dark-temptation-deodorant-spray-men/p/itm8c004bee40c06?pid=DEOGHRDTUBPXNGBF&lid=LSTDEOGHRDTUBPXNGBFJKFTRF&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_16&otracker=browse&fm=organic&iid=df8f80b0-cfcc-43e2-8643-7f779ae47551.DEOGHRDTUBPXNGBF.SEARCH&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/axe-dark-temptation-deodorant-spray-men/p/itm8c004bee40c06?pid=DEOGHRDTUBPXNGBF&lid=LSTDEOGHRDTUBPXNGBFJKFTRF&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_16&otracker=browse&fm=organic&iid=466549e0-baa9-4fb2-80bc-de75d3ba20de.DEOGHRDTUBPXNGBF.SEARCH&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2291,7 +2302,7 @@
                 "rank": 17,
                 "brand": "DENVER",
                 "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/denver-hamilton-deodorant-spray-men/p/itmf3v9rqdsftqxy?pid=DEOHEPQKJEYTUNCK&lid=LSTDEOHEPQKJEYTUNCK9UBRNX&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_17&otracker=browse&fm=organic&iid=en_dOBbL8VoaoTe8ryFSo0N7OSZfWfR0UrDFsiErXcENTWhF97FQZHvTacm21E_eZXjKDFTkD_emGCB4jI96_2_2PNzSJq5vUoApsGIr4piuio%3D&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/denver-hamilton-deodorant-spray-men/p/itmf3v9rqdsftqxy?pid=DEOHEPQKJEYTUNCK&lid=LSTDEOHEPQKJEYTUNCK9UBRNX&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_17&otracker=browse&fm=organic&iid=en_STVF8GZKDAtJvvXOfISGxA3tIQwRGsOf-2_DADt3FYSqUFKO_M9ugQWnGESK1EAmKDFTkD_emGCB4jI96_2_2PNzSJq5vUoApsGIr4piuio%3D&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2302,7 +2313,7 @@
                 "rank": 18,
                 "brand": "DENVER",
                 "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/denver-hamilton-imperial-deodorant-spray-men/p/itmdd7993c5d5074?pid=DEOHEPQFHJGHRJBS&lid=LSTDEOHEPQFHJGHRJBSSBIOEX&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_18&otracker=browse&fm=organic&iid=en_dOBbL8VoaoTe8ryFSo0N7OSZfWfR0UrDFsiErXcENTVgDiy7nzzskGK6T3_oZJKXmzN_H-rn8ue2--7ytQryxK1KaJFgl7OeEdnchgqx4tA%3D&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/denver-hamilton-imperial-deodorant-spray-men/p/itmdd7993c5d5074?pid=DEOHEPQFHJGHRJBS&lid=LSTDEOHEPQFHJGHRJBSSBIOEX&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_18&otracker=browse&fm=organic&iid=en_STVF8GZKDAtJvvXOfISGxA3tIQwRGsOf-2_DADt3FYRB8q1_pz9tiusfbAOQIkl5mzN_H-rn8ue2--7ytQryxK1KaJFgl7OeEdnchgqx4tA%3D&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -2313,18 +2324,18 @@
                 "rank": 19,
                 "brand": "Phitku",
                 "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/phitku-alum-aloe-roll-natural-deodorant-men-women-long-odor-control-roll-on/p/itme4252bfbfca95?pid=DEOHGFXTB66JK9VQ&lid=LSTDEOHGFXTB66JK9VQGENJML&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_19&otracker=browse&fm=organic&iid=df8f80b0-cfcc-43e2-8643-7f779ae47551.DEOHGFXTB66JK9VQ.SEARCH&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/phitku-alum-aloe-roll-natural-deodorant-men-women-long-odor-control-roll-on/p/itme4252bfbfca95?pid=DEOHGFXTB66JK9VQ&lid=LSTDEOHGFXTB66JK9VQGENJML&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_19&otracker=browse&fm=organic&iid=466549e0-baa9-4fb2-80bc-de75d3ba20de.DEOHGFXTB66JK9VQ.SEARCH&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
-                "title": "Rexona Powder Dry Underarm Roll On Deodorant For Women (PO3) Deodorant Roll-on  -  For Women",
-                "price": "\u20b9338",
+                "title": "imfresh Dopenight & Sweetkiller Combo, Long Lasting odour control, Skin Hydration Deodorant Cream  -  For Men",
+                "price": "\u20b9849",
                 "rating": 0.0,
-                "review_count": 4966,
+                "review_count": 279,
                 "rank": 20,
-                "brand": "Rexona",
+                "brand": "imfresh",
                 "category": "Men's Deodorant",
-                "url": "https://www.flipkart.com/rexona-powder-dry-underarm-roll-deodorant-women-po3-roll-on/p/itm47023d3b90ded?pid=DEOGSEK7ZPW9HSF8&lid=LSTDEOGSEK7ZPW9HSF8C6OHZN&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_20&otracker=browse&fm=organic&iid=df8f80b0-cfcc-43e2-8643-7f779ae47551.DEOGSEK7ZPW9HSF8.SEARCH&ppt=browse&ppn=browse&ssid=atjhy2p0nk0000001779224936485&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/imfresh-dopenight-sweetkiller-combo-long-lasting-odour-control-skin-hydration-deodorant-cream-men/p/itmfc0301bfafba1?pid=DEOHGYQ7JMHGUNJZ&lid=LSTDEOHGYQ7JMHGUNJZGFRVXD&marketplace=FLIPKART&store=all%2Fg9b%2F0yh%2Fvp1&srno=b_1_20&otracker=browse&fm=organic&iid=466549e0-baa9-4fb2-80bc-de75d3ba20de.DEOHGYQ7JMHGUNJZ.SEARCH&ppt=browse&ppn=browse&ssid=izzkeydpww0000001779226029108&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             }
         ],
@@ -2372,9 +2383,9 @@
                 "query": "site:instagram.com men face wash india"
             },
             {
-                "title": "Thamizh Selvi (@thamizhselvi_)",
+                "title": "Badi kamjor awaz h Saurabhdwivedi #netflix #saurabhdwivedi #lallantop",
                 "source": "instagram",
-                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NRGl5NWFibEZGN1dleW8xME1KbDNrM2RUMVhOX0dHcHByQ2VIcjZuSWNGUlY3SlBrZ3pzZHkxUkZpNmRkYVQzdV9lQU9YNnNnbGc?oc=5",
+                "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5DNUl2bU0wd2Fub25BdkZIZ0V0REp1eTFieWlvQnI5LXhnM3llMVpob3lNQ3RTM1AwZHFoOUo0WEl3VXJFUXFjZVlKWlVGRkZTNDBmTXBn?oc=5",
                 "engagement": 0,
                 "query": "site:instagram.com men face wash india"
             },
@@ -2442,6 +2453,13 @@
                 "query": "site:instagram.com beard care india"
             },
             {
+                "title": "The finale really brought old wounds back to the surface \ud83e\udee3 Binge watch the full season of #InstaxFujifilm presents MTV Splitsvilla X6, Co-powered by #Sofy, #NEWME, #EnvyPerfumes, and #PhilipsBody Groomer only on JioHotstar #PyaarVsPaisa #SplitsvillaX",
+                "source": "instagram",
+                "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBhWFdnSmlKZFNDc1Jrazh4elVJVXRyR3pmWFk4SDA0LXVnQkhPWV8wdGlnSVFnbVo2QmxibFNWMkgtaFQtWVV6QWNhNEkzTDhGRF9jZzh3?oc=5",
+                "engagement": 0,
+                "query": "site:instagram.com beard care india"
+            },
+            {
                 "title": "Mohammed Shariq (@sha_rick_)",
                 "source": "instagram",
                 "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1YdTFFZFZPNFA4UmF1RlFxOTl4Yko5ZkhWTjQzM0JyYjBaTjdWdWI2Z2VsNnE0bjhONkhjd19DYjdhdkZlWFAwZUFjSkQ?oc=5",
@@ -2449,11 +2467,11 @@
                 "query": "site:instagram.com beard care india"
             },
             {
-                "title": "Love is like a game of ludo\ud83e\udef6\ud83c\udffb Follow @sarcaster_ for more [love, pyar, ishq, breakup, single, committed, move on, relationship, luck, ludo, analogy, creative]",
+                "title": "Mumbai Indians (@mumbaiindians) \u00b7 Mumbai",
                 "source": "instagram",
-                "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0wMF9SVmNVaHJGaFhnSnlaaFZMYUhKNUg3Z0NJNDBpNWNCQ3BKSW9qa1FWamszRmFmYnVmSENuazBYekY3cGJtR1RVMkFxU2ZhMnlsVFNn?oc=5",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5INkFFYXVJUl85OVI4R3FJdWZqN0hWNUwzMzRKMUJZWmpqTl93akxDLVk5T1dIdXRRalRtVWlLVzg0NXFrTFdKMUdIc2hvNFBqSEE?oc=5",
                 "engagement": 0,
-                "query": "site:instagram.com beard care india"
+                "query": "site:instagram.com skincare routine india men"
             },
             {
                 "title": "In the age of social media, even a simple walk on the street can turn into a viral moment within hours. Conversations around fashion, identity, and self-expression often find a larger spotlight when shared online. Something similar has now happened after conte",
@@ -2468,13 +2486,6 @@
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBpX3BtZDFSbVBxSXdCbWw2WlNlZWNRYm5qZWVMMVpfQXBJbHh1YWdaZkdfclFjR0JEVTJiM0lfVVhWQnVQcFIxc1hIXzY1ZEpxOHc?oc=5",
                 "engagement": 0,
                 "query": "site:instagram.com skincare routine india men"
-            },
-            {
-                "title": "The finale really brought old wounds back to the surface \ud83e\udee3 Binge watch the full season of #InstaxFujifilm presents MTV Splitsvilla X6, Co-powered by #Sofy, #NEWME, #EnvyPerfumes, and #PhilipsBody Groomer only on JioHotstar #PyaarVsPaisa #SplitsvillaX",
-                "source": "instagram",
-                "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBhWFdnSmlKZFNDc1Jrazh4elVJVXRyR3pmWFk4SDA0LXVnQkhPWV8wdGlnSVFnbVo2QmxibFNWMkgtaFQtWVV6QWNhNEkzTDhGRF9jZzh3?oc=5",
-                "engagement": 0,
-                "query": "site:instagram.com perfume india"
             },
             {
                 "title": "Tarini Shah | Content creator (@tarini_shah)",
@@ -2519,6 +2530,13 @@
                 "query": "site:instagram.com deodorant india"
             },
             {
+                "title": "When you choose right, everything else fades. #OldSpice #OldSpiceIndia #BodySpray #Manliness #MensDeo #MensEssentials #Deodorant #ScentThatNeverDies #Original #Coolness [OldSpice, OldSpiceIndia, BodySpray, Manliness, MensDeo, MensEssenti",
+                "source": "instagram",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxenlTSmRtQzFoWlY1MGV2R3hvaG9sNWtaeDVjNFFVN1FSUk5UeUtBbTQ1MUZWV3NOT083STl5OUIwTkk5aWQxbGRIeGdiNTFrNWc?oc=5",
+                "engagement": 0,
+                "query": "site:instagram.com deodorant india"
+            },
+            {
                 "title": "Deo Badala | Vlog-4 . Origin of Newaj river at Deo badala (sehore) MP.. . For more such content , follow us #puratatva #heritage #mp #archaeology",
                 "source": "instagram",
                 "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBha3dfc0hhekNtUkxIYzBFc1ViNEJVblBQZjQ1WVhIZXhRZjJkb1pQRGNEZUVxc3pIRXRhNmp3WmdQUHBGMTlzd3pVYmFhbno1X3lHLS1B?oc=5",
@@ -2529,13 +2547,6 @@
                 "title": "Cucumber tambli",
                 "source": "instagram",
                 "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wS3o4RkJ0S0ZGQ05OMURIajNwZTBFb0h0Q21FOTFaMkVTV1RXMXd3VGE1R3pnLVJNeXVwVVVSNVBkQWVnYUV6eWt4UnZZZmtUYlhLanVR?oc=5",
-                "engagement": 0,
-                "query": "site:instagram.com deodorant india"
-            },
-            {
-                "title": "Five scents, one set \ud83e\udd0d @atomfreshofficial Mini Deodorant Set has officially become part of my everyday routine. Whether I\u2019m running errands, traveling, or getting ready for a night out, there\u2019s literally a scent for every vibe\u2728 I love how perfect they are for throwin",
-                "source": "instagram",
-                "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RVXJpSWtNX1BsUDRsVlkzV2xzLVBIdmlFSUQ3U0FkQlp4U0tpeVZlM0YxYWtNZW1TcWlwejRLbXp0UWNJZmUwSkNlaS1udG5DdURzeGxB?oc=5",
                 "engagement": 0,
                 "query": "site:instagram.com deodorant india"
             }
@@ -2632,11 +2643,22 @@
                 "source": "amazon"
             },
             {
+                "title": "Bulldog Natural Skincare Original Face Wash - 5.9 Fl Oz",
+                "price": "\u20b91,450",
+                "rating": 4.7,
+                "review_count": 96667,
+                "rank": 9,
+                "brand": "Bulldog",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
                 "title": "PROWL by Tiger Shroff Facewash 2% Salicylic Acid | Anti Acne For Dry Combination Oily & Acne Prone Man Skin Care with 1% Lactic Acid, Hyaluronic Acid | Exfoliating Brightening Cleanser Face Wash For Men | 100ml",
                 "price": "\u20b9178",
                 "rating": 4.7,
                 "review_count": 178,
-                "rank": 9,
+                "rank": 10,
                 "brand": "PROWL",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -2647,7 +2669,7 @@
                 "price": "\u20b9414",
                 "rating": 4.9,
                 "review_count": 0,
-                "rank": 10,
+                "rank": 11,
                 "brand": "Vitamin",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -2658,7 +2680,7 @@
                 "price": "\u20b9420",
                 "rating": 5.0,
                 "review_count": 420,
-                "rank": 11,
+                "rank": 12,
                 "brand": "Ayurvedic",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -2669,7 +2691,7 @@
                 "price": "\u20b93,149",
                 "rating": 4.7,
                 "review_count": 236679,
-                "rank": 12,
+                "rank": 13,
                 "brand": "Mary",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -2680,7 +2702,7 @@
                 "price": "\u20b9269",
                 "rating": 5.0,
                 "review_count": 269,
-                "rank": 13,
+                "rank": 14,
                 "brand": "Salicylic",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -2691,7 +2713,7 @@
                 "price": "\u20b9559",
                 "rating": 4.8,
                 "review_count": 74533,
-                "rank": 14,
+                "rank": 15,
                 "brand": "Dr.",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -2702,7 +2724,7 @@
                 "price": "\u20b9659",
                 "rating": 4.7,
                 "review_count": 26360,
-                "rank": 15,
+                "rank": 16,
                 "brand": "Venusia",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -2713,7 +2735,7 @@
                 "price": "\u20b9299",
                 "rating": 5.0,
                 "review_count": 299,
-                "rank": 16,
+                "rank": 17,
                 "brand": "Ovya",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -2724,7 +2746,7 @@
                 "price": "\u20b9338",
                 "rating": 5.0,
                 "review_count": 338,
-                "rank": 17,
+                "rank": 18,
                 "brand": "Dermacy",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -2735,7 +2757,7 @@
                 "price": "\u20b91,723",
                 "rating": 4.6,
                 "review_count": 34460,
-                "rank": 18,
+                "rank": 19,
                 "brand": "Nivea",
                 "category": "Men's Face Wash",
                 "url": "",
@@ -2746,19 +2768,8 @@
                 "price": "\u20b91,450",
                 "rating": 4.6,
                 "review_count": 725,
-                "rank": 19,
-                "brand": "La",
-                "category": "Men's Face Wash",
-                "url": "",
-                "source": "amazon"
-            },
-            {
-                "title": "L\u2019Or\u00e9al Paris Men Expert Wake-up Effect Face Wash 100ml, Hydra Energetic Face Wash With Vitamin C*, for Dull and Tired-Looking Skin, Cleanses Pores and Energises Skin",
-                "price": "\u20b9975",
-                "rating": 4.6,
-                "review_count": 975,
                 "rank": 20,
-                "brand": "L\u2019Or\u00e9al",
+                "brand": "La",
                 "category": "Men's Face Wash",
                 "url": "",
                 "source": "amazon"
@@ -2887,11 +2898,22 @@
                 "source": "nykaa"
             },
             {
-                "title": "From Muse To Honeymoon, We Found Exact Dupes For Bestselling Huda Beauty Lipsticks To Try Out",
+                "title": "ind\u0113 wild secures $5 million from Unilever Ventures to fuel international growth",
                 "price": "",
                 "rating": 0.0,
                 "review_count": 0,
                 "rank": 2,
+                "brand": "",
+                "category": "Hair Colour",
+                "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQa0U1WmtNMEFVcUpoV2d4OHRRLTFrX3dISFU4cTh5R3BiblFFV1JjeVNDUFloZEUwa1M1UTRJMXNMbk9oU3BEeUxUeHIyMS1CeG92UC10QUtubldlLVJwNTF5V0RHdmt3NUc0aUZNR1NvTVNZWlppSTJyQnFxcnAtb3hNb3QwN2dVNnJfbTZB?oc=5",
+                "source": "nykaa"
+            },
+            {
+                "title": "From Muse To Honeymoon, We Found Exact Dupes For Bestselling Huda Beauty Lipsticks To Try Out",
+                "price": "",
+                "rating": 0.0,
+                "review_count": 0,
+                "rank": 3,
                 "brand": "",
                 "category": "Hair Colour",
                 "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR0pGTmVRUG1KUXJDRGJMM29Yei0wWWJfdHZPR19XVWNzWTJFSk51b3YyLUo3MHdjdW1uM1F2SWVjSE9sQnY3UWdmYUxxdHdYRXJ4OVZZODRYRXVsX2dDbFJEbm1JQ2xxemUxRENFZmMwVGJES0w3RUZJTWN3Ym4yRDB5bEVTR2Q4bndmVTNURHBPdFNzeEZCWmlwN2RFaVc2c0hIbnJwWE1jSS1BWVZiOTZ2Q2NMYm1QRURxSnFqa1DSAcYBQVVfeXFMUFFJSUEtVE94R3lzZ01XV1VCNmxKT3Z1RUNKSHhiNTVUeTVKUVlFUkRoSjdETkdGajNUVDJxWGNMMDU3TnEtU2x0My1GekNuc3Ztd1dXa1VoRUJ4UzZnMmdWVHY0TkUtdXE4cHZld3oxUnN4RVRWelo2R095VGVJRXd1OHduNXVEX0hWWE00ZElrcUhhckFveGR6NDJUazhfcVg1MnYtRloyY1dzMWFIMVdTNmlVVFdGZldZbE93dDZmSWg5ZDhn?oc=5",
@@ -2995,7 +3017,7 @@
                 "rank": 1,
                 "brand": "Ghar",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/ghar-soaps-magic-sandalwood-saffron-glutathione-face-wash/p/itmc452143aa9e0d?pid=FCWHF88CNJYKPP9Z&lid=LSTFCWHF88CNJYKPP9Z4K1PKY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_1&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrIQOSYj5vinsUaVCAN52gVKneldh8dqv1uEzx4aIQf0D2Q%3D%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/ghar-soaps-magic-sandalwood-saffron-glutathione-face-wash/p/itmc452143aa9e0d?pid=FCWHF88CNJYKPP9Z&lid=LSTFCWHF88CNJYKPP9Z4K1PKY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_1&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6vsi9qk3umVTeaPqAjVTwz0eldh8dqv1uEzx4aIQf0D2Q%3D%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3006,7 +3028,7 @@
                 "rank": 2,
                 "brand": "Dermatouch",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/dermatouch-bright-even-tone-niacinamide-vitamin-e-kojic-acid-face-wash/p/itmb307868da4089?pid=FCWGQXV7NBWCH5FZ&lid=LSTFCWGQXV7NBWCH5FZTEXHDA&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_2&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrISKL8E8nweAC_wHo0JpcqpSO-ZylpsWrHhVSW4uuiwdrQ%3D%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/dermatouch-bright-even-tone-niacinamide-vitamin-e-kojic-acid-face-wash/p/itmb307868da4089?pid=FCWGQXV7NBWCH5FZ&lid=LSTFCWGQXV7NBWCH5FZTEXHDA&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_2&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6skSh_TUVJMOd3ccCF4pnNQb7cXps86bY1s0jZEXbQ7Xg%3D%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3017,7 +3039,7 @@
                 "rank": 3,
                 "brand": "Foxtale",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/foxtale-vit-c-super-glow-face-wash-papaya-enzyme-reduces-tan-boosts/p/itm494e29702330b?pid=FCWHBNCNEFS6VKGV&lid=LSTFCWHBNCNEFS6VKGVQ6SSLF&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_3&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrISbhF-uvQPYesUfcY4gudg_l9lGeKxQnUS5A3kMtJUgCg%3D%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/foxtale-vit-c-super-glow-face-wash-papaya-enzyme-reduces-tan-boosts/p/itm494e29702330b?pid=FCWHBNCNEFS6VKGV&lid=LSTFCWHBNCNEFS6VKGVQ6SSLF&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_3&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6tRX5ZbuGreogP8ibVIPk4Vl9lGeKxQnUS5A3kMtJUgCg%3D%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3028,7 +3050,7 @@
                 "rank": 4,
                 "brand": "Dot",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/dot-key-vitamin-c-e-super-bright-gel-glowing-brightening-skin-all-type-face-wash/p/itm398980ca599bb?pid=FCWHH34NETTCCHPU&lid=LSTFCWHH34NETTCCHPUSQGFDZ&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_4&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.FCWHH34NETTCCHPU.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/dot-key-vitamin-c-e-super-bright-gel-glowing-brightening-skin-all-type-face-wash/p/itm398980ca599bb?pid=FCWHH34NETTCCHPU&lid=LSTFCWHH34NETTCCHPUSQGFDZ&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_4&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.FCWHH34NETTCCHPU.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3039,18 +3061,18 @@
                 "rank": 5,
                 "brand": "MUUCHSTAC",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/muuchstac-ocean-men-fights-acne-pimple-brighten-skin-all-skin-types-face-wash/p/itm1b3dcca8a2456?pid=FCWFMNZH4CCAZNHS&lid=LSTFCWFMNZH4CCAZNHS2AUUNV&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&spotlightTagId=default_BestsellerId_g9b%2Fema%2F5la%2Fjav&srno=b_1_5&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.FCWFMNZH4CCAZNHS.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/muuchstac-ocean-men-fights-acne-pimple-brighten-skin-all-skin-types-face-wash/p/itm1b3dcca8a2456?pid=FCWFMNZH4CCAZNHS&lid=LSTFCWFMNZH4CCAZNHS2AUUNV&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&spotlightTagId=default_BestsellerId_g9b%2Fema%2F5la%2Fjav&srno=b_1_5&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.FCWFMNZH4CCAZNHS.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
-                "title": "Dermatouch Bye Bye Pigmentation  Niacinamide, Kojic Acid, & Glutathione Face Wash",
-                "price": "\u20b9136",
+                "title": "deconstruct Salicylic Acid + Niacinamide  for Oil Control & Acne-Prone Skin Face Wash",
+                "price": "\u20b9275",
                 "rating": 0.0,
-                "review_count": 83692,
+                "review_count": 12713,
                 "rank": 6,
-                "brand": "Dermatouch",
+                "brand": "deconstruct",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/dermatouch-bye-pigmentation-niacinamide-kojic-acid-glutathione-face-wash/p/itm887803b4fb488?pid=FCWGQXV76BVCRGME&lid=LSTFCWGQXV76BVCRGMEZAMYG5&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_6&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrITY8KgliEIuA94-K6IRjyVq61om0zhbz_L-zjexoqQqzPUFjCTyOHoHZs-Z5_PS_w0%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/deconstruct-salicylic-acid-niacinamide-oil-control-acne-prone-skin-face-wash/p/itm0a51463bbe73a?pid=FCWGAYNH5TGBZ2QZ&lid=LSTFCWGAYNH5TGBZ2QZVEILBI&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_6&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6tIDUKSo7pxqCA_zZr0JrvAtkSMilol55Q5u4j2kteL7Q%3D%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3061,7 +3083,7 @@
                 "rank": 7,
                 "brand": "Mamaearth",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/mamaearth-tea-tree-oil-control-facewash-neem-normal-oily-skin-upto-12-hrs-cleanses-gently-controls-acne-pimples-face-wash/p/itm64526ac580a29?pid=FCWH93HDGGGTFRSJ&lid=LSTFCWH93HDGGGTFRSJKR4DNP&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_7&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.FCWH93HDGGGTFRSJ.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/mamaearth-tea-tree-oil-control-facewash-neem-normal-oily-skin-upto-12-hrs-cleanses-gently-controls-acne-pimples-face-wash/p/itm64526ac580a29?pid=FCWH93HDGGGTFRSJ&lid=LSTFCWH93HDGGGTFRSJKR4DNP&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_7&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.FCWH93HDGGGTFRSJ.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3072,29 +3094,29 @@
                 "rank": 8,
                 "brand": "Ghar",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/ghar-soaps-magic-sandalwood-saffron-glutathione-face-wash/p/itmc452143aa9e0d?pid=FCWHF88CNJYKPP9Z&lid=LSTFCWHF88CNJYKPP9Z4K1PKY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_8&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.FCWHF88CNJYKPP9Z.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/ghar-soaps-magic-sandalwood-saffron-glutathione-face-wash/p/itmc452143aa9e0d?pid=FCWHF88CNJYKPP9Z&lid=LSTFCWHF88CNJYKPP9Z4K1PKY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_8&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.FCWHF88CNJYKPP9Z.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
-                "title": "deconstruct Salicylic Acid + Niacinamide  for Oil Control & Acne-Prone Skin Face Wash",
-                "price": "\u20b9275",
+                "title": "Dermatouch Bye Bye Pigmentation  Niacinamide, Kojic Acid, & Glutathione Face Wash",
+                "price": "\u20b9136",
                 "rating": 0.0,
-                "review_count": 12713,
+                "review_count": 83692,
                 "rank": 9,
-                "brand": "deconstruct",
+                "brand": "Dermatouch",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/deconstruct-salicylic-acid-niacinamide-oil-control-acne-prone-skin-face-wash/p/itm0a51463bbe73a?pid=FCWGAYNH5TGBZ2QZ&lid=LSTFCWGAYNH5TGBZ2QZVEILBI&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_9&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrIQbQlRR2bCsGjREBu-1PQgIPQiJB44PlEKgFKO--WcC2w%3D%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/dermatouch-bye-pigmentation-niacinamide-kojic-acid-glutathione-face-wash/p/itm887803b4fb488?pid=FCWGQXV76BVCRGME&lid=LSTFCWGQXV76BVCRGMEZAMYG5&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_9&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6tiT30M0o3DygT3xCAB4PqPRI40jrXx9WdIHxqolwmhQPUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
-                "title": "RoseBrite Neem Tulsi  with Green Tea Extract, Niacinamide & Allantoin for Oil Control, Acne Care & Soothing Cleanser Face Wash",
-                "price": "\u20b9127",
+                "title": "NewClick Activated Charcoal  100ml | Deep Cleansing Formula | For Oily & Acne Prone Skin a2091 Face Wash",
+                "price": "\u20b9170",
                 "rating": 0.0,
-                "review_count": 8,
+                "review_count": 0,
                 "rank": 10,
-                "brand": "RoseBrite",
+                "brand": "NewClick",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/rosebrite-neem-tulsi-green-tea-extract-niacinamide-allantoin-oil-control-acne-care-soothing-cleanser-face-wash/p/itm44bde73d023c7?pid=FCWHJGZ9HHCPACVE&lid=LSTFCWHJGZ9HHCPACVEGSPMZE&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_10&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.FCWHJGZ9HHCPACVE.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/newclick-activated-charcoal-100ml-deep-cleansing-formula-oily-acne-prone-skin-a2091-face-wash/p/itmbb71e26b7f6e9?pid=FCWHMGKCBZVGUVTV&lid=LSTFCWHMGKCBZVGUVTVY46N8M&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_10&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.FCWHMGKCBZVGUVTV.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3105,18 +3127,18 @@
                 "rank": 11,
                 "brand": "Dermatouch",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/dermatouch-bright-even-skin-tone-gentle-cleanser-helps-reduce-dark-spots-uneven-ph-5-5-daily-face-wash/p/itmb13ed1bcd9af8?pid=FCWHK66Y2XXHR32H&lid=LSTFCWHK66Y2XXHR32HJEER2A&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_11&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrIQGJMFwjUGKonIouION1HnxYZaCTairNCawjzSYo278-vUFjCTyOHoHZs-Z5_PS_w0%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/dermatouch-bright-even-skin-tone-gentle-cleanser-helps-reduce-dark-spots-uneven-ph-5-5-daily-face-wash/p/itmb13ed1bcd9af8?pid=FCWHK66Y2XXHR32H&lid=LSTFCWHK66Y2XXHR32HJEER2A&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_11&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6sowiFGePRRbbxGB5Bs4MY5YZaCTairNCawjzSYo278-vUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
-                "title": "Chemist at Play Acne Control Face wash | Salicylic Acid, Niacinamide Facewash| For Men & Women Face Wash",
-                "price": "\u20b9199",
+                "title": "SAYY Balance 1-O-1 Gentle Hydrating Face Cleanser with Niacinamide & Hyaluronic Acid Face Wash",
+                "price": "\u20b9265",
                 "rating": 0.0,
-                "review_count": 25103,
+                "review_count": 4131,
                 "rank": 12,
-                "brand": "Chemist",
+                "brand": "SAYY",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/chemist-play-acne-control-face-wash-salicylic-acid-niacinamide-facewash-men-women/p/itmef250117a2967?pid=FCWHBA2YTGKBNYZK&lid=LSTFCWHBA2YTGKBNYZKAMTLWM&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_12&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrIRMRjq9xMC-0L22MiPQ5SnwNhc5XUMVj_xD73rXSnrr5A%3D%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/sayy-balance-1-o-1-gentle-hydrating-face-cleanser-niacinamide-hyaluronic-acid-wash/p/itm704ad4a10d6d7?pid=FCWHHF4YWEMDCRCR&lid=LSTFCWHHF4YWEMDCRCRATZX5W&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_12&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6sojnxNiq_WNSItwenHVqTeYuAJ-VhZHdIQzdWznnA4Og%3D%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3127,7 +3149,7 @@
                 "rank": 13,
                 "brand": "Mamaearth",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/mamaearth-tea-tree-natural-acne-pimples-removal-neem-face-wash/p/itm6569fa6f05849?pid=FCWF7DWUZJNFDFHD&lid=LSTFCWF7DWUZJNFDFHD4LSGOQ&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_13&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.FCWF7DWUZJNFDFHD.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/mamaearth-tea-tree-natural-acne-pimples-removal-neem-face-wash/p/itm6569fa6f05849?pid=FCWF7DWUZJNFDFHD&lid=LSTFCWF7DWUZJNFDFHD4LSGOQ&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_13&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.FCWF7DWUZJNFDFHD.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3138,18 +3160,18 @@
                 "rank": 14,
                 "brand": "Mamaearth",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/mamaearth-ubtan-natural-all-skin-types-turmeric-saffron-tan-face-wash/p/itmd6ec871d69748?pid=FCWGS7FFQGRP2ZCR&lid=LSTFCWGS7FFQGRP2ZCRCBYJAP&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_14&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.FCWGS7FFQGRP2ZCR.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/mamaearth-ubtan-natural-all-skin-types-turmeric-saffron-tan-face-wash/p/itmd6ec871d69748?pid=FCWGS7FFQGRP2ZCR&lid=LSTFCWGS7FFQGRP2ZCRCBYJAP&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_14&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.FCWGS7FFQGRP2ZCR.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
-                "title": "SAYY Balance 1-O-1 Gentle Hydrating Face Cleanser with Niacinamide & Hyaluronic Acid Face Wash",
-                "price": "\u20b9265",
+                "title": "Dermatouch Salicylic Acid 2%  | For Acne & Oil Control |Suitable to All Skin Types Face Wash",
+                "price": "\u20b9136",
                 "rating": 0.0,
-                "review_count": 4131,
+                "review_count": 75205,
                 "rank": 15,
-                "brand": "SAYY",
+                "brand": "Dermatouch",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/sayy-balance-1-o-1-gentle-hydrating-face-cleanser-niacinamide-hyaluronic-acid-wash/p/itm704ad4a10d6d7?pid=FCWHHF4YWEMDCRCR&lid=LSTFCWHHF4YWEMDCRCRATZX5W&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_15&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrITIHHpGUkdQjK5UR3NMWoLZwP0VAlnL4He5I_TZmxfkbQ%3D%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/dermatouch-salicylic-acid-2-acne-oil-control-suitable-all-skin-types-face-wash/p/itm75d96bc76c9ec?pid=FCWGTGWQF5UB78UJ&lid=LSTFCWGTGWQF5UB78UJOKSHKS&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_15&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6sptBFqgVMMIqRPps73qiRwBf3xR-kTMc1tTV9Z5QLGGPUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3160,18 +3182,7 @@
                 "rank": 16,
                 "brand": "Dermatouch",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/dermatouch-bright-even-skin-tone-face-wash/p/itm50197726d5ba4?pid=FCWHGEHSKDFKX87F&lid=LSTFCWHGEHSKDFKX87FTORSQP&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_16&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.FCWHGEHSKDFKX87F.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
-                "source": "flipkart"
-            },
-            {
-                "title": "Dermatouch Salicylic Acid 2%  | For Acne & Oil Control |Suitable to All Skin Types Face Wash",
-                "price": "\u20b9136",
-                "rating": 0.0,
-                "review_count": 75205,
-                "rank": 17,
-                "brand": "Dermatouch",
-                "category": "Face Wash",
-                "url": "https://www.flipkart.com/dermatouch-salicylic-acid-2-acne-oil-control-suitable-all-skin-types-face-wash/p/itm75d96bc76c9ec?pid=FCWGTGWQF5UB78UJ&lid=LSTFCWGTGWQF5UB78UJOKSHKS&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_17&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrIQ_2oiliqHbIkzEl3XKEe_9ePn0MmhFKzhBN_240IUHrPUFjCTyOHoHZs-Z5_PS_w0%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/dermatouch-bright-even-skin-tone-face-wash/p/itm50197726d5ba4?pid=FCWHGEHSKDFKX87F&lid=LSTFCWHGEHSKDFKX87FTORSQP&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_16&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.FCWHGEHSKDFKX87F.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3179,10 +3190,21 @@
                 "price": "\u20b9159",
                 "rating": 0.0,
                 "review_count": 5746,
-                "rank": 18,
+                "rank": 17,
                 "brand": "BELLAVITA",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/bellavita-niacinamide-ph-balanced-non-irritating-treats-pigmentation-evens-out-skin-tone-all-types-face-wash/p/itm04a0a34a877be?pid=FCWH6BHHZYAPVJVX&lid=LSTFCWH6BHHZYAPVJVXIJ0ECU&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_18&otracker=browse&iid=en_3CrPELLtzAUDiYcs205GOyMjr_gvoqt9q9uvfQwcrIQ8kgKY30lK0XuVp2wSkyLUOKosVNo3lDkbFx9I-nnvSa1KaJFgl7OeEdnchgqx4tA%3D&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/bellavita-niacinamide-ph-balanced-non-irritating-treats-pigmentation-evens-out-skin-tone-all-types-face-wash/p/itm04a0a34a877be?pid=FCWH6BHHZYAPVJVX&lid=LSTFCWH6BHHZYAPVJVXIJ0ECU&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_17&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6tJh2lCoO0eX2_7W7AwI7GiOKosVNo3lDkbFx9I-nnvSfNzSJq5vUoApsGIr4piuio%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "Becalm Airy face wash for oily skin Face Wash",
+                "price": "\u20b9197",
+                "rating": 0.0,
+                "review_count": 7521,
+                "rank": 18,
+                "brand": "Becalm",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/becalm-airy-face-wash-oily-skin/p/itm3a41035bf2b8c?pid=FCWHKEGYR8KK5KCC&lid=LSTFCWHKEGYR8KK5KCCMZ3FZ5&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_18&otracker=browse&fm=organic&iid=en_f3Iy6ucv6aAsED4oXfcsH84ox1gtnypdhB2rMEv7N6u8udMQJrSoEF2-f49vzP2rK4s_7Ae4auPdx2qgs2Uh1g%3D%3D&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3193,7 +3215,7 @@
                 "rank": 19,
                 "brand": "ETHIGLO",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/ethiglo-skin-lightening-deeply-clean-kojic-acid-niacinamide-vitamin-c-face-wash/p/itmca5bbfcc3dec2?pid=BBLG7GWX8HQMEARY&lid=LSTBBLG7GWX8HQMEARYKB6KQR&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_19&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.BBLG7GWX8HQMEARY.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/ethiglo-skin-lightening-deeply-clean-kojic-acid-niacinamide-vitamin-c-face-wash/p/itmca5bbfcc3dec2?pid=BBLG7GWX8HQMEARY&lid=LSTBBLG7GWX8HQMEARYKB6KQR&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_19&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.BBLG7GWX8HQMEARY.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3204,7 +3226,7 @@
                 "rank": 20,
                 "brand": "Plum",
                 "category": "Face Wash",
-                "url": "https://www.flipkart.com/plum-2-niacinamide-rice-water-bright-soft-skin-non-drying-gentle-face-wash/p/itmd297bf8eb89a5?pid=FCWHHE886Q67TS2J&lid=LSTFCWHHE886Q67TS2JEHWJIL&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_20&otracker=browse&iid=94f05bc6-cfc6-449f-91d8-dd0c8ad7cc35.FCWHHE886Q67TS2J.SEARCH&ssid=7yxyjm82hc0000001779224898990&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/plum-2-niacinamide-rice-water-bright-soft-skin-non-drying-gentle-face-wash/p/itmd297bf8eb89a5?pid=FCWHHE886Q67TS2J&lid=LSTFCWHHE886Q67TS2JEHWJIL&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_20&otracker=browse&fm=organic&iid=9cb8b9bb-7daa-4756-9fe3-f13dcdc53088.FCWHHE886Q67TS2J.SEARCH&ppt=None&ppn=None&ssid=wmubi223uo0000001779225999081&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3215,7 +3237,7 @@
                 "rank": 1,
                 "brand": "deconstruct",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/deconstruct-sunscreen-spf-50-pa-lightweight-gel-in-vivo-tested-non-greasy-men-women/p/itm5f0007953439e?pid=SNRGFA6Y2FNDGHHH&lid=LSTSNRGFA6Y2FNDGHHHCLX3IY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_1&otracker=browse&fm=organic&iid=en_rRnr21yaKIAu49-vexOjBEaQ1HScnhYQFRf5GHKDsfa4wgWQ_QMDgm7vdUed9tVI8Zt5AxVIw-euDG-FQzlQOw%3D%3D&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/deconstruct-sunscreen-spf-50-pa-lightweight-gel-in-vivo-tested-non-greasy-men-women/p/itm5f0007953439e?pid=SNRGFA6Y2FNDGHHH&lid=LSTSNRGFA6Y2FNDGHHHCLX3IY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_1&otracker=browse&fm=organic&iid=en_1QM468e6WYw8sTcg6paw7yLAnO4z7Athmuim41noBsYSntZ2ZncgZStqOU4KocUa8Zt5AxVIw-euDG-FQzlQOw%3D%3D&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3226,7 +3248,7 @@
                 "rank": 2,
                 "brand": "LOTUS",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/lotus-herbals-sunscreen-spf-50-pa-safe-sun-hydroactivated-2x-protection-tan-10-hr-water-resistant/p/itm1dd0108af5a9c?pid=SNRHM9VZGPQVKTMF&lid=LSTSNRHM9VZGPQVKTMFUYMKNO&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_2&otracker=browse&fm=organic&iid=en_rRnr21yaKIAu49-vexOjBEaQ1HScnhYQFRf5GHKDsfbJVXioeqdlJBECbAiu87qvy7AFT7XWHFUVamde1Ry-yA%3D%3D&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/lotus-herbals-sunscreen-spf-50-pa-safe-sun-hydroactivated-2x-protection-tan-10-hr-water-resistant/p/itm1dd0108af5a9c?pid=SNRHM9VZGPQVKTMF&lid=LSTSNRHM9VZGPQVKTMFUYMKNO&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_2&otracker=browse&fm=organic&iid=en_1QM468e6WYw8sTcg6paw7yLAnO4z7Athmuim41noBsYmj2LtOO-4E-rBKSEhp5Kqy7AFT7XWHFUVamde1Ry-yA%3D%3D&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3237,7 +3259,7 @@
                 "rank": 3,
                 "brand": "Reginald",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/reginald-men-sunscreen-spf-50-pa-moisturising-50-11-actives-combo/p/itmf352884cda7b8?pid=SNRH5VVFVTDESHGT&lid=LSTSNRH5VVFVTDESHGTVXIE4U&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_3&otracker=browse&fm=organic&iid=en_rRnr21yaKIAu49-vexOjBEaQ1HScnhYQFRf5GHKDsfaRb7qks8M7wNftTxZ_NGsD-wENe0Zg3PG1ZcO0DmBoMw%3D%3D&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/reginald-men-sunscreen-spf-50-pa-moisturising-50-11-actives-combo/p/itmf352884cda7b8?pid=SNRH5VVFVTDESHGT&lid=LSTSNRH5VVFVTDESHGTVXIE4U&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_3&otracker=browse&fm=organic&iid=en_1QM468e6WYw8sTcg6paw7yLAnO4z7Athmuim41noBsaODBhktFMDhcw5PQFRKrVD-wENe0Zg3PG1ZcO0DmBoMw%3D%3D&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3248,7 +3270,7 @@
                 "rank": 4,
                 "brand": "Dot",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/dot-key-sunscreen-spf-50-pa-blueberry-hydrate-barrier-repair-in-vivo-tested-ceramides/p/itmfc685fd217749?pid=SNRHGXGPAZKKGTFS&lid=LSTSNRHGXGPAZKKGTFSLQOBLB&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_4&otracker=browse&fm=organic&iid=4c363bfe-15e7-4af5-a7ad-b09bcfece6c0.SNRHGXGPAZKKGTFS.SEARCH&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/dot-key-sunscreen-spf-50-pa-blueberry-hydrate-barrier-repair-in-vivo-tested-ceramides/p/itmfc685fd217749?pid=SNRHGXGPAZKKGTFS&lid=LSTSNRHGXGPAZKKGTFSLQOBLB&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_4&otracker=browse&fm=organic&iid=f4cff741-9ef2-4dae-bada-467fbfbb27f5.SNRHGXGPAZKKGTFS.SEARCH&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3259,7 +3281,7 @@
                 "rank": 5,
                 "brand": "POND's",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/pond-s-sunscreen-spf-55-pa-light-sun-miracle-protect-bright-3-active-niacinamide/p/itma1027d8b6bfbf?pid=SNRGMTAGSVE2GCVF&lid=LSTSNRGMTAGSVE2GCVFTOST8K&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_5&otracker=browse&fm=organic&iid=4c363bfe-15e7-4af5-a7ad-b09bcfece6c0.SNRGMTAGSVE2GCVF.SEARCH&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/pond-s-sunscreen-spf-55-pa-light-sun-miracle-protect-bright-3-active-niacinamide/p/itma1027d8b6bfbf?pid=SNRGMTAGSVE2GCVF&lid=LSTSNRGMTAGSVE2GCVFTOST8K&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_5&otracker=browse&fm=organic&iid=f4cff741-9ef2-4dae-bada-467fbfbb27f5.SNRGMTAGSVE2GCVF.SEARCH&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3270,7 +3292,7 @@
                 "rank": 6,
                 "brand": "Reginald",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/reginaldmen-sunscreen-spf-50-pa-sunscreen-spf-pa-moisturising-50-pa-11-actives-mini/p/itm0c16bba934cfd?pid=SNRHEB7Q74QJHEJQ&lid=LSTSNRHEB7Q74QJHEJQFXTQZC&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_6&otracker=browse&fm=organic&iid=4c363bfe-15e7-4af5-a7ad-b09bcfece6c0.SNRHEB7Q74QJHEJQ.SEARCH&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/reginaldmen-sunscreen-spf-50-pa-sunscreen-spf-pa-moisturising-50-pa-11-actives-mini/p/itm0c16bba934cfd?pid=SNRHEB7Q74QJHEJQ&lid=LSTSNRHEB7Q74QJHEJQFXTQZC&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_6&otracker=browse&fm=organic&iid=f4cff741-9ef2-4dae-bada-467fbfbb27f5.SNRHEB7Q74QJHEJQ.SEARCH&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3281,7 +3303,7 @@
                 "rank": 7,
                 "brand": "Sonavi",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/sonavi-sunscreen-spf-50-pa-daily-glow-vitamin-c-e-sun-protection/p/itm3e33d7ba2a367?pid=SNRH5ZWUHCA4YWMD&lid=LSTSNRH5ZWUHCA4YWMDAS6JWH&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_7&otracker=browse&fm=organic&iid=4c363bfe-15e7-4af5-a7ad-b09bcfece6c0.SNRH5ZWUHCA4YWMD.SEARCH&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/sonavi-sunscreen-spf-50-pa-daily-glow-vitamin-c-e-sun-protection/p/itm3e33d7ba2a367?pid=SNRH5ZWUHCA4YWMD&lid=LSTSNRH5ZWUHCA4YWMDAS6JWH&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_7&otracker=browse&fm=organic&iid=f4cff741-9ef2-4dae-bada-467fbfbb27f5.SNRH5ZWUHCA4YWMD.SEARCH&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3292,7 +3314,7 @@
                 "rank": 8,
                 "brand": "Dermatouch",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/dermatouch-sunscreen-spf-50-pa-multivitamin-gel-uva-uvb-protection-zero-white-cast/p/itm60edd9d448b33?pid=SNRGXU4MFZZCGSZD&lid=LSTSNRGXU4MFZZCGSZDTUEQBA&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_8&otracker=browse&fm=organic&iid=en_rRnr21yaKIAu49-vexOjBEaQ1HScnhYQFRf5GHKDsfY9K2qeNTt2T22jKwHCP9k9im2J1ZPpLugp7EsJKKyL4vUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/dermatouch-sunscreen-spf-50-pa-multivitamin-gel-uva-uvb-protection-zero-white-cast/p/itm60edd9d448b33?pid=SNRGXU4MFZZCGSZD&lid=LSTSNRGXU4MFZZCGSZDTUEQBA&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_8&otracker=browse&fm=organic&iid=en_1QM468e6WYw8sTcg6paw7yLAnO4z7Athmuim41noBsYcz50VCBlTsOMIxzzWCWPRim2J1ZPpLugp7EsJKKyL4vUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
@@ -3303,18 +3325,18 @@
                 "rank": 9,
                 "brand": "smartdrops",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/smartdrops-sunscreen-spf-50-pa-collagen-skin-lift-50-hydrating-sun-cream/p/itm35448ab7d32ef?pid=SNRHH64NZ7EUVRS6&lid=LSTSNRHH64NZ7EUVRS6HRWVKY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_9&otracker=browse&fm=organic&iid=en_rRnr21yaKIAu49-vexOjBEaQ1HScnhYQFRf5GHKDsfblxFiIVbiJnFPAuSIQzrINAET7xIcdLPPjFsNBFxstofUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/smartdrops-sunscreen-spf-50-pa-collagen-skin-lift-50-hydrating-sun-cream/p/itm35448ab7d32ef?pid=SNRHH64NZ7EUVRS6&lid=LSTSNRHH64NZ7EUVRS6HRWVKY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_9&otracker=browse&fm=organic&iid=en_1QM468e6WYw8sTcg6paw7yLAnO4z7Athmuim41noBsZzswFTURS_bYYoWN0rw862xrWyVH_N6DEw5MApLlILHvUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             },
             {
-                "title": "smartdrops Sunscreen - SPF 50 PA++++ Collagen & Hyaluronic Acid Sunscreen SPF 50+ PA++++",
-                "price": "\u20b9153",
+                "title": "Helocare Sunscreen - SPF 50 PA++++ 360\u00ba Water Gel Ultra-Light, Hydrating Sunscreen for Dry & Dehydrated Skin",
+                "price": "\u20b9305",
                 "rating": 0.0,
-                "review_count": 430,
+                "review_count": 0,
                 "rank": 10,
-                "brand": "smartdrops",
+                "brand": "Helocare",
                 "category": "Sunscreen",
-                "url": "https://www.flipkart.com/smartdrops-sunscreen-spf-50-pa-collagen-hyaluronic-acid-50/p/itmfaf71d9720a4f?pid=SNRHH3NFRTBNFEQF&lid=LSTSNRHH3NFRTBNFEQFDYUN9D&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_10&otracker=browse&fm=organic&iid=4c363bfe-15e7-4af5-a7ad-b09bcfece6c0.SNRHH3NFRTBNFEQF.SEARCH&ppt=browse&ppn=browse&ssid=klymwm69o00000001779224924681&ov_redirect=true&ov_redirect=true",
+                "url": "https://www.flipkart.com/helocare-sunscreen-spf-50-pa-360-water-gel-ultra-light-hydrating-dry-dehydrated-skin/p/itm1387d070d1d30?pid=SNRHN2SZM2WKGZYC&lid=LSTSNRHN2SZM2WKGZYCUW3WRH&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_10&otracker=browse&fm=organic&iid=f4cff741-9ef2-4dae-bada-467fbfbb27f5.SNRHN2SZM2WKGZYC.SEARCH&ppt=browse&ppn=browse&ssid=343za3jme80000001779226018353&ov_redirect=true&ov_redirect=true",
                 "source": "flipkart"
             }
         ]
