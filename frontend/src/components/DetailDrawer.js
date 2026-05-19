@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import { findSourceUrl, getSeedData } from '@/lib/data';
 
 export default function DetailDrawer({ signal, onClose }) {
   const drawerRef = useRef(null);
@@ -24,7 +25,10 @@ export default function DetailDrawer({ signal, onClose }) {
   const title = s.trend_name || s.title || '';
   const platform = s.platform || s.label?.replace(/[\[\]]/g, '') || s.source || '';
   const source = s.source_platform || s.subreddit ? `r/${s.subreddit}` : s.source || '';
-  const url = s.url || s.link || '';
+  let url = s.url || s.link || '';
+  if (!url && s.trend_name) {
+    url = findSourceUrl(s, getSeedData());
+  }
   const context = s.context || s.summary || '';
   const insight = s.result || '';
   const metric = s.metric || '';

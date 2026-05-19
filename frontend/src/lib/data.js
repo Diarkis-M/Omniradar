@@ -186,5 +186,74 @@ export function getUrgencyLevel(trend) {
   return URGENCY_MAP[label] || "WATCH";
 }
 
+// ---------------------------------------------------------------------------
+// findSourceUrl(trend, data) — match an AI trend back to a raw signal URL
+// ---------------------------------------------------------------------------
+export function findSourceUrl(trend, data) {
+  if (!trend || !data) return '';
+  if (trend.url || trend.link) return trend.url || trend.link;
+
+  const allSignals = getAllSignals(data);
+  const trendName = (trend.trend_name || trend.title || '').toLowerCase();
+  const sourcePlatform = (trend.source_platform || '').toLowerCase();
+
+  // Keywords from the trend name (words > 3 chars)
+  const keywords = trendName.split(/[\s\-\/]+/).filter(w => w.length > 3);
+
+  // Subreddit mentioned in source_platform, e.g. "Reddit (r/curlyhair)"
+  const subMatch = sourcePlatform.match(/r\/(\w+)/);
+  const subreddit = subMatch ? subMatch[1].toLowerCase() : '';
+
+  // Map source_platform text to platform labels used by getAllSignals
+  const targets = [];
+  if (sourcePlatform.includes('reddit'))    targets.push('reddit');
+  if (sourcePlatform.includes('amazon'))    targets.push('amazon');
+  if (sourcePlatform.includes('flipkart'))  targets.push('flipkart');
+  if (sourcePlatform.includes('nykaa'))     targets.push('nykaa');
+  if (sourcePlatform.includes('instagram')) targets.push('instagram');
+  if (sourcePlatform.includes('pinterest')) targets.push('pinterest');
+  if (sourcePlatform.includes('hindustan') || sourcePlatform.includes('times') || sourcePlatform.includes('news'))
+    targets.push('news');
+  if (sourcePlatform.includes('e-commerce')) targets.push('amazon', 'flipkart', 'nykaa');
+  if (sourcePlatform.includes('google'))  targets.push('google');
+  if (sourcePlatform.includes('social'))  targets.push('social');
+
+  // Filter by platform
+  let candidates = allSignals;
+  if (targets.length > 0) {
+    const filtered = allSignals.filter(s => {
+      const p = (s.platform || '').toLowerCase();
+      return targets.some(t => p.includes(t));
+    });
+    if (filtered.length > 0) candidates = filtered;
+  }
+
+  // Narrow by subreddit when available
+  if (subreddit) {
+    const subFiltered = candidates.filter(s => (s.subreddit || '').toLowerCase() === subreddit);
+    if (subFiltered.length > 0) candidates = subFiltered;
+  }
+
+  // Score each signal by keyword overlap with trend name
+  let bestMatch = null;
+  let bestScore = 0;
+  for (const signal of candidates) {
+    const title = (signal.title || '').toLowerCase();
+    const url = signal.url || signal.link || '';
+    if (!url) continue;
+    let score = 0;
+    for (const kw of keywords) {
+      if (title.includes(kw.toLowerCase())) score++;
+    }
+    if (score > bestScore) { bestScore = score; bestMatch = signal; }
+  }
+
+  if (bestMatch) return bestMatch.url || bestMatch.link || '';
+
+  // Fallback: first signal from the matching platform that has a URL
+  const fb = candidates.find(s => s.url || s.link);
+  return fb ? (fb.url || fb.link || '') : '';
+}
+
 const seedData = getSeedData();
 export default seedData;
