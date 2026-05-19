@@ -1,0 +1,822 @@
+{
+    "timestamp": "2026-05-19T23:12:41.155085",
+    "trends": [
+        {
+            "label": "[REDDIT EXCLUSIVE]",
+            "trend_name": "Damp Styling for Curls",
+            "source_platform": "Reddit (r/curlyhair)",
+            "metric": "102 upvotes",
+            "context": "Users are shifting away from complex routines to simpler, more effective hair styling techniques.",
+            "result": "Damp styling provides superior definition and manageability for curly hair textures."
+        },
+        {
+            "label": "[INGREDIENT BREAKOUT]",
+            "trend_name": "Niacinamide-Infused Cleansers",
+            "source_platform": "E-commerce (Flipkart/Amazon)",
+            "metric": "Trending Search",
+            "context": "High-volume sales for face washes combining salicylic acid with niacinamide for acne-prone skin.",
+            "result": "Dual-action cleansers effectively target breakouts while brightening and soothing skin barriers."
+        },
+        {
+            "label": "[CROSS-PLATFORM]",
+            "trend_name": "Men's Grooming Expansion",
+            "source_platform": "Nykaa/Instagram",
+            "metric": "Trending Search",
+            "context": "Dedicated platforms and services are normalizing professional grooming routines for Indian men.",
+            "result": "Increased consumer demand for specialized beard care and professional salon-at-home services."
+        },
+        {
+            "label": "[GOOGLE/SOCIAL]",
+            "trend_name": "Textured Beauty Aesthetics",
+            "source_platform": "Grazia India/Social",
+            "context": "Beauty discourse is moving beyond 'glass skin' to prioritize visible, natural skin textures.",
+            "result": "Shift toward authentic, raw skin finishes over heavy, filtered makeup looks."
+        },
+        {
+            "label": "[INSTAGRAM BUZZ]",
+            "trend_name": "10-Minute Quick Creme Color",
+            "source_platform": "Instagram",
+            "metric": "Trending Search",
+            "context": "Users are seeking rapid, no-bleach hair color solutions for immediate grey coverage.",
+            "result": "High interest in time-efficient, low-damage hair transformation products for busy lifestyles."
+        }
+    ],
+    "ecommerce_signals": {
+        "amazon": [
+            {
+                "title": "Yonka Face Cleansing Gel, 6.76 Ounce",
+                "price": "\u20b97,692",
+                "rating": 4.8,
+                "review_count": 384759,
+                "rank": 1,
+                "brand": "Yonka",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Albizzia Cleansing Mousse | Lightweight Gentle Face Cleanser with Niacinamide, Tea tree Extract & BHA | 1% Salicylic Acid Foaming Face Wash for Acne & Blackheads | For All Skin Types | 100 ML",
+                "price": "\u20b9919",
+                "rating": 4.9,
+                "review_count": 919,
+                "rank": 2,
+                "brand": "Albizzia",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Protein 10 Greentox Micro-Bubble Facial Cleanser for Men & Women | Deep Cleansing Face Wash with 10 Plant Proteins | Hydrating, Soothing & Skin Barrier Care | Suitable for Dry & Oily Skin | 100 ml (Expiry: Nov 2026)",
+                "price": "\u20b9986",
+                "rating": 5.0,
+                "review_count": 98624,
+                "rank": 3,
+                "brand": "Protein",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Brightening Skincare Combo - Kumkumadi Ubtan Face Wash (100ml), Aqua Sunscreen Gel SPF 50 PA++++ (50ml) & Kumkumadi Tailam Face Oil (30ml) - De-Tan & Glow Kit for All Skin Types| Men & Women (Pack of 3)",
+                "price": "\u20b9999",
+                "rating": 5.0,
+                "review_count": 555,
+                "rank": 4,
+                "brand": "Brightening",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Elois Face Cleanser Gel Foaming Face Wash For Deep Cleansing & Hydrating With Green Apple Extract For Oily Acne Prone Skin For Men Women & Girls - 100gm",
+                "price": "\u20b9220",
+                "rating": 4.9,
+                "review_count": 220,
+                "rank": 5,
+                "brand": "Elois",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "The Ordinary Glucoside Foaming Cleanser, Gentle Foaming Face Wash for All Skin Types Including Sensitive Skin, 150ml",
+                "price": "\u20b91,400",
+                "rating": 4.7,
+                "review_count": 93333,
+                "rank": 6,
+                "brand": "The",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Every Man Jack Beard + Face Wash, Sandalwood, 6.7 Fluid Ounce",
+                "price": "\u20b92,688",
+                "rating": 4.7,
+                "review_count": 135695,
+                "rank": 7,
+                "brand": "Every",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Bulldog Natural Skincare For Men Face Wash (5 oz)",
+                "price": "\u20b91,461",
+                "rating": 4.7,
+                "review_count": 97426,
+                "rank": 8,
+                "brand": "Bulldog",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "PROWL by Tiger Shroff Facewash 2% Salicylic Acid | Anti Acne For Dry Combination Oily & Acne Prone Man Skin Care with 1% Lactic Acid, Hyaluronic Acid | Exfoliating Brightening Cleanser Face Wash For Men | 100ml",
+                "price": "\u20b9178",
+                "rating": 4.7,
+                "review_count": 178,
+                "rank": 9,
+                "brand": "PROWL",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Vitamin C Turmeric Brightening Face Wash | Removes Dark Spots & Hyperpigmentation | Sulfate-Free Facewash for Glowing Skin | Herbal Face Cleanser for All Skin Types | Men & Women | 200 ml",
+                "price": "\u20b9414",
+                "rating": 4.9,
+                "review_count": 0,
+                "rank": 10,
+                "brand": "Vitamin",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Ayurvedic Face Cleanser 100 ml | Aloe Vera Gentle & Hydrating Face Wash | Skin Brightening Cleanser for Dry, Sensitive, Oily & Acne-Prone Skin | Men & Women",
+                "price": "\u20b9420",
+                "rating": 5.0,
+                "review_count": 420,
+                "rank": 11,
+                "brand": "Ayurvedic",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Mary Kay MK Men Daily Facial Wash 4.5 FL OZ",
+                "price": "\u20b92,882",
+                "rating": 4.7,
+                "review_count": 216573,
+                "rank": 12,
+                "brand": "Mary",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Salicylic Acid Face Wash for Oily & Acne Prone Skin | 1.5% BHA + 2% Green Tea Extract | Oil Control, Deep Pore Cleansing & Pimples Care | pH Balanced Cleanser | 100ml",
+                "price": "\u20b9269",
+                "rating": 5.0,
+                "review_count": 269,
+                "rank": 13,
+                "brand": "Salicylic",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Dr. Reddy's Venusia Acne Facewash | Sebum Control & Hydrating Formula | Clears Acne-marks | Enriched with encapsulated Salicylic Acid, Glycolic Acid, Ceramide - Oat - HA Complex | Oily & Acne-Prone Skin | 75g",
+                "price": "\u20b9559",
+                "rating": 4.8,
+                "review_count": 74533,
+                "rank": 14,
+                "brand": "Dr.",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Venusia Hydrating & Barrier Protect Cleanser | With Ceramides, Hyaluronic Acid, Niacinamide, Pro-Vitamin B5 | For Normal, Dry, and Sensitive Skin | PAMAS free | Skin-friendly Ph | 250 ml | From the House of No.1 Dermatologist Recommended Moisturiser",
+                "price": "\u20b9659",
+                "rating": 4.7,
+                "review_count": 26360,
+                "rank": 15,
+                "brand": "Venusia",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Ovya Pure Advanced Multivitamin Face Wash with Salicylic Acid, Vitamin C, Niacinamide & Glutathione | Acne Face Wash for Oily Skin | Oil Control, Deep Cleansing & Brightening Daily Face Cleanser for Men & Women | 100 ml",
+                "price": "\u20b9299",
+                "rating": 5.0,
+                "review_count": 299,
+                "rank": 16,
+                "brand": "Ovya",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Dermacy Ceramide - 3 Gentle Cleansing Face Wash | Barrier - Strengthening Face Wash That Helps Rinse Toxins & Make Skin Soft | 3 - Essential Ceramides + 2.5% Hyaluronic Acid Complex + ThermoActiv Spring Water|For Sensitive Skin|100ml",
+                "price": "\u20b9338",
+                "rating": 5.0,
+                "review_count": 338,
+                "rank": 17,
+                "brand": "Dermacy",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Nivea Men For Men Double Action Moisture Rich Face Wash, Vitamin Enriched,147.9 Ml (Pack Of 1)",
+                "price": "\u20b91,723",
+                "rating": 4.6,
+                "review_count": 34460,
+                "rank": 18,
+                "brand": "Nivea",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "La Roche-Posay Mela B3 Anti-Dark Spots Face Wash for Pigmented skin| Micro-Peeling Exfoliating Anti-Pigmentation Cleanser with Melasyl & Niacinamide, 200 ml",
+                "price": "\u20b91,450",
+                "rating": 4.6,
+                "review_count": 725,
+                "rank": 19,
+                "brand": "La",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "L\u2019Or\u00e9al Paris Men Expert Wake-up Effect Face Wash 100ml, Hydra Energetic Face Wash With Vitamin C*, for Dull and Tired-Looking Skin, Cleanses Pores and Energises Skin",
+                "price": "\u20b9975",
+                "rating": 4.6,
+                "review_count": 975,
+                "rank": 20,
+                "brand": "L\u2019Or\u00e9al",
+                "category": "Men's Face Wash",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Palmer's Cocoa Butter Formula Men Body & Face Moisturizer 8.50 oz",
+                "price": "\u20b92,012",
+                "rating": 4.7,
+                "review_count": 80480,
+                "rank": 1,
+                "brand": "Palmer's",
+                "category": "Men's Moisturizer",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Bulldog Skincare For Men, Age Defense Moisturizer, 3.3 fl oz (100 ml)",
+                "price": "\u20b92,070",
+                "rating": 4.7,
+                "review_count": 2070,
+                "rank": 2,
+                "brand": "Bulldog",
+                "category": "Men's Moisturizer",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Cos-IQ EIP Enchante Soft Light Moisturizer Cream, 200 ml | for Face, Hand & Body, Non-Greasy Cream with Vitamin E | Intense Moisturizing for All Skin Types (Pack of 2)",
+                "price": "\u20b9526",
+                "rating": 0.0,
+                "review_count": 13150,
+                "rank": 3,
+                "brand": "Cos-IQ",
+                "category": "Men's Moisturizer",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "THE Naked BEE - 2.5 Oz Vitamin C Facial Moisturizer SPF 30 -Orange Blossom",
+                "price": "\u20b93,207",
+                "rating": 4.6,
+                "review_count": 452494,
+                "rank": 4,
+                "brand": "THE",
+                "category": "Men's Moisturizer",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "VINR 10% Niacinamide Moisturizer for Face | Infused with Grape Extract | Brightening & Oil Control Face Cream | Reduces Acne Marks & Dark Spots | Hydrating Lightweight Cream for Clear Skin | Suitable for All Skin Types \u2013 Men & Women | 50g",
+                "price": "\u20b9466",
+                "rating": 4.9,
+                "review_count": 932,
+                "rank": 5,
+                "brand": "VINR",
+                "category": "Men's Moisturizer",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "The Ordinary Natural Moisturizing Factors + Beta Glucan, Lightweight Gel Moisturizer for All-Day Hydration, 100ml",
+                "price": "\u20b91,450",
+                "rating": 4.6,
+                "review_count": 1450,
+                "rank": 6,
+                "brand": "The",
+                "category": "Men's Moisturizer",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Moiz Daily Moisturizing Cream for Face & Body | Formulated with 9 Moisturizers | Suitable for Sensitive Skin | Paraben free & Cruelty free-50g",
+                "price": "\u20b9185",
+                "rating": 4.6,
+                "review_count": 370,
+                "rank": 7,
+                "brand": "Moiz",
+                "category": "Men's Moisturizer",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "Bulldog Mens Skincare And Grooming Skincare And Grooming For Men Original Face Moisturizer Gel, 3.3 Ounce",
+                "price": "\u20b91,387",
+                "rating": 4.6,
+                "review_count": 1387,
+                "rank": 8,
+                "brand": "Bulldog",
+                "category": "Men's Moisturizer",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "belif The True Cream Moisturizing Bomb 10ml | Intense Face Moisturizer for Dry, Sensitive Skin | 26-Hour Hydration with Panthenol, Oat & Comfrey | Hydrating Cream for Women & Men",
+                "price": "\u20b9750",
+                "rating": 4.6,
+                "review_count": 7500,
+                "rank": 9,
+                "brand": "belif",
+                "category": "Men's Moisturizer",
+                "url": "",
+                "source": "amazon"
+            },
+            {
+                "title": "WishCare 3:1:1 Barrier Bounce Moisturizer Cream for Face | Barrier Repair Moisturizer With Ceramides, EGF & Mung Mucin | Repairs Skin Barrier, Calms & Soothes | For Dry Skin, Oily & Combination Skin | For Men and Women | 50ml",
+                "price": "\u20b9339",
+                "rating": 4.6,
+                "review_count": 678,
+                "rank": 10,
+                "brand": "WishCare",
+                "category": "Men's Moisturizer",
+                "url": "",
+                "source": "amazon"
+            }
+        ],
+        "nykaa": [
+            {
+                "title": "ELLE Exclusive: I Let A Korean Haircare Brand Fix My Scalp, And RYO Really Understood The Assignment",
+                "price": "",
+                "rating": 0.0,
+                "review_count": 0,
+                "rank": 1,
+                "brand": "",
+                "category": "Hair Colour",
+                "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9vNG5IRzUwX1JoN2hKcWVCRS1RTWNYaDRpY1dmLTZNMnlzRVVFaXNoNlVmNlhEM2EtaTNMX1JtLWl0U28xaU42aDNBRmtPRG81TVc0N2NGdw?oc=5",
+                "source": "nykaa"
+            },
+            {
+                "title": "From Muse To Honeymoon, We Found Exact Dupes For Bestselling Huda Beauty Lipsticks To Try Out",
+                "price": "",
+                "rating": 0.0,
+                "review_count": 0,
+                "rank": 2,
+                "brand": "",
+                "category": "Hair Colour",
+                "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR0pGTmVRUG1KUXJDRGJMM29Yei0wWWJfdHZPR19XVWNzWTJFSk51b3YyLUo3MHdjdW1uM1F2SWVjSE9sQnY3UWdmYUxxdHdYRXJ4OVZZODRYRXVsX2dDbFJEbm1JQ2xxemUxRENFZmMwVGJES0w3RUZJTWN3Ym4yRDB5bEVTR2Q4bndmVTNURHBPdFNzeEZCWmlwN2RFaVc2c0hIbnJwWE1jSS1BWVZiOTZ2Q2NMYm1QRURxSnFqa1DSAcYBQVVfeXFMUFFJSUEtVE94R3lzZ01XV1VCNmxKT3Z1RUNKSHhiNTVUeTVKUVlFUkRoSjdETkdGajNUVDJxWGNMMDU3TnEtU2x0My1GekNuc3Ztd1dXa1VoRUJ4UzZnMmdWVHY0TkUtdXE4cHZld3oxUnN4RVRWelo2R095VGVJRXd1OHduNXVEX0hWWE00ZElrcUhhckFveGR6NDJUazhfcVg1MnYtRloyY1dzMWFIMVdTNmlVVFdGZldZbE93dDZmSWg5ZDhn?oc=5",
+                "source": "nykaa"
+            },
+            {
+                "title": "Nykaa and Snapchat Launch India\u2019s First Gen Z Beauty Creator Incubator Program",
+                "price": "",
+                "rating": 0.0,
+                "review_count": 0,
+                "rank": 1,
+                "brand": "",
+                "category": "Beard Care",
+                "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRUE1bWJVZ0VSYkNYcS15RTl0Z0JLQU92QlRZRm53elk3ckZ2M1FHeHRtUUE5SXRzX2d3TVUtdXAyQkJ2S0ZsVTdaQ3E2dldzUlk5SG1FN0lUZWlIOWF6MExCOEJtS1ZZTVpaN2FrWi1FS2wxcWtoV0N5VE5JUWgxTk9hRGJBUEpSV3g1RU94WTd2MVNGRDVUVDhGLWk2R2ozd1ZvVjJiU3lwXzJLV2lRU05taHBrMUN6WXlKQU5FM1FVQWhXMnl5NFR6OE03Zw?oc=5",
+                "source": "nykaa"
+            },
+            {
+                "title": "Top Beauty and Skincare Brands Celebrating Women\u2019s Day 2026",
+                "price": "",
+                "rating": 0.0,
+                "review_count": 0,
+                "rank": 2,
+                "brand": "",
+                "category": "Beard Care",
+                "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNN21iMlBZMlpLMUJkT2xoQ3dxb29Md2Q2UkRpb0hlbmhNMUtfRUFwYThlSmxZcXlKVlNZZUNCajJVaVhsVktjWThaLUZqSzRVMFhZUkVJME5ob0JDM1FUWmVTZDhIelVOTGtidnhHaTNENXlSZWRJelhoN25vLTdkUE1sMWQ5QWozZ1cwS1ktLUtNUXlhM2dTZ1BtUEdWYmNZbjNkcHVpU3AxQ2lRZHJBWTJoQ0k2N0ZoMFBrM0VuWGFldENFTktZTlhR?oc=5",
+                "source": "nykaa"
+            },
+            {
+                "title": "Nykaa expands portfolio with male grooming brand Gentleman\u2019s Crew",
+                "price": "",
+                "rating": 0.0,
+                "review_count": 0,
+                "rank": 3,
+                "brand": "",
+                "category": "Beard Care",
+                "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVWVaWEhIWXctb2RQM182dlpzRmtxak16TXBST3JiVnFqeFJjd2RjOEFxS1g5WVZnZEZyMnpwZ18wY3BNSkdvaFR0M1l3Q3lTeXlraEpKdTUyNWl0UE1DdTdncVJKTkhUUnZ4UjB0VC1yZ0xxR0dTOXZHRWY2T3g5cHZ3Um5ZQTZlYjdoajdwRUs0NXNVRnVUZVMtUGlLNFk4ZWRr?oc=5",
+                "source": "nykaa"
+            },
+            {
+                "title": "Nykaa rolls out Nykaaman.com, an e-commerce platform for male grooming products",
+                "price": "",
+                "rating": 0.0,
+                "review_count": 0,
+                "rank": 4,
+                "brand": "",
+                "category": "Beard Care",
+                "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQXzhFSWY3Z2xabmpydF9KeVJuSXQxbWJPTnRKOHJScVY2LWhxT1dhdDlfdlVKalRyWDhnckFsZGpTWEIyZDk0VkNiU3RrQ2JvUFNoOU4wY0xvZkNRamdjOVJVQlpCYzBud2NheVdVcFc2bXp0R05MVVF2R3pSdDRYMDJWM01xVFZSbGFBMm1nOERvZE5jdHZ4R3FIWFVaZGtP?oc=5",
+                "source": "nykaa"
+            },
+            {
+                "title": "Nykaa launches NykaaMan.com dedicated to men\u2019s grooming",
+                "price": "",
+                "rating": 0.0,
+                "review_count": 0,
+                "rank": 5,
+                "brand": "",
+                "category": "Beard Care",
+                "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaTRmakQycU5XT0E5YWhlY1psQVpTWjVLVGFFeFhzazlybWRTbE9BbG9uZEUxQUEtMHpxcllSSjU2RFcxMUVJUHBZVXpKUWdSVFo3Y3VBRE9GNnE1ZkdMWnFsLVNxd1lxMTRQUWx6VEJ2b0FMMmxUQ1M4V2VRQi14c0dsNHR4a195WVhSS1dSbnp2aFRxYVVCcTNxaF8?oc=5",
+                "source": "nykaa"
+            },
+            {
+                "title": "Top 6 Shampoo Brands to Control Oily Hair and Greasy Scalp",
+                "price": "",
+                "rating": 0.0,
+                "review_count": 0,
+                "rank": 1,
+                "brand": "",
+                "category": "Shampoo Men",
+                "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYTBJTmM3My0wNUlXZzZUS0V6SVc1ZTZuMDVtcjF0M29JSzRybFV2bUpUSkI3Ym12Y3RPSUFINjhQYVFJekJzdWIxWnBVdXNCbUZYTlJ6WDdnbnduS3RpN2s3N1k5R21GR2o2Zl9DVjlONXRlV2NUcjNXcy10WmNpSVAyNnFodFZvLUp0Ql84MkRGWUFRenBuOXhQSFNOTEVkX09MaHBGOUFEeVpVaTJwZWd2MXZtWXY3dTlkSEs5NUt1Mms?oc=5",
+                "source": "nykaa"
+            },
+            {
+                "title": "Case Study: How Nykaa Man used social media to create category awareness?",
+                "price": "",
+                "rating": 0.0,
+                "review_count": 0,
+                "rank": 2,
+                "brand": "",
+                "category": "Shampoo Men",
+                "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTnZXV1VDYmpqV3RjSWZyY1VENWJadTU4Nlk1QmZLZXc1Yld1VmdobHlOVzdwYWxkMWY3UU1EaXBXSm5NbTBBOU5YT2xVVTByTWxBTTM3dWtJRG9VYzY5dENGQXJxX1dIa0xYMlgybGJVa1BpV2V3bHVmdWtHMWJYTFpkbWN4V3VnQXNxWHdkNGdxMjVFNzZRX0xmVS1raFFTdFNKT0ZtajhRTXBCY3fSAa4BQVVfeXFMTU52V1dVQ2Jqald0Y0lmcmNVRDViWnU1ODZZNUJmS2V3NWJXdVZnaGx5Tlc3cGFsZDFmN1FNRGlwV0puTW0wQTlOWE9sVVUwck1sQU0zN3VrSURvVWM2OXRDRkFycV9XSGtMWDJYMmxiVWtQaVdld2x1ZnVrRzFiWExaZG1jeFd1Z0FzcVh3ZDRncTI1RTc2UV9MZlUta2hRU3RTSk9GbWo4UU1wQmN3?oc=5",
+                "source": "nykaa"
+            },
+            {
+                "title": "Nykaa Fashion Delivers in 3 Hours \u2013 Blazers Faster Than Pizza!",
+                "price": "",
+                "rating": 0.0,
+                "review_count": 0,
+                "rank": 3,
+                "brand": "",
+                "category": "Shampoo Men",
+                "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaGx0WDJqc1RhY3VvQ2pGZXlXeTZxa0YzaWR1YS1CbVhlenVZc0JTMXlzMTk0M0FIbnZfX3dwRlRfcWFpT3NHSnREX2V1MWd2T2tNWS1aS0tGZ0tBRVJnd2JqYW5jekVDeHRwVnE0Qm5ENEJZZE1pdXAzSTNNc09IOU1uazBnTXk0bHY2R1FXLTJhTUo5ZWNDU3BvM0pQQTRzMFZGVGw5RVZCMnZlMkcyeHBoZjY4bE81dTY1amdnamRacHVL?oc=5",
+                "source": "nykaa"
+            }
+        ],
+        "flipkart": [
+            {
+                "title": "Ghar Soaps Magic  | With Sandalwood, Saffron & Glutathione Face Wash",
+                "price": "\u20b9299",
+                "rating": 0.0,
+                "review_count": 52685,
+                "rank": 1,
+                "brand": "Ghar",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/ghar-soaps-magic-sandalwood-saffron-glutathione-face-wash/p/itmc452143aa9e0d?pid=FCWHF88CNJYKPP9Z&lid=LSTFCWHF88CNJYKPP9Z4K1PKY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_1&otracker=browse&fm=organic&iid=en_b-i6DXufii7dhPIOyrLjOHHwuCVl2hFBtuLbbKdW1CI5NAHuiYBOlXPGdsTzA0IEPHCW9Ia63A827UWVz2REmA%3D%3D&ppt=None&ppn=None&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "HIMALAYA Purifying Neem|Clinically proven to fight against acne and pimples|100% naturally derived Neem for both men and women Face Wash",
+                "price": "\u20b9162",
+                "rating": 0.0,
+                "review_count": 415864,
+                "rank": 2,
+                "brand": "HIMALAYA",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/himalaya-purifying-neem-clinically-proven-fight-against-acne-pimples-100-naturally-derived-neem-both-men-women-face-wash/p/itm591447d599f87?pid=FCWF8PHRYUBKMK9P&lid=LSTFCWF8PHRYUBKMK9P3WBGKD&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_2&otracker=browse&fm=organic&iid=en_b-i6DXufii7dhPIOyrLjOHHwuCVl2hFBtuLbbKdW1CJf00gFIOaiYR8bkGngC5Pn0qJxrucu4dCcq-wNkXyi6oQEIsITtCzc4bHaOMTqL08%3D&ppt=None&ppn=None&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "Chemist at Play Gentle Exfoliating  - Gives Instant Glow | For Oily, Dry & Combination Skin Face Wash",
+                "price": "\u20b9185",
+                "rating": 0.0,
+                "review_count": 34910,
+                "rank": 3,
+                "brand": "Chemist",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/chemist-play-gentle-exfoliating-gives-instant-glow-oily-dry-combination-skin-face-wash/p/itm767f6e6bf470c?pid=FCWHGPNYZFHAAGYH&lid=LSTFCWHGPNYZFHAAGYHYLL4GB&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_3&otracker=browse&fm=organic&iid=en_b-i6DXufii7dhPIOyrLjOHHwuCVl2hFBtuLbbKdW1CKA04nN5t6rs9mdBH6w7-4bna82LH1t_7Ln8pbbVZ08Pw%3D%3D&ppt=None&ppn=None&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "MUUCHSTAC Ocean for Men, Fights Acne & Pimple, Brighten Skin, All Skin Types Face Wash",
+                "price": "\u20b9220",
+                "rating": 0.0,
+                "review_count": 1359918,
+                "rank": 4,
+                "brand": "MUUCHSTAC",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/muuchstac-ocean-men-fights-acne-pimple-brighten-skin-all-skin-types-face-wash/p/itm1b3dcca8a2456?pid=FCWFMNZH4CCAZNHS&lid=LSTFCWFMNZH4CCAZNHS2AUUNV&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&spotlightTagId=default_BestsellerId_g9b%2Fema%2F5la%2Fjav&srno=b_1_4&otracker=browse&fm=organic&iid=990be9f6-0ae3-463a-bcc6-270960516035.FCWFMNZH4CCAZNHS.SEARCH&ppt=browse&ppn=browse&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "MUUCHSTAC Ocean for Men, Anti Acne & Pimple, Skin Brightening, All Skin Types Face Wash",
+                "price": "\u20b9291",
+                "rating": 0.0,
+                "review_count": 1359918,
+                "rank": 5,
+                "brand": "MUUCHSTAC",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/muuchstac-ocean-men-anti-acne-pimple-skin-brightening-all-types-face-wash/p/itm465bda6157fa0?pid=FCWFQCDQMJDAJZPJ&lid=LSTFCWFQCDQMJDAJZPJW8WQ10&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&spotlightTagId=default_BestsellerId_g9b%2Fema%2F5la%2Fjav&srno=b_1_5&otracker=browse&fm=organic&iid=990be9f6-0ae3-463a-bcc6-270960516035.FCWFQCDQMJDAJZPJ.SEARCH&ppt=None&ppn=None&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "Mamaearth Rice Water & Niacinamide for Glass Skin  Face Wash",
+                "price": "\u20b9373",
+                "rating": 0.0,
+                "review_count": 264692,
+                "rank": 6,
+                "brand": "Mamaearth",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/mamaearth-rice-water-niacinamide-glass-skin-face-wash/p/itm22ddd37f6d44a?pid=FCWH3VGUPH9EVVHT&lid=LSTFCWH3VGUPH9EVVHTWG8TR6&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_6&otracker=browse&fm=organic&iid=en_b-i6DXufii7dhPIOyrLjOHHwuCVl2hFBtuLbbKdW1CKlfa3k_J3A4aSbjnsGIk_UxS_fy4Un_ckQZ5kiX_8lzzaXAI15xQIPam6Hsx54Dy4%3D&ppt=None&ppn=None&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "Ghar Soaps Magic  | With Sandalwood, Saffron & Glutathione Face Wash",
+                "price": "\u20b9299",
+                "rating": 0.0,
+                "review_count": 52685,
+                "rank": 7,
+                "brand": "Ghar",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/ghar-soaps-magic-sandalwood-saffron-glutathione-face-wash/p/itmc452143aa9e0d?pid=FCWHF88CNJYKPP9Z&lid=LSTFCWHF88CNJYKPP9Z4K1PKY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_7&otracker=browse&fm=organic&iid=990be9f6-0ae3-463a-bcc6-270960516035.FCWHF88CNJYKPP9Z.SEARCH&ppt=None&ppn=None&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "MUUCHSTAC Ocean for Men, Fights Acne & Pimple, Skin Brightening, All Skin Types Face Wash",
+                "price": "\u20b9165",
+                "rating": 0.0,
+                "review_count": 1359918,
+                "rank": 8,
+                "brand": "MUUCHSTAC",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/muuchstac-ocean-men-fights-acne-pimple-skin-brightening-all-types-face-wash/p/itmccf2fabba75fe?pid=FCWF9RWJGXBYCP6T&lid=LSTFCWF9RWJGXBYCP6TQQFLOO&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_8&otracker=browse&fm=organic&iid=990be9f6-0ae3-463a-bcc6-270960516035.FCWF9RWJGXBYCP6T.SEARCH&ppt=None&ppn=None&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "Mamaearth Rice Dewy Bright  With Rice Water & Niacinamide for Glass Skin | Face Wash",
+                "price": "\u20b9300",
+                "rating": 0.0,
+                "review_count": 3653,
+                "rank": 9,
+                "brand": "Mamaearth",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/mamaearth-rice-dewy-bright-water-niacinamide-glass-skin-face-wash/p/itm428b176e81893?pid=FCWHGFCH3ZUAARC8&lid=LSTFCWHGFCH3ZUAARC82IYOW4&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_9&otracker=browse&fm=organic&iid=en_b-i6DXufii7dhPIOyrLjOHHwuCVl2hFBtuLbbKdW1CJvuGTd19P4_GEovSoRZCcxmkwcw3Ti5d0Ap1-8AosHT8DbPjpExlWhmpgUQnOg2ao%3D&ppt=None&ppn=None&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "HIMALAYA Purifying Neem|Clinically proven to fight against acne and pimples|100% naturally derived Neem for both men and women Face Wash",
+                "price": "\u20b9162",
+                "rating": 0.0,
+                "review_count": 415864,
+                "rank": 10,
+                "brand": "HIMALAYA",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/himalaya-purifying-neem-clinically-proven-fight-against-acne-pimples-100-naturally-derived-neem-both-men-women-face-wash/p/itm591447d599f87?pid=FCWF8PHRYUBKMK9P&lid=LSTFCWF8PHRYUBKMK9P3WBGKD&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_10&otracker=browse&fm=organic&iid=990be9f6-0ae3-463a-bcc6-270960516035.FCWF8PHRYUBKMK9P.SEARCH&ppt=None&ppn=None&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "The Derma Co Sali-Cinamide Anti-Acne with 2% Salicylic Acid & 2% Niacinamide Face Wash",
+                "price": "\u20b9237",
+                "rating": 0.0,
+                "review_count": 180277,
+                "rank": 11,
+                "brand": "The",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/derma-co-sali-cinamide-anti-acne-2-salicylic-acid-niacinamide-face-wash/p/itm7b10785e0b8d3?pid=FCWGPF8QKHCMMKDY&lid=LSTFCWGPF8QKHCMMKDYFELTFL&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_11&otracker=browse&fm=organic&iid=en_b-i6DXufii7dhPIOyrLjOHHwuCVl2hFBtuLbbKdW1CJaDpS0YcYB6nAemsuV13HgJqKGk_poeFZOXZtnVdSnREF-RT516lNv_aeXIPaRjgQ%3D&ppt=None&ppn=None&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "The Derma Co Sali-Cinamide Anti-Acne with Salicylic Acid & Niacinamide Face Wash",
+                "price": "\u20b9448",
+                "rating": 0.0,
+                "review_count": 6379,
+                "rank": 12,
+                "brand": "The",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/derma-co-sali-cinamide-anti-acne-salicylic-acid-niacinamide-face-wash/p/itm64eda94c0327a?pid=FCWHYKJJPY99C5CV&lid=LSTFCWHYKJJPY99C5CVTHXUA8&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_12&otracker=browse&fm=organic&iid=en_b-i6DXufii7dhPIOyrLjOHHwuCVl2hFBtuLbbKdW1CKZLgmDCemmL04swWGM0rfjHMspwbwaGzGpkZFRuIpoTawh4GJdccUSVsNPTiGrw-0%3D&ppt=None&ppn=None&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "ETHIGLO Skin Lightening Facewash|Deeply Cleanse with Kojic Acid, Niacinamide & Vitamin C Face Wash",
+                "price": "\u20b9257",
+                "rating": 0.0,
+                "review_count": 29431,
+                "rank": 13,
+                "brand": "ETHIGLO",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/ethiglo-skin-lightening-facewash-deeply-cleanse-kojic-acid-niacinamide-vitamin-c-face-wash/p/itm13d5fd76375d7?pid=FCWG7GXNHYG4Q2Z8&lid=LSTFCWG7GXNHYG4Q2Z87ZWHK9&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_13&otracker=browse&fm=organic&iid=990be9f6-0ae3-463a-bcc6-270960516035.FCWG7GXNHYG4Q2Z8.SEARCH&ppt=None&ppn=None&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "Dot & Key Vitamin C + E Super Bright Gel For Glowing And Brightening Skin |All Skin Types| Face Wash",
+                "price": "\u20b9214",
+                "rating": 0.0,
+                "review_count": 131007,
+                "rank": 14,
+                "brand": "Dot",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/dot-key-vitamin-c-e-super-bright-gel-glowing-brightening-skin-all-types-face-wash/p/itmf3ade2c3220e9?pid=FCWGS226TGJSYRFK&lid=LSTFCWGS226TGJSYRFKKFNWMO&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_14&otracker=browse&fm=organic&iid=990be9f6-0ae3-463a-bcc6-270960516035.FCWGS226TGJSYRFK.SEARCH&ppt=None&ppn=None&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "Mamaearth Rice  With Rice Water & Niacinamide for Glass Skin Face Wash",
+                "price": "\u20b9480",
+                "rating": 0.0,
+                "review_count": 264692,
+                "rank": 15,
+                "brand": "Mamaearth",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/mamaearth-rice-water-niacinamide-glass-skin-face-wash/p/itm9db135ea0deb6?pid=FCWGNZ9FZFCXKSRY&lid=LSTFCWGNZ9FZFCXKSRYDVXFMA&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_15&otracker=browse&fm=organic&iid=en_b-i6DXufii7dhPIOyrLjOHHwuCVl2hFBtuLbbKdW1CLcVR7ehvjyILAJt7aqZT_fIAE-gR-IHPx9Vqwjshg-u3xHajYNyuWOMhuZi0IpbY0%3D&ppt=None&ppn=None&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "Mamaearth Tea Tree Natural  for Acne & Pimples Removal with Neem Face Wash",
+                "price": "\u20b9240",
+                "rating": 0.0,
+                "review_count": 151068,
+                "rank": 16,
+                "brand": "Mamaearth",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/mamaearth-tea-tree-natural-acne-pimples-removal-neem-face-wash/p/itm6569fa6f05849?pid=FCWF7DWUZJNFDFHD&lid=LSTFCWF7DWUZJNFDFHD4LSGOQ&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_16&otracker=browse&fm=organic&iid=990be9f6-0ae3-463a-bcc6-270960516035.FCWF7DWUZJNFDFHD.SEARCH&ppt=None&ppn=None&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "Nidhii Skincare GlowBoost Vitamin C  for Brightening & Deep Cleanser for Glowing Skin | Reduces Pigmentation & Boosts Collagen Face Wash",
+                "price": "\u20b9270",
+                "rating": 0.0,
+                "review_count": 286,
+                "rank": 17,
+                "brand": "Nidhii",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/nidhii-skincare-glowboost-vitamin-c-brightening-deep-cleanser-glowing-skin-reduces-pigmentation-boosts-collagen-face-wash/p/itm79c140f4de9f0?pid=FCWHKVZ2XDGN6DFQ&lid=LSTFCWHKVZ2XDGN6DFQ9UVCKG&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_17&otracker=browse&fm=organic&iid=en_b-i6DXufii7dhPIOyrLjOHHwuCVl2hFBtuLbbKdW1CLp9mDj1mHMiav5G8Ajz_fQyExElqliatpnEIgI3fuk-PUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "Puremist Ocean Facewash for Men | Brightening  | Daily Use | All Skin Types Face Wash",
+                "price": "\u20b9152",
+                "rating": 0.0,
+                "review_count": 354,
+                "rank": 18,
+                "brand": "Puremist",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/puremist-ocean-facewash-men-brightening-daily-use-all-skin-types-face-wash/p/itm43badde005847?pid=FCWHDK8GGCY45EBP&lid=LSTFCWHDK8GGCY45EBPL24RSN&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_18&otracker=browse&fm=organic&iid=en_b-i6DXufii7dhPIOyrLjOHHwuCVl2hFBtuLbbKdW1CJ6lh_KRZ_RFTDeASJMXZegwzqSVnSNjWrnmSSB0Mo-f_UFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "Dermatouch Bright & Even Tone  with Niacinamide, Vitamin E and Kojic Acid Face Wash",
+                "price": "\u20b9120",
+                "rating": 0.0,
+                "review_count": 426105,
+                "rank": 19,
+                "brand": "Dermatouch",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/dermatouch-bright-even-tone-niacinamide-vitamin-e-kojic-acid-face-wash/p/itmb307868da4089?pid=FCWGQXV7NBWCH5FZ&lid=LSTFCWGQXV7NBWCH5FZTEXHDA&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_19&otracker=browse&fm=organic&iid=990be9f6-0ae3-463a-bcc6-270960516035.FCWGQXV7NBWCH5FZ.SEARCH&ppt=None&ppn=None&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "The Derma Co Sali-Cinamide Anti-Acne with 2% Salicylic Acid and Niacinamide Face Wash",
+                "price": "\u20b9331",
+                "rating": 0.0,
+                "review_count": 180277,
+                "rank": 20,
+                "brand": "The",
+                "category": "Face Wash",
+                "url": "https://www.flipkart.com/derma-co-sali-cinamide-anti-acne-2-salicylic-acid-niacinamide-face-wash/p/itm4a9d3688407b2?pid=FCWH2QCRWSU7H97G&lid=LSTFCWH2QCRWSU7H97GCV39KV&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fjav&srno=b_1_20&otracker=browse&fm=organic&iid=990be9f6-0ae3-463a-bcc6-270960516035.FCWH2QCRWSU7H97G.SEARCH&ppt=None&ppn=None&ssid=eussf3pgzk0000001779212309085&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "deconstruct Sunscreen - SPF 50 PA++++ | Lightweight Gel Sunscreen |In-Vivo Tested | Non Greasy | For Men & Women |",
+                "price": "\u20b9332",
+                "rating": 0.0,
+                "review_count": 219658,
+                "rank": 1,
+                "brand": "deconstruct",
+                "category": "Sunscreen",
+                "url": "https://www.flipkart.com/deconstruct-sunscreen-spf-50-pa-lightweight-gel-in-vivo-tested-non-greasy-men-women/p/itm5f0007953439e?pid=SNRGFA6Y2FNDGHHH&lid=LSTSNRGFA6Y2FNDGHHHCLX3IY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_1&otracker=browse&fm=organic&iid=en_COnbzZQzw5FcVzCR-UgCT-GxA6EUs7mwxj02x4_Bv7vy3KrKwt04gcBEBu8agUhx7AE4MoPq17jdbYDsrlKoJQ%3D%3D&ppt=browse&ppn=browse&ssid=6zl3g7a3bk0000001779212327022&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "Reginald Men Sunscreen - SPF 50 PA++++ Moisturising Sunscreen SPF 50+ PA++++ with 11 Actives Combo",
+                "price": "\u20b9999",
+                "rating": 0.0,
+                "review_count": 36793,
+                "rank": 2,
+                "brand": "Reginald",
+                "category": "Sunscreen",
+                "url": "https://www.flipkart.com/reginald-men-sunscreen-spf-50-pa-moisturising-50-11-actives-combo/p/itmf352884cda7b8?pid=SNRH5VVFVTDESHGT&lid=LSTSNRH5VVFVTDESHGTVXIE4U&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_2&otracker=browse&fm=organic&iid=en_COnbzZQzw5FcVzCR-UgCT-GxA6EUs7mwxj02x4_Bv7v51udy3OXoRY_VeEJKhGqhso7ox5U4WZFZyUzeWKEd9Q%3D%3D&ppt=browse&ppn=browse&ssid=6zl3g7a3bk0000001779212327022&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "smartdrops Sunscreen - SPF 50 PA++++ Collagen Skin Lift Sunscreen SPF 50+ PA++++ Hydrating Sun Cream",
+                "price": "\u20b9134",
+                "rating": 0.0,
+                "review_count": 806,
+                "rank": 3,
+                "brand": "smartdrops",
+                "category": "Sunscreen",
+                "url": "https://www.flipkart.com/smartdrops-sunscreen-spf-50-pa-collagen-skin-lift-50-hydrating-sun-cream/p/itm35448ab7d32ef?pid=SNRHH64NZ7EUVRS6&lid=LSTSNRHH64NZ7EUVRS6HRWVKY&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_3&otracker=browse&fm=organic&iid=en_COnbzZQzw5FcVzCR-UgCT-GxA6EUs7mwxj02x4_Bv7uvueIuI3hDEHCQ4FK0JCHeILjn4Fuxnu9uYb-13o75rw%3D%3D&ppt=browse&ppn=browse&ssid=6zl3g7a3bk0000001779212327022&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "POND's Sunscreen - SPF 55 PA++ Light Sun Miracle Protect & Bright, With 3% Active Niacinamide",
+                "price": "\u20b9169",
+                "rating": 0.0,
+                "review_count": 41838,
+                "rank": 4,
+                "brand": "POND's",
+                "category": "Sunscreen",
+                "url": "https://www.flipkart.com/pond-s-sunscreen-spf-55-pa-light-sun-miracle-protect-bright-3-active-niacinamide/p/itm6a57f4f6201a3?pid=SNRGMTAGYGFCSN6N&lid=LSTSNRGMTAGYGFCSN6NVKSTDZ&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_4&otracker=browse&fm=organic&iid=aba2c218-ac49-406e-87cd-d54b5124b408.SNRGMTAGYGFCSN6N.SEARCH&ppt=browse&ppn=browse&ssid=6zl3g7a3bk0000001779212327022&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "Dot & Key Sunscreen - SPF 50 PA++++ Blueberry Hydrate Barrier Repair,In-Vivo Tested, with Ceramides",
+                "price": "\u20b9263",
+                "rating": 0.0,
+                "review_count": 49276,
+                "rank": 5,
+                "brand": "Dot",
+                "category": "Sunscreen",
+                "url": "https://www.flipkart.com/dot-key-sunscreen-spf-50-pa-blueberry-hydrate-barrier-repair-in-vivo-tested-ceramides/p/itmfc685fd217749?pid=SNRHGXGPAZKKGTFS&lid=LSTSNRHGXGPAZKKGTFSLQOBLB&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_5&otracker=browse&fm=organic&iid=aba2c218-ac49-406e-87cd-d54b5124b408.SNRHGXGPAZKKGTFS.SEARCH&ppt=browse&ppn=browse&ssid=6zl3g7a3bk0000001779212327022&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "Reginald\u00a0Men Sunscreen - SPF 50 PA++++ Sunscreen-SPF 50 PA++++Moisturising Sunscreen SPF 50+PA++++ with 11 Actives Mini",
+                "price": "\u20b9399",
+                "rating": 0.0,
+                "review_count": 15585,
+                "rank": 6,
+                "brand": "Reginald",
+                "category": "Sunscreen",
+                "url": "https://www.flipkart.com/reginaldmen-sunscreen-spf-50-pa-sunscreen-spf-pa-moisturising-50-pa-11-actives-mini/p/itm0c16bba934cfd?pid=SNRHEB7Q74QJHEJQ&lid=LSTSNRHEB7Q74QJHEJQFXTQZC&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_6&otracker=browse&fm=organic&iid=aba2c218-ac49-406e-87cd-d54b5124b408.SNRHEB7Q74QJHEJQ.SEARCH&ppt=browse&ppn=browse&ssid=6zl3g7a3bk0000001779212327022&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "POND's Sunscreen - SPF 55 PA++ Light Sun Miracle Protect & Bright, With 3% Active Niacinamide",
+                "price": "\u20b9445",
+                "rating": 0.0,
+                "review_count": 41838,
+                "rank": 7,
+                "brand": "POND's",
+                "category": "Sunscreen",
+                "url": "https://www.flipkart.com/pond-s-sunscreen-spf-55-pa-light-sun-miracle-protect-bright-3-active-niacinamide/p/itma1027d8b6bfbf?pid=SNRGMTAGSVE2GCVF&lid=LSTSNRGMTAGSVE2GCVFTOST8K&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_7&otracker=browse&fm=organic&iid=aba2c218-ac49-406e-87cd-d54b5124b408.SNRGMTAGSVE2GCVF.SEARCH&ppt=browse&ppn=browse&ssid=6zl3g7a3bk0000001779212327022&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "The Derma Co Sunscreen - SPF 50 PA++++ 1% Hyaluronic Sunscreen Aqua Ultra Light Gel with SPF 50 PA++++ For Broad Spectrum, UV A, UV B & Blue Light Protection",
+                "price": "\u20b9460",
+                "rating": 0.0,
+                "review_count": 88645,
+                "rank": 8,
+                "brand": "The",
+                "category": "Sunscreen",
+                "url": "https://www.flipkart.com/derma-co-sunscreen-spf-50-pa-1-hyaluronic-aqua-ultra-light-gel-broad-spectrum-uv-a-b-blue-protection/p/itme144324f59479?pid=SNRG3HF6TCVFXJMV&lid=LSTSNRG3HF6TCVFXJMV6SP0F4&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_8&otracker=browse&fm=organic&iid=en_COnbzZQzw5FcVzCR-UgCT-GxA6EUs7mwxj02x4_Bv7voL1IO1482GGuoW15xhIpev9lX8wD4JjWULuXVWCxlclmOBtEFy0FmBP0CX6jfuRQ%3D&ppt=browse&ppn=browse&ssid=6zl3g7a3bk0000001779212327022&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "Undry Sunscreen - SPF 50+ PA+++ Hydrating Sunscreen for Dry Skin (50g) Lightweight, Photostable & Broad Spectrum",
+                "price": "\u20b9309",
+                "rating": 0.0,
+                "review_count": 4673,
+                "rank": 9,
+                "brand": "Undry",
+                "category": "Sunscreen",
+                "url": "https://www.flipkart.com/undry-sunscreen-spf-50-pa-hydrating-dry-skin-50g-lightweight-photostable-broad-spectrum/p/itm5017322eb764d?pid=SNRGKF7KNZBZ2QZR&lid=LSTSNRGKF7KNZBZ2QZR8RBXTE&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_9&otracker=browse&fm=organic&iid=en_COnbzZQzw5FcVzCR-UgCT-GxA6EUs7mwxj02x4_Bv7vp7LdSgcvuGNPq9N3NYe3MxY_FMI_xWUhhUw1kYL2Fz4E8waCTrWcncKeK_ydPfoM%3D&ppt=browse&ppn=browse&ssid=6zl3g7a3bk0000001779212327022&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            },
+            {
+                "title": "Dot & Key Sunscreen - SPF 50 PA++++ Vitamin C + E Super Bright Sunscreen, In-Vivo Tested or All Skin",
+                "price": "\u20b9263",
+                "rating": 0.0,
+                "review_count": 46525,
+                "rank": 10,
+                "brand": "Dot",
+                "category": "Sunscreen",
+                "url": "https://www.flipkart.com/dot-key-sunscreen-spf-50-pa-vitamin-c-e-super-bright-sunscreen-in-vivo-tested-all-skin/p/itm63ccf2b9aa6eb?pid=SNRH8AHXSCANARJG&lid=LSTSNRH8AHXSCANARJGOMSM8N&marketplace=FLIPKART&store=g9b%2Fema%2F5la%2Fxrh&srno=b_1_10&otracker=browse&fm=organic&iid=aba2c218-ac49-406e-87cd-d54b5124b408.SNRH8AHXSCANARJG.SEARCH&ppt=browse&ppn=browse&ssid=6zl3g7a3bk0000001779212327022&ov_redirect=true&ov_redirect=true",
+                "source": "flipkart"
+            }
+        ]
+    }
+}

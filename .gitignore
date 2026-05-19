@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+top_opportunity.json
+*.png
+_reference_repos/
+run_log.txt
+.claude/

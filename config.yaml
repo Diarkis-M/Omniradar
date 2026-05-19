@@ -1,0 +1,203 @@
+categories:
+  - name: "Skin Care"
+    keywords: ["barrier repair", "active ingredients", "ingredient analysis", "dermatology", "sunscreen filters", "glass skin", "cloud skin", "skin-minimalism", "ceramides", "peptides", "face wash", "moisturizer", "sunscreen", "serum"]
+    subreddits: ["IndianSkincareAddicts", "SkincareAddiction", "AsianBeauty", "DermatologyQuestions", "DIYBeauty"]
+    rss:
+      - "https://news.google.com/rss/search?q=skincare+trends+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
+      - "https://news.google.com/rss/search?q=mens+grooming+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
+
+  - name: "Makeup"
+    keywords: ["shade name", "lipstick shade", "eyeshadow palette", "finish", "matte", "dewy", "vinyl", "strawberry makeup", "soft goth", "sunset blush", "monochromatic", "warm tones", "cool tones"]
+    subreddits: ["IndianMakeupAddicts", "MakeupAddiction", "MakeupAddicts", "AsianBeauty", "BeautyGuruChatter"]
+    rss:
+      - "https://news.google.com/rss/search?q=makeup+looks+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
+      - "https://news.google.com/rss/search?q=site:pinterest.com+makeup+look+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
+
+  - name: "Hair Care"
+    keywords: ["scalp health", "hair porosity", "balayage", "hair serum", "butterfly cut", "wolf cut", "curtain bangs", "hair texture", "copper hair", "ash blonde", "hair colour", "henna", "mehendi"]
+    subreddits: ["IndianHaircare", "HaircareScience", "Haircare", "curlyhair", "NoPoo"]
+    rss:
+      - "https://news.google.com/rss/search?q=hair+style+trends+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
+      - "https://news.google.com/rss/search?q=site:pinterest.com+hairstyle+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
+      - "https://news.google.com/rss/search?q=hair+colour+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
+
+  - name: "Bath & Body"
+    keywords: ["soap", "body wash", "shower gel", "handwash", "liquid soap", "bath essentials", "body lotion"]
+    subreddits: ["IndianSkincareAddicts", "SkincareAddiction"]
+    rss:
+      - "https://news.google.com/rss/search?q=bath+body+soap+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
+
+  - name: "Men's Grooming"
+    keywords: ["beard oil", "beard care", "shaving cream", "aftershave", "men's deodorant", "men's face wash", "men's grooming", "trimmer"]
+    subreddits: ["IndianSkincareAddicts", "MaleGrooming", "beards"]
+    rss:
+      - "https://news.google.com/rss/search?q=mens+grooming+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
+
+# GCPL Brand Portfolio (replaces HUL brands)
+brand_portfolio:
+  - "Cinthol"
+  - "Godrej No. 1"
+  - "Godrej Expert"
+  - "Godrej Professional"
+  - "Nupur"
+  - "Park Avenue"
+  - "KS"
+  - "Kamasutra"
+  - "Muuchstac"
+  - "Bloq"
+  - "Godrej Magic"
+
+# GCPL competitor brands to track
+competitor_brands:
+  - "Nivea"
+  - "Wild Stone"
+  - "Set Wet"
+  - "Beardo"
+  - "Bombay Shaving Company"
+  - "L'Oreal Men Expert"
+  - "Dove Men+Care"
+  - "Garnier Men"
+  - "Ustraa"
+  - "The Man Company"
+  - "Manforce"
+  - "Durex"
+  - "Streax"
+
+thresholds:
+  min_relevance_score: 7
+  max_trends_per_day: 10
+
+# E-commerce scraping config
+ecommerce:
+  amazon:
+    enabled: true
+    max_products_per_category: 20
+    categories:
+      # Men's Skin Care
+      - name: "Men's Face Wash"
+        url: "https://www.amazon.in/s?k=mens+face+wash&s=review-rank"
+      - name: "Men's Moisturizer"
+        url: "https://www.amazon.in/s?k=mens+moisturizer&s=review-rank"
+      - name: "Men's Sunscreen"
+        url: "https://www.amazon.in/s?k=men+sunscreen&i=beauty&s=review-rank"
+      - name: "Men's Face Serum"
+        url: "https://www.amazon.in/s?k=men+face+serum&s=review-rank"
+      # Beard & Shaving
+      - name: "Beard Oil"
+        url: "https://www.amazon.in/s?k=beard+oil&rh=n%3A1374994031&s=review-rank"
+      - name: "Shaving"
+        url: "https://www.amazon.in/s?k=men+shaving+cream+foam+aftershave&s=review-rank"
+      # Deodorants
+      - name: "Men's Deodorant"
+        url: "https://www.amazon.in/s?k=mens+deodorant&s=review-rank"
+      - name: "Women's Deodorant"
+        url: "https://www.amazon.in/s?k=women+deodorant+body+spray&i=beauty&s=review-rank"
+      - name: "Roll-on Deodorant"
+        url: "https://www.amazon.in/s?k=roll+on+deodorant&i=beauty&s=review-rank"
+      # Bath & Body
+      - name: "Bar Soaps"
+        url: "https://www.amazon.in/s?k=bath+soap+bar&i=beauty&s=review-rank"
+      - name: "Shower Gel"
+        url: "https://www.amazon.in/s?k=shower+gel+body+wash&i=beauty&s=review-rank"
+      - name: "Liquid Handwash"
+        url: "https://www.amazon.in/s?k=liquid+handwash&i=beauty&s=review-rank"
+      # Hair Care
+      - name: "Hair Colour"
+        url: "https://www.amazon.in/s?k=hair+colour+dye+permanent&i=beauty&s=review-rank"
+      - name: "Henna Mehendi"
+        url: "https://www.amazon.in/s?k=henna+mehendi+hair+colour&i=beauty&s=review-rank"
+      - name: "Men's Shampoo"
+        url: "https://www.amazon.in/s?k=men+shampoo&s=review-rank"
+      - name: "Hair Serum & Oil"
+        url: "https://www.amazon.in/s?k=hair+serum+hair+oil&i=beauty&s=review-rank"
+      - name: "Professional Hair Care"
+        url: "https://www.amazon.in/s?k=professional+salon+hair+care+keratin&i=beauty&s=review-rank"
+      # Other GCPL categories
+      - name: "Condoms"
+        url: "https://www.amazon.in/s?k=condoms&i=hpc&s=review-rank"
+      - name: "Air Freshener"
+        url: "https://www.amazon.in/s?k=air+freshener+room+car&i=hpc&s=review-rank"
+      - name: "Liquid Detergent"
+        url: "https://www.amazon.in/s?k=liquid+detergent+laundry&i=grocery&s=review-rank"
+
+  nykaa:
+    enabled: true
+    max_products_per_category: 20
+    categories:
+      - name: "Men's Face Wash"
+        url: "https://www.nykaa.com/mens/skin-care/face-wash/c/1301?sort=popularity"
+      - name: "Men's Moisturizer"
+        url: "https://www.nykaa.com/mens/skin-care/moisturizers/c/1302?sort=popularity"
+      - name: "Men's Sunscreen"
+        url: "https://www.nykaa.com/mens/skin-care/sunscreen/c/1303?sort=popularity"
+      - name: "Men's Deodorant"
+        url: "https://www.nykaa.com/mens/fragrance/deodorants-roll-ons/c/1323?sort=popularity"
+      - name: "Women's Deodorant"
+        url: "https://www.nykaa.com/fragrance/women/deodorants-roll-ons/c/980?sort=popularity"
+      - name: "Roll-on Deodorant"
+        url: "https://www.nykaa.com/deodorants-roll-ons/c/979?sort=popularity"
+      - name: "Soaps"
+        url: "https://www.nykaa.com/bath-body/bath-and-shower/soaps/c/367?sort=popularity"
+      - name: "Men's Soaps"
+        url: "https://www.nykaa.com/mens/bath-body/soaps/c/1312?sort=popularity"
+      - name: "Shower Gel"
+        url: "https://www.nykaa.com/mens/bath-body/bath-shower-gels/c/1311?sort=popularity"
+      - name: "Hand Wash"
+        url: "https://www.nykaa.com/bath-body/hands-and-feet/hand-wash/c/584?sort=popularity"
+      - name: "Hair Colour"
+        url: "https://www.nykaa.com/hair-color/c/2043?sort=popularity"
+      - name: "Hair Henna"
+        url: "https://www.nykaa.com/hair-henna-color/c/32792?sort=popularity"
+      - name: "Men's Shampoo"
+        url: "https://www.nykaa.com/mens/hair-care/shampoo/c/1293?sort=popularity"
+      - name: "Hair Serum"
+        url: "https://www.nykaa.com/hair-care/hair/hair-serum/c/320?sort=popularity"
+      - name: "Beard Oil"
+        url: "https://www.nykaa.com/mens/beard-care/beard-oil/c/2799?sort=popularity"
+      - name: "Beard Care"
+        url: "https://www.nykaa.com/mens/beard-care/c/1921?sort=popularity"
+      - name: "Shaving"
+        url: "https://www.nykaa.com/shaving-cream-foams-gels/c/1553?sort=popularity"
+      - name: "Sexual Wellness"
+        url: "https://www.nykaa.com/wellness/sexual-wellness/c/1655?sort=popularity"
+
+  flipkart:
+    enabled: true
+    max_products_per_category: 20
+    categories:
+      - name: "Face Wash"
+        url: "https://www.flipkart.com/beauty-and-grooming/body-face-skin-care/body-and-face-care/face-wash/pr?sid=g9b%2Cema%2C5la%2Cjav&sort=popularity"
+      - name: "Moisturizer"
+        url: "https://www.flipkart.com/beauty-and-grooming/body-face-skin-care/body-and-face-care/moisturizer/pr?sid=g9b%2Cema%2C5la%2C1ne&sort=popularity"
+      - name: "Sunscreen"
+        url: "https://www.flipkart.com/beauty-and-grooming/body-face-skin-care/body-and-face-care/sunscreen/pr?sid=g9b%2Cema%2C5la%2Cxrh&sort=popularity"
+      - name: "Men's Deodorant"
+        url: "https://www.flipkart.com/all/beauty-and-grooming/fragrances/deodorants/pr?sid=all%2Cg9b%2C0yh%2Cvp1&sort=popularity"
+      - name: "Deodorant Roll-on"
+        url: "https://www.flipkart.com/all/beauty-and-grooming/fragrances/deodorants/deodorant-rollons/pr?sid=all%2Cg9b%2C0yh%2Cvp1%2Cjvv&sort=popularity"
+      - name: "Bar Soaps"
+        url: "https://www.flipkart.com/beauty-and-grooming/bath-shower/bath-essentials/bath-soap/pr?sid=g9b%2C5nz%2Cb1b%2Cyug&sort=popularity"
+      - name: "Shower Gel"
+        url: "https://www.flipkart.com/beauty-and-grooming/bath-shower/bath-essentials/body-wash/pr?sid=g9b%2C5nz%2Cb1b%2Cbwa&sort=popularity"
+      - name: "Shampoo"
+        url: "https://www.flipkart.com/beauty-and-grooming/hair-care-and-accessory/hair-care/shampoo/pr?sid=g9b%2Clcf%2Cqqm%2Ct36&sort=popularity"
+      - name: "Hair Colour"
+        url: "https://www.flipkart.com/beauty-and-grooming/hair-care-and-accessory/hair-care/hair-color/pr?sid=g9b%2Clcf%2Cqqm%2C55t&sort=popularity"
+      - name: "Hair Oil"
+        url: "https://www.flipkart.com/beauty-and-grooming/hair-care-and-accessory/hair-care/hair-oil/pr?sid=g9b%2Clcf%2Cqqm%2Cfmb&sort=popularity"
+      - name: "Beard Oil"
+        url: "https://www.flipkart.com/beauty-and-grooming/shaving-beard-care/beard-oil/pr?sid=g9b%2Ctiz%2Ccnj&sort=popularity"
+      - name: "Shaving & Beard Care"
+        url: "https://www.flipkart.com/beauty-and-grooming/shaving-beard-care/pr?sid=g9b%2Ctiz&sort=popularity"
+      - name: "Sexual Wellness"
+        url: "https://www.flipkart.com/beauty-and-grooming/sexual-wellness/pr?sid=g9b%2Calu&sort=popularity"
+
+# Instagram RSS proxy queries
+instagram:
+  rss_queries:
+    - "site:instagram.com mens grooming india"
+    - "site:instagram.com hair colour india"
+    - "site:instagram.com deodorant india"
+    - "site:instagram.com skincare routine india men"
+    - "site:instagram.com beard care india"
+    - "site:instagram.com soap handwash india"

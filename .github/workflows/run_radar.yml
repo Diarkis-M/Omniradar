@@ -1,0 +1,47 @@
+name: Beauty & UGC Trend Radar
+
+on:
+  schedule:
+    - cron: '30 4 * * *' # Run at 10:00 AM IST (04:30 UTC) daily
+  workflow_dispatch: # Allow manual runs
+
+jobs:
+  run-radar:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0 # Fetch all history for rebase
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        python -m playwright install chromium --with-deps
+
+    - name: Run Trend Radar Pipeline
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+        REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+        REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
+      run: |
+        python main.py
+
+    - name: Commit state changes
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add seen_trends.json run_log.txt daily_beauty_insights.json
+        git commit -m "Update trends and insights [skip ci]" || echo "No changes to commit"
+        git pull --rebase origin main
+        git push origin main

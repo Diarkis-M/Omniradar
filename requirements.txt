@@ -1,0 +1,15 @@
+pytrends
+praw
+feedparser
+google-genai
+python-telegram-bot
+pyyaml
+python-dotenv
+asyncio
+requests
+beautifulsoup4
+pandas
+httpx
+urllib3
+lxml
+playwright
