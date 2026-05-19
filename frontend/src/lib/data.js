@@ -4,32 +4,46 @@
 import pipelineData from './pipeline_data.json';
 
 // ---------------------------------------------------------------------------
-// Category keyword maps
+// GCPL Product Category Keywords — covers full Godrej Consumer portfolio
 // ---------------------------------------------------------------------------
 const CATEGORY_KEYWORDS = {
-  Skincare: [
+  'Skincare': [
     "sunscreen", "moisturizer", "moisturiser", "serum", "face wash", "facewash",
-    "cleanser", "toner", "skin", "spf", "retinol", "niacinamide", "vitamin c",
+    "cleanser", "toner", "spf", "retinol", "niacinamide", "vitamin c",
     "hyaluronic", "ceramide", "peptide", "exfoliat", "peel", "acne", "pimple",
-    "dark spot", "pigment", "glow", "brightening", "barrier", "derma",
+    "dark spot", "pigment", "brightening", "barrier", "derma", "skincare",
   ],
-  Haircare: [
+  'Hair Care': [
     "hair", "shampoo", "conditioner", "henna", "mehendi", "hair colour",
     "hair color", "balayage", "keratin", "scalp", "dandruff", "hair oil",
     "hair serum", "hair fall", "hair loss", "frizz", "curly", "straighten",
-    "wolf cut", "butterfly cut", "curtain bangs",
+    "wolf cut", "butterfly cut", "curtain bangs", "hair dye", "haircare",
   ],
-  Fragrance: [
+  'Fragrances & EDP': [
     "perfume", "fragrance", "eau de", "deodorant", "deo", "body spray",
-    "roll-on", "roll on", "attar", "cologne", "scent",
+    "roll-on", "roll on", "attar", "cologne", "scent", "edp", "edt",
+    "eau de parfum", "eau de toilette", "body mist", "antiperspirant",
   ],
-  Soaps: [
+  'Soaps & Body': [
     "soap", "bar soap", "bathing bar", "handwash", "hand wash", "shower gel",
-    "body wash", "liquid soap", "bath",
+    "body wash", "liquid soap", "body lotion", "body care",
   ],
-  Grooming: [
+  "Men's Grooming": [
     "beard", "shaving", "shave", "trimmer", "aftershave", "after shave",
-    "grooming", "moustache", "razor", "men's face",
+    "grooming", "moustache", "razor", "men's face", "mens face",
+    "beard oil", "beard balm", "beard care", "male grooming",
+  ],
+  'Home Insecticides': [
+    "insecticide", "mosquito", "cockroach", "ant killer", "repellent",
+    "mosquito coil", "vaporizer", "liquid vaporizer", "mosquito repellent",
+    "pest control", "insect killer", "fly killer", "bed bug",
+  ],
+  'Air Fresheners': [
+    "air freshener", "room freshener", "car freshener",
+    "room spray", "odor eliminator", "odour",
+  ],
+  'Sexual Wellness': [
+    "condom", "lubricant", "sexual wellness", "intimate care",
   ],
 };
 
@@ -44,36 +58,62 @@ const URGENCY_MAP = {
   "[NEWS/RSS]":            "WATCH",
 };
 
-// GCPL Brand lists (from config.yaml)
+// ---------------------------------------------------------------------------
+// GCPL Own Brands
+// ---------------------------------------------------------------------------
 const OWN_BRANDS = [
   "Cinthol", "Godrej No. 1", "Godrej No.1", "Godrej Expert",
-  "Godrej Professional", "Nupur", "Park Avenue", "KS",
+  "Godrej Professional", "Nupur", "Park Avenue",
   "Kamasutra", "Muuchstac", "Bloq", "Godrej Magic",
-  "Godrej Protekt", "HIT", "Good knight", "Godrej aer",
-];
-
-const COMPETITOR_BRANDS = [
-  "Nivea", "Wild Stone", "Set Wet", "Beardo",
-  "Bombay Shaving Company", "L'Oreal", "Dove",
-  "Garnier", "Ustraa", "The Man Company",
-  "Manforce", "Durex", "Streax", "Mamaearth",
-  "The Derma Co", "mCaffeine", "Neutrogena", "Plum",
+  "Godrej Protekt", "HIT", "Good Knight", "Godrej aer",
 ];
 
 // ---------------------------------------------------------------------------
-// Beauty relevance filter — keeps out IPL, football, Bollywood, politics etc.
+// Competitor Brands — organised by GCPL-relevant category
 // ---------------------------------------------------------------------------
-const BEAUTY_KEYWORDS = [
-  // Flatten all category keywords
+const COMPETITOR_BRANDS_BY_CATEGORY = {
+  "Men's Grooming": [
+    "Beardo", "Ustraa", "The Man Company", "Man Matters",
+    "Bombay Shaving Company",
+  ],
+  'Fragrances & EDP': [
+    "Wild Stone", "Set Wet", "Denver", "Fogg", "Engage",
+    "Bella Vita", "Ajmal", "Adil Qadri", "Afnan",
+  ],
+  'Skincare': [
+    "Mamaearth", "Minimalist", "Deconstruct", "The Derma Co",
+    "mCaffeine", "Neutrogena", "Plum", "Dot & Key",
+  ],
+  'Soaps & Body': [
+    "Dove", "Nivea", "Santoor", "Medimix", "Pears",
+  ],
+  'Hair Care': [
+    "L'Oreal", "Garnier", "Streax", "Indulekha",
+  ],
+  'Home Insecticides': [
+    "Mortein", "All Out",
+  ],
+  'Air Fresheners': [
+    "Odonil", "Ambi Pur",
+  ],
+  'Sexual Wellness': [
+    "Manforce", "Durex", "Skore",
+  ],
+};
+
+// Flat list for backward compatibility
+const COMPETITOR_BRANDS = Object.values(COMPETITOR_BRANDS_BY_CATEGORY).flat();
+
+// ---------------------------------------------------------------------------
+// GCPL relevance filter — keeps signals related to Godrej product categories
+// ---------------------------------------------------------------------------
+const GCPL_KEYWORDS = [
+  // All category keywords
   ...Object.values(CATEGORY_KEYWORDS).flat(),
-  // Additional beauty / cosmetics / wellness terms
+  // General personal care / beauty / home terms
   "beauty", "cosmetic", "makeup", "make-up", "lipstick", "foundation",
-  "concealer", "blush", "mascara", "eyeshadow", "eyeliner", "nail",
-  "manicure", "pedicure", "wellness", "spa", "self-care", "lotion",
-  "cream", "mist", "face", "complexion", "aesthetic", "glam", "contour",
-  "primer", "bronzer", "highlighter", "brow", "lash", "wax", "body care",
-  "personal care", "skincare", "haircare", "style", "styling",
-  "colour", "color", "dye", "bleach", "treatment", "routine", "trend",
+  "mascara", "eyeliner", "nail", "wellness", "lotion", "cream",
+  "face", "personal care", "glow", "skin",
   // Brand names (own + competitor)
   ...OWN_BRANDS.map(b => b.toLowerCase()),
   ...COMPETITOR_BRANDS.map(b => b.toLowerCase()),
@@ -82,7 +122,7 @@ const BEAUTY_KEYWORDS = [
 export function isBeautyRelated(signal) {
   const title = (signal?.title || signal?.trend_name || "").toLowerCase();
   if (!title) return false;
-  return BEAUTY_KEYWORDS.some(kw => title.includes(kw.toLowerCase()));
+  return GCPL_KEYWORDS.some(kw => title.includes(kw.toLowerCase()));
 }
 
 // ---------------------------------------------------------------------------
@@ -174,7 +214,7 @@ export function getCompetitorSignals(data) {
 }
 
 // ---------------------------------------------------------------------------
-// getBrandMentions(data)
+// getBrandMentions(data) — includes category-grouped competitors
 // ---------------------------------------------------------------------------
 export function getBrandMentions(data) {
   const all = getAllSignals(data);
@@ -189,7 +229,18 @@ export function getBrandMentions(data) {
       return { name: brand, count };
     });
   }
-  return { own: countMentions(ownBrands), competitors: countMentions(compBrands) };
+
+  // Category-grouped competitor mentions
+  const competitorsByCategory = {};
+  for (const [cat, brands] of Object.entries(COMPETITOR_BRANDS_BY_CATEGORY)) {
+    competitorsByCategory[cat] = countMentions(brands);
+  }
+
+  return {
+    own: countMentions(ownBrands),
+    competitors: countMentions(compBrands),
+    competitorsByCategory,
+  };
 }
 
 // ---------------------------------------------------------------------------
