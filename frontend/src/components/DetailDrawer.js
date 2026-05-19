@@ -24,7 +24,7 @@ export default function DetailDrawer({ signal, onClose }) {
   const s = signal || {};
   const title = s.trend_name || s.title || '';
   const platform = s.platform || s.label?.replace(/[\[\]]/g, '') || s.source || '';
-  const source = s.source_platform || s.subreddit ? `r/${s.subreddit}` : s.source || '';
+  const source = s.source_platform || (s.subreddit ? `r/${s.subreddit}` : '') || s.source || '';
   let url = s.url || s.link || '';
   if (!url && s.trend_name) {
     url = findSourceUrl(s, getSeedData());
