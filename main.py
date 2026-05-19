@@ -4,6 +4,8 @@ import logging
 import json
 import os
 from datetime import datetime
+from dotenv import load_dotenv
+load_dotenv()
 from collectors.google_trends import get_google_trends
 from collectors.reddit_public_collector import get_reddit_trends
 from collectors.rss_collector import get_rss_trends
