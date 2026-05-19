@@ -79,33 +79,55 @@ async def run_pipeline():
         "timestamp": datetime.now().isoformat(),
         "trends": trends,
         "raw_signals": {
-            "google": google[:50],
-            "reddit": reddit[:50],
-            "rss": rss[:50],
-            "social": social[:50],
-            "pinterest": pinterest[:30],
-            "amazon": amazon[:60],
-            "nykaa": nykaa[:60],
-            "flipkart": flipkart[:60],
-            "instagram": instagram[:30],
+            "google": google,
+            "reddit": reddit[:200],
+            "rss": rss,
+            "social": social,
+            "pinterest": pinterest,
+            "amazon": amazon,
+            "nykaa": nykaa,
+            "flipkart": flipkart,
+            "instagram": instagram,
         },
         "ecommerce_signals": {
-            "amazon": amazon[:30],
-            "nykaa": nykaa[:30],
-            "flipkart": flipkart[:30],
+            "amazon": amazon,
+            "nykaa": nykaa,
+            "flipkart": flipkart,
         },
         "brands": {
-            "own": config.get("brands", {}).get("own", []),
-            "competitors": config.get("brands", {}).get("competitors", []),
+            "own": config.get("brand_portfolio", []),
+            "competitors": config.get("competitor_brands", []),
         }
     }
     with open("daily_beauty_insights.json", "w") as f:
         json.dump(insights, f, indent=4)
 
     # 4. Format Telegram Output — HTML mode (no Markdown escaping issues)
+    import re
+
     def esc(text):
-        """Escape HTML special chars."""
-        return str(text).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        """Escape HTML special chars for Telegram HTML mode."""
+        s = str(text).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        # Strip stray control characters that break Telegram parsing
+        s = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', s)
+        return s
+
+    def safe_html(raw_msg):
+        """Validate that every opened HTML tag is properly closed.
+        Telegram only supports: b, i, u, s, code, pre, a, tg-spoiler.
+        Strip any broken / unclosed tags to prevent parse errors."""
+        allowed = {'b', 'i', 'u', 's', 'code', 'pre', 'a', 'tg-spoiler'}
+        stack = []
+        # Quick check: count opening and closing tags match
+        open_tags = re.findall(r'<(b|i|u|s|code|pre|a|tg-spoiler)(?:\s[^>]*)?>',  raw_msg)
+        close_tags = re.findall(r'</(b|i|u|s|code|pre|a|tg-spoiler)>', raw_msg)
+        # If they match, likely fine
+        if len(open_tags) == len(close_tags):
+            return raw_msg
+        # Otherwise, append missing close tags
+        for tag in reversed(open_tags[len(close_tags):]):
+            raw_msg += f"</{tag}>"
+        return raw_msg
 
     now = datetime.now().strftime("%d %b, %I:%M %p")
     sig_total = sum(len(v) for v in [google, reddit, rss, social, pinterest, amazon, nykaa, flipkart, instagram])
@@ -123,12 +145,23 @@ async def run_pipeline():
         if metric:
             msg += f"{label} | {metric}\n"
         if context:
+            # Truncate long context to avoid hitting Telegram's 4096 char limit
+            if len(context) > 200:
+                context = context[:197] + "..."
             msg += f"{context}\n"
         if why:
+            if len(why) > 150:
+                why = why[:147] + "..."
             msg += f"→ <i>{why}</i>\n"
         msg += "\n"
 
     msg += "🔗 omniradar.vercel.app"
+
+    # Validate HTML structure and truncate if over Telegram limit
+    msg = safe_html(msg)
+    if len(msg.encode('utf-8')) > 4000:
+        msg = msg[:3900] + "\n\n🔗 omniradar.vercel.app"
+        msg = safe_html(msg)
 
     await send_telegram_alert({"custom_message": msg, "trend_name": "Intelligence Brief", "parse_mode": "HTML"})
     logger.info("Pipeline run completed. Telegram sent.")

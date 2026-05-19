@@ -29,7 +29,7 @@ export default function CompetitorPulse({ mentions = [] }) {
           Competitor Pulse
         </span>
         <a
-          href="/competitors"
+          href="/brands"
           className="font-mono uppercase"
           style={{
             fontSize: '10px',

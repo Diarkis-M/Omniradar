@@ -1,17 +1,10 @@
 categories:
   - name: "Skin Care"
     keywords: ["barrier repair", "active ingredients", "ingredient analysis", "dermatology", "sunscreen filters", "glass skin", "cloud skin", "skin-minimalism", "ceramides", "peptides", "face wash", "moisturizer", "sunscreen", "serum"]
-    subreddits: ["IndianSkincareAddicts", "SkincareAddiction", "AsianBeauty", "DermatologyQuestions", "DIYBeauty"]
+    subreddits: ["IndianSkincareAddicts", "SkincareAddiction", "DermatologyQuestions"]
     rss:
       - "https://news.google.com/rss/search?q=skincare+trends+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
       - "https://news.google.com/rss/search?q=mens+grooming+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
-
-  - name: "Makeup"
-    keywords: ["shade name", "lipstick shade", "eyeshadow palette", "finish", "matte", "dewy", "vinyl", "strawberry makeup", "soft goth", "sunset blush", "monochromatic", "warm tones", "cool tones"]
-    subreddits: ["IndianMakeupAddicts", "MakeupAddiction", "MakeupAddicts", "AsianBeauty", "BeautyGuruChatter"]
-    rss:
-      - "https://news.google.com/rss/search?q=makeup+looks+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
-      - "https://news.google.com/rss/search?q=site:pinterest.com+makeup+look+india+when:24h&hl=en-IN&gl=IN&ceid=IN:en"
 
   - name: "Hair Care"
     keywords: ["scalp health", "hair porosity", "balayage", "hair serum", "butterfly cut", "wolf cut", "curtain bangs", "hair texture", "copper hair", "ash blonde", "hair colour", "henna", "mehendi"]
@@ -125,41 +118,23 @@ ecommerce:
     max_products_per_category: 20
     categories:
       - name: "Men's Face Wash"
-        url: "https://www.nykaa.com/mens/skin-care/face-wash/c/1301?sort=popularity"
+        url: "https://www.nykaaman.com/skin-care/face-wash/c/1301?sort=popularity"
       - name: "Men's Moisturizer"
-        url: "https://www.nykaa.com/mens/skin-care/moisturizers/c/1302?sort=popularity"
+        url: "https://www.nykaaman.com/skin-care/moisturizers/c/1302?sort=popularity"
       - name: "Men's Sunscreen"
-        url: "https://www.nykaa.com/mens/skin-care/sunscreen/c/1303?sort=popularity"
+        url: "https://www.nykaaman.com/skin-care/sunscreen/c/1303?sort=popularity"
       - name: "Men's Deodorant"
-        url: "https://www.nykaa.com/mens/fragrance/deodorants-roll-ons/c/1323?sort=popularity"
-      - name: "Women's Deodorant"
-        url: "https://www.nykaa.com/fragrance/women/deodorants-roll-ons/c/980?sort=popularity"
-      - name: "Roll-on Deodorant"
-        url: "https://www.nykaa.com/deodorants-roll-ons/c/979?sort=popularity"
-      - name: "Soaps"
-        url: "https://www.nykaa.com/bath-body/bath-and-shower/soaps/c/367?sort=popularity"
+        url: "https://www.nykaaman.com/fragrance/deodorants-roll-ons/c/1323?sort=popularity"
       - name: "Men's Soaps"
-        url: "https://www.nykaa.com/mens/bath-body/soaps/c/1312?sort=popularity"
+        url: "https://www.nykaaman.com/bath-body/soaps/c/1312?sort=popularity"
       - name: "Shower Gel"
-        url: "https://www.nykaa.com/mens/bath-body/bath-shower-gels/c/1311?sort=popularity"
-      - name: "Hand Wash"
-        url: "https://www.nykaa.com/bath-body/hands-and-feet/hand-wash/c/584?sort=popularity"
-      - name: "Hair Colour"
-        url: "https://www.nykaa.com/hair-color/c/2043?sort=popularity"
-      - name: "Hair Henna"
-        url: "https://www.nykaa.com/hair-henna-color/c/32792?sort=popularity"
+        url: "https://www.nykaaman.com/bath-body/bath-shower-gels/c/1311?sort=popularity"
       - name: "Men's Shampoo"
-        url: "https://www.nykaa.com/mens/hair-care/shampoo/c/1293?sort=popularity"
-      - name: "Hair Serum"
-        url: "https://www.nykaa.com/hair-care/hair/hair-serum/c/320?sort=popularity"
+        url: "https://www.nykaaman.com/hair-care/shampoo/c/1293?sort=popularity"
       - name: "Beard Oil"
-        url: "https://www.nykaa.com/mens/beard-care/beard-oil/c/2799?sort=popularity"
+        url: "https://www.nykaaman.com/beard-care/beard-oil/c/2799?sort=popularity"
       - name: "Beard Care"
-        url: "https://www.nykaa.com/mens/beard-care/c/1921?sort=popularity"
-      - name: "Shaving"
-        url: "https://www.nykaa.com/shaving-cream-foams-gels/c/1553?sort=popularity"
-      - name: "Sexual Wellness"
-        url: "https://www.nykaa.com/wellness/sexual-wellness/c/1655?sort=popularity"
+        url: "https://www.nykaaman.com/beard-care/c/1921?sort=popularity"
 
   flipkart:
     enabled: true
@@ -242,6 +217,19 @@ google:
     - "Beardo grooming"
     - "Wild Stone deo"
     - "Fogg deodorant"
+    # Competitor brand searches
+    - "Minimalist skincare india"
+    - "Dove body wash india"
+    - "Garnier Men face wash"
+    - "L'Oreal hair colour india"
+    - "Ajmal perfume india"
+    - "Adil Qadri attar"
+    - "The Man Company grooming"
+    - "Mamaearth face wash"
+    - "Durex condom india"
+    - "Mortein mosquito"
+    - "Odonil air freshener"
+    - "Ambi Pur car freshener"
 
 # Social / Twitter: GCPL-relevant search terms to filter trends
 social:
@@ -354,3 +342,12 @@ instagram:
     - "site:instagram.com Bella Vita perfume"
     - "site:instagram.com Beardo grooming"
     - "site:instagram.com Wild Stone Denver Fogg"
+    # Competitor brand tracking
+    - "site:instagram.com Minimalist skincare"
+    - "site:instagram.com Dove Men"
+    - "site:instagram.com Garnier Men"
+    - "site:instagram.com Ajmal perfume"
+    - "site:instagram.com Adil Qadri"
+    - "site:instagram.com Mamaearth"
+    - "site:instagram.com The Man Company"
+    - "site:instagram.com Ustraa grooming"

@@ -51,7 +51,16 @@ async def send_telegram_alert(opportunity, image_path=None):
             await bot.send_message(chat_id=chat_id, text=message, parse_mode=parse_mode)
         print(f"Alert sent for: {trend_name}")
     except Exception as e:
-        print(f"Failed to send Telegram message: {e}")
+        print(f"Failed to send Telegram message with {parse_mode}: {e}")
+        # Fallback: strip HTML tags and send as plain text
+        if parse_mode and parse_mode != "":
+            try:
+                import re
+                plain = re.sub(r'<[^>]+>', '', message)
+                await bot.send_message(chat_id=chat_id, text=plain)
+                print(f"Alert sent (plain text fallback) for: {trend_name}")
+            except Exception as e2:
+                print(f"Fallback also failed: {e2}")
 
 if __name__ == "__main__":
     # Test alert
