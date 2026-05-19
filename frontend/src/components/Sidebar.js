@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 
 const NAV_ITEMS = [
@@ -20,7 +21,8 @@ const NAV_ITEMS = [
   { key: 'competitors', label: 'Competitors', icon: '⚔', href: '/feed/competitors' },
 ];
 
-export default function Sidebar({ activePage = 'home' }) {
+export default function Sidebar() {
+  const pathname = usePathname();
   const [search, setSearch] = useState('');
   const [isOnline] = useState(true);
 
@@ -118,7 +120,9 @@ export default function Sidebar({ activePage = 'home' }) {
       {/* Nav items */}
       <nav className="flex-1 overflow-y-auto px-2">
         {filtered.map((item) => {
-          const isActive = activePage === item.key;
+          const isActive = pathname === item.href ||
+            (item.href !== '/' && pathname.startsWith(item.href)) ||
+            (item.href === '/' && pathname === '/');
           return (
             <Link
               key={item.key}
