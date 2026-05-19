@@ -14,29 +14,14 @@ import feedparser
 import logging
 import time
 import random
+from collectors.keyword_loader import get_product_keywords, get_brand_keywords, get_social_trend_keywords
 
 logger = logging.getLogger(__name__)
 
-# Default GCPL filter keywords (overridden by config.social.gcpl_filter_keywords)
-DEFAULT_FILTER = [
-    "face wash", "sunscreen", "moisturizer", "serum", "cleanser",
-    "soap", "handwash", "shower gel", "body wash", "shampoo",
-    "hair colour", "hair color", "henna", "hair oil", "hair serum",
-    "beard", "shaving", "grooming", "deodorant", "deo", "perfume",
-    "fragrance", "body spray", "roll-on", "cologne",
-    "mosquito", "cockroach", "insecticide", "repellent",
-    "air freshener", "room freshener", "condom",
-    "skincare", "haircare", "beauty", "cosmetic", "makeup",
-    "skin", "hair", "lotion", "cream", "personal care",
-    "fmcg", "d2c",
-    # Brands
-    "cinthol", "godrej", "park avenue", "nupur", "kamasutra",
-    "hit", "good knight", "beardo", "ustraa", "man company",
-    "wild stone", "set wet", "denver", "fogg", "engage",
-    "bella vita", "ajmal", "mamaearth", "minimalist",
-    "dove", "nivea", "santoor", "loreal", "garnier",
-    "manforce", "durex",
-]
+# Default GCPL filter keywords loaded from omniradar_keywords.json
+# Uses all product + brand + social_trend keywords for filtering social trends
+# (Can still be overridden by config.social.gcpl_filter_keywords at runtime)
+DEFAULT_FILTER = get_product_keywords() + get_brand_keywords() + get_social_trend_keywords()
 
 
 def _is_gcpl_relevant(text, filter_keywords):

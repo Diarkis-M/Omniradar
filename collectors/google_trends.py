@@ -13,37 +13,13 @@ import requests
 import logging
 import time
 import random
+from collectors.keyword_loader import get_product_keywords, get_brand_keywords, get_industry_keywords
 
 logger = logging.getLogger(__name__)
 
-# GCPL-relevant keywords for filtering general trends
-GCPL_FILTER = [
-    # Product types
-    "face wash", "sunscreen", "moisturizer", "moisturiser", "serum", "cleanser",
-    "soap", "handwash", "hand wash", "shower gel", "body wash", "shampoo",
-    "conditioner", "hair colour", "hair color", "henna", "mehendi", "hair oil",
-    "hair serum", "hair dye", "beard", "shaving", "aftershave", "trimmer",
-    "grooming", "deodorant", "deo", "perfume", "fragrance", "body spray",
-    "roll-on", "cologne", "attar", "eau de", "antiperspirant",
-    "mosquito", "cockroach", "insecticide", "repellent", "pest",
-    "air freshener", "room freshener", "car freshener",
-    "condom", "lubricant",
-    "skincare", "haircare", "personal care", "beauty", "cosmetic", "makeup",
-    "lotion", "cream", "skin", "hair", "scalp", "acne", "dandruff",
-    # Brands (own + competitor)
-    "cinthol", "godrej", "park avenue", "nupur", "kamasutra",
-    "hit", "good knight", "godrej aer", "muuchstac",
-    "beardo", "ustraa", "man company", "man matters", "bombay shaving",
-    "wild stone", "set wet", "denver", "fogg", "engage",
-    "bella vita", "ajmal", "adil qadri", "afnan",
-    "mamaearth", "minimalist", "deconstruct", "derma co", "mcaffeine",
-    "neutrogena", "plum", "dot & key", "dove", "nivea", "santoor",
-    "medimix", "pears", "loreal", "garnier", "streax", "indulekha",
-    "mortein", "all out", "odonil", "ambi pur",
-    "manforce", "durex", "skore",
-    # Industry
-    "fmcg", "d2c", "personal care market",
-]
+# GCPL-relevant keywords loaded from omniradar_keywords.json
+# Uses all product + brand + industry keywords for filtering general trends
+GCPL_FILTER = get_product_keywords() + get_brand_keywords() + get_industry_keywords()
 
 
 def _is_gcpl_relevant(text):

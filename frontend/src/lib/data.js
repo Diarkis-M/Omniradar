@@ -2,50 +2,29 @@
 // OmniRadar  --  Real Data Layer (powered by pipeline output)
 // =============================================================================
 import pipelineData from './pipeline_data.json';
+import keywordsDB from './omniradar_keywords.json';
 
 // ---------------------------------------------------------------------------
 // GCPL Product Category Keywords — covers full Godrej Consumer portfolio
+// Sourced from omniradar_keywords.json → product_keywords
 // ---------------------------------------------------------------------------
-const CATEGORY_KEYWORDS = {
-  'Skincare': [
-    "sunscreen", "moisturizer", "moisturiser", "serum", "face wash", "facewash",
-    "cleanser", "toner", "spf", "retinol", "niacinamide", "vitamin c",
-    "hyaluronic", "ceramide", "peptide", "exfoliat", "peel", "acne", "pimple",
-    "dark spot", "pigment", "brightening", "barrier", "derma", "skincare",
-  ],
-  'Hair Care': [
-    "hair", "shampoo", "conditioner", "henna", "mehendi", "hair colour",
-    "hair color", "balayage", "keratin", "scalp", "dandruff", "hair oil",
-    "hair serum", "hair fall", "hair loss", "frizz", "curly", "straighten",
-    "wolf cut", "butterfly cut", "curtain bangs", "hair dye", "haircare",
-  ],
-  'Fragrances & EDP': [
-    "perfume", "fragrance", "eau de", "deodorant", "deo", "body spray",
-    "roll-on", "roll on", "attar", "cologne", "scent", "edp", "edt",
-    "eau de parfum", "eau de toilette", "body mist", "antiperspirant",
-  ],
-  'Soaps & Body': [
-    "soap", "bar soap", "bathing bar", "handwash", "hand wash", "shower gel",
-    "body wash", "liquid soap", "body lotion", "body care",
-  ],
-  "Men's Grooming": [
-    "beard", "shaving", "shave", "trimmer", "aftershave", "after shave",
-    "grooming", "moustache", "razor", "men's face", "mens face",
-    "beard oil", "beard balm", "beard care", "male grooming",
-  ],
-  'Home Insecticides': [
-    "insecticide", "mosquito", "cockroach", "ant killer", "repellent",
-    "mosquito coil", "vaporizer", "liquid vaporizer", "mosquito repellent",
-    "pest control", "insect killer", "fly killer", "bed bug",
-  ],
-  'Air Fresheners': [
-    "air freshener", "room freshener", "car freshener",
-    "room spray", "odor eliminator", "odour",
-  ],
-  'Sexual Wellness': [
-    "condom", "lubricant", "sexual wellness", "intimate care",
-  ],
+const CATEGORY_KEY_MAP = {
+  personal_wash:      'Soaps & Body',
+  hair_care:          'Hair Care',
+  mens_grooming:      "Men's Grooming",
+  fragrances_deo:     'Fragrances & EDP',
+  home_insecticides:  'Home Insecticides',
+  air_fresheners:     'Air Fresheners',
+  sexual_wellness:    'Sexual Wellness',
+  skincare:           'Skincare',
 };
+
+const CATEGORY_KEYWORDS = Object.fromEntries(
+  Object.entries(keywordsDB.product_keywords).map(([key, words]) => [
+    CATEGORY_KEY_MAP[key] || key,
+    words,
+  ])
+);
 
 // Urgency label map
 const URGENCY_MAP = {
@@ -62,10 +41,10 @@ const URGENCY_MAP = {
 // GCPL Own Brands
 // ---------------------------------------------------------------------------
 const OWN_BRANDS = [
-  "Cinthol", "Godrej No. 1", "Godrej No.1", "Godrej Expert",
-  "Godrej Professional", "Nupur", "Park Avenue",
-  "Kamasutra", "Muuchstac", "Bloq", "Godrej Magic",
-  "Godrej Protekt", "HIT", "Good Knight", "Godrej aer",
+  "Godrej", "GCPL", "Cinthol", "Godrej No.1", "Godrej No. 1",
+  "Godrej Protekt", "Godrej Expert", "Godrej Professional",
+  "Nupur", "Park Avenue", "Kamasutra", "HIT", "Good Knight",
+  "Godrej aer", "Ezee", "Genteel", "Godrej Magic",
 ];
 
 // ---------------------------------------------------------------------------
@@ -74,30 +53,78 @@ const OWN_BRANDS = [
 const COMPETITOR_BRANDS_BY_CATEGORY = {
   "Men's Grooming": [
     "Beardo", "Ustraa", "The Man Company", "Man Matters",
-    "Bombay Shaving Company",
+    "Bombay Shaving Company", "Gillette", "Philips", "Braun",
+    "Nivea Men", "Garnier Men", "Pond's Men", "Old Spice",
+    "Axe", "Spruce Shave Club", "LetsShave", "Village Barber",
+    "MensXP", "Urban Gabru", "Mancode", "Bold Care",
+    "Man Arden", "One8", "Wild Stone Men", "Denver Men",
+    "Set Wet Men", "Layer'r", "Envy", "Brylcreem", "Gatsby",
+    "Livon", "Wahl", "Panasonic", "Dollar Shave Club", "Harry's",
   ],
   'Fragrances & EDP': [
     "Wild Stone", "Set Wet", "Denver", "Fogg", "Engage",
-    "Bella Vita", "Ajmal", "Adil Qadri", "Afnan",
+    "Bella Vita", "Ajmal", "Adil Qadri", "Afnan", "Skinn",
+    "Guess", "Police", "Jaguar", "Armaf", "Lattafa",
+    "Al Haramain", "Al Rehab", "Rasasi", "Villain", "Renee",
+    "MyGlamm", "Nautica", "UCB", "Yardley", "Brut", "Nike",
+    "Secret Temptation", "Layer'r", "Envy", "Embark",
+    "Ferrari", "Davidoff", "Playboy", "Emper", "Paris Corner",
+    "Maison Alhambra", "Miniso", "Zara", "Marks and Spencer",
+  ],
+  'Soaps & Body': [
+    "Dove", "Nivea", "Santoor", "Medimix", "Pears", "Lux",
+    "Lifebuoy", "Dettol", "Fiama", "Hamam", "Mysore Sandal",
+    "Margo", "Himalaya", "Biotique", "Khadi Natural",
+    "Forest Essentials", "Sebamed", "Cetaphil", "Palmolive",
+    "Savlon", "Bath & Body Works", "The Body Shop", "Mamaearth",
+    "WOW", "Joy", "Rexona", "Vivel", "Yardley",
+  ],
+  'Hair Care': [
+    "L'Oreal", "Garnier", "Streax", "Bigen", "Indica",
+    "Indulekha", "Biotique", "Kama Ayurveda", "WOW",
+    "Mamaearth", "TRESemme", "Head & Shoulders", "Clinic Plus",
+    "Sunsilk", "Pantene", "Dove", "Matrix", "Schwarzkopf",
+    "Wella", "BBlunt", "Kesh King", "Patanjali",
+    "Bajaj Almond Drops", "Parachute", "Dabur Amla", "Nihar",
+    "Sesa", "Khadi Natural", "Forest Essentials", "Re'equil",
+    "Bare Anatomy", "Earth Rhythm", "Minimalist", "Pilgrim",
+    "Juicy Chemistry", "St Botanica", "Fix My Curls", "Arata",
+    "Plum", "Livon", "Set Wet", "Emami", "Navratna", "Himalaya",
   ],
   'Skincare': [
     "Mamaearth", "Minimalist", "Deconstruct", "The Derma Co",
-    "mCaffeine", "Neutrogena", "Plum", "Dot & Key",
-  ],
-  'Soaps & Body': [
-    "Dove", "Nivea", "Santoor", "Medimix", "Pears",
-  ],
-  'Hair Care': [
-    "L'Oreal", "Garnier", "Streax", "Indulekha",
+    "mCaffeine", "Neutrogena", "Plum", "Dot & Key", "Cetaphil",
+    "CeraVe", "Pond's", "Olay", "Garnier", "Lakme",
+    "Lotus Herbals", "Himalaya", "Biotique", "Forest Essentials",
+    "Kama Ayurveda", "Juicy Chemistry", "Earth Rhythm",
+    "Pilgrim", "Re'equil", "Fixderma", "Cipla", "Aqualogica",
+    "Dr Sheth's", "Foxtale", "Beauty of Joseon", "Innisfree",
+    "Laneige", "Simple", "Joy", "Clean & Clear", "Acne Star",
+    "WOW", "Sugar Cosmetics", "The Ordinary", "Dermalogica",
+    "Clinique", "La Roche-Posay", "Vichy", "Bioderma", "Avene",
+    "Kiehl's", "Nykaa", "Faces Canada", "Conscious Chemist",
+    "RAS Luxury Oils", "Vedix", "SkinKraft", "Dr Batra's",
   ],
   'Home Insecticides': [
-    "Mortein", "All Out",
+    "Mortein", "All Out", "Maxo", "Baygon", "Raid", "Odomos",
+    "Herbal Strategi", "Laxman Rekha", "Finit", "Pif Paf",
+    "Combat", "Terminix", "Rentokil",
   ],
   'Air Fresheners': [
-    "Odonil", "Ambi Pur",
+    "Odonil", "Ambi Pur", "Air Wick", "Glade", "Febreze",
+    "Renuzit", "Sawaday", "Iris Home Fragrance", "Mangalam",
+    "Cycle Pure", "HEM", "Tatva Yog", "Phool",
+    "Bombay Candle Company", "Niana", "Ekam", "Seva",
+    "Zed Black", "Moksh", "Mysore Sandal", "Lia",
+    "Little Trees", "California Scents", "Yankee Candle",
   ],
   'Sexual Wellness': [
-    "Manforce", "Durex", "Skore",
+    "Manforce", "Durex", "Skore", "Moods", "Kohinoor",
+    "Okamoto", "Trojan", "Playgard", "Contex",
+    "That's Personal", "Bold Care", "Imbue Natural", "Namyaa",
+    "Lemme Be", "WOW", "VWash", "Lactacyd", "Pee Safe",
+    "Sirona", "Carmesi", "Gynoveda", "I Know", "Carex",
+    "Mankind Pharma", "TTK Healthcare",
   ],
 };
 
@@ -108,21 +135,20 @@ const COMPETITOR_BRANDS = Object.values(COMPETITOR_BRANDS_BY_CATEGORY).flat();
 // GCPL relevance filter — keeps signals related to Godrej product categories
 // ---------------------------------------------------------------------------
 const GCPL_KEYWORDS = [
-  // All category keywords
-  ...Object.values(CATEGORY_KEYWORDS).flat(),
-  // General personal care / beauty / home terms
-  "beauty", "cosmetic", "makeup", "make-up", "lipstick", "foundation",
-  "mascara", "eyeliner", "nail", "wellness", "lotion", "cream",
-  "face", "personal care", "glow", "skin",
-  // Brand names (own + competitor)
-  ...OWN_BRANDS.map(b => b.toLowerCase()),
-  ...COMPETITOR_BRANDS.map(b => b.toLowerCase()),
-];
+  // All product keywords (from every category in the JSON)
+  ...Object.values(keywordsDB.product_keywords).flat(),
+  // All brand keywords (own + every competitor sub-category)
+  ...Object.values(keywordsDB.brand_keywords).flat(),
+  // Industry keywords
+  ...keywordsDB.industry_keywords,
+  // Social trend keywords
+  ...keywordsDB.social_trend_keywords,
+].map(kw => kw.toLowerCase());
 
 export function isBeautyRelated(signal) {
   const title = (signal?.title || signal?.trend_name || "").toLowerCase();
   if (!title) return false;
-  return GCPL_KEYWORDS.some(kw => title.includes(kw.toLowerCase()));
+  return GCPL_KEYWORDS.some(kw => title.includes(kw));
 }
 
 // ---------------------------------------------------------------------------
