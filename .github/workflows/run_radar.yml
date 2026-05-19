@@ -1,22 +1,24 @@
-name: Beauty & UGC Trend Radar
+name: Omniradar Pipeline
 
 on:
   schedule:
-    - cron: '30 4 * * *' # Run at 10:00 AM IST (04:30 UTC) daily
-  workflow_dispatch: # Allow manual runs
+    # 3 runs daily (IST = UTC + 5:30)
+    - cron: '30 7 * * *'   # 1:00 PM IST — captures morning trends
+    - cron: '30 12 * * *'  # 6:00 PM IST — captures afternoon trends
+    - cron: '0 17 * * *'   # 10:30 PM IST — captures evening trends
+  workflow_dispatch: # Manual trigger from GitHub UI anytime
 
 jobs:
   run-radar:
     runs-on: ubuntu-latest
-    
+    timeout-minutes: 15
+
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 0 # Fetch all history for rebase
+      uses: actions/checkout@v4
 
     - name: Set up Python 3.11
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
 
@@ -26,22 +28,21 @@ jobs:
         pip install -r requirements.txt
         python -m playwright install chromium --with-deps
 
-    - name: Run Trend Radar Pipeline
+    - name: Run Pipeline
       env:
-        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
-        REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
-        REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
-      run: |
-        python main.py
+      run: python main.py
 
-    - name: Commit state changes
+    - name: Copy data to frontend
+      run: cp daily_beauty_insights.json frontend/src/lib/pipeline_data.json
+
+    - name: Commit & push
       run: |
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
-        git add seen_trends.json run_log.txt daily_beauty_insights.json
-        git commit -m "Update trends and insights [skip ci]" || echo "No changes to commit"
+        git config user.name 'github-actions'
+        git config user.email 'github-actions@github.com'
+        git add daily_beauty_insights.json frontend/src/lib/pipeline_data.json run_log.txt
+        git diff --cached --quiet || git commit -m "Pipeline refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
         git pull --rebase origin main
         git push origin main

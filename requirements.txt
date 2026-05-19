@@ -1,7 +1,7 @@
 pytrends
 praw
 feedparser
-google-genai
+anthropic
 python-telegram-bot
 pyyaml
 python-dotenv
