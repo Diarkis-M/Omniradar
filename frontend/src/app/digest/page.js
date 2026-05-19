@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { getSeedData, getUrgencyLevel, categorizeSignal, findSupportingSignals, getAllSignals } from '@/lib/data';
+import { getSeedData, getUrgencyLevel, categorizeSignal, findSupportingSignals, getAllSignals, isBeautyRelated } from '@/lib/data';
 import DetailDrawer from '@/components/DetailDrawer';
 
 // Platform icon helper
@@ -34,7 +34,7 @@ export default function DigestPage() {
   const synced = ts.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' }) +
     ' at ' + ts.toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', hour12: true }) + ' IST';
 
-  const totalSignals = getAllSignals(data).length;
+  const totalSignals = getAllSignals(data).filter(isBeautyRelated).length;
 
   return (
     <>

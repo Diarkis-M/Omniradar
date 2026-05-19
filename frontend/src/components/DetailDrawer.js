@@ -30,9 +30,42 @@ export default function DetailDrawer({ signal, onClose }) {
   if (!url && s.trend_name) {
     url = findSourceUrl(s, data);
   }
-  const context = s.context || s.summary || '';
-  const insight = s.result || '';
+
+  // Generate context & URL for bare signals (Google Trends, Social, Pinterest)
+  const platformLower = platform.toLowerCase();
+  let context = s.context || s.summary || '';
+  let insight = s.result || '';
   const metric = s.metric || '';
+
+  if (!url && title) {
+    if (platformLower.includes('google')) {
+      url = `https://trends.google.com/trends/explore?q=${encodeURIComponent(title)}&geo=IN`;
+    } else if (platformLower.includes('social') || platformLower.includes('twitter')) {
+      url = `https://x.com/search?q=${encodeURIComponent(title)}&src=trend_click`;
+    } else if (platformLower.includes('pinterest')) {
+      url = `https://www.pinterest.com/search/pins/?q=${encodeURIComponent(title)}`;
+    }
+  }
+  if (!context && title) {
+    if (platformLower.includes('google')) {
+      context = `"${title}" is a breakout search query on Google Trends India, indicating a surge in consumer search interest. This signal was detected by monitoring real-time trending searches across India.`;
+    } else if (platformLower.includes('social') || platformLower.includes('twitter')) {
+      context = `"${title}" is trending on X / Twitter, reflecting real-time social conversation and buzz around this topic in India.`;
+    } else if (platformLower.includes('pinterest')) {
+      context = `"${title}" is trending on Pinterest, indicating rising visual search interest and inspiration-seeking behaviour among consumers.`;
+    } else if (platformLower.includes('news') || platformLower.includes('rss')) {
+      context = `Editorial coverage detected via news and RSS monitoring. This signal reflects media attention and industry interest.`;
+    }
+  }
+  if (!insight && !s.trend_name && title) {
+    if (platformLower.includes('google')) {
+      insight = 'Google search breakout trend — rising consumer interest detected. Monitor for sustained search volume to assess if this represents an emerging opportunity.';
+    } else if (platformLower.includes('social') || platformLower.includes('twitter')) {
+      insight = 'Social trending signal — real-time conversation spike detected. Evaluate sentiment and context to determine relevance for brand strategy.';
+    } else if (platformLower.includes('pinterest')) {
+      insight = 'Visual discovery trend — rising saves and searches on Pinterest. Early indicator of consumer aspiration and potential future demand.';
+    }
+  }
 
   // Build metadata from available fields (for raw signal objects)
   const meta = {};

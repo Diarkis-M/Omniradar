@@ -1,8 +1,11 @@
 'use client';
 import { useState } from 'react';
-import { getSeedData, getSignalsByPlatform, getCompetitorSignals } from '@/lib/data';
+import { getSeedData, getSignalsByPlatform, getCompetitorSignals, isBeautyRelated } from '@/lib/data';
 import FeedGrid from '@/components/FeedGrid';
 import DetailDrawer from '@/components/DetailDrawer';
+
+// Platforms whose pipeline already searches for beauty terms — no filter needed
+const BEAUTY_SCOPED = new Set(['reddit', 'amazon', 'nykaa', 'flipkart', 'instagram', 'competitors']);
 
 const SOURCE_META = {
   google:     { title: 'Google Feed',     key: 'google' },
@@ -28,6 +31,11 @@ export default function FeedPageClient({ source }) {
     signals = getCompetitorSignals(data);
   } else {
     signals = getSignalsByPlatform(data, meta.key);
+  }
+
+  // Filter non-beauty signals for platforms that pull general trends
+  if (!BEAUTY_SCOPED.has(source)) {
+    signals = signals.filter(isBeautyRelated);
   }
 
   return (

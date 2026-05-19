@@ -61,6 +61,31 @@ const COMPETITOR_BRANDS = [
 ];
 
 // ---------------------------------------------------------------------------
+// Beauty relevance filter — keeps out IPL, football, Bollywood, politics etc.
+// ---------------------------------------------------------------------------
+const BEAUTY_KEYWORDS = [
+  // Flatten all category keywords
+  ...Object.values(CATEGORY_KEYWORDS).flat(),
+  // Additional beauty / cosmetics / wellness terms
+  "beauty", "cosmetic", "makeup", "make-up", "lipstick", "foundation",
+  "concealer", "blush", "mascara", "eyeshadow", "eyeliner", "nail",
+  "manicure", "pedicure", "wellness", "spa", "self-care", "lotion",
+  "cream", "mist", "face", "complexion", "aesthetic", "glam", "contour",
+  "primer", "bronzer", "highlighter", "brow", "lash", "wax", "body care",
+  "personal care", "skincare", "haircare", "style", "styling",
+  "colour", "color", "dye", "bleach", "treatment", "routine", "trend",
+  // Brand names (own + competitor)
+  ...OWN_BRANDS.map(b => b.toLowerCase()),
+  ...COMPETITOR_BRANDS.map(b => b.toLowerCase()),
+];
+
+export function isBeautyRelated(signal) {
+  const title = (signal?.title || signal?.trend_name || "").toLowerCase();
+  if (!title) return false;
+  return BEAUTY_KEYWORDS.some(kw => title.includes(kw.toLowerCase()));
+}
+
+// ---------------------------------------------------------------------------
 // Normalize raw signals — some platforms return plain strings
 // ---------------------------------------------------------------------------
 function normalizeSignals(rawSignals) {

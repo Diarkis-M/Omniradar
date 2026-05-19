@@ -1,12 +1,12 @@
 'use client';
 import { useState } from 'react';
-import { getSeedData, getAllSignals } from '@/lib/data';
+import { getSeedData, getAllSignals, isBeautyRelated } from '@/lib/data';
 import FeedGrid from '@/components/FeedGrid';
 import DetailDrawer from '@/components/DetailDrawer';
 
 export default function FeedsPage() {
   const data = getSeedData();
-  const signals = getAllSignals(data);
+  const signals = getAllSignals(data).filter(isBeautyRelated);
   const [selected, setSelected] = useState(null);
 
   return (

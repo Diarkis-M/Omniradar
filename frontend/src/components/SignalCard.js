@@ -22,6 +22,16 @@ export default function SignalCard({ signal = {}, onSelect }) {
   else if (signal.query) subtitle = signal.query.replace('site:instagram.com ', '');
   else if (signal.published) subtitle = new Date(signal.published).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
 
+  // Generate context line for bare signals (Google, Social, Pinterest)
+  const plat = platform.toLowerCase();
+  let signalContext = '';
+  if (!subreddit && !brand && !price && score === 0 && rating === 0 && !signal.published) {
+    if (plat.includes('google'))  signalContext = 'Breakout search — Google Trends India';
+    else if (plat.includes('social') || plat.includes('twitter'))  signalContext = 'Trending topic — X / Twitter India';
+    else if (plat.includes('pinterest'))  signalContext = 'Trending pins — Pinterest';
+    else if (plat.includes('news') || plat.includes('rss'))  signalContext = 'Editorial coverage — News / RSS';
+  }
+
   return (
     <article
       className="group cursor-pointer transition-colors"
@@ -66,6 +76,14 @@ export default function SignalCard({ signal = {}, onSelect }) {
           style={{ fontSize: '10px', color: 'var(--ink-soft)', letterSpacing: '0.06em' }}>
           {subtitle}
         </div>
+      )}
+
+      {/* Signal context for bare signals (Google/Social/Pinterest) */}
+      {signalContext && (
+        <p className="font-body mb-2"
+          style={{ fontSize: '12px', color: 'var(--ink-faint)', lineHeight: 1.4 }}>
+          {signalContext}
+        </p>
       )}
 
       {/* Stats row for e-commerce signals */}

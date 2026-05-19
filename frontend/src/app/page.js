@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { getSeedData, getAllSignals, getBrandMentions, getUrgencyLevel, getCompetitorSignals } from '@/lib/data';
+import { getSeedData, getAllSignals, getBrandMentions, getUrgencyLevel, getCompetitorSignals, isBeautyRelated } from '@/lib/data';
 import StatStrip from '@/components/StatStrip';
 import SignalCard from '@/components/SignalCard';
 import CompetitorPulse from '@/components/CompetitorPulse';
@@ -9,7 +9,7 @@ import Link from 'next/link';
 
 export default function Dashboard() {
   const data = getSeedData();
-  const allSignals = getAllSignals(data);
+  const allSignals = getAllSignals(data).filter(isBeautyRelated);
   const mentions = getBrandMentions(data);
   const competitorSignals = getCompetitorSignals(data);
   const [selected, setSelected] = useState(null);
