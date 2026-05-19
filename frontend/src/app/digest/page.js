@@ -40,11 +40,12 @@ export default function DigestPage() {
               {trends.length} trend{trends.length !== 1 ? 's' : ''}
             </span>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-[1px] bg-rule">
+          <div className="grid grid-cols-1 md:grid-cols-2">
             {trends.map((trend, i) => {
               const urgency = getUrgencyLevel(trend);
               return (
-                <div key={i} className="bg-paper p-6 cursor-pointer hover:bg-paper-deep transition-colors"
+                <div key={i} className="bg-paper p-6 cursor-pointer hover:bg-paper-deep transition-colors border-b border-r"
+                  style={{ borderColor: 'var(--rule)' }}
                   onClick={() => setSelected(trend)}>
                   {/* Tags */}
                   <div className="flex flex-wrap gap-2 mb-3">

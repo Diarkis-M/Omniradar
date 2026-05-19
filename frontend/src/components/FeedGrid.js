@@ -43,14 +43,17 @@ export default function FeedGrid({ signals = [], title = 'Feed', onSelectSignal 
           style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
-            gap: 1,
-            background: 'var(--rule)',
+            gap: 0,
           }}
         >
           {signals.map((signal, i) => (
             <div
               key={signal.id || signal.url || i}
-              style={{ background: 'var(--paper)' }}
+              style={{
+                background: 'var(--paper)',
+                borderBottom: '1px solid var(--rule)',
+                borderRight: '1px solid var(--rule)',
+              }}
             >
               <SignalCard signal={signal} onSelect={onSelectSignal} />
             </div>
