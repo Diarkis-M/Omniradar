@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import { findSourceUrl, getSeedData } from '@/lib/data';
+import { findSourceUrl, findSupportingSignals, getSeedData } from '@/lib/data';
 
 export default function DetailDrawer({ signal, onClose }) {
   const drawerRef = useRef(null);
@@ -22,18 +22,19 @@ export default function DetailDrawer({ signal, onClose }) {
 
   // Normalize fields: support both trend objects and raw signal objects
   const s = signal || {};
+  const data = getSeedData();
   const title = s.trend_name || s.title || '';
   const platform = s.platform || s.label?.replace(/[\[\]]/g, '') || s.source || '';
   const source = s.source_platform || (s.subreddit ? `r/${s.subreddit}` : '') || s.source || '';
   let url = s.url || s.link || '';
   if (!url && s.trend_name) {
-    url = findSourceUrl(s, getSeedData());
+    url = findSourceUrl(s, data);
   }
   const context = s.context || s.summary || '';
   const insight = s.result || '';
   const metric = s.metric || '';
 
-  // Build metadata from available fields
+  // Build metadata from available fields (for raw signal objects)
   const meta = {};
   if (s.score) meta['Reddit Score'] = s.score;
   if (s.num_comments) meta['Comments'] = s.num_comments;
@@ -46,6 +47,24 @@ export default function DetailDrawer({ signal, onClose }) {
   if (s.category) meta['Category'] = s.category;
   if (s.engagement) meta['Engagement'] = s.engagement;
   if (s.published) meta['Published'] = new Date(s.published).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
+
+  // Cross-platform evidence (only for AI trend objects)
+  const evidence = s.trend_name ? findSupportingSignals(s, data) : null;
+
+  // Helper: icon for platform type
+  const platformIcon = (name) => {
+    const n = name.toLowerCase();
+    if (n.includes('amazon')) return '\u{1F4E6}';
+    if (n.includes('flipkart')) return '\u{1F6D2}';
+    if (n.includes('nykaa')) return '\u{1F48E}';
+    if (n.includes('reddit')) return '\u{1F4AC}';
+    if (n.includes('instagram')) return '\u{1F4F8}';
+    if (n.includes('news') || n.includes('rss')) return '\u{1F4F0}';
+    if (n.includes('pinterest')) return '\u{1F4CC}';
+    if (n.includes('google')) return '\u{1F50D}';
+    if (n.includes('social') || n.includes('twitter')) return '\u{1F426}';
+    return '\u{1F4CA}';
+  };
 
   return (
     <>
@@ -144,7 +163,110 @@ export default function DetailDrawer({ signal, onClose }) {
             </div>
           )}
 
-          {/* Metadata table */}
+          {/* ========== WHY THIS IS TRENDING — cross-platform evidence ========== */}
+          {evidence && (
+            <div className="mb-6">
+              <div className="font-mono uppercase mb-2"
+                style={{ fontSize: '10px', fontWeight: 500, letterSpacing: '0.1em', color: 'var(--ink-faint)' }}>
+                Why This Is Trending
+              </div>
+
+              {/* Summary bar */}
+              <div className="mb-3 py-2 px-3" style={{
+                background: 'var(--paper-deep)', borderRadius: 'var(--radius)',
+                border: '1px solid var(--rule)',
+              }}>
+                <span className="font-mono" style={{ fontSize: '11px', color: 'var(--accent-deep)', fontWeight: 600 }}>
+                  {evidence.platformCount >= 3
+                    ? `Cross-platform trend: detected across ${evidence.platformCount} independent sources`
+                    : evidence.platformCount === 2
+                    ? `Multi-platform signal: detected on ${evidence.platformCount} platforms`
+                    : `Platform signal: ${evidence.total} supporting data point${evidence.total > 1 ? 's' : ''}`}
+                </span>
+                <div className="font-mono mt-1" style={{ fontSize: '10px', color: 'var(--ink-faint)' }}>
+                  {evidence.total} matching signal{evidence.total > 1 ? 's' : ''} found in raw pipeline data
+                </div>
+              </div>
+
+              {/* Per-platform evidence cards */}
+              {Object.entries(evidence.platforms).map(([platName, info]) => (
+                <div key={platName} className="mb-3" style={{
+                  borderTop: '1px solid var(--rule)', paddingTop: 8,
+                }}>
+                  {/* Platform header */}
+                  <div className="flex items-center justify-between mb-1">
+                    <span className="font-mono uppercase" style={{
+                      fontSize: '10px', fontWeight: 600, color: 'var(--ink)',
+                      letterSpacing: '0.06em',
+                    }}>
+                      {platformIcon(platName)} {platName}
+                    </span>
+                    <span className="font-mono" style={{
+                      fontSize: '10px', color: 'var(--ink-faint)',
+                    }}>
+                      {info.count} signal{info.count > 1 ? 's' : ''}
+                    </span>
+                  </div>
+
+                  {/* Aggregate metrics row */}
+                  <div className="flex flex-wrap gap-3 mb-2">
+                    {info.avgRating && (
+                      <span className="font-mono" style={{ fontSize: '10px', color: 'var(--ink-soft)' }}>
+                        &#9733; {info.avgRating} avg rating
+                      </span>
+                    )}
+                    {info.totalReviews > 0 && (
+                      <span className="font-mono" style={{ fontSize: '10px', color: 'var(--ink-soft)' }}>
+                        {info.totalReviews.toLocaleString()} reviews
+                      </span>
+                    )}
+                    {info.totalUpvotes > 0 && (
+                      <span className="font-mono" style={{ fontSize: '10px', color: 'var(--ink-soft)' }}>
+                        &#9650; {info.totalUpvotes.toLocaleString()} upvotes
+                      </span>
+                    )}
+                    {info.totalComments > 0 && (
+                      <span className="font-mono" style={{ fontSize: '10px', color: 'var(--ink-soft)' }}>
+                        {info.totalComments.toLocaleString()} comments
+                      </span>
+                    )}
+                    {info.avgVelocity && (
+                      <span className="font-mono" style={{ fontSize: '10px', color: 'var(--accent-deep)', fontWeight: 600 }}>
+                        &#9889; {info.avgVelocity} velocity
+                      </span>
+                    )}
+                  </div>
+
+                  {/* Top matching signal titles */}
+                  {info.top.slice(0, 2).map((sig, i) => (
+                    <div key={i} className="font-body" style={{
+                      fontSize: '11px', color: 'var(--ink-faint)',
+                      lineHeight: 1.4, whiteSpace: 'nowrap', overflow: 'hidden',
+                      textOverflow: 'ellipsis', paddingLeft: 8,
+                      borderLeft: '1px solid var(--rule)', marginBottom: 2,
+                    }}>
+                      {sig.title}
+                    </div>
+                  ))}
+                </div>
+              ))}
+
+              {/* Detected keywords */}
+              <div className="mt-3 flex flex-wrap gap-1">
+                {evidence.keywords.map((kw, i) => (
+                  <span key={i} className="font-mono" style={{
+                    fontSize: '9px', color: 'var(--ink-faint)',
+                    border: '1px solid var(--rule)', borderRadius: 3,
+                    padding: '1px 5px', lineHeight: 1.4,
+                  }}>
+                    {kw}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Metadata table (for raw signal objects) */}
           {Object.keys(meta).length > 0 && (
             <div className="mb-6">
               <div className="font-mono uppercase mb-2"

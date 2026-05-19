@@ -255,5 +255,89 @@ export function findSourceUrl(trend, data) {
   return fb ? (fb.url || fb.link || '') : '';
 }
 
+// ---------------------------------------------------------------------------
+// findSupportingSignals(trend, data) — gather cross-platform evidence
+// ---------------------------------------------------------------------------
+const STOP_WORDS = new Set([
+  'with', 'from', 'that', 'this', 'have', 'been', 'will', 'their', 'about',
+  'which', 'when', 'where', 'while', 'these', 'those', 'what', 'more', 'most',
+  'some', 'than', 'other', 'into', 'over', 'also', 'they', 'very', 'just',
+  'only', 'like', 'make', 'made', 'such', 'each', 'every', 'both', 'does',
+  'high', 'away', 'users', 'demand', 'driving', 'dedicated', 'increased',
+  'platforms', 'market', 'indian', 'india', 'products', 'product', 'brands',
+  'brand', 'techniques', 'processes', 'routines', 'specialized', 'seeking',
+  'multi', 'functional', 'targeting', 'specific', 'avoid', 'damaging',
+]);
+
+function extractKeywords(text) {
+  return text.toLowerCase().replace(/['']/g, '').split(/[\s\-\/,.:;!?()]+/)
+    .map(w => w.replace(/[^a-z0-9]/g, ''))
+    .filter(w => w.length > 3 && !STOP_WORDS.has(w));
+}
+
+export function findSupportingSignals(trend, data) {
+  if (!trend?.trend_name || !data) return null;
+
+  const allSignals = getAllSignals(data);
+  const nameKw = extractKeywords(trend.trend_name);
+  const contextKw = extractKeywords(trend.context || '').slice(0, 6);
+  const resultKw = extractKeywords(trend.result || '').slice(0, 6);
+  const keywords = [...new Set([...nameKw, ...contextKw, ...resultKw])];
+
+  if (keywords.length === 0) return null;
+
+  // Score every raw signal against trend keywords
+  const scored = [];
+  for (const signal of allSignals) {
+    const title = (signal.title || '').toLowerCase();
+    let score = 0;
+    const matched = [];
+    for (const kw of keywords) {
+      if (title.includes(kw)) { score++; matched.push(kw); }
+    }
+    if (score >= 1) scored.push({ ...signal, _score: score, _matched: matched });
+  }
+
+  if (scored.length === 0) return null;
+
+  // Group by platform
+  const byPlatform = {};
+  for (const s of scored) {
+    const p = s.platform || 'Unknown';
+    if (!byPlatform[p]) byPlatform[p] = [];
+    byPlatform[p].push(s);
+  }
+
+  // Build per-platform evidence with aggregate stats
+  const platforms = {};
+  for (const [platform, signals] of Object.entries(byPlatform)) {
+    const sorted = signals.sort((a, b) => b._score - a._score);
+    const info = { count: signals.length, top: sorted.slice(0, 3) };
+
+    // E-commerce aggregates
+    const ratings = signals.map(s => s.rating).filter(r => r > 0);
+    const reviews = signals.map(s => s.review_count).filter(r => r > 0);
+    if (ratings.length) info.avgRating = (ratings.reduce((a, b) => a + b, 0) / ratings.length).toFixed(1);
+    if (reviews.length) info.totalReviews = reviews.reduce((a, b) => a + b, 0);
+
+    // Reddit aggregates
+    const upvotes = signals.map(s => s.score).filter(v => v > 0);
+    const comments = signals.map(s => s.num_comments).filter(v => v > 0);
+    const velocities = signals.map(s => s.velocity).filter(v => v > 0);
+    if (upvotes.length) info.totalUpvotes = upvotes.reduce((a, b) => a + b, 0);
+    if (comments.length) info.totalComments = comments.reduce((a, b) => a + b, 0);
+    if (velocities.length) info.avgVelocity = (velocities.reduce((a, b) => a + b, 0) / velocities.length).toFixed(1);
+
+    platforms[platform] = info;
+  }
+
+  return {
+    total: scored.length,
+    platformCount: Object.keys(platforms).length,
+    platforms,
+    keywords: keywords.slice(0, 8),
+  };
+}
+
 const seedData = getSeedData();
 export default seedData;
