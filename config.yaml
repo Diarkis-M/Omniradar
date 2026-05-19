@@ -192,12 +192,165 @@ ecommerce:
       - name: "Sexual Wellness"
         url: "https://www.flipkart.com/beauty-and-grooming/sexual-wellness/pr?sid=g9b%2Calu&sort=popularity"
 
-# Instagram RSS proxy queries
+# ─── GCPL-scoped search queries for each platform collector ───
+
+# Google Trends: search for rising interest in GCPL product categories
+google:
+  search_queries:
+    # Men's Grooming
+    - "men face wash india"
+    - "beard oil india"
+    - "men grooming india"
+    - "men sunscreen india"
+    - "shaving cream aftershave"
+    # Fragrances & Deodorants
+    - "perfume india"
+    - "deodorant india"
+    - "body spray men india"
+    - "roll on deodorant"
+    - "eau de parfum india"
+    # Hair Care
+    - "hair colour india"
+    - "henna mehendi hair"
+    - "shampoo india"
+    - "hair serum oil india"
+    - "dandruff treatment"
+    # Soaps & Body
+    - "soap india"
+    - "shower gel body wash"
+    - "handwash liquid soap"
+    # Skincare
+    - "face wash india"
+    - "sunscreen india"
+    - "moisturizer india"
+    # Home Insecticides
+    - "mosquito repellent india"
+    - "cockroach killer spray"
+    - "insecticide india"
+    # Air Fresheners
+    - "air freshener india"
+    - "room freshener"
+    - "car freshener"
+    # GCPL & Competitor Brands
+    - "Park Avenue perfume"
+    - "Cinthol soap"
+    - "Godrej Expert hair colour"
+    - "HIT insecticide"
+    - "Good Knight mosquito"
+    - "Godrej aer freshener"
+    - "Bella Vita perfume"
+    - "Beardo grooming"
+    - "Wild Stone deo"
+    - "Fogg deodorant"
+
+# Social / Twitter: GCPL-relevant search terms to filter trends
+social:
+  gcpl_filter_keywords:
+    - "face wash"
+    - "sunscreen"
+    - "moisturizer"
+    - "serum"
+    - "deodorant"
+    - "perfume"
+    - "fragrance"
+    - "body spray"
+    - "soap"
+    - "shower gel"
+    - "handwash"
+    - "body wash"
+    - "shampoo"
+    - "hair colour"
+    - "hair color"
+    - "henna"
+    - "beard"
+    - "shaving"
+    - "grooming"
+    - "skincare"
+    - "haircare"
+    - "mosquito"
+    - "insecticide"
+    - "repellent"
+    - "air freshener"
+    - "room freshener"
+    - "condom"
+    - "Park Avenue"
+    - "Cinthol"
+    - "Godrej"
+    - "HIT"
+    - "Good Knight"
+    - "Beardo"
+    - "Ustraa"
+    - "Wild Stone"
+    - "Fogg"
+    - "Denver"
+    - "Bella Vita"
+    - "Mamaearth"
+    - "Nivea"
+    - "Dove"
+    - "FMCG"
+    - "D2C"
+    - "personal care"
+    - "beauty"
+    - "cosmetic"
+    - "makeup"
+    - "skin"
+    - "hair"
+    - "lotion"
+    - "cream"
+  search_queries:
+    - "GCPL Godrej Consumer Products"
+    - "Park Avenue fragrance India"
+    - "men grooming trend India"
+    - "deodorant trend India"
+    - "mosquito repellent India"
+    - "FMCG India personal care"
+    - "D2C beauty brand India"
+
+# Pinterest: GCPL product category visual trends
+pinterest:
+  search_queries:
+    - "site:pinterest.com men grooming india"
+    - "site:pinterest.com perfume fragrance india"
+    - "site:pinterest.com hair colour ideas india"
+    - "site:pinterest.com beard style india"
+    - "site:pinterest.com soap body wash aesthetic"
+    - "site:pinterest.com room freshener home decor"
+    - "site:pinterest.com skincare routine men india"
+    - "site:pinterest.com deodorant body spray"
+  pytrends_queries:
+    - "pinterest men grooming"
+    - "pinterest hair colour"
+    - "pinterest perfume"
+    - "pinterest beard style"
+    - "pinterest skincare routine"
+    - "pinterest soap body wash"
+
+# Instagram RSS proxy queries (GCPL product portfolio)
 instagram:
   rss_queries:
+    # Men's Grooming & Skincare
     - "site:instagram.com mens grooming india"
-    - "site:instagram.com hair colour india"
-    - "site:instagram.com deodorant india"
-    - "site:instagram.com skincare routine india men"
+    - "site:instagram.com men face wash india"
+    - "site:instagram.com men sunscreen india"
     - "site:instagram.com beard care india"
+    - "site:instagram.com skincare routine india men"
+    # Fragrances & Deodorants (men + women)
+    - "site:instagram.com perfume india"
+    - "site:instagram.com deodorant india"
+    - "site:instagram.com fragrance collection india"
+    - "site:instagram.com body spray india"
+    - "site:instagram.com Park Avenue fragrance"
+    # Hair Care
+    - "site:instagram.com hair colour india"
+    - "site:instagram.com hair colour transformation"
+    - "site:instagram.com henna mehendi hair"
+    # Soaps & Body
     - "site:instagram.com soap handwash india"
+    - "site:instagram.com shower gel body wash"
+    # Home Insecticides & Air Fresheners
+    - "site:instagram.com mosquito repellent india"
+    - "site:instagram.com air freshener room freshener"
+    # Competitor brand tracking
+    - "site:instagram.com Bella Vita perfume"
+    - "site:instagram.com Beardo grooming"
+    - "site:instagram.com Wild Stone Denver Fogg"

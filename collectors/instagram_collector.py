@@ -69,14 +69,33 @@ def get_instagram_trends(config):
     Receives: config dict (reads instagram.rss_queries if present, else uses defaults)
     Returns: list[dict] with keys: title, source, url, engagement, query
     """
-    # Get queries from config or use defaults
+    # Get queries from config or use defaults covering full GCPL portfolio
     instagram_config = config.get('instagram', {})
     queries = instagram_config.get('rss_queries', [
+        # Men's Grooming & Skincare
         "site:instagram.com mens grooming india",
-        "site:instagram.com hair colour india",
-        "site:instagram.com deodorant india",
+        "site:instagram.com men face wash india",
+        "site:instagram.com men sunscreen india",
+        "site:instagram.com beard care india",
         "site:instagram.com skincare routine india men",
-        "site:instagram.com beauty trends india",
+        # Fragrances & Deodorants (men + women)
+        "site:instagram.com perfume india",
+        "site:instagram.com deodorant india",
+        "site:instagram.com fragrance collection india",
+        "site:instagram.com body spray india",
+        # Hair Care
+        "site:instagram.com hair colour india",
+        "site:instagram.com hair colour transformation",
+        "site:instagram.com henna mehendi hair",
+        # Soaps & Body
+        "site:instagram.com soap handwash india",
+        "site:instagram.com shower gel body wash",
+        # Home & Air Care
+        "site:instagram.com mosquito repellent india",
+        "site:instagram.com air freshener room freshener",
+        # Competitor tracking
+        "site:instagram.com Bella Vita perfume",
+        "site:instagram.com Beardo grooming",
     ])
 
     logger.info(f"Fetching Instagram trends via RSS proxy ({len(queries)} queries)...")
@@ -93,6 +112,10 @@ def get_instagram_trends(config):
             "Hair Colour Transformation",
             "Skincare for Indian Men",
             "Deodorant Comparison India",
+            "Perfume Collection India",
+            "Room Freshener Home Decor",
+            "Body Spray vs Perfume India",
+            "Soap & Body Wash Review",
         ]
         for ft in fallback_trends:
             results.append({

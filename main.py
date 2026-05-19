@@ -30,7 +30,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 async def run_pipeline():
-    logger.info("Starting Mobile-Optimized Beauty Radar...")
+    logger.info("Starting Omniradar — GCPL Consumer Intelligence Pipeline...")
     
     # Load Config
     try:
@@ -44,7 +44,7 @@ async def run_pipeline():
     logger.info("Fetching raw platform data from 9 sources...")
     try:
         results = await asyncio.gather(
-            asyncio.to_thread(get_google_trends),
+            asyncio.to_thread(get_google_trends, config),
             asyncio.to_thread(get_reddit_trends, [s for c in config['categories'] for s in c.get('subreddits', [])]),
             asyncio.to_thread(get_rss_trends, [r for c in config['categories'] for r in c.get('rss', [])]),
             asyncio.to_thread(get_social_trends, config),
@@ -103,7 +103,7 @@ async def run_pipeline():
         json.dump(insights, f, indent=4)
 
     # 4. Format Telegram Output (Mobile-Optimized Structure)
-    msg = "💎 *DAILY BEAUTY INTELLIGENCE* 💎\n\n"
+    msg = "💎 *GCPL DAILY INTELLIGENCE* 💎\n\n"
     for i, t in enumerate(trends[:5], 1):
         label = t.get('label', '[TREND]')
         name = t.get('trend_name', t.get('trend', 'Beauty Trend'))
