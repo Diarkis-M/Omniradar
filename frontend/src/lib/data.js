@@ -249,9 +249,10 @@ export function getBrandMentions(data) {
   function countMentions(brandList) {
     return brandList.map((brand) => {
       const needle = brand.toLowerCase();
-      const count = all.filter((s) =>
-        (s.title || "").toLowerCase().includes(needle)
-      ).length;
+      const count = all.filter((s) => {
+        const text = ((s.title || '') + ' ' + (s.category || '')).toLowerCase();
+        return text.includes(needle);
+      }).length;
       return { name: brand, count };
     });
   }
@@ -267,6 +268,44 @@ export function getBrandMentions(data) {
     competitors: countMentions(compBrands),
     competitorsByCategory,
   };
+}
+
+// ---------------------------------------------------------------------------
+// getBrandMentionDetails(data, brandName) — per-platform source breakdown
+// ---------------------------------------------------------------------------
+export function getBrandMentionDetails(data, brandName) {
+  if (!data || !brandName) return null;
+  const all = getAllSignals(data);
+  const needle = brandName.toLowerCase();
+
+  const matches = all.filter((s) => {
+    const text = ((s.title || '') + ' ' + (s.category || '')).toLowerCase();
+    return text.includes(needle);
+  });
+
+  // Group by platform
+  const byPlatform = {};
+  for (const s of matches) {
+    const p = s.platform || 'Unknown';
+    if (!byPlatform[p]) byPlatform[p] = [];
+    byPlatform[p].push({
+      title: s.title || '',
+      url: s.url || s.link || '',
+      price: s.price || '',
+      rating: s.rating || 0,
+      review_count: s.review_count || 0,
+      score: s.score || 0,
+      num_comments: s.num_comments || 0,
+      subreddit: s.subreddit || '',
+    });
+  }
+
+  // Sort platforms by count descending
+  const platforms = Object.entries(byPlatform)
+    .map(([platform, signals]) => ({ platform, signals, count: signals.length }))
+    .sort((a, b) => b.count - a.count);
+
+  return { total: matches.length, platforms };
 }
 
 // ---------------------------------------------------------------------------
