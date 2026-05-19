@@ -5,20 +5,18 @@ import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 
 const NAV_ITEMS = [
-  { key: 'home', label: 'Home', icon: '⌂', href: '/' },
-  { key: 'digest', label: 'AI Digest', icon: '✦', href: '/digest' },
-  { key: 'brand-health', label: 'Brand Health', icon: '♡', href: '/brands' },
-  { key: 'all', label: 'All Feeds', icon: '○', href: '/feeds' },
-  { key: 'google', label: 'Google', icon: 'G', href: '/feed/google' },
-  { key: 'reddit', label: 'Reddit', icon: 'R', href: '/feed/reddit' },
-  { key: 'pinterest', label: 'Pinterest', icon: 'P', href: '/feed/pinterest' },
-  { key: 'news', label: 'News', icon: 'N', href: '/feed/news' },
-  { key: 'amazon', label: 'Amazon', icon: 'A', href: '/feed/amazon' },
-  { key: 'nykaa', label: 'Nykaa', icon: 'Ny', href: '/feed/nykaa' },
-  { key: 'flipkart', label: 'Flipkart', icon: 'F', href: '/feed/flipkart' },
-  { key: 'twitter', label: 'X / Twitter', icon: 'X', href: '/feed/twitter' },
-  { key: 'instagram', label: 'Instagram', icon: 'Ig', href: '/feed/instagram' },
-  { key: 'competitors', label: 'Competitors', icon: '⚔', href: '/feed/competitors' },
+  { key: 'home', label: 'Home', icon: '⌂', href: '/', section: 'overview' },
+  { key: 'digest', label: 'AI Digest', icon: '✦', href: '/digest', section: 'overview' },
+  { key: 'brand-health', label: 'Brand Health', icon: '♡', href: '/brands', section: 'overview' },
+  { key: 'all', label: 'All Feeds', icon: '○', href: '/feeds', section: 'feeds' },
+  { key: 'amazon', label: 'Amazon', icon: 'A', href: '/feed/amazon', section: 'feeds' },
+  { key: 'flipkart', label: 'Flipkart', icon: 'F', href: '/feed/flipkart', section: 'feeds' },
+  { key: 'nykaa', label: 'Nykaa', icon: 'Ny', href: '/feed/nykaa', section: 'feeds' },
+  { key: 'reddit', label: 'Reddit', icon: 'R', href: '/feed/reddit', section: 'feeds' },
+  { key: 'news', label: 'News', icon: 'N', href: '/feed/news', section: 'feeds' },
+  { key: 'instagram', label: 'Instagram', icon: 'Ig', href: '/feed/instagram', section: 'feeds' },
+  { key: 'google', label: 'Google', icon: 'G', href: '/feed/google', section: 'feeds' },
+  { key: 'competitors', label: 'Competitors', icon: '⚔', href: '/feed/competitors', section: 'feeds' },
 ];
 
 export default function Sidebar() {
@@ -103,58 +101,48 @@ export default function Sidebar() {
         />
       </div>
 
-      {/* Category label */}
-      <div className="px-5 pt-2 pb-1">
-        <span
-          className="font-mono uppercase font-medium"
-          style={{
-            fontSize: '10px',
-            color: 'var(--ink-faint)',
-            letterSpacing: '0.1em',
-          }}
-        >
-          Categories
-        </span>
-      </div>
-
-      {/* Nav items */}
+      {/* Nav items with section labels */}
       <nav className="flex-1 overflow-y-auto px-2">
-        {filtered.map((item) => {
-          const isActive = pathname === item.href ||
-            (item.href !== '/' && pathname.startsWith(item.href)) ||
-            (item.href === '/' && pathname === '/');
-          return (
-            <Link
-              key={item.key}
-              href={item.href}
-              className="flex items-center gap-2.5 px-3 py-1.5 font-body text-sm no-underline transition-colors"
-              style={{
-                color: isActive ? 'var(--accent-deep)' : 'var(--ink-soft)',
-                background: isActive
-                  ? 'var(--surface-faint)'
-                  : 'transparent',
-                borderLeft: isActive
-                  ? '2px solid var(--accent)'
-                  : '2px solid transparent',
-                borderRadius: 'var(--radius)',
-                fontWeight: isActive ? 500 : 400,
-                textDecoration: 'none',
-              }}
-            >
-              <span
-                className="font-mono inline-flex items-center justify-center"
-                style={{
-                  width: 20,
-                  fontSize: '11px',
-                  color: isActive ? 'var(--accent)' : 'var(--ink-faint)',
-                }}
-              >
-                {item.icon}
-              </span>
-              {item.label}
-            </Link>
-          );
-        })}
+        {(() => {
+          let lastSection = '';
+          return filtered.map((item) => {
+            const isActive = pathname === item.href ||
+              (item.href !== '/' && pathname.startsWith(item.href)) ||
+              (item.href === '/' && pathname === '/');
+            const showLabel = item.section !== lastSection;
+            lastSection = item.section;
+            return (
+              <div key={item.key}>
+                {showLabel && (
+                  <div className="px-3 pt-3 pb-1">
+                    <span className="font-mono uppercase font-medium"
+                      style={{ fontSize: '10px', color: 'var(--ink-faint)', letterSpacing: '0.1em' }}>
+                      {item.section === 'overview' ? 'Overview' : 'Platform Feeds'}
+                    </span>
+                  </div>
+                )}
+                <Link
+                  href={item.href}
+                  className="flex items-center gap-2.5 px-3 py-1.5 font-body text-sm no-underline transition-colors"
+                  style={{
+                    color: isActive ? 'var(--accent-deep)' : 'var(--ink-soft)',
+                    background: isActive ? 'var(--surface-faint)' : 'transparent',
+                    borderLeft: isActive ? '2px solid var(--accent)' : '2px solid transparent',
+                    borderRadius: 'var(--radius)',
+                    fontWeight: isActive ? 500 : 400,
+                    textDecoration: 'none',
+                  }}
+                >
+                  <span className="font-mono inline-flex items-center justify-center"
+                    style={{ width: 20, fontSize: '11px', color: isActive ? 'var(--accent)' : 'var(--ink-faint)' }}>
+                    {item.icon}
+                  </span>
+                  {item.label}
+                </Link>
+              </div>
+            );
+          });
+        })()}
       </nav>
 
       {/* Footer */}
