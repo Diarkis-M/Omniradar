@@ -20,6 +20,9 @@ async def send_telegram_alert(opportunity, image_path=None):
 
     bot = Bot(token=token)
     
+    # Parse mode: HTML or Markdown
+    parse_mode = opportunity.get("parse_mode", "Markdown")
+
     # Check if a pre-formatted message is provided
     if opportunity.get("custom_message"):
         message = opportunity.get("custom_message")
@@ -43,9 +46,9 @@ async def send_telegram_alert(opportunity, image_path=None):
     try:
         if image_path and os.path.exists(image_path):
             with open(image_path, "rb") as photo:
-                await bot.send_photo(chat_id=chat_id, photo=photo, caption=message, parse_mode='Markdown')
+                await bot.send_photo(chat_id=chat_id, photo=photo, caption=message, parse_mode=parse_mode)
         else:
-            await bot.send_message(chat_id=chat_id, text=message, parse_mode='Markdown')
+            await bot.send_message(chat_id=chat_id, text=message, parse_mode=parse_mode)
         print(f"Alert sent for: {trend_name}")
     except Exception as e:
         print(f"Failed to send Telegram message: {e}")

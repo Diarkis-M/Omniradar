@@ -102,25 +102,35 @@ async def run_pipeline():
     with open("daily_beauty_insights.json", "w") as f:
         json.dump(insights, f, indent=4)
 
-    # 4. Format Telegram Output (Mobile-Optimized Structure)
-    msg = "💎 *GCPL DAILY INTELLIGENCE* 💎\n\n"
-    for i, t in enumerate(trends[:5], 1):
-        label = t.get('label', '[TREND]')
-        name = t.get('trend_name', t.get('trend', 'Beauty Trend'))
-        source = t.get('source_platform', t.get('platform', 'Multiple Sources'))
-        metric = t.get('metric', t.get('popularity', t.get('metric_summary', 'Rising')))
-        context = t.get('context', t.get('what_is_happening', ''))
-        result = t.get('result', t.get('the_result', ''))
+    # 4. Format Telegram Output — HTML mode (no Markdown escaping issues)
+    def esc(text):
+        """Escape HTML special chars."""
+        return str(text).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
-        msg += f"*{label}*\n"
-        msg += f"*\"{name}\"*\n\n"
-        msg += f"📍 *Source:* {source}\n"
-        msg += f"📊 *Metric:* {metric}\n\n"
-        msg += f"💬 *Context:*\n{context}\n\n"
-        msg += f"✨ *The Result:*\n{result}\n\n"
-        msg += "───────────────────\n\n"
+    now = datetime.now().strftime("%d %b, %I:%M %p")
+    sig_total = sum(len(v) for v in [google, reddit, rss, social, pinterest, amazon, nykaa, flipkart, instagram])
+    msg = f"<b>OMNIRADAR</b> — {now}\n"
+    msg += f"<i>{sig_total} signals across 9 platforms</i>\n\n"
 
-    await send_telegram_alert({"custom_message": msg, "trend_name": "Mobile Report"})
+    for i, t in enumerate(trends[:7], 1):
+        label = esc(t.get('label', ''))
+        name = esc(t.get('trend_name', 'Signal'))
+        metric = esc(t.get('metric', ''))
+        context = esc(t.get('context', ''))
+        why = esc(t.get('why_it_matters', ''))
+
+        msg += f"<b>{i}. {name}</b>\n"
+        if metric:
+            msg += f"{label} | {metric}\n"
+        if context:
+            msg += f"{context}\n"
+        if why:
+            msg += f"→ <i>{why}</i>\n"
+        msg += "\n"
+
+    msg += "🔗 omniradar.vercel.app"
+
+    await send_telegram_alert({"custom_message": msg, "trend_name": "Intelligence Brief", "parse_mode": "HTML"})
     logger.info("Pipeline run completed. Telegram sent.")
 
 if __name__ == "__main__":
