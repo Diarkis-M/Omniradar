@@ -90,9 +90,12 @@ export default function DetailDrawer({ signal, onClose }) {
   if (s.review_count) meta['Reviews'] = s.review_count.toLocaleString();
   if (s.rank) meta['Rank'] = `#${s.rank}`;
   if (s.brand) meta['Brand'] = s.brand;
+  if (s.views) meta['Views'] = Number(s.views).toLocaleString();
+  if (s.likes) meta['Likes'] = Number(s.likes).toLocaleString();
+  if (s.comment_count) meta['Comments'] = Number(s.comment_count).toLocaleString();
   if (s.channel) meta['Channel'] = s.channel;
   if (s.category) meta['Category'] = s.category;
-  if (s.engagement) meta['Engagement'] = s.engagement;
+  if (!s.views && s.engagement) meta['Engagement'] = s.engagement;
   if (s.published) meta['Published'] = new Date(s.published).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
 
   // Cross-platform evidence (only for AI trend objects)

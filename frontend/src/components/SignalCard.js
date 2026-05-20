@@ -116,6 +116,25 @@ export default function SignalCard({ signal = {}, onSelect }) {
         </div>
       )}
 
+      {/* YouTube stats */}
+      {signal.views > 0 && (
+        <div className="flex items-center gap-3 mb-3 flex-wrap">
+          <span className="font-mono" style={{ fontSize: '11px', color: 'var(--accent-deep)', fontWeight: 600 }}>
+            &#9654; {Number(signal.views).toLocaleString()} views
+          </span>
+          {signal.likes > 0 && (
+            <span className="font-mono" style={{ fontSize: '11px', color: 'var(--ink-soft)' }}>
+              &#9829; {Number(signal.likes).toLocaleString()}
+            </span>
+          )}
+          {signal.comment_count > 0 && (
+            <span className="font-mono" style={{ fontSize: '11px', color: 'var(--ink-faint)' }}>
+              {Number(signal.comment_count).toLocaleString()} comments
+            </span>
+          )}
+        </div>
+      )}
+
       {/* Reddit stats */}
       {score > 0 && (
         <div className="flex items-center gap-3 mb-3">
