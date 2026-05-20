@@ -8,6 +8,9 @@ on:
     - cron: '0 17 * * *'   # 10:30 PM IST — captures evening trends
   workflow_dispatch: # Manual trigger from GitHub UI anytime
 
+permissions:
+  contents: write
+
 jobs:
   run-radar:
     runs-on: ubuntu-latest
