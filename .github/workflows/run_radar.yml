@@ -42,7 +42,7 @@ jobs:
       run: |
         git config user.name 'github-actions'
         git config user.email 'github-actions@github.com'
-        git add daily_beauty_insights.json frontend/src/lib/pipeline_data.json run_log.txt
+        git add daily_beauty_insights.json frontend/src/lib/pipeline_data.json
         git diff --cached --quiet || git commit -m "Pipeline refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
         git pull --rebase origin main
         git push origin main
