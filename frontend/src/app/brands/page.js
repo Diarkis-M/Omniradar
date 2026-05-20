@@ -141,6 +141,9 @@ export default function BrandsPage() {
         <p className="font-mono text-[10px] uppercase tracking-[0.08em] text-ink-soft mt-2">
           GCPL competitive intelligence &middot; Last synced: {synced}
         </p>
+        <p className="font-body text-[13px] leading-relaxed mt-3" style={{ color: 'var(--ink-soft)', maxWidth: 680 }}>
+          Real-time brand visibility across 9 platforms. Mentions are counted by scanning product titles and categories from Amazon, Flipkart, Nykaa, Reddit, Instagram, Google Trends, News, Twitter, and Pinterest. Click any brand to see exact source signals.
+        </p>
       </div>
 
       {/* Summary stats */}
@@ -167,10 +170,13 @@ export default function BrandsPage() {
 
       {/* GCPL Brand Voice */}
       <div className="mb-12">
-        <h2 className="font-mono text-[11px] uppercase tracking-[0.12em] mb-4 pb-2 border-b-2 border-ink flex items-center gap-2"
+        <h2 className="font-mono text-[11px] uppercase tracking-[0.12em] mb-1 pb-2 border-b-2 border-ink flex items-center gap-2"
           style={{ color: 'var(--accent-deep)' }}>
           GCPL Brand Voice
         </h2>
+        <p className="font-body text-[12px] mb-4" style={{ color: 'var(--ink-faint)' }}>
+          How often our own brands appear in scraped e-commerce listings, Reddit discussions, news headlines, and social trends. Higher counts mean greater digital visibility. Click a brand to see where it was detected.
+        </p>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-[1px] bg-rule">
           {mentions.own
             .filter(m => m.count > 0)
@@ -210,11 +216,14 @@ export default function BrandsPage() {
       </div>
 
       {/* Competitor Watch by Category */}
-      <div className="mb-4 pb-2 border-b-2 border-ink">
+      <div className="mb-2 pb-2 border-b-2 border-ink">
         <h2 className="font-mono text-[11px] uppercase tracking-[0.12em]" style={{ color: 'var(--accent-deep)' }}>
           Competitor Watch — by Category
         </h2>
       </div>
+      <p className="font-body text-[12px] mb-4" style={{ color: 'var(--ink-faint)' }}>
+        Competitor brands grouped by GCPL-relevant categories. Mentions are counted from all 9 data sources. Brands with higher counts are more visible in current market conversations. Click any competitor to drill down into the exact signals where they appear.
+      </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
         {activeCategories.map(({ cat, brands, total }) => {

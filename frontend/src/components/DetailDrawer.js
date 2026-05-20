@@ -332,12 +332,22 @@ export default function DetailDrawer({ signal, onClose }) {
             </div>
           )}
 
-          {/* Original URL */}
+          {/* Original URL — platform-aware label */}
           {url && (
             <div className="mb-6">
-              <a href={url} target="_blank" rel="noopener noreferrer" className="font-mono uppercase"
-                style={{ fontSize: '11px', letterSpacing: '0.06em', color: 'var(--accent-deep)' }}>
-                View original source &#8599;
+              <a href={url} target="_blank" rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 font-mono uppercase no-underline py-2 px-4"
+                style={{
+                  fontSize: '11px', letterSpacing: '0.06em', fontWeight: 500,
+                  color: 'var(--paper)', background: 'var(--accent-deep)',
+                  borderRadius: 'var(--radius)', textDecoration: 'none',
+                }}>
+                {platformLower.includes('amazon') ? 'View on Amazon' :
+                 platformLower.includes('flipkart') ? 'View on Flipkart' :
+                 platformLower.includes('nykaa') ? 'View on Nykaa' :
+                 platformLower.includes('reddit') ? 'View on Reddit' :
+                 platformLower.includes('instagram') ? 'View on Instagram' :
+                 'View original source'} &#8599;
               </a>
             </div>
           )}

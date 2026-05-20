@@ -171,7 +171,12 @@ function normalizeSignals(rawSignals) {
       if (platform === 'rss') {
         return { ...s, url: s.link || s.url || '', source: 'rss', id: s.link || `rss-${i}` };
       }
-      // Everything else (amazon, nykaa, flipkart, instagram, pinterest)
+      // Amazon: generate search URL fallback when url is empty
+      if (platform === 'amazon' && !s.url && s.title) {
+        const searchUrl = `https://www.amazon.in/s?k=${encodeURIComponent(s.title.slice(0, 80))}`;
+        return { ...s, url: searchUrl, source: 'amazon', id: `amazon-${i}` };
+      }
+      // Everything else (nykaa, flipkart, instagram, pinterest)
       return { ...s, id: s.url || `${platform}-${i}` };
     });
   }

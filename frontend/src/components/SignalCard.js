@@ -127,7 +127,7 @@ export default function SignalCard({ signal = {}, onSelect }) {
       )}
 
       {/* Footer actions */}
-      <div className="flex items-center justify-between mt-3">
+      <div className="flex items-center justify-between mt-3 flex-wrap gap-2">
         <button type="button" className="font-mono uppercase cursor-pointer"
           style={{
             fontSize: '10px', fontWeight: 500, letterSpacing: '0.08em',
@@ -138,19 +138,33 @@ export default function SignalCard({ signal = {}, onSelect }) {
           onClick={(e) => { e.stopPropagation(); onSelect?.(signal); }}>
           View details
         </button>
-        {url && (
-          <a href={`https://wa.me/?text=${encodeURIComponent(title + ' ' + url)}`}
-            target="_blank" rel="noopener noreferrer"
-            className="font-mono uppercase no-underline"
-            style={{
-              fontSize: '10px', fontWeight: 500, letterSpacing: '0.06em',
-              color: 'var(--ink-soft)', border: '1px solid var(--rule)',
-              padding: '3px 10px', borderRadius: 'var(--radius)', textDecoration: 'none',
-            }}
-            onClick={(e) => e.stopPropagation()}>
-            Share
-          </a>
-        )}
+        <div className="flex items-center gap-2">
+          {url && (
+            <a href={url} target="_blank" rel="noopener noreferrer"
+              className="font-mono uppercase no-underline"
+              style={{
+                fontSize: '10px', fontWeight: 500, letterSpacing: '0.06em',
+                color: 'var(--accent-deep)', border: '1px solid var(--accent)',
+                padding: '3px 10px', borderRadius: 'var(--radius)', textDecoration: 'none',
+              }}
+              onClick={(e) => e.stopPropagation()}>
+              {plat.includes('amazon') ? 'Amazon' : plat.includes('flipkart') ? 'Flipkart' : plat.includes('nykaa') ? 'Nykaa' : 'Source'} &#8599;
+            </a>
+          )}
+          {url && (
+            <a href={`https://wa.me/?text=${encodeURIComponent(title + ' ' + url)}`}
+              target="_blank" rel="noopener noreferrer"
+              className="font-mono uppercase no-underline"
+              style={{
+                fontSize: '10px', fontWeight: 500, letterSpacing: '0.06em',
+                color: 'var(--ink-soft)', border: '1px solid var(--rule)',
+                padding: '3px 10px', borderRadius: 'var(--radius)', textDecoration: 'none',
+              }}
+              onClick={(e) => e.stopPropagation()}>
+              Share
+            </a>
+          )}
+        </div>
       </div>
     </article>
   );
