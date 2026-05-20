@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 
@@ -23,6 +23,19 @@ export default function Sidebar() {
   const pathname = usePathname();
   const [search, setSearch] = useState('');
   const [isOnline] = useState(true);
+  const [mobileOpen, setMobileOpen] = useState(false);
+
+  // Close mobile menu on route change
+  useEffect(() => {
+    setMobileOpen(false);
+  }, [pathname]);
+
+  // Close on escape key
+  useEffect(() => {
+    const handler = (e) => { if (e.key === 'Escape') setMobileOpen(false); };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, []);
 
   const lastSynced = new Date().toLocaleString('en-IN', {
     day: 'numeric',
@@ -38,162 +51,156 @@ export default function Sidebar() {
     : NAV_ITEMS;
 
   return (
-    <aside
-      className="fixed left-0 top-0 h-full flex flex-col z-30"
-      style={{
-        width: 240,
-        background: 'var(--paper-deep)',
-        borderRight: '1px solid var(--rule)',
-      }}
-    >
-      {/* Wordmark */}
-      <div className="px-5 pt-5 pb-3">
+    <>
+      {/* Mobile top bar — visible only on small screens */}
+      <div className="sidebar-mobile-bar">
         <div className="flex items-center gap-2">
-          <span
-            className="inline-block w-2 h-2 rounded-full animate-scout-pulse"
-            style={{ background: 'var(--positive)' }}
-          />
-          <span
-            className="font-display italic font-bold text-xl"
-            style={{ color: 'var(--ink)', letterSpacing: '-0.02em' }}
-          >
+          <span className="inline-block w-2 h-2 rounded-full animate-scout-pulse"
+            style={{ background: 'var(--positive)' }} />
+          <span className="font-display italic font-bold text-lg"
+            style={{ color: 'var(--ink)', letterSpacing: '-0.02em' }}>
             Omniradar
           </span>
         </div>
-
-        {/* Status */}
-        <div className="flex items-center gap-1.5 mt-2">
-          <span
-            className="inline-block w-1.5 h-1.5 rounded-full"
-            style={{
-              background: isOnline ? 'var(--positive)' : 'var(--warning)',
-            }}
-          />
-          <span
-            className="font-mono uppercase"
-            style={{
-              fontSize: 'var(--fs-xs)',
-              color: 'var(--ink-soft)',
-              letterSpacing: '0.06em',
-            }}
-          >
-            {isOnline ? 'Online' : 'Offline'}
-          </span>
-        </div>
-      </div>
-
-      {/* Search */}
-      <div className="px-4 pb-3">
-        <input
-          type="text"
-          placeholder="Search trends..."
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-          className="w-full font-body text-sm outline-none"
-          style={{
-            background: 'var(--paper)',
-            border: '1px solid var(--rule)',
-            borderRadius: 'var(--radius)',
-            padding: '6px 10px',
-            color: 'var(--ink)',
-            fontSize: 'var(--fs-sm)',
-          }}
-        />
-      </div>
-
-      {/* Nav items with section labels */}
-      <nav className="flex-1 overflow-y-auto px-2">
-        {(() => {
-          let lastSection = '';
-          return filtered.map((item) => {
-            const isActive = pathname === item.href ||
-              (item.href !== '/' && pathname.startsWith(item.href)) ||
-              (item.href === '/' && pathname === '/');
-            const showLabel = item.section !== lastSection;
-            lastSection = item.section;
-            return (
-              <div key={item.key}>
-                {showLabel && (
-                  <div className="px-3 pt-3 pb-1">
-                    <span className="font-mono uppercase font-medium"
-                      style={{ fontSize: '10px', color: 'var(--ink-faint)', letterSpacing: '0.1em' }}>
-                      {item.section === 'overview' ? 'Overview' : 'Platform Feeds'}
-                    </span>
-                  </div>
-                )}
-                <Link
-                  href={item.href}
-                  className="flex items-center gap-2.5 px-3 py-1.5 font-body text-sm no-underline transition-colors"
-                  style={{
-                    color: isActive ? 'var(--accent-deep)' : 'var(--ink-soft)',
-                    background: isActive ? 'var(--surface-faint)' : 'transparent',
-                    borderLeft: isActive ? '2px solid var(--accent)' : '2px solid transparent',
-                    borderRadius: 'var(--radius)',
-                    fontWeight: isActive ? 500 : 400,
-                    textDecoration: 'none',
-                  }}
-                >
-                  <span className="font-mono inline-flex items-center justify-center"
-                    style={{ width: 20, fontSize: '11px', color: isActive ? 'var(--accent)' : 'var(--ink-faint)' }}>
-                    {item.icon}
-                  </span>
-                  {item.label}
-                </Link>
-              </div>
-            );
-          });
-        })()}
-      </nav>
-
-      {/* Footer */}
-      <div
-        className="px-4 py-3"
-        style={{ borderTop: '1px solid var(--rule)' }}
-      >
-        <div
-          className="font-mono uppercase mb-3"
-          style={{
-            fontSize: '10px',
-            color: 'var(--ink-faint)',
-            letterSpacing: '0.06em',
-          }}
+        <button
+          type="button"
+          onClick={() => setMobileOpen(!mobileOpen)}
+          className="sidebar-hamburger"
+          aria-label="Toggle menu"
         >
-          Last synced: {lastSynced}
+          {mobileOpen ? (
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M18 6L6 18M6 6l12 12" />
+            </svg>
+          ) : (
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M3 12h18M3 6h18M3 18h18" />
+            </svg>
+          )}
+        </button>
+      </div>
+
+      {/* Backdrop overlay on mobile when menu is open */}
+      {mobileOpen && (
+        <div
+          className="sidebar-backdrop"
+          onClick={() => setMobileOpen(false)}
+        />
+      )}
+
+      {/* Sidebar panel */}
+      <aside className={`sidebar-panel ${mobileOpen ? 'sidebar-panel--open' : ''}`}>
+        {/* Wordmark — hidden on mobile (shown in top bar) */}
+        <div className="px-5 pt-5 pb-3 sidebar-wordmark-desktop">
+          <div className="flex items-center gap-2">
+            <span className="inline-block w-2 h-2 rounded-full animate-scout-pulse"
+              style={{ background: 'var(--positive)' }} />
+            <span className="font-display italic font-bold text-xl"
+              style={{ color: 'var(--ink)', letterSpacing: '-0.02em' }}>
+              Omniradar
+            </span>
+          </div>
+          <div className="flex items-center gap-1.5 mt-2">
+            <span className="inline-block w-1.5 h-1.5 rounded-full"
+              style={{ background: isOnline ? 'var(--positive)' : 'var(--warning)' }} />
+            <span className="font-mono uppercase"
+              style={{ fontSize: 'var(--fs-xs)', color: 'var(--ink-soft)', letterSpacing: '0.06em' }}>
+              {isOnline ? 'Online' : 'Offline'}
+            </span>
+          </div>
         </div>
 
-        <div className="flex flex-col gap-2">
-          <Link
-            href="/digest"
-            className="flex items-center justify-center gap-1.5 font-mono uppercase text-center py-2 no-underline"
+        {/* Search */}
+        <div className="px-4 pb-3">
+          <input
+            type="text"
+            placeholder="Search trends..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className="w-full font-body text-sm outline-none"
             style={{
-              fontSize: '11px',
-              letterSpacing: '0.06em',
-              background: 'var(--ink)',
-              color: 'var(--paper)',
-              borderRadius: 'var(--radius)',
-              fontWeight: 500,
-              textDecoration: 'none',
-            }}
-          >
-            <span>✦</span> AI Digest
-          </Link>
-          <button
-            type="button"
-            className="font-mono uppercase py-2 cursor-pointer"
-            style={{
-              fontSize: '11px',
-              letterSpacing: '0.06em',
-              background: 'transparent',
-              color: 'var(--ink-soft)',
+              background: 'var(--paper)',
               border: '1px solid var(--rule)',
               borderRadius: 'var(--radius)',
-              fontWeight: 500,
+              padding: '6px 10px',
+              color: 'var(--ink)',
+              fontSize: 'var(--fs-sm)',
             }}
-          >
-            Sync Data
-          </button>
+          />
         </div>
-      </div>
-    </aside>
+
+        {/* Nav items */}
+        <nav className="flex-1 overflow-y-auto px-2">
+          {(() => {
+            let lastSection = '';
+            return filtered.map((item) => {
+              const isActive = pathname === item.href ||
+                (item.href !== '/' && pathname.startsWith(item.href)) ||
+                (item.href === '/' && pathname === '/');
+              const showLabel = item.section !== lastSection;
+              lastSection = item.section;
+              return (
+                <div key={item.key}>
+                  {showLabel && (
+                    <div className="px-3 pt-3 pb-1">
+                      <span className="font-mono uppercase font-medium"
+                        style={{ fontSize: '10px', color: 'var(--ink-faint)', letterSpacing: '0.1em' }}>
+                        {item.section === 'overview' ? 'Overview' : 'Platform Feeds'}
+                      </span>
+                    </div>
+                  )}
+                  <Link
+                    href={item.href}
+                    className="flex items-center gap-2.5 px-3 py-1.5 font-body text-sm no-underline transition-colors"
+                    style={{
+                      color: isActive ? 'var(--accent-deep)' : 'var(--ink-soft)',
+                      background: isActive ? 'var(--surface-faint)' : 'transparent',
+                      borderLeft: isActive ? '2px solid var(--accent)' : '2px solid transparent',
+                      borderRadius: 'var(--radius)',
+                      fontWeight: isActive ? 500 : 400,
+                      textDecoration: 'none',
+                    }}
+                  >
+                    <span className="font-mono inline-flex items-center justify-center"
+                      style={{ width: 20, fontSize: '11px', color: isActive ? 'var(--accent)' : 'var(--ink-faint)' }}>
+                      {item.icon}
+                    </span>
+                    {item.label}
+                  </Link>
+                </div>
+              );
+            });
+          })()}
+        </nav>
+
+        {/* Footer */}
+        <div className="px-4 py-3" style={{ borderTop: '1px solid var(--rule)' }}>
+          <div className="font-mono uppercase mb-3"
+            style={{ fontSize: '10px', color: 'var(--ink-faint)', letterSpacing: '0.06em' }}>
+            Last synced: {lastSynced}
+          </div>
+          <div className="flex flex-col gap-2">
+            <Link href="/digest"
+              className="flex items-center justify-center gap-1.5 font-mono uppercase text-center py-2 no-underline"
+              style={{
+                fontSize: '11px', letterSpacing: '0.06em',
+                background: 'var(--ink)', color: 'var(--paper)',
+                borderRadius: 'var(--radius)', fontWeight: 500, textDecoration: 'none',
+              }}>
+              <span>✦</span> AI Digest
+            </Link>
+            <button type="button"
+              className="font-mono uppercase py-2 cursor-pointer"
+              style={{
+                fontSize: '11px', letterSpacing: '0.06em',
+                background: 'transparent', color: 'var(--ink-soft)',
+                border: '1px solid var(--rule)', borderRadius: 'var(--radius)', fontWeight: 500,
+              }}>
+              Sync Data
+            </button>
+          </div>
+        </div>
+      </aside>
+    </>
   );
 }

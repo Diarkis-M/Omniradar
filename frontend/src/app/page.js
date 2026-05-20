@@ -25,7 +25,7 @@ export default function Dashboard() {
     <>
       {/* Header */}
       <div className="mb-10">
-        <h1 className="font-display text-5xl font-medium tracking-tight" style={{ letterSpacing: '-0.02em' }}>
+        <h1 className="font-display font-medium tracking-tight" style={{ letterSpacing: '-0.02em', fontSize: 'clamp(1.75rem, 5vw, 3rem)' }}>
           Dashboard
         </h1>
         <p className="font-mono text-[10px] uppercase tracking-[0.08em] text-ink-soft mt-2">

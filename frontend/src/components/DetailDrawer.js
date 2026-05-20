@@ -1,11 +1,20 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { findSourceUrl, findSupportingSignals, getSeedData } from '@/lib/data';
 
 export default function DetailDrawer({ signal, onClose }) {
   const drawerRef = useRef(null);
   const isOpen = Boolean(signal);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mq = window.matchMedia('(max-width: 767px)');
+    setIsMobile(mq.matches);
+    const handler = (e) => setIsMobile(e.matches);
+    mq.addEventListener('change', handler);
+    return () => mq.removeEventListener('change', handler);
+  }, []);
 
   useEffect(() => {
     if (!isOpen) return;
@@ -119,18 +128,18 @@ export default function DetailDrawer({ signal, onClose }) {
         ref={drawerRef}
         className="fixed top-0 right-0 h-full z-50 flex flex-col"
         style={{
-          width: 480,
+          width: isMobile ? '100vw' : 480,
           maxWidth: '100vw',
           background: 'var(--paper)',
-          borderLeft: '1px solid var(--rule)',
+          borderLeft: isMobile ? 'none' : '1px solid var(--rule)',
           transform: isOpen ? 'translateX(0)' : 'translateX(100%)',
           transition: 'transform 280ms var(--ease)',
         }}
       >
         {/* Header */}
-        <div className="flex items-start justify-between px-6 pt-5 pb-4"
-          style={{ borderBottom: '1px solid var(--rule)' }}>
-          <div className="flex-1 pr-4">
+        <div className="flex items-start justify-between pt-5 pb-4"
+          style={{ borderBottom: '1px solid var(--rule)', paddingLeft: isMobile ? 16 : 24, paddingRight: isMobile ? 16 : 24 }}>
+          <div className="flex-1 pr-4 min-w-0">
             {platform && (
               <span className="font-mono uppercase inline-flex items-center mb-3"
                 style={{
@@ -142,7 +151,7 @@ export default function DetailDrawer({ signal, onClose }) {
               </span>
             )}
             <h2 className="font-display font-semibold"
-              style={{ fontSize: 26, lineHeight: 1.2, color: 'var(--ink)', letterSpacing: '-0.01em' }}>
+              style={{ fontSize: isMobile ? 20 : 26, lineHeight: 1.2, color: 'var(--ink)', letterSpacing: '-0.01em', wordBreak: 'break-word' }}>
               {title}
             </h2>
           </div>
@@ -158,7 +167,7 @@ export default function DetailDrawer({ signal, onClose }) {
         </div>
 
         {/* Content */}
-        <div className="flex-1 overflow-y-auto px-6 py-5">
+        <div className="flex-1 overflow-y-auto py-5" style={{ paddingLeft: isMobile ? 16 : 24, paddingRight: isMobile ? 16 : 24 }}>
           {/* Source & Metric */}
           <div className="flex flex-wrap gap-2 mb-5">
             {source && <span className="font-mono text-[9px] uppercase tracking-[0.06em] px-2 py-[2px] border rounded-editorial" style={{ borderColor: 'var(--rule)', color: 'var(--ink-soft)' }}>{source}</span>}
@@ -335,7 +344,7 @@ export default function DetailDrawer({ signal, onClose }) {
         </div>
 
         {/* Footer: WhatsApp share */}
-        <div className="px-6 py-4" style={{ borderTop: '1px solid var(--rule)' }}>
+        <div className="py-4" style={{ paddingLeft: isMobile ? 16 : 24, paddingRight: isMobile ? 16 : 24, borderTop: '1px solid var(--rule)' }}>
           <a href={url
               ? `https://wa.me/?text=${encodeURIComponent(title + '\n\n' + url)}`
               : `https://wa.me/?text=${encodeURIComponent(title)}`}

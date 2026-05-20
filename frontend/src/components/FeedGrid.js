@@ -16,7 +16,7 @@ export default function FeedGrid({ signals = [], title = 'Feed', onSelectSignal 
         <h1
           className="font-display font-semibold"
           style={{
-            fontSize: 36,
+            fontSize: 'clamp(24px, 5vw, 36px)',
             lineHeight: 1.1,
             letterSpacing: '-0.01em',
             color: 'var(--ink)',
@@ -42,7 +42,7 @@ export default function FeedGrid({ signals = [], title = 'Feed', onSelectSignal 
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(min(320px, 100%), 1fr))',
             gap: 0,
           }}
         >

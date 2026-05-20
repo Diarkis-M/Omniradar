@@ -111,6 +111,7 @@
     background: var(--paper);
     min-height: 100dvh;
     position: relative;
+    overflow-x: hidden;
   }
 
   /* -- paper-grain texture overlay --------------------------------- */
@@ -334,7 +335,172 @@
 }
 
 /* ================================================================== */
-/*  7. REDUCED MOTION                                                  */
+/*  7. RESPONSIVE LAYOUT — Sidebar + Main                              */
+/* ================================================================== */
+
+/* -- Sidebar panel (desktop: fixed left, mobile: slide-over) -------- */
+.sidebar-panel {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 240px;
+  background: var(--paper-deep);
+  border-right: 1px solid var(--rule);
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+}
+
+/* -- Mobile top bar (hamburger + logo) ------------------------------ */
+.sidebar-mobile-bar {
+  display: none; /* hidden on desktop */
+}
+
+.sidebar-hamburger {
+  background: none;
+  border: none;
+  color: var(--ink);
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* -- Mobile backdrop ------------------------------------------------ */
+.sidebar-backdrop {
+  display: none;
+}
+
+/* -- Main content area ---------------------------------------------- */
+.main-content {
+  margin-left: 240px;
+  min-height: 100vh;
+}
+
+.main-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 48px 40px;
+}
+
+/* -- Desktop: wordmark inside sidebar ------------------------------- */
+.sidebar-wordmark-desktop {
+  display: block;
+}
+
+/* ================================================================== */
+/*  8. MOBILE BREAKPOINT (< 768px)                                     */
+/* ================================================================== */
+@media (max-width: 767px) {
+  /* -- Show mobile top bar ------------------------------------------ */
+  .sidebar-mobile-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 35;
+    background: var(--paper-deep);
+    border-bottom: 1px solid var(--rule);
+    padding: 10px 16px;
+  }
+
+  /* -- Sidebar: off-screen by default, slides in -------------------- */
+  .sidebar-panel {
+    transform: translateX(-100%);
+    transition: transform 250ms var(--ease);
+  }
+  .sidebar-panel--open {
+    transform: translateX(0);
+  }
+
+  /* -- Hide the desktop wordmark in the slide-out panel ------------- */
+  .sidebar-wordmark-desktop {
+    display: none;
+  }
+
+  /* -- Backdrop visible --------------------------------------------- */
+  .sidebar-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 35;
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  /* -- Main: full width, less padding ------------------------------- */
+  .main-content {
+    margin-left: 0;
+  }
+  .main-inner {
+    padding: 16px 14px 32px;
+  }
+
+  /* -- Page titles shrink ------------------------------------------- */
+  h1 { font-size: 1.75rem !important; }
+  h2 { font-size: 1.25rem !important; }
+
+  /* -- Stats grid: 2 columns on mobile ------------------------------ */
+  .grid-cols-4,
+  .grid.grid-cols-4 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .grid-cols-3,
+  .grid.grid-cols-3 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  /* -- Trend cards: single column ----------------------------------- */
+  .grid.grid-cols-1.md\:grid-cols-3 {
+    grid-template-columns: 1fr !important;
+  }
+  .grid.grid-cols-1.md\:grid-cols-2 {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* -- Brand Health GCPL voice: single column ----------------------- */
+  .grid.grid-cols-2.md\:grid-cols-3 {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* -- Font sizes tighten ------------------------------------------- */
+  .font-display.text-4xl,
+  .font-display.text-5xl {
+    font-size: 1.5rem !important;
+  }
+
+  /* -- Prevent horizontal overflow on any text ---------------------- */
+  h1, h2, h3, p, span, a, div {
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* -- Trend cards on home: single column --------------------------- */
+  .grid.grid-cols-3.gap-\[1px\] {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ================================================================== */
+/*  9. SMALL MOBILE (< 400px)                                          */
+/* ================================================================== */
+@media (max-width: 399px) {
+  .main-inner {
+    padding: 12px 10px 24px;
+  }
+
+  .grid-cols-4,
+  .grid.grid-cols-4,
+  .grid-cols-3,
+  .grid.grid-cols-3 {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ================================================================== */
+/*  10. REDUCED MOTION                                                  */
 /* ================================================================== */
 @media (prefers-reduced-motion: reduce) {
   *,
