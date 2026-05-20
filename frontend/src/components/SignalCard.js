@@ -16,10 +16,13 @@ export default function SignalCard({ signal = {}, onSelect }) {
   const numComments = signal.num_comments || 0;
 
   // Build subtitle from available fields
+  const channel = signal.channel || '';
+
   let subtitle = '';
   if (subreddit) subtitle = `r/${subreddit}`;
+  else if (channel) subtitle = channel;
   else if (brand) subtitle = brand;
-  else if (signal.query) subtitle = signal.query.replace('site:instagram.com ', '');
+  else if (signal.query) subtitle = signal.query.replace('site:instagram.com ', '').replace('site:youtube.com ', '');
   else if (signal.published) subtitle = new Date(signal.published).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
 
   // Generate context line for bare signals (Google, Social, Pinterest)
@@ -29,6 +32,7 @@ export default function SignalCard({ signal = {}, onSelect }) {
     if (plat.includes('google'))  signalContext = 'Breakout search — Google Trends India';
     else if (plat.includes('social') || plat.includes('twitter'))  signalContext = 'Trending topic — X / Twitter India';
     else if (plat.includes('pinterest'))  signalContext = 'Trending pins — Pinterest';
+    else if (plat.includes('youtube'))  signalContext = 'Trending video — YouTube India';
     else if (plat.includes('news') || plat.includes('rss'))  signalContext = 'Editorial coverage — News / RSS';
   }
 
@@ -148,7 +152,7 @@ export default function SignalCard({ signal = {}, onSelect }) {
                 padding: '3px 10px', borderRadius: 'var(--radius)', textDecoration: 'none',
               }}
               onClick={(e) => e.stopPropagation()}>
-              {plat.includes('amazon') ? 'Amazon' : plat.includes('flipkart') ? 'Flipkart' : plat.includes('nykaa') ? 'Nykaa' : 'Source'} &#8599;
+              {plat.includes('amazon') ? 'Amazon' : plat.includes('flipkart') ? 'Flipkart' : plat.includes('nykaa') ? 'Nykaa' : plat.includes('youtube') ? 'YouTube' : 'Source'} &#8599;
             </a>
           )}
           {url && (

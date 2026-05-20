@@ -351,3 +351,31 @@ instagram:
     - "site:instagram.com Mamaearth"
     - "site:instagram.com The Man Company"
     - "site:instagram.com Ustraa grooming"
+
+# YouTube: GCPL-relevant video trends via Google News RSS proxy
+youtube:
+  search_queries:
+    # Men's Grooming
+    - "site:youtube.com men grooming routine india"
+    - "site:youtube.com beard care tips india"
+    - "site:youtube.com men face wash review india"
+    - "site:youtube.com best trimmer india"
+    # Fragrances
+    - "site:youtube.com best perfume men india"
+    - "site:youtube.com deodorant comparison india"
+    - "site:youtube.com perfume collection india budget"
+    - "site:youtube.com Park Avenue Wild Stone Denver"
+    # Hair Care
+    - "site:youtube.com hair colour at home india"
+    - "site:youtube.com best shampoo india"
+    - "site:youtube.com henna hair colour natural"
+    # Skincare
+    - "site:youtube.com skincare routine india men"
+    - "site:youtube.com best sunscreen india"
+    - "site:youtube.com face wash review india"
+    # Soaps & Body
+    - "site:youtube.com best soap india review"
+    - "site:youtube.com shower gel vs soap india"
+    # Home Care
+    - "site:youtube.com mosquito repellent india review"
+    - "site:youtube.com air freshener review india"

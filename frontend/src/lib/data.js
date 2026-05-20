@@ -33,6 +33,7 @@ const URGENCY_MAP = {
   "[INGREDIENT BREAKOUT]": "URGENT",
   "[REDDIT EXCLUSIVE]":    "MONITOR",
   "[INSTAGRAM BUZZ]":      "MONITOR",
+  "[YOUTUBE SIGNAL]":      "MONITOR",
   "[GOOGLE/SOCIAL]":       "MONITOR",
   "[NEWS/RSS]":            "WATCH",
 };
@@ -176,6 +177,11 @@ function normalizeSignals(rawSignals) {
         const searchUrl = `https://www.amazon.in/s?k=${encodeURIComponent(s.title.slice(0, 80))}`;
         return { ...s, url: searchUrl, source: 'amazon', id: `amazon-${i}` };
       }
+      // YouTube: generate search URL fallback when url is empty
+      if (platform === 'youtube' && !s.url && s.title) {
+        const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(s.title.slice(0, 80))}`;
+        return { ...s, url: searchUrl, source: 'youtube', id: `youtube-${i}` };
+      }
       // Everything else (nykaa, flipkart, instagram, pinterest)
       return { ...s, id: s.url || `${platform}-${i}` };
     });
@@ -209,7 +215,7 @@ export function getAllSignals(data) {
     google: "Google", reddit: "Reddit", rss: "News / RSS",
     social: "Social / Twitter", pinterest: "Pinterest",
     amazon: "Amazon", nykaa: "Nykaa", flipkart: "Flipkart",
-    instagram: "Instagram",
+    instagram: "Instagram", youtube: "YouTube",
   };
   const all = [];
   for (const [key, signals] of Object.entries(data.raw_signals)) {

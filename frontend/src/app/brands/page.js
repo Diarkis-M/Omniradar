@@ -25,6 +25,7 @@ const PLAT_COLOR = {
   'News / RSS': '#333',
   'Social / Twitter': '#1DA1F2',
   Pinterest: '#E60023',
+  YouTube: '#FF0000',
 };
 
 // Compact brand source breakdown panel
@@ -142,7 +143,7 @@ export default function BrandsPage() {
           GCPL competitive intelligence &middot; Last synced: {synced}
         </p>
         <p className="font-body text-[13px] leading-relaxed mt-3" style={{ color: 'var(--ink-soft)', maxWidth: 680 }}>
-          Real-time brand visibility across 9 platforms. Mentions are counted by scanning product titles and categories from Amazon, Flipkart, Nykaa, Reddit, Instagram, Google Trends, News, Twitter, and Pinterest. Click any brand to see exact source signals.
+          Real-time brand visibility across 10 platforms. Mentions are counted by scanning product titles and categories from Amazon, Flipkart, Nykaa, Reddit, Instagram, YouTube, Google Trends, News, Twitter, and Pinterest. Click any brand to see exact source signals.
         </p>
       </div>
 
@@ -175,7 +176,7 @@ export default function BrandsPage() {
           GCPL Brand Voice
         </h2>
         <p className="font-body text-[12px] mb-4" style={{ color: 'var(--ink-faint)' }}>
-          How often our own brands appear in scraped e-commerce listings, Reddit discussions, news headlines, and social trends. Higher counts mean greater digital visibility. Click a brand to see where it was detected.
+          How often our own brands appear in scraped e-commerce listings, Reddit discussions, YouTube videos, news headlines, and social trends. Higher counts mean greater digital visibility. Click a brand to see where it was detected.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-[1px] bg-rule">
           {mentions.own
@@ -222,7 +223,7 @@ export default function BrandsPage() {
         </h2>
       </div>
       <p className="font-body text-[12px] mb-4" style={{ color: 'var(--ink-faint)' }}>
-        Competitor brands grouped by GCPL-relevant categories. Mentions are counted from all 9 data sources. Brands with higher counts are more visible in current market conversations. Click any competitor to drill down into the exact signals where they appear.
+        Competitor brands grouped by GCPL-relevant categories. Mentions are counted from all 10 data sources. Brands with higher counts are more visible in current market conversations. Click any competitor to drill down into the exact signals where they appear.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">

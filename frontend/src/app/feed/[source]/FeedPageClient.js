@@ -5,7 +5,7 @@ import FeedGrid from '@/components/FeedGrid';
 import DetailDrawer from '@/components/DetailDrawer';
 
 // Platforms whose pipeline already searches for beauty terms — no filter needed
-const BEAUTY_SCOPED = new Set(['reddit', 'amazon', 'nykaa', 'flipkart', 'instagram', 'competitors']);
+const BEAUTY_SCOPED = new Set(['reddit', 'amazon', 'nykaa', 'flipkart', 'instagram', 'youtube', 'competitors']);
 
 const SOURCE_META = {
   google:     { title: 'Google Feed',     key: 'google' },
@@ -17,6 +17,7 @@ const SOURCE_META = {
   flipkart:   { title: 'Flipkart Feed',   key: 'flipkart' },
   twitter:    { title: 'Twitter Feed',    key: 'social' },
   instagram:  { title: 'Instagram Feed',  key: 'instagram' },
+  youtube:    { title: 'YouTube Feed',   key: 'youtube' },
   competitors:{ title: 'Competitor Feed', key: 'competitors' },
 };
 

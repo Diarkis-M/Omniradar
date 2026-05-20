@@ -53,6 +53,8 @@ export default function DetailDrawer({ signal, onClose }) {
       url = `https://x.com/search?q=${encodeURIComponent(title)}&src=trend_click`;
     } else if (platformLower.includes('pinterest')) {
       url = `https://www.pinterest.com/search/pins/?q=${encodeURIComponent(title)}`;
+    } else if (platformLower.includes('youtube')) {
+      url = `https://www.youtube.com/results?search_query=${encodeURIComponent(title)}`;
     }
   }
   if (!context && title) {
@@ -62,6 +64,8 @@ export default function DetailDrawer({ signal, onClose }) {
       context = `"${title}" is trending on X / Twitter, reflecting real-time social conversation and buzz around this topic in India.`;
     } else if (platformLower.includes('pinterest')) {
       context = `"${title}" is trending on Pinterest, indicating rising visual search interest and inspiration-seeking behaviour among consumers.`;
+    } else if (platformLower.includes('youtube')) {
+      context = `"${title}" is trending on YouTube India, indicating rising creator and consumer interest around this topic. YouTube beauty and grooming content drives significant purchase decisions.`;
     } else if (platformLower.includes('news') || platformLower.includes('rss')) {
       context = `Editorial coverage detected via news and RSS monitoring. This signal reflects media attention and industry interest.`;
     }
@@ -86,6 +90,7 @@ export default function DetailDrawer({ signal, onClose }) {
   if (s.review_count) meta['Reviews'] = s.review_count.toLocaleString();
   if (s.rank) meta['Rank'] = `#${s.rank}`;
   if (s.brand) meta['Brand'] = s.brand;
+  if (s.channel) meta['Channel'] = s.channel;
   if (s.category) meta['Category'] = s.category;
   if (s.engagement) meta['Engagement'] = s.engagement;
   if (s.published) meta['Published'] = new Date(s.published).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
@@ -105,6 +110,7 @@ export default function DetailDrawer({ signal, onClose }) {
     if (n.includes('pinterest')) return '\u{1F4CC}';
     if (n.includes('google')) return '\u{1F50D}';
     if (n.includes('social') || n.includes('twitter')) return '\u{1F426}';
+    if (n.includes('youtube')) return '\u{1F3AC}';
     return '\u{1F4CA}';
   };
 
@@ -347,6 +353,7 @@ export default function DetailDrawer({ signal, onClose }) {
                  platformLower.includes('nykaa') ? 'View on Nykaa' :
                  platformLower.includes('reddit') ? 'View on Reddit' :
                  platformLower.includes('instagram') ? 'View on Instagram' :
+                 platformLower.includes('youtube') ? 'View on YouTube' :
                  'View original source'} &#8599;
               </a>
             </div>

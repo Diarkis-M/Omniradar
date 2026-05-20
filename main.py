@@ -15,6 +15,7 @@ from collectors.amazon_collector import get_amazon_trends
 from collectors.nykaa_collector import get_nykaa_trends
 from collectors.flipkart_collector import get_flipkart_trends
 from collectors.instagram_collector import get_instagram_trends
+from collectors.youtube_collector import get_youtube_trends
 from brain.gemini_filter import get_categorized_trends
 from alerts.telegram_alert import send_telegram_alert
 
@@ -40,8 +41,8 @@ async def run_pipeline():
         logger.error(f"Failed to load config.yaml: {e}")
         return
 
-    # 1. Run Collectors (all 9 sources in parallel)
-    logger.info("Fetching raw platform data from 9 sources...")
+    # 1. Run Collectors (all 10 sources in parallel)
+    logger.info("Fetching raw platform data from 10 sources...")
     try:
         results = await asyncio.gather(
             asyncio.to_thread(get_google_trends, config),
@@ -53,21 +54,24 @@ async def run_pipeline():
             asyncio.to_thread(get_nykaa_trends, config),
             asyncio.to_thread(get_flipkart_trends, config),
             asyncio.to_thread(get_instagram_trends, config),
+            asyncio.to_thread(get_youtube_trends, config),
         )
     except Exception as e:
         logger.error(f"Collection failed: {e}")
         return
 
-    google, reddit, rss, social, pinterest, amazon, nykaa, flipkart, instagram = results
+    google, reddit, rss, social, pinterest, amazon, nykaa, flipkart, instagram, youtube = results
     logger.info(f"Collection complete: Google={len(google)}, Reddit={len(reddit)}, RSS={len(rss)}, "
                 f"Social={len(social)}, Pinterest={len(pinterest)}, Amazon={len(amazon)}, "
-                f"Nykaa={len(nykaa)}, Flipkart={len(flipkart)}, Instagram={len(instagram)}")
+                f"Nykaa={len(nykaa)}, Flipkart={len(flipkart)}, Instagram={len(instagram)}, "
+                f"YouTube={len(youtube)}")
 
     # 2. Extract Trends (pass all data sources to Gemini)
     logger.info("Extracting trends with mobile-first logic...")
     trends = get_categorized_trends(
         config, google, reddit, rss, social, pinterest,
-        amazon_data=amazon, nykaa_data=nykaa, flipkart_data=flipkart, instagram_data=instagram
+        amazon_data=amazon, nykaa_data=nykaa, flipkart_data=flipkart,
+        instagram_data=instagram, youtube_data=youtube
     )
 
     if not trends:
@@ -88,6 +92,7 @@ async def run_pipeline():
             "nykaa": nykaa,
             "flipkart": flipkart,
             "instagram": instagram,
+            "youtube": youtube,
         },
         "ecommerce_signals": {
             "amazon": amazon,
@@ -130,9 +135,9 @@ async def run_pipeline():
         return raw_msg
 
     now = datetime.now().strftime("%d %b, %I:%M %p")
-    sig_total = sum(len(v) for v in [google, reddit, rss, social, pinterest, amazon, nykaa, flipkart, instagram])
+    sig_total = sum(len(v) for v in [google, reddit, rss, social, pinterest, amazon, nykaa, flipkart, instagram, youtube])
     msg = f"<b>OMNIRADAR</b> — {now}\n"
-    msg += f"<i>{sig_total} signals across 9 platforms</i>\n\n"
+    msg += f"<i>{sig_total} signals across 10 platforms</i>\n\n"
 
     for i, t in enumerate(trends[:7], 1):
         label = esc(t.get('label', ''))

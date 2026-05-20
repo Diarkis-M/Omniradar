@@ -1,6 +1,6 @@
 import FeedPageClient from './FeedPageClient';
 
-const SOURCES = ['google', 'reddit', 'pinterest', 'news', 'amazon', 'nykaa', 'flipkart', 'twitter', 'instagram', 'competitors'];
+const SOURCES = ['google', 'reddit', 'pinterest', 'news', 'amazon', 'nykaa', 'flipkart', 'twitter', 'instagram', 'youtube', 'competitors'];
 
 export function generateStaticParams() {
   return SOURCES.map(source => ({ source }));

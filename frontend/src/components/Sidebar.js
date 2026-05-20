@@ -15,6 +15,7 @@ const NAV_ITEMS = [
   { key: 'reddit', label: 'Reddit', icon: 'R', href: '/feed/reddit', section: 'feeds' },
   { key: 'news', label: 'News', icon: 'N', href: '/feed/news', section: 'feeds' },
   { key: 'instagram', label: 'Instagram', icon: 'Ig', href: '/feed/instagram', section: 'feeds' },
+  { key: 'youtube', label: 'YouTube', icon: 'Yt', href: '/feed/youtube', section: 'feeds' },
   { key: 'google', label: 'Google', icon: 'G', href: '/feed/google', section: 'feeds' },
   { key: 'competitors', label: 'Competitors', icon: '⚔', href: '/feed/competitors', section: 'feeds' },
 ];

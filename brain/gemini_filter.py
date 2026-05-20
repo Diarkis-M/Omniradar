@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 def get_categorized_trends(config, google_trends, reddit_posts, rss_headlines, social_trends=None, pinterest_trends=None,
-                           amazon_data=None, nykaa_data=None, flipkart_data=None, instagram_data=None):
+                           amazon_data=None, nykaa_data=None, flipkart_data=None, instagram_data=None, youtube_data=None):
     """
     Analyze 9-platform data and extract actionable GCPL intelligence.
     Uses Claude Sonnet for sharp, specific, data-backed insights.
@@ -125,9 +125,9 @@ Return ONLY a JSON array of exactly 7 objects:
   }
 ]
 
-Labels: [REDDIT EXCLUSIVE], [GOOGLE/SOCIAL], [NEWS/RSS], [CROSS-PLATFORM], [E-COMMERCE SIGNAL], [INSTAGRAM BUZZ], [COMPETITOR ALERT]"""
+Labels: [REDDIT EXCLUSIVE], [GOOGLE/SOCIAL], [NEWS/RSS], [CROSS-PLATFORM], [E-COMMERCE SIGNAL], [INSTAGRAM BUZZ], [YOUTUBE SIGNAL], [COMPETITOR ALERT]"""
 
-        prompt = f"""Analyze this raw data from 9 platforms and find the 7 most SPECIFIC, actionable signals for GCPL. Quote exact numbers, product names, and post titles.
+        prompt = f"""Analyze this raw data from 10 platforms and find the 7 most SPECIFIC, actionable signals for GCPL. Quote exact numbers, product names, and post titles.
 
 REDDIT POSTS (sorted by engagement):
 {reddit_list}
@@ -164,6 +164,11 @@ NEWS HEADLINES:
             insta_list = "\n".join([f"- {p.get('title','')[:120]} [query: {p.get('query','')}]" for p in (instagram_data[:25] if isinstance(instagram_data, list) else [])])
             if insta_list:
                 prompt += f"\n\nINSTAGRAM SIGNALS:\n{insta_list}"
+
+        if youtube_data:
+            yt_list = "\n".join([f"- {p.get('title','')[:120]} [{p.get('channel','')}] [category: {p.get('category','')}]" for p in (youtube_data[:30] if isinstance(youtube_data, list) else [])])
+            if yt_list:
+                prompt += f"\n\nYOUTUBE TRENDS:\n{yt_list}"
 
         logger.info(f"Extracting GCPL Intelligence using Claude Sonnet...")
 
