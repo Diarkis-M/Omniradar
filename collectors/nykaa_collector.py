@@ -65,8 +65,8 @@ def _scrape_nykaa_category(page, url, category_name, max_products=20):
     """
     products = []
     try:
-        page.goto(url, wait_until="domcontentloaded", timeout=15000)
-        time.sleep(random.uniform(3, 5))
+        page.goto(url, wait_until="domcontentloaded", timeout=30000)
+        time.sleep(random.uniform(4, 6))
 
         # Nykaa is a React SPA — wait for product cards to render
         # Try multiple selectors since Nykaa changes class names
@@ -82,7 +82,7 @@ def _scrape_nykaa_category(page, url, category_name, max_products=20):
         items = []
         for sel in card_selectors:
             try:
-                page.wait_for_selector(sel, timeout=10000)
+                page.wait_for_selector(sel, timeout=15000)
                 items = page.query_selector_all(sel)
                 if items:
                     logger.info(f"Nykaa: found {len(items)} items via selector '{sel}' for {category_name}")

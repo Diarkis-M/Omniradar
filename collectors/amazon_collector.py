@@ -1,11 +1,11 @@
 """
 Amazon.in Bestseller / Search Collector for TrendRadar.
 
-Uses Playwright headless Chromium to scrape Amazon.in product listings.
-Primary: Search URLs sorted by popularity (review-rank) — most reliable.
-Fallback: Bestseller browse-node pages.
+Primary: Playwright headless Chromium to scrape Amazon.in product listings.
+         Search URLs sorted by popularity (review-rank).
+Fallback: Google News RSS proxy for Amazon product mentions.
 
-Follows the Playwright pattern from reddit_public_collector.py.
+Selectors last verified: May 2026.
 """
 
 import json
@@ -13,6 +13,8 @@ import time
 import random
 import logging
 import re
+import feedparser
+import requests as http_requests
 
 logger = logging.getLogger(__name__)
 
@@ -52,6 +54,7 @@ def _extract_price(text):
 def _scrape_amazon_search(page, url, category_name, max_products=20):
     """
     Scrape an Amazon.in search results page.
+    Selectors updated May 2026 — uses data-cy attributes (stable) with CSS fallbacks.
 
     Receives: Playwright page, URL string, category name string, max products int
     Returns: list of product dicts
@@ -62,55 +65,84 @@ def _scrape_amazon_search(page, url, category_name, max_products=20):
         time.sleep(random.uniform(3, 5))
 
         # Scroll to load lazy content
-        page.evaluate("window.scrollTo(0, document.body.scrollHeight / 2)")
-        time.sleep(1)
+        page.evaluate("window.scrollTo(0, document.body.scrollHeight / 3)")
+        time.sleep(1.5)
+        page.evaluate("window.scrollTo(0, document.body.scrollHeight * 2 / 3)")
+        time.sleep(1.5)
         page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
         time.sleep(2)
 
-        # Amazon search results use div.s-result-item with data-component-type="s-search-result"
+        # Primary selector (still works May 2026)
         items = page.query_selector_all('div[data-component-type="s-search-result"]')
 
         if not items:
-            # Fallback: try the older selector
+            # Fallback selectors
             items = page.query_selector_all('div.s-result-item[data-asin]')
+
+        if not items:
+            # Debug: log page title to understand what Amazon served
+            title = page.title()
+            logger.warning(f"Amazon search: 0 items for {category_name}. Page title: '{title}'")
+            return products
 
         logger.info(f"Amazon search: found {len(items)} items for {category_name}")
 
         for i, item in enumerate(items[:max_products]):
             try:
-                # Skip sponsored/ad items
+                # Skip sponsored/ad items (AdHolder class or sponsored label)
+                if 'AdHolder' in (item.get_attribute('class') or ''):
+                    continue
                 sponsored = item.query_selector('span.puis-label-popover-default')
                 if sponsored and 'sponsored' in (sponsored.text_content() or '').lower():
                     continue
 
-                # Product name
-                name_el = item.query_selector('h2 a span') or item.query_selector('h2 span')
+                # Product name — structure is now: a > h2 > span (inverted from old h2 > a > span)
+                name_el = (
+                    item.query_selector('[data-cy="title-recipe"] h2 span')
+                    or item.query_selector('h2 span')
+                    or item.query_selector('h2')
+                )
                 name = name_el.text_content().strip() if name_el else ""
                 if not name:
                     continue
 
-                # Product URL
-                link_el = item.query_selector('h2 a')
+                # Product URL — the <a> now wraps the <h2>, not inside it
+                link_el = (
+                    item.query_selector('[data-cy="title-recipe"] a')
+                    or item.query_selector('a.a-link-normal.s-line-clamp-3')
+                    or item.query_selector('a.a-link-normal[href*="/dp/"]')
+                )
                 href = link_el.get_attribute('href') if link_el else ""
                 product_url = f"https://www.amazon.in{href}" if href and href.startswith('/') else href
 
-                # Price
-                price_el = item.query_selector('span.a-price span.a-offscreen') or item.query_selector('span.a-price-whole')
+                # Price — data-cy="price-recipe" wrapper, then a-offscreen inside
+                price_el = (
+                    item.query_selector('[data-cy="price-recipe"] span.a-offscreen')
+                    or item.query_selector('span.a-price:not(.a-text-price) span.a-offscreen')
+                    or item.query_selector('span.a-price-whole')
+                )
                 price = _extract_price(price_el.text_content() if price_el else "")
 
-                # Rating
-                rating_el = item.query_selector('span.a-icon-alt') or item.query_selector('i.a-icon-star-small span')
+                # Rating — icon alt text (still works) + new star-mini class
+                rating_el = (
+                    item.query_selector('[data-cy="reviews-block"] span.a-icon-alt')
+                    or item.query_selector('span.a-icon-alt')
+                    or item.query_selector('i.a-icon-star-mini span')
+                )
                 rating = _extract_rating(rating_el.text_content() if rating_el else "")
 
-                # Review count
-                review_el = item.query_selector('span.a-size-base.s-underline-text') or item.query_selector('a span.a-size-base')
+                # Review count — underline class moved from <span> to <a>
+                review_el = (
+                    item.query_selector('[data-cy="reviews-ratings-slot"] a.s-underline-text')
+                    or item.query_selector('a.s-underline-text')
+                    or item.query_selector('[data-cy="reviews-ratings-slot"] span')
+                )
                 review_count = _extract_review_count(review_el.text_content() if review_el else "")
 
-                # Brand (try to extract from name or dedicated element)
+                # Brand
                 brand_el = item.query_selector('span.a-size-base-plus.a-color-base')
                 brand = brand_el.text_content().strip() if brand_el else ""
                 if not brand:
-                    # Try to get brand from first word(s) of product name
                     brand = name.split()[0] if name else ""
 
                 products.append({
@@ -177,12 +209,20 @@ def _scrape_amazon_bestsellers(page, url, category_name, max_products=20):
                 price_el = item.query_selector("span.a-color-price") or item.query_selector("span._cDEzb_p13n-sc-price_3mJ9Z")
                 price = _extract_price(price_el.text_content() if price_el else "")
 
-                # Rating
-                rating_el = item.query_selector("i.a-icon-star-small span.a-icon-alt") or item.query_selector("span.a-icon-alt")
+                # Rating (star-small → star-mini on search pages, but bestsellers may still use star-small)
+                rating_el = (
+                    item.query_selector("span.a-icon-alt")
+                    or item.query_selector("i.a-icon-star-small span.a-icon-alt")
+                    or item.query_selector("i.a-icon-star-mini span")
+                )
                 rating = _extract_rating(rating_el.text_content() if rating_el else "")
 
                 # Review count
-                review_el = item.query_selector("span.a-size-small") or item.query_selector("i.a-icon-star-small + span")
+                review_el = (
+                    item.query_selector("a.s-underline-text")
+                    or item.query_selector("span.a-size-small")
+                    or item.query_selector("i.a-icon-star-small + span")
+                )
                 review_count = _extract_review_count(review_el.text_content() if review_el else "")
 
                 # Brand
@@ -207,6 +247,74 @@ def _scrape_amazon_bestsellers(page, url, category_name, max_products=20):
     except Exception as e:
         logger.error(f"Amazon bestsellers scrape failed for {category_name}: {e}")
 
+    return products
+
+
+def _amazon_rss_fallback(categories):
+    """
+    Fallback: fetch Amazon product signals via Google News RSS proxy.
+    Queries Google News for 'amazon.in <category>' to find trending product mentions.
+    Returns: list[dict] matching the standard product dict format.
+    """
+    products = []
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/125.0.0.0 Safari/537.36',
+    }
+
+    # Build queries from category names
+    queries = []
+    for cat in categories:
+        name = cat.get('name', '')
+        if name:
+            queries.append(f"amazon india best {name}")
+    # Add some generic GCPL-relevant queries
+    queries.extend([
+        "amazon india best mens grooming products",
+        "amazon india bestseller deodorant perfume",
+        "amazon india best hair colour dye",
+        "amazon india best face wash skincare",
+        "amazon india best soap body wash",
+    ])
+
+    seen_titles = set()
+    for query in queries[:10]:
+        try:
+            search_q = f"{query} when:7d"
+            url = f"https://news.google.com/rss/search?q={search_q.replace(' ', '+')}&hl=en-IN&gl=IN&ceid=IN:en"
+            r = http_requests.get(url, headers=headers, timeout=15)
+            if r.status_code != 200:
+                continue
+
+            feed = feedparser.parse(r.content)
+            for j, entry in enumerate(feed.entries[:5]):
+                raw_title = entry.get('title', '')
+                title = raw_title.split(' - ')[0].strip()
+                if not title or title.lower() in seen_titles:
+                    continue
+                seen_titles.add(title.lower())
+
+                link = entry.get('link', '')
+                # Infer category from query
+                cat_name = query.replace("amazon india best ", "").replace("amazon india bestseller ", "").title()
+
+                products.append({
+                    "title": title,
+                    "price": "",
+                    "rating": 0.0,
+                    "review_count": 0,
+                    "rank": j + 1,
+                    "brand": "",
+                    "category": cat_name,
+                    "url": link,
+                    "source": "amazon",
+                })
+
+            logger.info(f"Amazon RSS fallback: {len(feed.entries)} entries for '{query}'")
+        except Exception as e:
+            logger.warning(f"Amazon RSS fallback failed for '{query}': {e}")
+        time.sleep(random.uniform(0.5, 1.0))
+
+    logger.info(f"Amazon RSS fallback: {len(products)} total products.")
     return products
 
 
@@ -252,14 +360,29 @@ def get_amazon_trends(config):
 
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True, args=['--start-maximized'])
+            browser = p.chromium.launch(
+                headless=True,
+                args=[
+                    '--disable-blink-features=AutomationControlled',
+                    '--disable-features=IsolateOrigins,site-per-process',
+                    '--no-sandbox',
+                    '--disable-dev-shm-usage',
+                ],
+            )
             context = browser.new_context(
-                user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/121.0.0.0 Safari/537.36',
-                viewport={'width': 1280, 'height': 800},
+                user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+                viewport={'width': 1366, 'height': 768},
                 locale='en-IN',
                 timezone_id='Asia/Kolkata',
+                extra_http_headers={
+                    'Accept-Language': 'en-IN,en;q=0.9,hi;q=0.8',
+                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                },
             )
             page = context.new_page()
+
+            # Remove webdriver flag to avoid bot detection
+            page.evaluate("() => Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 
             # Block heavy resources for speed
             page.route("**/*.{png,jpg,jpeg,gif,svg,woff,woff2,ttf,ico}", lambda route: route.abort())
@@ -279,7 +402,6 @@ def get_amazon_trends(config):
                 elif '/gp/bestsellers/' in cat_url:
                     products = _scrape_amazon_bestsellers(page, cat_url, cat_name, max_per_category)
                 else:
-                    # Treat as search by default
                     products = _scrape_amazon_search(page, cat_url, cat_name, max_per_category)
 
                 all_products.extend(products)
@@ -291,6 +413,11 @@ def get_amazon_trends(config):
 
     except Exception as e:
         logger.error(f"Amazon Playwright error: {e}")
+
+    # Fallback: if Playwright returned nothing, use Google News RSS proxy
+    if not all_products:
+        logger.info("Amazon Playwright returned 0 products. Falling back to RSS proxy...")
+        all_products = _amazon_rss_fallback(categories)
 
     logger.info(f"Amazon collector: {len(all_products)} total products collected.")
     return all_products

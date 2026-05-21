@@ -56,64 +56,61 @@ def _fetch_via_rss(clean_name, now):
     return posts
 
 
-def _fetch_via_playwright(clean_name, now):
+def _fetch_via_json_api(clean_name, now):
     """
-    Fetch posts via Playwright headless browser (works locally, blocked on cloud IPs).
-    Falls back gracefully if Playwright is not available.
+    Fetch posts via Reddit's public JSON API using requests (no Playwright needed).
+    Lighter and faster than launching a headless browser per subreddit.
+    Falls back gracefully if Reddit blocks the request.
     """
     posts = []
-    try:
-        from playwright.sync_api import sync_playwright
-    except ImportError:
-        return posts
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (compatible; TrendRadar/1.0; +https://omniradar.vercel.app)',
+        'Accept': 'application/json',
+    }
 
-    endpoints = ['hot', 'top?t=day']
-    try:
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
-            context = browser.new_context(
-                user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/121.0.0.0 Safari/537.36',
-                viewport={'width': 1280, 'height': 800},
-                locale='en-US',
-                timezone_id='Asia/Kolkata',
-            )
-            page = context.new_page()
-            page.route("**/*.{png,jpg,jpeg,gif,svg,css,woff,woff2,ttf}", lambda route: route.abort())
+    endpoints = ['hot', 'top']
+    for endpoint in endpoints:
+        try:
+            params = {'limit': 30, 'raw_json': 1}
+            if endpoint == 'top':
+                params['t'] = 'day'
+            url = f"https://www.reddit.com/r/{clean_name}/{endpoint}.json"
+            r = requests.get(url, headers=headers, params=params, timeout=15)
 
-            for endpoint in endpoints:
-                try:
-                    url = f"https://www.reddit.com/r/{clean_name}/{endpoint}.json?limit=30"
-                    page.goto(url, timeout=20000, wait_until='domcontentloaded')
-                    raw_text = page.inner_text('body')
-                    data = json.loads(raw_text)
-                    children = data.get('data', {}).get('children', [])
-                    logger.info(f"✅ Playwright: {len(children)} posts from r/{clean_name} ({endpoint})")
+            if r.status_code == 429:
+                logger.info(f"Reddit JSON rate-limited for r/{clean_name}/{endpoint}, skipping")
+                time.sleep(2)
+                continue
+            if r.status_code != 200:
+                continue
 
-                    for post_data in children:
-                        post = post_data.get('data', {})
-                        created_utc = post.get('created_utc')
-                        if not created_utc:
-                            continue
-                        created_at = datetime.fromtimestamp(created_utc, timezone.utc)
-                        age_hours = (now - created_at).total_seconds() / 3600
-                        if 0 < age_hours <= 24:
-                            score = post.get('score', 0)
-                            title = post.get('title', '').encode('utf-8', errors='ignore').decode('utf-8')
-                            posts.append({
-                                "title": title,
-                                "score": score,
-                                "num_comments": post.get('num_comments', 0),
-                                "subreddit": clean_name,
-                                "velocity": score / max(age_hours, 0.1),
-                                "url": f"https://reddit.com{post.get('permalink')}"
-                            })
-                except Exception as e:
-                    logger.warning(f"Playwright failed for r/{clean_name} ({endpoint}): {e}")
-                time.sleep(random.uniform(1.0, 2.0))
+            data = r.json()
+            children = data.get('data', {}).get('children', [])
+            logger.info(f"✅ JSON API: {len(children)} posts from r/{clean_name} ({endpoint})")
 
-            browser.close()
-    except Exception as e:
-        logger.warning(f"Playwright browser error: {e}")
+            for post_data in children:
+                post = post_data.get('data', {})
+                created_utc = post.get('created_utc')
+                if not created_utc:
+                    continue
+                created_at = datetime.fromtimestamp(created_utc, timezone.utc)
+                age_hours = (now - created_at).total_seconds() / 3600
+                if 0 < age_hours <= 48:
+                    score = post.get('score', 0)
+                    title = post.get('title', '').encode('utf-8', errors='ignore').decode('utf-8')
+                    posts.append({
+                        "title": title,
+                        "score": score,
+                        "num_comments": post.get('num_comments', 0),
+                        "subreddit": clean_name,
+                        "velocity": score / max(age_hours, 0.1),
+                        "url": f"https://reddit.com{post.get('permalink')}"
+                    })
+        except (json.JSONDecodeError, ValueError):
+            logger.info(f"Reddit JSON unavailable for r/{clean_name}/{endpoint} (HTML response), skipping")
+        except Exception as e:
+            logger.warning(f"JSON API failed for r/{clean_name} ({endpoint}): {e}")
+        time.sleep(random.uniform(1.0, 2.0))
 
     return posts
 
@@ -131,11 +128,11 @@ def get_reddit_trends(subreddits):
     for sub_name in subreddits:
         clean_name = sub_name.replace("r/", "") if sub_name.startswith("r/") else sub_name
 
-        # Method 1: Try Playwright (local environments)
-        playwright_posts = _fetch_via_playwright(clean_name, now)
-        all_posts.extend(playwright_posts)
+        # Method 1: Try JSON API (lightweight, no browser needed)
+        json_posts = _fetch_via_json_api(clean_name, now)
+        all_posts.extend(json_posts)
 
-        # Method 2: Always also fetch via RSS (works everywhere)
+        # Method 2: Always also fetch via RSS (works everywhere, as safety net)
         rss_posts = _fetch_via_rss(clean_name, now)
         all_posts.extend(rss_posts)
 
