@@ -352,6 +352,11 @@ def get_amazon_trends(config):
             {"name": "Shaving", "url": "https://www.amazon.in/s?k=men+shaving+cream+foam+aftershave&s=review-rank"},
         ]
 
+    # Randomize category order each run so different categories get scraped
+    # before Amazon's rate limiter kicks in (503 on cloud IPs).
+    # Over 3 daily runs, this spreads coverage across all categories.
+    random.shuffle(categories)
+
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
