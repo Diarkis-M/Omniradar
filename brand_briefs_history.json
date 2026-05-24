@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-24T14:13:21.121923+00:00",
+  "last_updated": "2026-05-24T18:05:20.435691+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-05-24",
-        "run_id": "2026-05-24T14:13:21.121923+00:00",
+        "run_id": "2026-05-24T18:05:20.435691+00:00",
         "briefs": [
           {
-            "text": "Zero engagement across Indian skincare Reddit communities (all 0 upvotes) \u2014 Godrej Protekt should sponsor educational content to capture this uncontested hygiene-focused messaging space.",
-            "evidence": "r/IndianSkincareAddicts posts showing 0 upvotes across all skincare discussions"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data points for soap, body wash, or handwash categories"
           }
         ]
       }
@@ -16,11 +16,15 @@
     "hair-care": [
       {
         "date": "2026-05-24",
-        "run_id": "2026-05-24T14:13:21.121923+00:00",
+        "run_id": "2026-05-24T18:05:20.435691+00:00",
         "briefs": [
           {
-            "text": "Dandruff shampoo recommendations trending on Google \u2014 Godrej Professional should accelerate direct-to-consumer anti-dandruff range launch beyond salon channel.",
-            "evidence": "Google Trends: 'Dermatologists Recommend These Dandruff Shampoos' and 'Scalp help, losing hair, itchy. Dandruff vs SebDerm?' trending"
+            "text": "Livon hair serum dominates at \u20b999 (#5 Amazon bestseller, 4.8* rating) while premium serums like HASK at \u20b94,149 hold top spots \u2014 Godrej Professional missing from budget segment.",
+            "evidence": "Amazon Hair Serum category: Livon \u20b999 vs HASK \u20b94,149, both 4.8* ratings"
+          },
+          {
+            "text": "Korean haircare brands gaining traction with RYO featured in ELLE exclusive coverage \u2014 opportunity for Godrej Expert to counter with K-beauty inspired messaging.",
+            "evidence": "Nykaa #1 article: 'ELLE Exclusive: I Let A Korean Haircare Brand Fix My Scalp, And RYO Really Under'"
           }
         ]
       }
@@ -28,15 +32,15 @@
     "mens-grooming": [
       {
         "date": "2026-05-24",
-        "run_id": "2026-05-24T14:13:21.121923+00:00",
+        "run_id": "2026-05-24T18:05:20.435691+00:00",
         "briefs": [
           {
-            "text": "KT Men's \u20b9200cr Argentina Football deal dominating headlines \u2014 Park Avenue should counter with IPL cricket celebrity endorsement during ongoing season.",
-            "evidence": "Google Trends: 'KT Men Teams Up with Lionel Messi and Argentina Football Association for GOAT Grooming Range in India, targets Rs. 200cr'"
+            "text": "VI-JOHN launched twin blade razor at \u20b920 disrupting affordable grooming \u2014 Park Avenue needs defensive pricing strategy for existing razor portfolio.",
+            "evidence": "News headline: 'VI-JOHN LAUNCHES SHAVE PRO TWIN BLADE RAZOR AT \u20b920'"
           },
           {
-            "text": "Ajmal Perfumes expanding 170+ non-metro stores \u2014 Park Avenue should accelerate Blinkit/Zepto partnerships to counter physical retail expansion.",
-            "evidence": "Google Trends: 'Ajmal expands non-metro retail presence in India, targets over 170 stores'"
+            "text": "KT Men secured Messi partnership targeting \u20b9200 crore revenue \u2014 Park Avenue should accelerate celebrity endorsement strategy before competitor gains market share.",
+            "evidence": "Google Trends: 'KT Men Teams Up with Lionel Messi and Argentina Football Association for GOAT Grooming Range in India, targets Rs. 200cr'"
           }
         ]
       }
@@ -44,11 +48,11 @@
     "home-insecticides": [
       {
         "date": "2026-05-24",
-        "run_id": "2026-05-24T14:13:21.121923+00:00",
+        "run_id": "2026-05-24T18:05:20.435691+00:00",
         "briefs": [
           {
-            "text": "FMCG sector implementing 8-10% price hikes due to oil cost pressures \u2014 HIT and Good Knight should raise prices immediately while market accepts increases.",
-            "evidence": "Google Trends: 'Graphs, Data and Perspectives: Why the latest crude oil price spike will test the Indian economy'"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data points for mosquito repellent or insecticide categories"
           }
         ]
       }
@@ -56,11 +60,11 @@
     "air-fresheners": [
       {
         "date": "2026-05-24",
-        "run_id": "2026-05-24T14:13:21.121923+00:00",
+        "run_id": "2026-05-24T18:05:20.435691+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant air freshener category signals detected"
+            "evidence": "No relevant data points for air freshener or room freshener categories"
           }
         ]
       }
@@ -68,11 +72,11 @@
     "sexual-wellness": [
       {
         "date": "2026-05-24",
-        "run_id": "2026-05-24T14:13:21.121923+00:00",
+        "run_id": "2026-05-24T18:05:20.435691+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant sexual wellness category signals detected"
+            "evidence": "No relevant data points for condom or intimate wellness categories"
           }
         ]
       }
@@ -80,11 +84,11 @@
     "fabric-care": [
       {
         "date": "2026-05-24",
-        "run_id": "2026-05-24T14:13:21.121923+00:00",
+        "run_id": "2026-05-24T18:05:20.435691+00:00",
         "briefs": [
           {
-            "text": "Amazon bestsellers show fabric softener content trending (#4 'Best Fabric Softeners for Smooth, Soft and Cling-Free Laundry') \u2014 Genteel should optimize Amazon SEO.",
-            "evidence": "Amazon Liquid Detergent category #4 ranking for fabric softener content"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data points for detergent or fabric softener categories"
           }
         ]
       }
