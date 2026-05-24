@@ -18,6 +18,13 @@ const NAV_ITEMS = [
   { key: 'youtube', label: 'YouTube', icon: 'Yt', href: '/feed/youtube', section: 'feeds' },
   { key: 'google', label: 'Google', icon: 'G', href: '/feed/google', section: 'feeds' },
   { key: 'competitors', label: 'Competitors', icon: '⚔', href: '/feed/competitors', section: 'feeds' },
+  { key: 'brief-wash', label: 'Personal Wash', icon: '\u{1FAE7}', href: '/brands/personal-wash', section: 'briefs' },
+  { key: 'brief-hair', label: 'Hair Care', icon: '\u{1F487}', href: '/brands/hair-care', section: 'briefs' },
+  { key: 'brief-mens', label: "Men's Grooming", icon: '\u{1FA92}', href: '/brands/mens-grooming', section: 'briefs' },
+  { key: 'brief-insect', label: 'Insecticides', icon: '\u{1F6E1}', href: '/brands/home-insecticides', section: 'briefs' },
+  { key: 'brief-air', label: 'Air Fresheners', icon: '\u{1F33F}', href: '/brands/air-fresheners', section: 'briefs' },
+  { key: 'brief-sw', label: 'Sexual Wellness', icon: '♡', href: '/brands/sexual-wellness', section: 'briefs' },
+  { key: 'brief-fabric', label: 'Fabric Care', icon: '\u{1F9FA}', href: '/brands/fabric-care', section: 'briefs' },
 ];
 
 export default function Sidebar() {
@@ -146,7 +153,7 @@ export default function Sidebar() {
                     <div className="px-3 pt-3 pb-1">
                       <span className="font-mono uppercase font-medium"
                         style={{ fontSize: '10px', color: 'var(--ink-faint)', letterSpacing: '0.1em' }}>
-                        {item.section === 'overview' ? 'Overview' : 'Platform Feeds'}
+                        {item.section === 'overview' ? 'Overview' : item.section === 'feeds' ? 'Platform Feeds' : 'Brand Briefs'}
                       </span>
                     </div>
                   )}

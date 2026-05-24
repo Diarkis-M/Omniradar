@@ -17,6 +17,8 @@ from collectors.flipkart_collector import get_flipkart_trends
 from collectors.instagram_collector import get_instagram_trends
 from collectors.youtube_collector import get_youtube_trends
 from brain.gemini_filter import get_categorized_trends
+from brain.brand_briefs import generate_brand_briefs
+from brain.brief_history import save_briefs
 from alerts.telegram_alert import send_telegram_alert
 
 # Setup logging
@@ -77,6 +79,24 @@ async def run_pipeline():
     if not trends:
         logger.info("No trends found.")
         return
+
+    # 2b. Generate Brand Manager Briefs (per-cluster daily digest)
+    logger.info("Generating brand manager briefs...")
+    brand_briefs = generate_brand_briefs(
+        config,
+        raw_signals={
+            "google": google, "reddit": reddit, "rss": rss,
+            "social": social, "pinterest": pinterest,
+            "instagram": instagram, "youtube": youtube,
+        },
+        ecommerce_signals={"amazon": amazon, "nykaa": nykaa, "flipkart": flipkart},
+        existing_trends=trends,
+    )
+    if brand_briefs:
+        save_briefs(brand_briefs)
+        logger.info(f"Brand briefs saved for {len(brand_briefs)} clusters.")
+    else:
+        logger.warning("No brand briefs generated this run.")
 
     # 3. Save Insights (all raw signals for frontend + AI digest)
     insights = {

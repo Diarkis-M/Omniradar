@@ -42,13 +42,15 @@ jobs:
       run: python main.py
 
     - name: Copy data to frontend
-      run: cp daily_beauty_insights.json frontend/src/lib/pipeline_data.json
+      run: |
+        cp daily_beauty_insights.json frontend/src/lib/pipeline_data.json
+        [ -f brand_briefs_history.json ] && cp brand_briefs_history.json frontend/src/lib/brand_briefs_data.json || echo "{}" > frontend/src/lib/brand_briefs_data.json
 
     - name: Commit & push
       run: |
         git config user.name 'github-actions'
         git config user.email 'github-actions@github.com'
-        git add daily_beauty_insights.json frontend/src/lib/pipeline_data.json
+        git add daily_beauty_insights.json frontend/src/lib/pipeline_data.json brand_briefs_history.json frontend/src/lib/brand_briefs_data.json
         git diff --cached --quiet || git commit -m "Pipeline refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
         git pull --rebase origin main
         git push origin main

@@ -30,6 +30,8 @@ logger = logging.getLogger(__name__)
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 PIPELINE_OUTPUT = os.path.join(PROJECT_ROOT, "daily_beauty_insights.json")
 FRONTEND_DATA = os.path.join(PROJECT_ROOT, "frontend", "src", "lib", "pipeline_data.json")
+BRIEFS_HISTORY = os.path.join(PROJECT_ROOT, "brand_briefs_history.json")
+FRONTEND_BRIEFS = os.path.join(PROJECT_ROOT, "frontend", "src", "lib", "brand_briefs_data.json")
 FRONTEND_DIR = os.path.join(PROJECT_ROOT, "frontend")
 
 def run_pipeline():
@@ -69,6 +71,9 @@ def copy_to_frontend():
     logger.info("=== STEP 2: Copying data to frontend ===")
     shutil.copy2(PIPELINE_OUTPUT, FRONTEND_DATA)
     logger.info(f"Copied to {FRONTEND_DATA}")
+    if os.path.exists(BRIEFS_HISTORY):
+        shutil.copy2(BRIEFS_HISTORY, FRONTEND_BRIEFS)
+        logger.info(f"Copied briefs history to {FRONTEND_BRIEFS}")
 
 def build_frontend():
     """Run npm build."""
@@ -94,7 +99,8 @@ def git_commit_and_push():
 
     # Stage files
     subprocess.run(
-        ["git", "add", "daily_beauty_insights.json", "frontend/src/lib/pipeline_data.json"],
+        ["git", "add", "daily_beauty_insights.json", "frontend/src/lib/pipeline_data.json",
+         "brand_briefs_history.json", "frontend/src/lib/brand_briefs_data.json"],
         cwd=PROJECT_ROOT,
         capture_output=True
     )
