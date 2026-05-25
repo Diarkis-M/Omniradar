@@ -1,7 +1,17 @@
 {
-  "last_updated": "2026-05-24T18:05:20.435691+00:00",
+  "last_updated": "2026-05-25T15:38:48.658800+00:00",
   "clusters": {
     "personal-wash": [
+      {
+        "date": "2026-05-25",
+        "run_id": "2026-05-25T15:38:48.658800+00:00",
+        "briefs": [
+          {
+            "text": "Denver Deep Cleanse face wash dominates Flipkart (#6, #12, #17) at \u20b9126-194 \u2014 Cinthol should launch charcoal variant to compete in men's cleansing segment.",
+            "evidence": "Flipkart Face Wash category, Denver ranks #6, #12, #17 with activated charcoal positioning"
+          }
+        ]
+      },
       {
         "date": "2026-05-24",
         "run_id": "2026-05-24T18:05:20.435691+00:00",
@@ -14,6 +24,16 @@
       }
     ],
     "hair-care": [
+      {
+        "date": "2026-05-25",
+        "run_id": "2026-05-25T15:38:48.658800+00:00",
+        "briefs": [
+          {
+            "text": "Dandruff shampoo content surge across platforms \u2014 Godrej Expert should create 'healthy scalp for better color' content series positioning hair color as requiring scalp foundation.",
+            "evidence": "Google Trends: 'dandruff shampoo' content surge, Amazon #3 & #5 dandruff shampoos trending"
+          }
+        ]
+      },
       {
         "date": "2026-05-24",
         "run_id": "2026-05-24T18:05:20.435691+00:00",
@@ -31,6 +51,20 @@
     ],
     "mens-grooming": [
       {
+        "date": "2026-05-25",
+        "run_id": "2026-05-25T15:38:48.658800+00:00",
+        "briefs": [
+          {
+            "text": "KT Men partners with Messi targeting \u20b9200 crore \u2014 Park Avenue should immediately sponsor Indian cricket personalities to counter foreign football influence.",
+            "evidence": "Google Trends: 'KT Men Teams Up with Lionel Messi and Argentina Football Association for GOAT Grooming Range in India, targets Rs. 200cr'"
+          },
+          {
+            "text": "Clinical deodorant category growing (#1 Amazon Roll-On) \u2014 Cinthol should introduce 'Cinthol Clinical' sub-brand for extreme freshness positioning.",
+            "evidence": "Amazon Roll-On Deodorant #1: 'These Clinical Deodorants Won't Let Sweat Ruin Your Day'"
+          }
+        ]
+      },
+      {
         "date": "2026-05-24",
         "run_id": "2026-05-24T18:05:20.435691+00:00",
         "briefs": [
@@ -47,6 +81,16 @@
     ],
     "home-insecticides": [
       {
+        "date": "2026-05-25",
+        "run_id": "2026-05-25T15:38:48.658800+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data found in today's market signals"
+          }
+        ]
+      },
+      {
         "date": "2026-05-24",
         "run_id": "2026-05-24T18:05:20.435691+00:00",
         "briefs": [
@@ -58,6 +102,16 @@
       }
     ],
     "air-fresheners": [
+      {
+        "date": "2026-05-25",
+        "run_id": "2026-05-25T15:38:48.658800+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data found in today's market signals"
+          }
+        ]
+      },
       {
         "date": "2026-05-24",
         "run_id": "2026-05-24T18:05:20.435691+00:00",
@@ -71,6 +125,16 @@
     ],
     "sexual-wellness": [
       {
+        "date": "2026-05-25",
+        "run_id": "2026-05-25T15:38:48.658800+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data found in today's market signals"
+          }
+        ]
+      },
+      {
         "date": "2026-05-24",
         "run_id": "2026-05-24T18:05:20.435691+00:00",
         "briefs": [
@@ -82,6 +146,16 @@
       }
     ],
     "fabric-care": [
+      {
+        "date": "2026-05-25",
+        "run_id": "2026-05-25T15:38:48.658800+00:00",
+        "briefs": [
+          {
+            "text": "Amazon #4 fabric softener trending \u2014 Genteel should leverage 'smooth, soft and cling-free laundry' messaging in summer campaign.",
+            "evidence": "Amazon Liquid Detergent #4: '7 Best Fabric Softeners for Smooth, Soft and Cling-Free Laundry'"
+          }
+        ]
+      },
       {
         "date": "2026-05-24",
         "run_id": "2026-05-24T18:05:20.435691+00:00",
