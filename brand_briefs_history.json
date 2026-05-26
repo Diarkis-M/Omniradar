@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-26T16:22:17.613110+00:00",
+  "last_updated": "2026-05-26T19:27:47.108335+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-05-26",
-        "run_id": "2026-05-26T16:22:17.613110+00:00",
+        "run_id": "2026-05-26T19:27:47.108335+00:00",
         "briefs": [
           {
-            "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No specific product mentions or pricing changes detected in personal wash category"
+            "text": "Dove dominates Amazon bar soap rankings with #1 position at \u20b98,652 \u2014 Cinthol should launch 'More Refreshing Than Moisturizing' campaign targeting Dove's heavy positioning.",
+            "evidence": "Amazon Bar Soaps #1 bestseller, Dove Beauty Bar \u20b98,652"
           }
         ]
       },
@@ -36,11 +36,15 @@
     "hair-care": [
       {
         "date": "2026-05-26",
-        "run_id": "2026-05-26T16:22:17.613110+00:00",
+        "run_id": "2026-05-26T19:27:47.108335+00:00",
         "briefs": [
           {
-            "text": "Marico launched Parachute Protein Shampoo targeting \u20b910,000 crore market \u2014 Godrej Expert should immediately bundle hair colour with protein treatments to counter their protein positioning.",
-            "evidence": "Multiple news sources: Marico enters shampoo market with protein focus"
+            "text": "Revlon ColorSilk holds #1 Amazon hair color position at \u20b9449 \u2014 Godrej Expert should launch \u20b9399 competitive pack to undercut while highlighting heritage.",
+            "evidence": "Amazon Hair Colour #1, Revlon ColorSilk \u20b9449"
+          },
+          {
+            "text": "Marico enters shampoo market with Parachute Advanced \u2014 Godrej Professional should emphasize salon-exclusive distribution vs mass-market positioning to protect channel credibility.",
+            "evidence": "News: Marico launches Parachute Advansed Protein Shampoo across India"
           }
         ]
       },
@@ -72,19 +76,15 @@
     "mens-grooming": [
       {
         "date": "2026-05-26",
-        "run_id": "2026-05-26T16:22:17.613110+00:00",
+        "run_id": "2026-05-26T19:27:47.108335+00:00",
         "briefs": [
           {
-            "text": "KT Men signed Messi for \u20b9200 crore grooming push \u2014 Park Avenue should explore cricket celebrity partnerships (Kohli/Rohit) to leverage India's cricket obsession against football appeal.",
-            "evidence": "Google Trends: KT Men-Messi deal targeting Rs. 200cr"
+            "text": "KT Men signs \u20b9200 crore Messi deal for grooming push \u2014 Park Avenue should counter with cricket celebrity endorsement during IPL season.",
+            "evidence": "News: KT Men-Messi partnership targets \u20b9200cr grooming range"
           },
           {
-            "text": "International beard oils dominate Amazon India (#1-20 all foreign brands, \u20b9299-\u20b95,632) \u2014 Park Avenue should launch beard oil under existing fragrance line before competitors enter.",
-            "evidence": "Amazon bestsellers: Every Man Jack #1 at \u20b91,509, no Indian brands in top 20"
-          },
-          {
-            "text": "Roll-on vs spray perfume debate trending with spray superiority claims \u2014 Park Avenue should create comparison content showing spray advantages for higher-margin format push.",
-            "evidence": "Google Trends: 'Roll-on perfume vs spray perfume' trending"
+            "text": "Perfume market booming as daily lifestyle essential \u2014 Park Avenue should launch 30ml daily-use packs at \u20b9199 to capture everyday adoption trend.",
+            "evidence": "Google Trends: India Perfume Market Set to Bloom as Daily Lifestyle Essential"
           }
         ]
       },
@@ -120,11 +120,15 @@
     "home-insecticides": [
       {
         "date": "2026-05-26",
-        "run_id": "2026-05-26T16:22:17.613110+00:00",
+        "run_id": "2026-05-26T19:27:47.108335+00:00",
         "briefs": [
           {
-            "text": "Licensing simplified for 40 lakh pesticide retailers \u2014 HIT should launch immediate retailer acquisition drive with starter inventory packages and margin incentives for newly licensed stores.",
-            "evidence": "AI Trends signal: Licensing process simplified for pesticide retailers"
+            "text": "Licensing simplified for household pesticides targeting 40 lakh new outlets \u2014 HIT should launch retailer onboarding campaign with attractive margins.",
+            "evidence": "News: Licensing Process Simplified for Household Pesticides"
+          },
+          {
+            "text": "Summer heat drives insecticide demand \u2014 Good Knight should shift from seasonal to 'Year-Round Protection' messaging emphasizing dengue risk.",
+            "evidence": "Cross-platform signal: Summer Heat Drives Insecticide Demand"
           }
         ]
       },
@@ -152,11 +156,11 @@
     "air-fresheners": [
       {
         "date": "2026-05-26",
-        "run_id": "2026-05-26T16:22:17.613110+00:00",
+        "run_id": "2026-05-26T19:27:47.108335+00:00",
         "briefs": [
           {
-            "text": "Amazon adding 100+ premium beauty brands in 2026 \u2014 Godrej aer should secure Amazon exclusive SKUs before international fragrance brands flood the platform.",
-            "evidence": "News: Amazon.in to add over 100 premium brands in 2026"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data points detected"
           }
         ]
       },
@@ -184,11 +188,11 @@
     "sexual-wellness": [
       {
         "date": "2026-05-26",
-        "run_id": "2026-05-26T16:22:17.613110+00:00",
+        "run_id": "2026-05-26T19:27:47.108335+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No specific product mentions or market movements detected in sexual wellness category"
+            "evidence": "No relevant data points detected"
           }
         ]
       },
@@ -216,11 +220,11 @@
     "fabric-care": [
       {
         "date": "2026-05-26",
-        "run_id": "2026-05-26T16:22:17.613110+00:00",
+        "run_id": "2026-05-26T19:27:47.108335+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No specific product mentions or pricing changes detected in fabric care category"
+            "evidence": "No relevant data points detected"
           }
         ]
       },
