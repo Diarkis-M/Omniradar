@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-27T16:21:47.769007+00:00",
+  "last_updated": "2026-05-27T19:30:09.967246+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-05-27",
-        "run_id": "2026-05-27T16:21:47.769007+00:00",
+        "run_id": "2026-05-27T19:30:09.967246+00:00",
         "briefs": [
           {
-            "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No specific pricing, ranking or competitive moves detected for soap/body wash category"
+            "text": "Vivel Hya Serum Body Wash dominates #1 on Amazon at \u20b9120 with hyaluronic acid positioning \u2014 Cinthol should launch serum-infused variant at competitive pricing.",
+            "evidence": "Amazon Shower Gel #1, \u20b9120, 4.9* rating, 175 reviews"
           }
         ]
       },
@@ -46,11 +46,11 @@
     "hair-care": [
       {
         "date": "2026-05-27",
-        "run_id": "2026-05-27T16:21:47.769007+00:00",
+        "run_id": "2026-05-27T19:30:09.967246+00:00",
         "briefs": [
           {
-            "text": "Marico launched Parachute Advansed Protein Shampoo entering \u20b910,000-crore shampoo market \u2014 Godrej Professional should emphasize salon-grade expertise vs mass-market entrant.",
-            "evidence": "Multiple news sources reporting Marico's shampoo market entry with Parachute Advansed brand"
+            "text": "Marico enters shampoo market with Parachute Advanced Protein Shampoo targeting \u20b910,000-crore market \u2014 Godrej Professional needs competitive protein-enriched salon variant.",
+            "evidence": "Google Trends: Marico enters India's Rs 10,000-crore shampoo market with Parachute Advansed Protein Shampoo"
           }
         ]
       },
@@ -96,15 +96,19 @@
     "mens-grooming": [
       {
         "date": "2026-05-27",
-        "run_id": "2026-05-27T16:21:47.769007+00:00",
+        "run_id": "2026-05-27T19:30:09.967246+00:00",
         "briefs": [
           {
-            "text": "Reginald Men Sunscreen dominates Flipkart at #3 (\u20b9999, 37,127 reviews) \u2014 Park Avenue should secure premium fragrance keywords before international brands flood Amazon.",
-            "evidence": "Flipkart Sunscreen category #3 ranking, \u20b9999 price point, 37,127 reviews"
+            "text": "Park Avenue Grooming Kit ranks #15 in Amazon Shaving at \u20b9314 while premium aftershaves dominate top 10 \u2014 focus on core fragrance strength over grooming kits.",
+            "evidence": "Amazon Shaving #15, \u20b9314 vs top-ranking aftershaves at \u20b9500-800"
           },
           {
-            "text": "Roll-on vs spray perfume debate trending on Google \u2014 Park Avenue should create educational content positioning spray format superiority.",
-            "evidence": "Google Trends: 'Roll-on perfume vs spray perfume: Which fragrance option is better for everyday use?'"
+            "text": "Honasa Consumer expands Reginald Men nationally after acquisition \u2014 Park Avenue should counter with region-specific fragrance variants or limited editions.",
+            "evidence": "Storyboard18: Mamaearth parent Honasa Consumer targets wider national footprint for Reginald Men"
+          },
+          {
+            "text": "Fitkari (alum) revival trending in deodorant category per Instagram buzz \u2014 Cinthol should launch 'Natural Alum' deodorant variant with heritage positioning.",
+            "evidence": "Google Trends: I swapped my natural deodorant for fitkari during a heatwave"
           }
         ]
       },
@@ -154,11 +158,11 @@
     "home-insecticides": [
       {
         "date": "2026-05-27",
-        "run_id": "2026-05-27T16:21:47.769007+00:00",
+        "run_id": "2026-05-27T19:30:09.967246+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No specific pricing, ranking or competitive moves detected for insecticide category"
+            "evidence": "No relevant data found in today's signals"
           }
         ]
       },
@@ -200,11 +204,11 @@
     "air-fresheners": [
       {
         "date": "2026-05-27",
-        "run_id": "2026-05-27T16:21:47.769007+00:00",
+        "run_id": "2026-05-27T19:30:09.967246+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No specific pricing, ranking or competitive moves detected for air freshener category"
+            "evidence": "No relevant data found in today's signals"
           }
         ]
       },
@@ -242,11 +246,11 @@
     "sexual-wellness": [
       {
         "date": "2026-05-27",
-        "run_id": "2026-05-27T16:21:47.769007+00:00",
+        "run_id": "2026-05-27T19:30:09.967246+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No specific pricing, ranking or competitive moves detected for sexual wellness category"
+            "evidence": "No relevant data found in today's signals"
           }
         ]
       },
@@ -284,11 +288,11 @@
     "fabric-care": [
       {
         "date": "2026-05-27",
-        "run_id": "2026-05-27T16:21:47.769007+00:00",
+        "run_id": "2026-05-27T19:30:09.967246+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No specific pricing, ranking or competitive moves detected for fabric care category"
+            "evidence": "No relevant data found in today's signals"
           }
         ]
       },
