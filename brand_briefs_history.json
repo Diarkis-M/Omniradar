@@ -1,18 +1,14 @@
 {
-  "last_updated": "2026-05-28T16:44:06.781486+00:00",
+  "last_updated": "2026-05-28T19:42:55.163607+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-05-28",
-        "run_id": "2026-05-28T16:44:06.781486+00:00",
+        "run_id": "2026-05-28T19:42:55.163607+00:00",
         "briefs": [
           {
-            "text": "Vivel Hyaluronic Acid Body Wash tops Amazon shower gel category at \u20b9120 \u2014 Cinthol should launch ingredient-focused variants highlighting Vitamin E/Aloe Vera to compete.",
-            "evidence": "Amazon #1 shower gel, Vivel Hya Serum Body Wash \u20b9120, 4.9* rating, 186 reviews"
-          },
-          {
-            "text": "Dove dominates Amazon bar soap rankings with 8 of top 20 positions at \u20b9999-\u20b912,237 \u2014 Cinthol needs premium variants or gift packs for e-commerce.",
-            "evidence": "Amazon bar soaps: Dove holds #1, #3, #6, #7, #8, #10, #11, #17 positions"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No specific pricing, ranking, or competitive moves detected in personal wash category"
           }
         ]
       },
@@ -60,11 +56,15 @@
     "hair-care": [
       {
         "date": "2026-05-28",
-        "run_id": "2026-05-28T16:44:06.781486+00:00",
+        "run_id": "2026-05-28T19:42:55.163607+00:00",
         "briefs": [
           {
-            "text": "Marico launches Parachute Advansed Protein Shampoo targeting \u20b910,000cr market \u2014 Godrej Professional should immediately add protein-enriched salon variants before Marico establishes leadership.",
-            "evidence": "News: 'Marico enters India's Rs 10,000-crore shampoo market with Parachute Advansed Protein Shampoo'"
+            "text": "Marico enters \u20b910,000 crore shampoo market with Parachute \u2014 Godrej Professional should emphasize salon-grade protein formulation to differentiate from mass-market entry.",
+            "evidence": "Google Trends: Marico Parachute shampoo market entry announcement"
+          },
+          {
+            "text": "RYO Korean haircare brand gaining traction on Nykaa (#1 Hair Colour bestseller) \u2014 monitor Korean brand positioning for potential counter-messaging.",
+            "evidence": "Nykaa bestsellers: RYO Korean haircare #1 ranking in Hair Colour category"
           }
         ]
       },
@@ -120,15 +120,19 @@
     "mens-grooming": [
       {
         "date": "2026-05-28",
-        "run_id": "2026-05-28T16:44:06.781486+00:00",
+        "run_id": "2026-05-28T19:42:55.163607+00:00",
         "briefs": [
           {
-            "text": "KT Men targets \u20b9200cr with Messi partnership and RCB/MI deals \u2014 Park Avenue should explore cricket celebrity partnerships for stronger local connect than international football.",
-            "evidence": "News: 'KT Men Teams Up with Lionel Messi...targets Rs. 200cr' and 'KT Men storms India's Men's grooming market with RCB & MI'"
+            "text": "KT Men secures \u20b9200 crore Messi partnership targeting Indian grooming market \u2014 Park Avenue should accelerate cricket celebrity endorsements to counter football association.",
+            "evidence": "News: KT Men + Messi partnership announcement, \u20b9200cr target"
           },
           {
-            "text": "Traditional Indian scents trending in perfume industry \u2014 Park Avenue should launch Heritage Collection with jasmine/rose/sandalwood variants before niche brands dominate.",
-            "evidence": "News headline: 'traditional Indian scents that are making buzz in the perfume industry'"
+            "text": "Amazon India adds 100+ premium beauty brands \u2014 Park Avenue should secure Amazon Choice badge and sponsored placements against new fragrance competitors.",
+            "evidence": "Amazon bestsellers: 'Amazon India Expands Premium Beauty Portfolio with 100 New Brands' #1 Shaving category"
+          },
+          {
+            "text": "Fitkari deodorant revival during heatwave trend \u2014 Cinthol should consider 'Modern Fitkari' variant combining traditional alum with modern fragrance technology.",
+            "evidence": "Google Trends: 'I swapped my natural deodorant for fitkari during a heatwave' article"
           }
         ]
       },
@@ -196,11 +200,11 @@
     "home-insecticides": [
       {
         "date": "2026-05-28",
-        "run_id": "2026-05-28T16:44:06.781486+00:00",
+        "run_id": "2026-05-28T19:42:55.163607+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant data found in today's market signals"
+            "evidence": "No specific pricing, ranking, or competitive moves detected in insecticides category"
           }
         ]
       },
@@ -252,11 +256,11 @@
     "air-fresheners": [
       {
         "date": "2026-05-28",
-        "run_id": "2026-05-28T16:44:06.781486+00:00",
+        "run_id": "2026-05-28T19:42:55.163607+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant data found in today's market signals"
+            "evidence": "No specific pricing, ranking, or competitive moves detected in air fresheners category"
           }
         ]
       },
@@ -304,11 +308,11 @@
     "sexual-wellness": [
       {
         "date": "2026-05-28",
-        "run_id": "2026-05-28T16:44:06.781486+00:00",
+        "run_id": "2026-05-28T19:42:55.163607+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant data found in today's market signals"
+            "evidence": "No specific pricing, ranking, or competitive moves detected in sexual wellness category"
           }
         ]
       },
@@ -356,11 +360,11 @@
     "fabric-care": [
       {
         "date": "2026-05-28",
-        "run_id": "2026-05-28T16:44:06.781486+00:00",
+        "run_id": "2026-05-28T19:42:55.163607+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant data found in today's market signals"
+            "evidence": "No specific pricing, ranking, or competitive moves detected in fabric care category"
           }
         ]
       },
