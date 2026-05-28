@@ -1,7 +1,17 @@
 {
-  "last_updated": "2026-05-27T19:30:09.967246+00:00",
+  "last_updated": "2026-05-28T11:11:31.080086+00:00",
   "clusters": {
     "personal-wash": [
+      {
+        "date": "2026-05-28",
+        "run_id": "2026-05-28T11:11:31.080086+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitor moves or pricing changes detected in personal wash category"
+          }
+        ]
+      },
       {
         "date": "2026-05-27",
         "run_id": "2026-05-27T19:30:09.967246+00:00",
@@ -44,6 +54,24 @@
       }
     ],
     "hair-care": [
+      {
+        "date": "2026-05-28",
+        "run_id": "2026-05-28T11:11:31.080086+00:00",
+        "briefs": [
+          {
+            "text": "Marico launched Parachute Advansed Protein Shampoo nationwide \u2014 Godrej Professional should immediately counter with protein-focused campaigns highlighting salon-grade formulations.",
+            "evidence": "News: Marico enters Rs 10,000-crore shampoo market with protein positioning"
+          },
+          {
+            "text": "Head & Shoulders dominates Flipkart at \u20b9563-600 range (#2, #3 ranks) \u2014 Godrej Professional should launch competitive anti-dandruff pricing on Flipkart.",
+            "evidence": "Flipkart bestsellers: Head & Shoulders #2 at \u20b9563, #3 at \u20b9600 with 138K+ reviews"
+          },
+          {
+            "text": "Budget hair colors under \u20b9400 dominate Flipkart top 10 \u2014 Godrej Expert needs sub-\u20b9300 SKU to compete in high-volume segment.",
+            "evidence": "Flipkart hair color: Top products priced \u20b985-\u20b9403, with Indus Valley at \u20b9219 having 30K+ reviews"
+          }
+        ]
+      },
       {
         "date": "2026-05-27",
         "run_id": "2026-05-27T19:30:09.967246+00:00",
@@ -94,6 +122,24 @@
       }
     ],
     "mens-grooming": [
+      {
+        "date": "2026-05-28",
+        "run_id": "2026-05-28T11:11:31.080086+00:00",
+        "briefs": [
+          {
+            "text": "KT Men secured \u20b9200cr Messi partnership for grooming range \u2014 Park Avenue should leverage cricket celebrity partnerships during IPL 2026 season.",
+            "evidence": "AI Trends: KT Men Partners with Messi for Rs 200cr Grooming Range"
+          },
+          {
+            "text": "Men skipping moisturizer identified as biggest grooming mistake \u2014 Cinthol should launch educational content about post-shower moisturizing routines.",
+            "evidence": "Google Trends: 'The biggest grooming mistake men make? Skipping moisturiser'"
+          },
+          {
+            "text": "India perfume market positioning as daily essential vs special occasion \u2014 Park Avenue should launch 'Daily Essential' fragrance campaign for office wear.",
+            "evidence": "News: 'India Perfume Market Set to Bloom as Fragrance Becomes a Daily Lifestyle Essential'"
+          }
+        ]
+      },
       {
         "date": "2026-05-27",
         "run_id": "2026-05-27T19:30:09.967246+00:00",
@@ -157,6 +203,16 @@
     ],
     "home-insecticides": [
       {
+        "date": "2026-05-28",
+        "run_id": "2026-05-28T11:11:31.080086+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitor moves or pricing changes detected in insecticides category"
+          }
+        ]
+      },
+      {
         "date": "2026-05-27",
         "run_id": "2026-05-27T19:30:09.967246+00:00",
         "briefs": [
@@ -203,6 +259,16 @@
     ],
     "air-fresheners": [
       {
+        "date": "2026-05-28",
+        "run_id": "2026-05-28T11:11:31.080086+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitor moves or pricing changes detected in air fresheners category"
+          }
+        ]
+      },
+      {
         "date": "2026-05-27",
         "run_id": "2026-05-27T19:30:09.967246+00:00",
         "briefs": [
@@ -245,6 +311,16 @@
     ],
     "sexual-wellness": [
       {
+        "date": "2026-05-28",
+        "run_id": "2026-05-28T11:11:31.080086+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitor moves or pricing changes detected in sexual wellness category"
+          }
+        ]
+      },
+      {
         "date": "2026-05-27",
         "run_id": "2026-05-27T19:30:09.967246+00:00",
         "briefs": [
@@ -286,6 +362,16 @@
       }
     ],
     "fabric-care": [
+      {
+        "date": "2026-05-28",
+        "run_id": "2026-05-28T11:11:31.080086+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitor moves or pricing changes detected in fabric care category"
+          }
+        ]
+      },
       {
         "date": "2026-05-27",
         "run_id": "2026-05-27T19:30:09.967246+00:00",
