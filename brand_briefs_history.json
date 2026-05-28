@@ -1,14 +1,18 @@
 {
-  "last_updated": "2026-05-28T11:11:31.080086+00:00",
+  "last_updated": "2026-05-28T16:44:06.781486+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-05-28",
-        "run_id": "2026-05-28T11:11:31.080086+00:00",
+        "run_id": "2026-05-28T16:44:06.781486+00:00",
         "briefs": [
           {
-            "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable competitor moves or pricing changes detected in personal wash category"
+            "text": "Vivel Hyaluronic Acid Body Wash tops Amazon shower gel category at \u20b9120 \u2014 Cinthol should launch ingredient-focused variants highlighting Vitamin E/Aloe Vera to compete.",
+            "evidence": "Amazon #1 shower gel, Vivel Hya Serum Body Wash \u20b9120, 4.9* rating, 186 reviews"
+          },
+          {
+            "text": "Dove dominates Amazon bar soap rankings with 8 of top 20 positions at \u20b9999-\u20b912,237 \u2014 Cinthol needs premium variants or gift packs for e-commerce.",
+            "evidence": "Amazon bar soaps: Dove holds #1, #3, #6, #7, #8, #10, #11, #17 positions"
           }
         ]
       },
@@ -56,19 +60,11 @@
     "hair-care": [
       {
         "date": "2026-05-28",
-        "run_id": "2026-05-28T11:11:31.080086+00:00",
+        "run_id": "2026-05-28T16:44:06.781486+00:00",
         "briefs": [
           {
-            "text": "Marico launched Parachute Advansed Protein Shampoo nationwide \u2014 Godrej Professional should immediately counter with protein-focused campaigns highlighting salon-grade formulations.",
-            "evidence": "News: Marico enters Rs 10,000-crore shampoo market with protein positioning"
-          },
-          {
-            "text": "Head & Shoulders dominates Flipkart at \u20b9563-600 range (#2, #3 ranks) \u2014 Godrej Professional should launch competitive anti-dandruff pricing on Flipkart.",
-            "evidence": "Flipkart bestsellers: Head & Shoulders #2 at \u20b9563, #3 at \u20b9600 with 138K+ reviews"
-          },
-          {
-            "text": "Budget hair colors under \u20b9400 dominate Flipkart top 10 \u2014 Godrej Expert needs sub-\u20b9300 SKU to compete in high-volume segment.",
-            "evidence": "Flipkart hair color: Top products priced \u20b985-\u20b9403, with Indus Valley at \u20b9219 having 30K+ reviews"
+            "text": "Marico launches Parachute Advansed Protein Shampoo targeting \u20b910,000cr market \u2014 Godrej Professional should immediately add protein-enriched salon variants before Marico establishes leadership.",
+            "evidence": "News: 'Marico enters India's Rs 10,000-crore shampoo market with Parachute Advansed Protein Shampoo'"
           }
         ]
       },
@@ -124,19 +120,15 @@
     "mens-grooming": [
       {
         "date": "2026-05-28",
-        "run_id": "2026-05-28T11:11:31.080086+00:00",
+        "run_id": "2026-05-28T16:44:06.781486+00:00",
         "briefs": [
           {
-            "text": "KT Men secured \u20b9200cr Messi partnership for grooming range \u2014 Park Avenue should leverage cricket celebrity partnerships during IPL 2026 season.",
-            "evidence": "AI Trends: KT Men Partners with Messi for Rs 200cr Grooming Range"
+            "text": "KT Men targets \u20b9200cr with Messi partnership and RCB/MI deals \u2014 Park Avenue should explore cricket celebrity partnerships for stronger local connect than international football.",
+            "evidence": "News: 'KT Men Teams Up with Lionel Messi...targets Rs. 200cr' and 'KT Men storms India's Men's grooming market with RCB & MI'"
           },
           {
-            "text": "Men skipping moisturizer identified as biggest grooming mistake \u2014 Cinthol should launch educational content about post-shower moisturizing routines.",
-            "evidence": "Google Trends: 'The biggest grooming mistake men make? Skipping moisturiser'"
-          },
-          {
-            "text": "India perfume market positioning as daily essential vs special occasion \u2014 Park Avenue should launch 'Daily Essential' fragrance campaign for office wear.",
-            "evidence": "News: 'India Perfume Market Set to Bloom as Fragrance Becomes a Daily Lifestyle Essential'"
+            "text": "Traditional Indian scents trending in perfume industry \u2014 Park Avenue should launch Heritage Collection with jasmine/rose/sandalwood variants before niche brands dominate.",
+            "evidence": "News headline: 'traditional Indian scents that are making buzz in the perfume industry'"
           }
         ]
       },
@@ -204,11 +196,11 @@
     "home-insecticides": [
       {
         "date": "2026-05-28",
-        "run_id": "2026-05-28T11:11:31.080086+00:00",
+        "run_id": "2026-05-28T16:44:06.781486+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable competitor moves or pricing changes detected in insecticides category"
+            "evidence": "No relevant data found in today's market signals"
           }
         ]
       },
@@ -260,11 +252,11 @@
     "air-fresheners": [
       {
         "date": "2026-05-28",
-        "run_id": "2026-05-28T11:11:31.080086+00:00",
+        "run_id": "2026-05-28T16:44:06.781486+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable competitor moves or pricing changes detected in air fresheners category"
+            "evidence": "No relevant data found in today's market signals"
           }
         ]
       },
@@ -312,11 +304,11 @@
     "sexual-wellness": [
       {
         "date": "2026-05-28",
-        "run_id": "2026-05-28T11:11:31.080086+00:00",
+        "run_id": "2026-05-28T16:44:06.781486+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable competitor moves or pricing changes detected in sexual wellness category"
+            "evidence": "No relevant data found in today's market signals"
           }
         ]
       },
@@ -364,11 +356,11 @@
     "fabric-care": [
       {
         "date": "2026-05-28",
-        "run_id": "2026-05-28T11:11:31.080086+00:00",
+        "run_id": "2026-05-28T16:44:06.781486+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable competitor moves or pricing changes detected in fabric care category"
+            "evidence": "No relevant data found in today's market signals"
           }
         ]
       },
