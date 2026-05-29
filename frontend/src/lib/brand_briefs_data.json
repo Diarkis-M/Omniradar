@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-29T11:03:53.068650+00:00",
+  "last_updated": "2026-05-29T16:18:07.704100+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-05-29",
-        "run_id": "2026-05-29T11:03:53.068650+00:00",
+        "run_id": "2026-05-29T16:18:07.704100+00:00",
         "briefs": [
           {
-            "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No specific personal wash product mentions or pricing changes detected"
+            "text": "The Derma Co face wash ranks #3 on Flipkart (\u20b9235, 183k reviews) \u2014 Cinthol should emphasize antibacterial heritage in digital campaigns against clinical newcomers.",
+            "evidence": "Flipkart Face Wash category, rank #3, \u20b9235 with 183,321 reviews"
           }
         ]
       },
@@ -66,15 +66,11 @@
     "hair-care": [
       {
         "date": "2026-05-29",
-        "run_id": "2026-05-29T11:03:53.068650+00:00",
+        "run_id": "2026-05-29T16:18:07.704100+00:00",
         "briefs": [
           {
-            "text": "Keratin products dominate Amazon hair care top 20 at \u20b9799-\u20b91,500 range \u2014 Godrej Professional should highlight existing keratin variants to compete.",
-            "evidence": "Amazon Professional Hair Care: #1 Kera Fine Keratin Shampoo \u20b9799, 18/20 top products are keratin-based"
-          },
-          {
-            "text": "Marico launches Parachute Advansed Protein Shampoo nationwide \u2014 Godrej Professional should emphasize salon heritage vs mass-market positioning.",
-            "evidence": "News: Marico enters Rs 10,000-crore shampoo market with protein shampoo launch"
+            "text": "Marico launches Parachute Advansed Protein Shampoo targeting \u20b910,000cr market \u2014 Godrej Professional should counter with protein-enriched salon treatments immediately.",
+            "evidence": "Google Trends: 'Marico enters India's Rs 10,000-crore shampoo market with Parachute Advansed Protein Shampoo'"
           }
         ]
       },
@@ -144,15 +140,15 @@
     "mens-grooming": [
       {
         "date": "2026-05-29",
-        "run_id": "2026-05-29T11:03:53.068650+00:00",
+        "run_id": "2026-05-29T16:18:07.704100+00:00",
         "briefs": [
           {
-            "text": "KT Men targets \u20b9200cr with Messi partnership and celebrity strategy \u2014 Park Avenue should leverage sports associations to counter celebrity-driven competition.",
-            "evidence": "News: KT Men Teams Up with Lionel Messi targeting Rs. 200cr grooming market"
+            "text": "KT Men partners with Messi targeting \u20b9200cr revenue during IPL season \u2014 Park Avenue should activate Indian cricket celebrity partnerships immediately.",
+            "evidence": "News: 'KT Men Teams Up with Lionel Messi and Argentina Football Association for GOAT Grooming Range in India, targets Rs. 200cr'"
           },
           {
-            "text": "Men's face serum market exploding on Amazon with \u20b9292-\u20b96,526 range \u2014 Park Avenue should focus on premium fragrance innovation rather than skincare entry.",
-            "evidence": "Amazon Men's Face Serum category showing 10 bestsellers, price range \u20b9292-\u20b96,526"
+            "text": "Reginald Men sunscreen dominates Flipkart #1 position (\u20b9999, 37k reviews) \u2014 Park Avenue should leverage premium equity for post-sun freshness campaigns.",
+            "evidence": "Flipkart Sunscreen category, rank #1, \u20b9999 with 37,197 reviews"
           }
         ]
       },
@@ -238,11 +234,11 @@
     "home-insecticides": [
       {
         "date": "2026-05-29",
-        "run_id": "2026-05-29T11:03:53.068650+00:00",
+        "run_id": "2026-05-29T16:18:07.704100+00:00",
         "briefs": [
           {
-            "text": "Scientific mosquito repellent breakthroughs trending \u2014 HIT should prepare messaging reinforcing proven effectiveness while new research emerges.",
-            "evidence": "Google Trends: Mosquito Repellent Science Breakthrough discussions"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data found in today's signals"
           }
         ]
       },
@@ -304,11 +300,11 @@
     "air-fresheners": [
       {
         "date": "2026-05-29",
-        "run_id": "2026-05-29T11:03:53.068650+00:00",
+        "run_id": "2026-05-29T16:18:07.704100+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No air freshener specific mentions in market data"
+            "evidence": "No relevant data found in today's signals"
           }
         ]
       },
@@ -366,11 +362,11 @@
     "sexual-wellness": [
       {
         "date": "2026-05-29",
-        "run_id": "2026-05-29T11:03:53.068650+00:00",
+        "run_id": "2026-05-29T16:18:07.704100+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No sexual wellness product mentions detected"
+            "evidence": "No relevant data found in today's signals"
           }
         ]
       },
@@ -428,11 +424,11 @@
     "fabric-care": [
       {
         "date": "2026-05-29",
-        "run_id": "2026-05-29T11:03:53.068650+00:00",
+        "run_id": "2026-05-29T16:18:07.704100+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No fabric care product mentions or competitor moves detected"
+            "evidence": "No relevant data found in today's signals"
           }
         ]
       },
