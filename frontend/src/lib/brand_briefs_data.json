@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-30T14:18:29.938929+00:00",
+  "last_updated": "2026-05-30T18:06:59.007695+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-05-30",
-        "run_id": "2026-05-30T14:18:29.938929+00:00",
+        "run_id": "2026-05-30T18:06:59.007695+00:00",
         "briefs": [
           {
-            "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No specific pricing, ranking, or competitive moves detected in personal wash category"
+            "text": "Face wash category dominated by skincare brands on Flipkart \u2014 Cinthol absent from top 20 rankings while competitors like Mamaearth (#5, #7) capture \u20b9200-300 segment.",
+            "evidence": "Flipkart Face Wash category top 20, no Cinthol presence, Mamaearth at #5 and #7"
           }
         ]
       },
@@ -76,15 +76,11 @@
     "hair-care": [
       {
         "date": "2026-05-30",
-        "run_id": "2026-05-30T14:18:29.938929+00:00",
+        "run_id": "2026-05-30T18:06:59.007695+00:00",
         "briefs": [
           {
-            "text": "Amazon henna category dominated by organic variants at \u20b9179-\u20b9540 price points \u2014 Godrej Expert missing from top 20 rankings.",
-            "evidence": "Amazon Henna Mehendi bestsellers: Ancient Living #1 at \u20b9540, Natural Henna #3 at \u20b9179"
-          },
-          {
-            "text": "Marico launching protein shampoo under Parachute Advanced \u2014 Godrej Professional should counter with salon-grade protein messaging immediately.",
-            "evidence": "Cross-platform signal: Marico Enters Shampoo Market with Parachute Advanced"
+            "text": "Marico entering shampoo market with protein positioning \u2014 Godrej Professional should launch protein-enriched salon variants before Marico establishes mass-market leadership.",
+            "evidence": "Cross-platform signal: Marico protein shampoo launch"
           }
         ]
       },
@@ -164,19 +160,15 @@
     "mens-grooming": [
       {
         "date": "2026-05-30",
-        "run_id": "2026-05-30T14:18:29.938929+00:00",
+        "run_id": "2026-05-30T18:06:59.007695+00:00",
         "briefs": [
           {
-            "text": "Fitkari/alum deodorant trending during heatwave \u2014 Cinthol should launch natural variant positioning 'traditional wisdom meets modern freshness'.",
-            "evidence": "Google/Social signal: Fitkari (Alum) Deodorant Trend During Heatwave"
+            "text": "Reginald Men sunscreen dominates Flipkart #1 position at \u20b9999 with 37K+ reviews \u2014 Park Avenue missing from men's suncare segment entirely.",
+            "evidence": "Flipkart Sunscreen #1: Reginald Men \u20b9999, 37,237 reviews"
           },
           {
-            "text": "Men's sunscreen price war on Amazon with products at \u20b9259-\u20b9579 \u2014 Cinthol missing from category entirely.",
-            "evidence": "Amazon Men's Sunscreen: budget at \u20b9259, premium Lotus at \u20b9579"
-          },
-          {
-            "text": "Reginald Men expanding nationally with celebrity cricket endorsements \u2014 Park Avenue should leverage existing celebrity partnerships for sports crossover.",
-            "evidence": "Instagram buzz: Reginald Men's Sunscreen Celebrity Endorsement Push"
+            "text": "Fitkari deodorant revival trending during heatwave \u2014 Park Avenue should consider natural/traditional variant before competitors capture this segment.",
+            "evidence": "Google/Social signal: Fitkari deodorant heatwave trend"
           }
         ]
       },
@@ -280,11 +272,11 @@
     "home-insecticides": [
       {
         "date": "2026-05-30",
-        "run_id": "2026-05-30T14:18:29.938929+00:00",
+        "run_id": "2026-05-30T18:06:59.007695+00:00",
         "briefs": [
           {
-            "text": "Market doubt emerging from mosquito repellent effectiveness studies \u2014 HIT should launch 'Scientifically Proven Effectiveness' campaign with lab data.",
-            "evidence": "Competitor Alert: Mosquito Repellent Effectiveness Study Creates Market Doubt"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data in today's signals"
           }
         ]
       },
@@ -356,11 +348,11 @@
     "air-fresheners": [
       {
         "date": "2026-05-30",
-        "run_id": "2026-05-30T14:18:29.938929+00:00",
+        "run_id": "2026-05-30T18:06:59.007695+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No specific pricing, ranking, or competitive moves detected in air fresheners category"
+            "evidence": "No relevant data in today's signals"
           }
         ]
       },
@@ -428,11 +420,11 @@
     "sexual-wellness": [
       {
         "date": "2026-05-30",
-        "run_id": "2026-05-30T14:18:29.938929+00:00",
+        "run_id": "2026-05-30T18:06:59.007695+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No specific pricing, ranking, or competitive moves detected in sexual wellness category"
+            "evidence": "No relevant data in today's signals"
           }
         ]
       },
@@ -500,11 +492,11 @@
     "fabric-care": [
       {
         "date": "2026-05-30",
-        "run_id": "2026-05-30T14:18:29.938929+00:00",
+        "run_id": "2026-05-30T18:06:59.007695+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No specific pricing, ranking, or competitive moves detected in fabric care category"
+            "evidence": "No relevant data in today's signals"
           }
         ]
       },
