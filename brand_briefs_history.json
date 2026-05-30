@@ -1,7 +1,17 @@
 {
-  "last_updated": "2026-05-29T19:36:55.731911+00:00",
+  "last_updated": "2026-05-30T09:35:12.160890+00:00",
   "clusters": {
     "personal-wash": [
+      {
+        "date": "2026-05-30",
+        "run_id": "2026-05-30T09:35:12.160890+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitor moves or pricing changes detected in personal wash category"
+          }
+        ]
+      },
       {
         "date": "2026-05-29",
         "run_id": "2026-05-29T19:36:55.731911+00:00",
@@ -64,6 +74,16 @@
       }
     ],
     "hair-care": [
+      {
+        "date": "2026-05-30",
+        "run_id": "2026-05-30T09:35:12.160890+00:00",
+        "briefs": [
+          {
+            "text": "Marico enters \u20b910,000 crore shampoo market \u2014 Godrej Expert should launch 'Salon-Grade Protein Technology' campaign highlighting professional formulation vs mass-market protein shampoos.",
+            "evidence": "News: Marico shampoo market entry targeting \u20b910,000 crore market"
+          }
+        ]
+      },
       {
         "date": "2026-05-29",
         "run_id": "2026-05-29T19:36:55.731911+00:00",
@@ -138,6 +158,20 @@
       }
     ],
     "mens-grooming": [
+      {
+        "date": "2026-05-30",
+        "run_id": "2026-05-30T09:35:12.160890+00:00",
+        "briefs": [
+          {
+            "text": "KT Men-Messi partnership targets \u20b9200 crore revenue \u2014 Park Avenue should counter with cricket celebrity endorsements to maintain premium men's fragrance leadership.",
+            "evidence": "News: KT Men teams up with Messi targeting \u20b9200cr revenue"
+          },
+          {
+            "text": "Fitkari/crystal deodorant trend gaining momentum on social platforms \u2014 Cinthol should highlight natural ingredients in existing formulation to counter trend.",
+            "evidence": "Cross-platform signals: Fitkari deodorant revival trend, Shark Tank backs Phitku crystal roll-on"
+          }
+        ]
+      },
       {
         "date": "2026-05-29",
         "run_id": "2026-05-29T19:36:55.731911+00:00",
@@ -237,6 +271,16 @@
     ],
     "home-insecticides": [
       {
+        "date": "2026-05-30",
+        "run_id": "2026-05-30T09:35:12.160890+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitor moves or pricing changes detected in home insecticides category"
+          }
+        ]
+      },
+      {
         "date": "2026-05-29",
         "run_id": "2026-05-29T19:36:55.731911+00:00",
         "briefs": [
@@ -303,6 +347,16 @@
     ],
     "air-fresheners": [
       {
+        "date": "2026-05-30",
+        "run_id": "2026-05-30T09:35:12.160890+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitor moves or pricing changes detected in air fresheners category"
+          }
+        ]
+      },
+      {
         "date": "2026-05-29",
         "run_id": "2026-05-29T19:36:55.731911+00:00",
         "briefs": [
@@ -365,6 +419,16 @@
     ],
     "sexual-wellness": [
       {
+        "date": "2026-05-30",
+        "run_id": "2026-05-30T09:35:12.160890+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitor moves or pricing changes detected in sexual wellness category"
+          }
+        ]
+      },
+      {
         "date": "2026-05-29",
         "run_id": "2026-05-29T19:36:55.731911+00:00",
         "briefs": [
@@ -426,6 +490,16 @@
       }
     ],
     "fabric-care": [
+      {
+        "date": "2026-05-30",
+        "run_id": "2026-05-30T09:35:12.160890+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitor moves or pricing changes detected in fabric care category"
+          }
+        ]
+      },
       {
         "date": "2026-05-29",
         "run_id": "2026-05-29T19:36:55.731911+00:00",
