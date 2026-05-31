@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-31T10:06:02.971253+00:00",
+  "last_updated": "2026-05-31T14:21:23.768487+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-05-31",
-        "run_id": "2026-05-31T10:06:02.971253+00:00",
+        "run_id": "2026-05-31T14:21:23.768487+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No specific GCPL brand mentions or competitive pricing alerts in personal wash category"
+            "evidence": "No actionable data for GCPL personal wash brands in today's signals"
           }
         ]
       },
@@ -86,11 +86,15 @@
     "hair-care": [
       {
         "date": "2026-05-31",
-        "run_id": "2026-05-31T10:06:02.971253+00:00",
+        "run_id": "2026-05-31T14:21:23.768487+00:00",
         "briefs": [
           {
-            "text": "Marico enters shampoo market with protein positioning \u2014 Godrej Professional should immediately launch protein-enriched variant before Marico captures this trend.",
-            "evidence": "Google Trends: 'Marico Enters Shampoo Market with Protein Positioning'"
+            "text": "Marico enters shampoo market with protein positioning \u2014 Godrej Professional should emphasize salon heritage and professional formulations to differentiate from mass-market protein claims.",
+            "evidence": "Google Trends: Marico protein shampoo launch targeting mass market"
+          },
+          {
+            "text": "Reddit users seeking beard color solutions for short beards \u2014 Godrej Expert should develop precision applicator for facial hair since current products aren't optimized.",
+            "evidence": "Reddit exclusive signal: men seeking short beard color solutions"
           }
         ]
       },
@@ -180,19 +184,19 @@
     "mens-grooming": [
       {
         "date": "2026-05-31",
-        "run_id": "2026-05-31T10:06:02.971253+00:00",
+        "run_id": "2026-05-31T14:21:23.768487+00:00",
         "briefs": [
           {
-            "text": "Reginald Men sunscreen dominates premium at \u20b9999 (#2 Flipkart bestseller) \u2014 Park Avenue should launch premium men's sunscreen at \u20b9800-900 price point.",
-            "evidence": "Flipkart Sunscreen #2: Reginald Men SPF 50 PA++++ \u20b9999, 37,269 reviews"
+            "text": "Park Avenue deodorant combo performing strong on Flipkart \u2014 capitalize with exclusive combo packs at \u20b9699-\u20b9750 to undercut current \u20b9797 pricing.",
+            "evidence": "E-commerce signal: Park Avenue combo momentum on Flipkart at \u20b9797"
           },
           {
-            "text": "KT Men and The Dude enter men's grooming with sports partnerships \u2014 Park Avenue should secure IPL team partnership before remaining teams are taken.",
-            "evidence": "Google Trends: 'KT Men storms India's Men's grooming market with RCB & MI' and 'The Dude Enters India's Men's Grooming Market'"
+            "text": "Fitkari deodorant trending during heatwave \u2014 Cinthol should launch alum-infused natural variant to capture traditional-meets-modern positioning before competitors.",
+            "evidence": "Cross-platform trend: fitkari deodorant popularity during heat"
           },
           {
-            "text": "Nykaa launches Nykaaman.com dedicated men's platform \u2014 Park Avenue should negotiate exclusive launch partnerships for new fragrance launches on this growing platform.",
-            "evidence": "Nykaa Bestsellers #5: 'Nykaa rolls out Nykaaman.com, an e-commerce platform for male grooming products'"
+            "text": "KT Men targets \u20b9100 Cr with sports partnerships \u2014 Park Avenue should explore cricket sponsorship deals to counter their IPL marketing strategy.",
+            "evidence": "News: KT Men 100 Cr revenue target with RCB & MI partnerships"
           }
         ]
       },
@@ -310,11 +314,11 @@
     "home-insecticides": [
       {
         "date": "2026-05-31",
-        "run_id": "2026-05-31T10:06:02.971253+00:00",
+        "run_id": "2026-05-31T14:21:23.768487+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No mosquito/insecticide related trends or competitive moves detected"
+            "evidence": "No actionable data for HIT or Good Knight in today's signals"
           }
         ]
       },
@@ -396,11 +400,11 @@
     "air-fresheners": [
       {
         "date": "2026-05-31",
-        "run_id": "2026-05-31T10:06:02.971253+00:00",
+        "run_id": "2026-05-31T14:21:23.768487+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No air freshener category signals detected in today's data"
+            "evidence": "No actionable data for Godrej aer in today's signals"
           }
         ]
       },
@@ -478,11 +482,11 @@
     "sexual-wellness": [
       {
         "date": "2026-05-31",
-        "run_id": "2026-05-31T10:06:02.971253+00:00",
+        "run_id": "2026-05-31T14:21:23.768487+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No condom/sexual wellness category signals detected"
+            "evidence": "No actionable data for Kamasutra/KS brands in today's signals"
           }
         ]
       },
@@ -560,11 +564,11 @@
     "fabric-care": [
       {
         "date": "2026-05-31",
-        "run_id": "2026-05-31T10:06:02.971253+00:00",
+        "run_id": "2026-05-31T14:21:23.768487+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No fabric care/detergent category signals detected"
+            "evidence": "No actionable data for Ezee or Genteel in today's signals"
           }
         ]
       },
