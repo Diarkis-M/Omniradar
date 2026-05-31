@@ -1,7 +1,17 @@
 {
-  "last_updated": "2026-05-30T18:06:59.007695+00:00",
+  "last_updated": "2026-05-31T10:06:02.971253+00:00",
   "clusters": {
     "personal-wash": [
+      {
+        "date": "2026-05-31",
+        "run_id": "2026-05-31T10:06:02.971253+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No specific GCPL brand mentions or competitive pricing alerts in personal wash category"
+          }
+        ]
+      },
       {
         "date": "2026-05-30",
         "run_id": "2026-05-30T18:06:59.007695+00:00",
@@ -74,6 +84,16 @@
       }
     ],
     "hair-care": [
+      {
+        "date": "2026-05-31",
+        "run_id": "2026-05-31T10:06:02.971253+00:00",
+        "briefs": [
+          {
+            "text": "Marico enters shampoo market with protein positioning \u2014 Godrej Professional should immediately launch protein-enriched variant before Marico captures this trend.",
+            "evidence": "Google Trends: 'Marico Enters Shampoo Market with Protein Positioning'"
+          }
+        ]
+      },
       {
         "date": "2026-05-30",
         "run_id": "2026-05-30T18:06:59.007695+00:00",
@@ -158,6 +178,24 @@
       }
     ],
     "mens-grooming": [
+      {
+        "date": "2026-05-31",
+        "run_id": "2026-05-31T10:06:02.971253+00:00",
+        "briefs": [
+          {
+            "text": "Reginald Men sunscreen dominates premium at \u20b9999 (#2 Flipkart bestseller) \u2014 Park Avenue should launch premium men's sunscreen at \u20b9800-900 price point.",
+            "evidence": "Flipkart Sunscreen #2: Reginald Men SPF 50 PA++++ \u20b9999, 37,269 reviews"
+          },
+          {
+            "text": "KT Men and The Dude enter men's grooming with sports partnerships \u2014 Park Avenue should secure IPL team partnership before remaining teams are taken.",
+            "evidence": "Google Trends: 'KT Men storms India's Men's grooming market with RCB & MI' and 'The Dude Enters India's Men's Grooming Market'"
+          },
+          {
+            "text": "Nykaa launches Nykaaman.com dedicated men's platform \u2014 Park Avenue should negotiate exclusive launch partnerships for new fragrance launches on this growing platform.",
+            "evidence": "Nykaa Bestsellers #5: 'Nykaa rolls out Nykaaman.com, an e-commerce platform for male grooming products'"
+          }
+        ]
+      },
       {
         "date": "2026-05-30",
         "run_id": "2026-05-30T18:06:59.007695+00:00",
@@ -271,6 +309,16 @@
     ],
     "home-insecticides": [
       {
+        "date": "2026-05-31",
+        "run_id": "2026-05-31T10:06:02.971253+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No mosquito/insecticide related trends or competitive moves detected"
+          }
+        ]
+      },
+      {
         "date": "2026-05-30",
         "run_id": "2026-05-30T18:06:59.007695+00:00",
         "briefs": [
@@ -347,6 +395,16 @@
     ],
     "air-fresheners": [
       {
+        "date": "2026-05-31",
+        "run_id": "2026-05-31T10:06:02.971253+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No air freshener category signals detected in today's data"
+          }
+        ]
+      },
+      {
         "date": "2026-05-30",
         "run_id": "2026-05-30T18:06:59.007695+00:00",
         "briefs": [
@@ -419,6 +477,16 @@
     ],
     "sexual-wellness": [
       {
+        "date": "2026-05-31",
+        "run_id": "2026-05-31T10:06:02.971253+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No condom/sexual wellness category signals detected"
+          }
+        ]
+      },
+      {
         "date": "2026-05-30",
         "run_id": "2026-05-30T18:06:59.007695+00:00",
         "briefs": [
@@ -490,6 +558,16 @@
       }
     ],
     "fabric-care": [
+      {
+        "date": "2026-05-31",
+        "run_id": "2026-05-31T10:06:02.971253+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No fabric care/detergent category signals detected"
+          }
+        ]
+      },
       {
         "date": "2026-05-30",
         "run_id": "2026-05-30T18:06:59.007695+00:00",
