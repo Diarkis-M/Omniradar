@@ -1,18 +1,14 @@
 {
-  "last_updated": "2026-06-01T13:18:45.185787+00:00",
+  "last_updated": "2026-06-01T18:26:41.745253+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-06-01",
-        "run_id": "2026-06-01T13:18:45.185787+00:00",
+        "run_id": "2026-06-01T18:26:41.745253+00:00",
         "briefs": [
           {
-            "text": "Fitkari deodorant revival trending during heatwave \u2014 Cinthol should launch 'Natural Minerals' variant with alum positioning to capture traditional-modern crossover.",
-            "evidence": "Google Trends: 'I swapped my natural deodorant for fitkari during a heatwave'"
-          },
-          {
-            "text": "Gender-neutral skincare messaging gaining traction \u2014 Cinthol should run 'Skincare Has No Gender' campaign positioning soap for all family members.",
-            "evidence": "Instagram buzz: Men's skincare gender-neutral messaging trend"
+            "text": "MUUCHSTAC Ocean Face Wash dominates Flipkart men's category (#13 with 1.3M reviews at \u20b9219) \u2014 Cinthol should launch targeted digital campaigns highlighting heritage against newer face wash brands.",
+            "evidence": "Flipkart Face Wash #13, MUUCHSTAC Ocean \u20b9219, 1,377,380 reviews"
           }
         ]
       },
@@ -100,15 +96,15 @@
     "hair-care": [
       {
         "date": "2026-06-01",
-        "run_id": "2026-06-01T13:18:45.185787+00:00",
+        "run_id": "2026-06-01T18:26:41.745253+00:00",
         "briefs": [
           {
-            "text": "Marico enters \u20b910,000 Cr shampoo market with protein messaging \u2014 Godrej Professional should launch 'Protein Plus' salon shampoo variant immediately.",
-            "evidence": "News/RSS: Marico shampoo market entry with protein positioning"
+            "text": "Marico enters shampoo market with protein positioning \u2014 Godrej Professional should emphasize salon-grade expertise and professional results to differentiate from mass-market protein shampoos.",
+            "evidence": "News: Marico Enters Shampoo Market with Protein Positioning"
           },
           {
-            "text": "L'Or\u00e9al Professionnel Curl Expression getting negative reviews on Reddit \u2014 opportunity for Godrej Professional to target curl-care segment.",
-            "evidence": "Reddit r/IndianSkincareAddicts: 'This one ain't it chief (L'Or\u00e9al Professionnel Curl Expression)'"
+            "text": "L'Or\u00e9al Professionnel Curl Expression Leave-In Cream gets negative Reddit review ('This one ain't it chief') \u2014 opportunity for Godrej Professional to highlight superior curl care formulations.",
+            "evidence": "Reddit r/IndianSkincareAddicts: L'Or\u00e9al Professionnel Curl Expression Leave-In Cream negative review"
           }
         ]
       },
@@ -208,15 +204,19 @@
     "mens-grooming": [
       {
         "date": "2026-06-01",
-        "run_id": "2026-06-01T13:18:45.185787+00:00",
+        "run_id": "2026-06-01T18:26:41.745253+00:00",
         "briefs": [
           {
-            "text": "KT Men launching \u20b9100 Cr IPL marketing blitz with RCB & MI partnerships \u2014 Park Avenue should secure IPL 2027 sponsorships before brand recall establishes.",
-            "evidence": "Google Trends: 'KT Men storms India's Men's grooming market with RCB & MI; eyes 100 Cr'"
+            "text": "KT Men storms grooming market with IPL partnerships eyeing \u20b9100Cr \u2014 Park Avenue should leverage premium positioning to sponsor cricket events or partner with individual players.",
+            "evidence": "Google Trends: KT Men storms India's Men's grooming market with RCB & MI; eyes 100 Cr in year one"
           },
           {
-            "text": "India perfume market shifting to daily lifestyle usage \u2014 Park Avenue should launch 30ml 'Daily Essential' packs at \u20b9199 vs current premium-only positioning.",
-            "evidence": "Google Trends: 'India Perfume Market Set to Bloom as Fragrance Becomes a Daily Lifestyle Essential'"
+            "text": "Fitkari deodorant trending during heatwave with traditional remedy focus \u2014 Cinthol should run 'Back to Basics' campaign emphasizing natural freshness and traditional ingredients.",
+            "evidence": "Google Trends: I swapped my natural deodorant for fitkari during a heatwave"
+          },
+          {
+            "text": "Reginald Men Sunscreen leads Flipkart premium category (#1 at \u20b9969 with 37K reviews) \u2014 Park Avenue should consider SPF-infused aftershave variants without launching new category.",
+            "evidence": "Flipkart Sunscreen #1, Reginald Men \u20b9969, 37,321 reviews"
           }
         ]
       },
@@ -348,11 +348,11 @@
     "home-insecticides": [
       {
         "date": "2026-06-01",
-        "run_id": "2026-06-01T13:18:45.185787+00:00",
+        "run_id": "2026-06-01T18:26:41.745253+00:00",
         "briefs": [
           {
-            "text": "Consumer efficacy questions trending for mosquito repellents \u2014 HIT should launch 'Efficacy Guarantee' campaign with 30-minute money-back promise.",
-            "evidence": "Cross-platform signals: Mosquito repellent efficacy questions trending"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data found in today's signals"
           }
         ]
       },
@@ -444,11 +444,11 @@
     "air-fresheners": [
       {
         "date": "2026-06-01",
-        "run_id": "2026-06-01T13:18:45.185787+00:00",
+        "run_id": "2026-06-01T18:26:41.745253+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable air freshener category signals detected"
+            "evidence": "No relevant data found in today's signals"
           }
         ]
       },
@@ -536,11 +536,11 @@
     "sexual-wellness": [
       {
         "date": "2026-06-01",
-        "run_id": "2026-06-01T13:18:45.185787+00:00",
+        "run_id": "2026-06-01T18:26:41.745253+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable sexual wellness category signals detected"
+            "evidence": "No relevant data found in today's signals"
           }
         ]
       },
@@ -628,11 +628,11 @@
     "fabric-care": [
       {
         "date": "2026-06-01",
-        "run_id": "2026-06-01T13:18:45.185787+00:00",
+        "run_id": "2026-06-01T18:26:41.745253+00:00",
         "briefs": [
           {
-            "text": "Raw material cost inflation hitting FMCG \u2014 launch value packs for Ezee liquid detergent before implementing price hikes to maintain affordability perception.",
-            "evidence": "News/RSS: FMCG raw material cost inflation trend"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data found in today's signals"
           }
         ]
       },
