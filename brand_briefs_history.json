@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-06-02T17:04:12.354555+00:00",
+  "last_updated": "2026-06-02T20:12:39.806353+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-06-02",
-        "run_id": "2026-06-02T17:04:12.354555+00:00",
+        "run_id": "2026-06-02T20:12:39.806353+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
@@ -110,11 +110,11 @@
     "hair-care": [
       {
         "date": "2026-06-02",
-        "run_id": "2026-06-02T17:04:12.354555+00:00",
+        "run_id": "2026-06-02T20:12:39.806353+00:00",
         "briefs": [
           {
-            "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable data for GCPL hair care brands in today's signals"
+            "text": "International semi-permanent hair colors dominate Amazon top 20 with Manic Panic at \u20b9999 (#1-2 ranks) \u2014 Godrej Expert lacks presence in this growing fashion color segment.",
+            "evidence": "Amazon Hair Colour bestsellers: Manic Panic #1-2 at \u20b9999, Godrej Expert absent from top 20"
           }
         ]
       },
@@ -224,19 +224,15 @@
     "mens-grooming": [
       {
         "date": "2026-06-02",
-        "run_id": "2026-06-02T17:04:12.354555+00:00",
+        "run_id": "2026-06-02T20:12:39.806353+00:00",
         "briefs": [
           {
-            "text": "DENVER Face Wash dominates Flipkart at #3 (\u20b9298) \u2014 Cinthol should launch men's face wash variant to compete.",
-            "evidence": "Flipkart Face Wash category, DENVER #3 bestseller at \u20b9298 with 4107 reviews"
+            "text": "Fitkari/alum deodorant trending during heatwave per Google searches \u2014 Cinthol should consider ayurvedic variant to capture traditional-modern fusion demand.",
+            "evidence": "Google Trends: 'I swapped my natural deodorant for fitkari during a heatwave' article trending"
           },
           {
-            "text": "Unilever launches fragrance R&D hub at IIT Bombay \u2014 Park Avenue should accelerate premium fragrance development.",
-            "evidence": "HUL Opens Fragrance R&D Hub at IIT Bombay news headline"
-          },
-          {
-            "text": "Fitkari deodorant trending during heatwave \u2014 Cinthol should launch 'Traditional Fresh' alum-based deodorant variant.",
-            "evidence": "Cross-platform signal: 'I swapped my natural deodorant for fitkari during a heatwave'"
+            "text": "Unilever launches fragrance R&D hub at IIT Bombay \u2014 Park Avenue should counter with 'Made in India' positioning before new Unilever products launch.",
+            "evidence": "News: 'HUL Opens Fragrance R&D Hub at IIT Bombay' reported today"
           }
         ]
       },
@@ -382,11 +378,11 @@
     "home-insecticides": [
       {
         "date": "2026-06-02",
-        "run_id": "2026-06-02T17:04:12.354555+00:00",
+        "run_id": "2026-06-02T20:12:39.806353+00:00",
         "briefs": [
           {
-            "text": "Mosquito repellent effectiveness under scrutiny \u2014 HIT should launch 'Enhanced Formula' campaign with scientific backing.",
-            "evidence": "News signal: 'Mosquito Repellent Effectiveness Under Scrutiny'"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable data for GCPL insecticide brands in today's signals"
           }
         ]
       },
@@ -487,7 +483,7 @@
     "air-fresheners": [
       {
         "date": "2026-06-02",
-        "run_id": "2026-06-02T17:04:12.354555+00:00",
+        "run_id": "2026-06-02T20:12:39.806353+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
@@ -589,7 +585,7 @@
     "sexual-wellness": [
       {
         "date": "2026-06-02",
-        "run_id": "2026-06-02T17:04:12.354555+00:00",
+        "run_id": "2026-06-02T20:12:39.806353+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
@@ -690,7 +686,7 @@
     "fabric-care": [
       {
         "date": "2026-06-02",
-        "run_id": "2026-06-02T17:04:12.354555+00:00",
+        "run_id": "2026-06-02T20:12:39.806353+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
