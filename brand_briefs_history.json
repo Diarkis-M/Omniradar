@@ -1,7 +1,17 @@
 {
-  "last_updated": "2026-06-01T21:00:14.081668+00:00",
+  "last_updated": "2026-06-02T11:54:40.792432+00:00",
   "clusters": {
     "personal-wash": [
+      {
+        "date": "2026-06-02",
+        "run_id": "2026-06-02T11:54:40.792432+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No specific personal wash product mentions in today's data"
+          }
+        ]
+      },
       {
         "date": "2026-06-01",
         "run_id": "2026-06-01T21:00:14.081668+00:00",
@@ -98,6 +108,20 @@
       }
     ],
     "hair-care": [
+      {
+        "date": "2026-06-02",
+        "run_id": "2026-06-02T11:54:40.792432+00:00",
+        "briefs": [
+          {
+            "text": "Keratin professional hair care dominates Amazon top 20 with \u20b9599-\u20b93,450 pricing \u2014 Godrej Professional should launch keratin variants to capture this premium segment.",
+            "evidence": "Amazon Professional Hair Care: #1 Kera Fine Keratin Shampoo \u20b9599, multiple keratin products in top 20"
+          },
+          {
+            "text": "Manic Panic leads Amazon hair colour category with semi-permanent fantasy colors at \u20b9999 \u2014 Godrej Expert should launch temporary fashion colours for youth market.",
+            "evidence": "Amazon Hair Colour: #1 Manic Panic HOT HOT PINK \u20b9999, #2 GREEN ENVY \u20b9999, dominating fantasy color segment"
+          }
+        ]
+      },
       {
         "date": "2026-06-01",
         "run_id": "2026-06-01T21:00:14.081668+00:00",
@@ -202,6 +226,20 @@
       }
     ],
     "mens-grooming": [
+      {
+        "date": "2026-06-02",
+        "run_id": "2026-06-02T11:54:40.792432+00:00",
+        "briefs": [
+          {
+            "text": "Denver dominates Flipkart men's deodorant with aggressive combo pricing (3x50ml \u20b9178-\u20b9220) \u2014 Park Avenue should launch similar value packs to compete.",
+            "evidence": "Flipkart Men's Deodorant: #1 Denver Caliber combo \u20b9178, #2 Denver 4-pack \u20b9220, #6 Denver 4-pack \u20b9220"
+          },
+          {
+            "text": "Fitkari (alum) deodorant trend emerging during heatwave \u2014 Cinthol should launch natural alum-based deodorant to capture traditional-meets-modern segment.",
+            "evidence": "Google Trends: 'I swapped my natural deodorant for fitkari during a heatwave' article trending"
+          }
+        ]
+      },
       {
         "date": "2026-06-01",
         "run_id": "2026-06-01T21:00:14.081668+00:00",
@@ -343,6 +381,16 @@
     ],
     "home-insecticides": [
       {
+        "date": "2026-06-02",
+        "run_id": "2026-06-02T11:54:40.792432+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No specific insecticide product mentions in today's data"
+          }
+        ]
+      },
+      {
         "date": "2026-06-01",
         "run_id": "2026-06-01T21:00:14.081668+00:00",
         "briefs": [
@@ -438,6 +486,16 @@
     ],
     "air-fresheners": [
       {
+        "date": "2026-06-02",
+        "run_id": "2026-06-02T11:54:40.792432+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No specific air freshener product mentions in today's data"
+          }
+        ]
+      },
+      {
         "date": "2026-06-01",
         "run_id": "2026-06-01T21:00:14.081668+00:00",
         "briefs": [
@@ -530,6 +588,16 @@
     ],
     "sexual-wellness": [
       {
+        "date": "2026-06-02",
+        "run_id": "2026-06-02T11:54:40.792432+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No specific sexual wellness product mentions in today's data"
+          }
+        ]
+      },
+      {
         "date": "2026-06-01",
         "run_id": "2026-06-01T21:00:14.081668+00:00",
         "briefs": [
@@ -620,6 +688,16 @@
       }
     ],
     "fabric-care": [
+      {
+        "date": "2026-06-02",
+        "run_id": "2026-06-02T11:54:40.792432+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No specific fabric care product mentions in today's data"
+          }
+        ]
+      },
       {
         "date": "2026-06-01",
         "run_id": "2026-06-01T21:00:14.081668+00:00",
