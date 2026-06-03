@@ -1,18 +1,14 @@
 {
-  "last_updated": "2026-06-03T17:29:50.088223+00:00",
+  "last_updated": "2026-06-03T20:23:55.670747+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-06-03",
-        "run_id": "2026-06-03T17:29:50.088223+00:00",
+        "run_id": "2026-06-03T20:23:55.670747+00:00",
         "briefs": [
           {
-            "text": "Denver Deep Cleanse Face Wash ranks #2 on Flipkart at \u20b9298 with 4,111 reviews \u2014 Cinthol should launch charcoal variant to compete directly.",
-            "evidence": "Flipkart Face Wash category, rank #2, \u20b9298, 4111 reviews"
-          },
-          {
-            "text": "Reddit query 'Dot & key or derma co?' shows brand comparison interest \u2014 Godrej Protekt should sponsor targeted ads on r/IndianSkincareAddicts highlighting heritage.",
-            "evidence": "Reddit r/IndianSkincareAddicts post title, 0 upvotes"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable data for Cinthol, Godrej No.1, or Godrej Protekt in today's signals"
           }
         ]
       },
@@ -124,15 +120,11 @@
     "hair-care": [
       {
         "date": "2026-06-03",
-        "run_id": "2026-06-03T17:29:50.088223+00:00",
+        "run_id": "2026-06-03T20:23:55.670747+00:00",
         "briefs": [
           {
-            "text": "L'Oreal Paris hair serum ranks #7 on Amazon at \u20b93,883 with 4.7* rating \u2014 Godrej Expert should price aggressively below \u20b93,500 for market share.",
-            "evidence": "Amazon Hair Serum & Oil category, rank #7, \u20b93,883, 4.7* rating"
-          },
-          {
-            "text": "Godrej Professional launches 'Vybe' Hair Colour Collection in Delhi \u2014 leverage this launch momentum for national expansion campaigns.",
-            "evidence": "Google Trends news headline about Godrej Professional Vybe launch"
+            "text": "Godrej Professional launched 'Vybe' Hair Colour Collection in Delhi \u2014 leverage this momentum with targeted digital campaigns highlighting innovation vs L'Oreal/Streax.",
+            "evidence": "News: Godrej Professional Debuts 'Vybe' Hair Colour Collection in Delhi and India"
           }
         ]
       },
@@ -252,15 +244,19 @@
     "mens-grooming": [
       {
         "date": "2026-06-03",
-        "run_id": "2026-06-03T17:29:50.088223+00:00",
+        "run_id": "2026-06-03T20:23:55.670747+00:00",
         "briefs": [
           {
-            "text": "Denver launches 'Denver Intense EDP' with Shah Rukh Khan \u2014 Park Avenue should activate counter-campaign highlighting heritage vs newcomer status.",
-            "evidence": "News headline: Denver launches Denver Intense EDP with Shah Rukh Khan"
+            "text": "Denver Face Wash dominates Flipkart (#6 at \u20b9298, 4111 reviews) \u2014 Park Avenue should cross-promote Cinthol men's soap as complete grooming solution.",
+            "evidence": "Flipkart Face Wash category, Denver #6 rank with \u20b9298 price"
           },
           {
-            "text": "HUL opens fragrance R&D hub at IIT Bombay \u2014 Park Avenue should emphasize existing Indian fragrance expertise in marketing vs Unilever's new facility.",
-            "evidence": "Google Trends headline: HUL Opens Fragrance R&D Hub at IIT Bombay"
+            "text": "Denver launched premium EDP with Shah Rukh Khan \u2014 Park Avenue must counter-campaign emphasizing its established premium fragrance heritage immediately.",
+            "evidence": "News: Denver launches 'Denver Intense EDP' with Bollywood Superstar Shah Rukh Khan"
+          },
+          {
+            "text": "Deconstruct sunscreen leads men's SPF category (#1 Flipkart, \u20b9332) \u2014 consider SPF variant for Godrej Protekt to capture growing men's sun protection trend.",
+            "evidence": "Flipkart Sunscreen category, Deconstruct #1 at \u20b9332 with 222,703 reviews"
           }
         ]
       },
@@ -420,11 +416,11 @@
     "home-insecticides": [
       {
         "date": "2026-06-03",
-        "run_id": "2026-06-03T17:29:50.088223+00:00",
+        "run_id": "2026-06-03T20:23:55.670747+00:00",
         "briefs": [
           {
-            "text": "Google searches show 'mosquito repellent efficacy concerns' \u2014 HIT should launch educational campaign about proper application techniques immediately.",
-            "evidence": "Google/Social signal about mosquito repellent efficacy concerns"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable data for HIT or Good Knight in today's signals"
           }
         ]
       },
@@ -535,11 +531,11 @@
     "air-fresheners": [
       {
         "date": "2026-06-03",
-        "run_id": "2026-06-03T17:29:50.088223+00:00",
+        "run_id": "2026-06-03T20:23:55.670747+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant data found in today's signals"
+            "evidence": "No actionable data for Godrej aer in today's signals"
           }
         ]
       },
@@ -647,11 +643,11 @@
     "sexual-wellness": [
       {
         "date": "2026-06-03",
-        "run_id": "2026-06-03T17:29:50.088223+00:00",
+        "run_id": "2026-06-03T20:23:55.670747+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant data found in today's signals"
+            "evidence": "No actionable data for Kamasutra or KS in today's signals"
           }
         ]
       },
@@ -758,11 +754,15 @@
     "fabric-care": [
       {
         "date": "2026-06-03",
-        "run_id": "2026-06-03T17:29:50.088223+00:00",
+        "run_id": "2026-06-03T20:23:55.670747+00:00",
         "briefs": [
           {
-            "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant data found in today's signals"
+            "text": "Godrej Fab ranks #4 on Amazon liquid detergent (\u20b9411, 12 reviews) but RIN Matic leads at #2 (\u20b9186) \u2014 aggressive price-match needed to compete effectively.",
+            "evidence": "Amazon Liquid Detergent category: Godrej Fab #4 at \u20b9411 vs RIN Matic #2 at \u20b9186"
+          },
+          {
+            "text": "Genteel Matic shows strong performance at #17 (\u20b9247, 245 reviews) \u2014 leverage this momentum with increased marketing spend during summer season.",
+            "evidence": "Amazon Liquid Detergent category: Genteel Matic #17 with \u20b9247 price and 245 reviews"
           }
         ]
       },
