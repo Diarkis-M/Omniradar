@@ -1,14 +1,18 @@
 {
-  "last_updated": "2026-06-03T12:25:35.522578+00:00",
+  "last_updated": "2026-06-03T17:29:50.088223+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-06-03",
-        "run_id": "2026-06-03T12:25:35.522578+00:00",
+        "run_id": "2026-06-03T17:29:50.088223+00:00",
         "briefs": [
           {
-            "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant data points for soap, body wash, or handwash categories"
+            "text": "Denver Deep Cleanse Face Wash ranks #2 on Flipkart at \u20b9298 with 4,111 reviews \u2014 Cinthol should launch charcoal variant to compete directly.",
+            "evidence": "Flipkart Face Wash category, rank #2, \u20b9298, 4111 reviews"
+          },
+          {
+            "text": "Reddit query 'Dot & key or derma co?' shows brand comparison interest \u2014 Godrej Protekt should sponsor targeted ads on r/IndianSkincareAddicts highlighting heritage.",
+            "evidence": "Reddit r/IndianSkincareAddicts post title, 0 upvotes"
           }
         ]
       },
@@ -120,11 +124,15 @@
     "hair-care": [
       {
         "date": "2026-06-03",
-        "run_id": "2026-06-03T12:25:35.522578+00:00",
+        "run_id": "2026-06-03T17:29:50.088223+00:00",
         "briefs": [
           {
-            "text": "Godrej Professional launched 'Vybe' Hair Colour Collection in Delhi \u2014 leverage this momentum with targeted digital campaigns highlighting innovation vs competitor stagnation.",
-            "evidence": "News headline: 'Godrej Professional Debuts Vybe Hair Colour Collection in Delhi and India'"
+            "text": "L'Oreal Paris hair serum ranks #7 on Amazon at \u20b93,883 with 4.7* rating \u2014 Godrej Expert should price aggressively below \u20b93,500 for market share.",
+            "evidence": "Amazon Hair Serum & Oil category, rank #7, \u20b93,883, 4.7* rating"
+          },
+          {
+            "text": "Godrej Professional launches 'Vybe' Hair Colour Collection in Delhi \u2014 leverage this launch momentum for national expansion campaigns.",
+            "evidence": "Google Trends news headline about Godrej Professional Vybe launch"
           }
         ]
       },
@@ -244,15 +252,15 @@
     "mens-grooming": [
       {
         "date": "2026-06-03",
-        "run_id": "2026-06-03T12:25:35.522578+00:00",
+        "run_id": "2026-06-03T17:29:50.088223+00:00",
         "briefs": [
           {
-            "text": "Denver launched premium EDP with Shah Rukh Khan \u2014 Park Avenue should counter with heritage-focused campaign emphasizing 'authentic premium since inception' vs mass-market origins.",
-            "evidence": "News: 'Denver launches Denver Intense EDP with Bollywood Superstar Shah Rukh Khan'"
+            "text": "Denver launches 'Denver Intense EDP' with Shah Rukh Khan \u2014 Park Avenue should activate counter-campaign highlighting heritage vs newcomer status.",
+            "evidence": "News headline: Denver launches Denver Intense EDP with Shah Rukh Khan"
           },
           {
-            "text": "Men's face serum category exploding on Amazon with PRZ leading at \u20b9280 \u2014 Park Avenue should launch grooming sub-brand serum at \u20b9499 to capture premium segment.",
-            "evidence": "Amazon bestseller #1: PRZ Anti Acne Serum \u20b9280, 57 reviews, growing men's skincare trend"
+            "text": "HUL opens fragrance R&D hub at IIT Bombay \u2014 Park Avenue should emphasize existing Indian fragrance expertise in marketing vs Unilever's new facility.",
+            "evidence": "Google Trends headline: HUL Opens Fragrance R&D Hub at IIT Bombay"
           }
         ]
       },
@@ -412,11 +420,11 @@
     "home-insecticides": [
       {
         "date": "2026-06-03",
-        "run_id": "2026-06-03T12:25:35.522578+00:00",
+        "run_id": "2026-06-03T17:29:50.088223+00:00",
         "briefs": [
           {
-            "text": "Mosquito repellent effectiveness under scientific scrutiny \u2014 HIT should launch 'Science-Backed Effectiveness' campaign with lab test results before competitors capitalize on negative sentiment.",
-            "evidence": "AI Trends signal: 'Mosquito Repellent Effectiveness Under Scientific Scrutiny'"
+            "text": "Google searches show 'mosquito repellent efficacy concerns' \u2014 HIT should launch educational campaign about proper application techniques immediately.",
+            "evidence": "Google/Social signal about mosquito repellent efficacy concerns"
           }
         ]
       },
@@ -527,11 +535,11 @@
     "air-fresheners": [
       {
         "date": "2026-06-03",
-        "run_id": "2026-06-03T12:25:35.522578+00:00",
+        "run_id": "2026-06-03T17:29:50.088223+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant data points for air freshener category"
+            "evidence": "No relevant data found in today's signals"
           }
         ]
       },
@@ -639,11 +647,11 @@
     "sexual-wellness": [
       {
         "date": "2026-06-03",
-        "run_id": "2026-06-03T12:25:35.522578+00:00",
+        "run_id": "2026-06-03T17:29:50.088223+00:00",
         "briefs": [
           {
-            "text": "Trojan dominates Amazon condom category with Magnum at \u20b92,303 (#1 bestseller) \u2014 KS should launch Amazon-exclusive combo packs at \u20b92,000-2,500 to compete in premium segment.",
-            "evidence": "Amazon #1: Trojan Condom Magnum \u20b92,303, 4.8*, 124 reviews"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data found in today's signals"
           }
         ]
       },
@@ -750,11 +758,11 @@
     "fabric-care": [
       {
         "date": "2026-06-03",
-        "run_id": "2026-06-03T12:25:35.522578+00:00",
+        "run_id": "2026-06-03T17:29:50.088223+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant data points for liquid detergent or fabric softener categories"
+            "evidence": "No relevant data found in today's signals"
           }
         ]
       },
