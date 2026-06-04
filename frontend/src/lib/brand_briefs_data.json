@@ -1,7 +1,17 @@
 {
-  "last_updated": "2026-06-03T20:23:55.670747+00:00",
+  "last_updated": "2026-06-04T10:52:42.624685+00:00",
   "clusters": {
     "personal-wash": [
+      {
+        "date": "2026-06-04",
+        "run_id": "2026-06-04T10:52:42.624685+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant product mentions or pricing changes detected in today's data"
+          }
+        ]
+      },
       {
         "date": "2026-06-03",
         "run_id": "2026-06-03T20:23:55.670747+00:00",
@@ -118,6 +128,20 @@
       }
     ],
     "hair-care": [
+      {
+        "date": "2026-06-04",
+        "run_id": "2026-06-04T10:52:42.624685+00:00",
+        "briefs": [
+          {
+            "text": "Godrej Professional launched 'Vybe' Hair Colour Collection in Delhi \u2014 leverage this launch momentum with targeted social campaigns highlighting color variety.",
+            "evidence": "News headline: 'Godrej Professional Debuts Vybe Hair Colour Collection in Delhi and India'"
+          },
+          {
+            "text": "Reddit user seeking 'soul-swallowing void black' hair dye indicates unmet demand for dramatic black shades \u2014 consider Godrej Expert 'Intense Black' variant.",
+            "evidence": "AI trend analysis: F17 seeking dramatic black hair color positioning"
+          }
+        ]
+      },
       {
         "date": "2026-06-03",
         "run_id": "2026-06-03T20:23:55.670747+00:00",
@@ -242,6 +266,24 @@
       }
     ],
     "mens-grooming": [
+      {
+        "date": "2026-06-04",
+        "run_id": "2026-06-04T10:52:42.624685+00:00",
+        "briefs": [
+          {
+            "text": "Denver dominates Flipkart deodorant rankings (#1, #2) with \u20b9178-220 combo packs \u2014 Park Avenue should launch similar 3-pack format at \u20b9200-250.",
+            "evidence": "Flipkart bestsellers: Denver Caliber combo #1 at \u20b9178, 4-pack #2 at \u20b9220"
+          },
+          {
+            "text": "Denver launched premium EDP with Shah Rukh Khan endorsement \u2014 Park Avenue needs immediate celebrity counter-campaign to defend fragrance leadership.",
+            "evidence": "News: 'Denver launches Denver Intense EDP with Bollywood Superstar Shah Rukh Khan'"
+          },
+          {
+            "text": "Viral trend for men's grooming under \u20b9400 \u2014 Park Avenue should create \u20b9399 combo packs to capture this price point discovery.",
+            "evidence": "AI trend: Men's grooming products under \u20b9400 going viral on Instagram"
+          }
+        ]
+      },
       {
         "date": "2026-06-03",
         "run_id": "2026-06-03T20:23:55.670747+00:00",
@@ -415,6 +457,16 @@
     ],
     "home-insecticides": [
       {
+        "date": "2026-06-04",
+        "run_id": "2026-06-04T10:52:42.624685+00:00",
+        "briefs": [
+          {
+            "text": "Mosquito repellent effectiveness questioned across platforms \u2014 HIT and Good Knight should launch educational campaigns with usage data before competitors capitalize.",
+            "evidence": "AI trend: Cross-platform questioning of mosquito repellent effectiveness"
+          }
+        ]
+      },
+      {
         "date": "2026-06-03",
         "run_id": "2026-06-03T20:23:55.670747+00:00",
         "briefs": [
@@ -530,6 +582,16 @@
     ],
     "air-fresheners": [
       {
+        "date": "2026-06-04",
+        "run_id": "2026-06-04T10:52:42.624685+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant product mentions or competitive moves detected"
+          }
+        ]
+      },
+      {
         "date": "2026-06-03",
         "run_id": "2026-06-03T20:23:55.670747+00:00",
         "briefs": [
@@ -642,6 +704,16 @@
     ],
     "sexual-wellness": [
       {
+        "date": "2026-06-04",
+        "run_id": "2026-06-04T10:52:42.624685+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant product mentions or market activity detected"
+          }
+        ]
+      },
+      {
         "date": "2026-06-03",
         "run_id": "2026-06-03T20:23:55.670747+00:00",
         "briefs": [
@@ -752,6 +824,16 @@
       }
     ],
     "fabric-care": [
+      {
+        "date": "2026-06-04",
+        "run_id": "2026-06-04T10:52:42.624685+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant product mentions or competitive activity detected"
+          }
+        ]
+      },
       {
         "date": "2026-06-03",
         "run_id": "2026-06-03T20:23:55.670747+00:00",
