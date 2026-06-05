@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-06-05T11:03:53.623233+00:00",
+  "last_updated": "2026-06-05T19:02:45.882404+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-06-05",
-        "run_id": "2026-06-05T11:03:53.623233+00:00",
+        "run_id": "2026-06-05T19:02:45.882404+00:00",
         "briefs": [
           {
-            "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No specific personal wash product mentions in market data"
+            "text": "Ghar Soaps dominates Flipkart soap rankings (#1-5) at \u20b9182-379 with 519K reviews \u2014 Cinthol should launch value combo packs to compete in mass market.",
+            "evidence": "Flipkart Bar Soaps #1-5, Ghar Soaps \u20b9182-379, 519,778 reviews"
           }
         ]
       },
@@ -140,15 +140,11 @@
     "hair-care": [
       {
         "date": "2026-06-05",
-        "run_id": "2026-06-05T11:03:53.623233+00:00",
+        "run_id": "2026-06-05T19:02:45.882404+00:00",
         "briefs": [
           {
-            "text": "Godrej Expert should leverage Vybe launch momentum with cross-promotional campaigns highlighting Expert as mass-market alternative to Professional's salon-grade collection.",
+            "text": "Godrej Professional Vybe Collection launched in Delhi \u2014 Godrej Expert should run 'Try Vybe at Home' campaign linking salon-grade to retail variants.",
             "evidence": "Google Trends: 'Godrej Professional Debuts Vybe Hair Colour Collection in Delhi'"
-          },
-          {
-            "text": "Henna/mehendi search interest rising with 'Using henna for hair growth' trending \u2014 Nupur should capitalize with educational content about natural hair growth benefits.",
-            "evidence": "Google Trends: 'Hair Care Tips: Applying Mehndi to Hair?' and 'Using henna for hair growth?'"
           }
         ]
       },
@@ -292,15 +288,19 @@
     "mens-grooming": [
       {
         "date": "2026-06-05",
-        "run_id": "2026-06-05T11:03:53.623233+00:00",
+        "run_id": "2026-06-05T19:02:45.882404+00:00",
         "briefs": [
           {
-            "text": "Park Avenue should launch affordable 3-4 fragrance combo packs under \u20b9300 to compete with Denver's winning Flipkart strategy (\u20b9220 for 4-pack, 100K+ reviews).",
-            "evidence": "Flipkart #1: Denver 4-pack \u20b9220, 100,049 reviews vs single fragrances"
+            "text": "HRX enters fragrance market targeting fitness audience \u2014 Park Avenue should launch 'Fitness Fresh' EDP variant before HRX establishes credibility.",
+            "evidence": "News: 'HRX Enters Personal Care with New Fragrance Range'"
           },
           {
-            "text": "Cinthol should expand messaging to position soap as men's skincare routine foundation and partner with male grooming influencers amid rising skincare demand.",
-            "evidence": "Google Trends: '10 Best Moisturizers for Men This Summer' and Instagram buzz on men's skincare routines"
+            "text": "Denver launches Shah Rukh Khan EDP with major buzz \u2014 Park Avenue should counter with 'Intense Collection' emphasizing established EDP heritage.",
+            "evidence": "Google Trends: 'Denver launches Denver Intense EDP with Bollywood Superstar Shah Rukh Khan'"
+          },
+          {
+            "text": "Chemist at Play roll-on ranks #2 on Flipkart at \u20b9349 with 41K reviews \u2014 Cinthol should launch \u20b9299 skincare roll-on highlighting antibacterial benefits.",
+            "evidence": "Flipkart Deodorant Roll-on #2, Chemist at Play \u20b9349, 41,819 reviews"
           }
         ]
       },
@@ -496,11 +496,11 @@
     "home-insecticides": [
       {
         "date": "2026-06-05",
-        "run_id": "2026-06-05T11:03:53.623233+00:00",
+        "run_id": "2026-06-05T19:02:45.882404+00:00",
         "briefs": [
           {
-            "text": "HIT should launch educational campaign about formula effectiveness against resistant mosquitoes, positioning against generic brands mentioned in resistance studies.",
-            "evidence": "Cross-platform signal: 'Mosquito Repellent Learning Resistance Concern' and Google Trends: '11 best mosquito repellents'"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data in today's signals"
           }
         ]
       },
@@ -631,11 +631,11 @@
     "air-fresheners": [
       {
         "date": "2026-06-05",
-        "run_id": "2026-06-05T11:03:53.623233+00:00",
+        "run_id": "2026-06-05T19:02:45.882404+00:00",
         "briefs": [
           {
-            "text": "Godrej aer dominates Amazon charts with Musk After Smoke \u20b992 variant (#2, 82 reviews) \u2014 aggressively push this SKU and expand gel format across more fragrances.",
-            "evidence": "Amazon #2: Godrej aer Musk After Smoke \u20b992, 82 reviews vs competitors' lower counts"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data in today's signals"
           }
         ]
       },
@@ -763,11 +763,11 @@
     "sexual-wellness": [
       {
         "date": "2026-06-05",
-        "run_id": "2026-06-05T11:03:53.623233+00:00",
+        "run_id": "2026-06-05T19:02:45.882404+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No specific sexual wellness product mentions in market data"
+            "evidence": "No relevant data in today's signals"
           }
         ]
       },
@@ -894,11 +894,11 @@
     "fabric-care": [
       {
         "date": "2026-06-05",
-        "run_id": "2026-06-05T11:03:53.623233+00:00",
+        "run_id": "2026-06-05T19:02:45.882404+00:00",
         "briefs": [
           {
-            "text": "Ezee should launch 5L pack at \u20b9350 to match More Light's pricing strategy (\u20b9358 for 5L, #2 bestseller) and run Amazon review generation campaign.",
-            "evidence": "Amazon #2: More Light 5L \u20b9358, 42 reviews vs Godrej Fab 4L \u20b9399, 12 reviews"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data in today's signals"
           }
         ]
       },
