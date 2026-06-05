@@ -1,6 +1,8 @@
 # Omniradar — GCPL Consumer Intelligence Platform
 
-A real-time consumer intelligence pipeline for **Godrej Consumer Products Limited (GCPL)**. Collects market signals from 10 platforms, generates AI-powered trend analysis, and delivers daily brand manager briefs via a web dashboard and Telegram.
+> **Built by Shashwat Maurya** | XLRI Jamshedpur | Summer Internship Project at Godrej Consumer Products Limited (GCPL), 2026
+
+A real-time consumer intelligence pipeline for **GCPL**. Collects market signals from 10 platforms, generates AI-powered trend analysis, and delivers daily brand manager briefs via a web dashboard and Telegram.
 
 **Live:** [omniradar.vercel.app](https://omniradar.vercel.app)
 
