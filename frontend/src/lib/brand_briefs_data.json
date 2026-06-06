@@ -1,7 +1,17 @@
 {
-  "last_updated": "2026-06-05T19:02:45.882404+00:00",
+  "last_updated": "2026-06-06T09:39:07.040499+00:00",
   "clusters": {
     "personal-wash": [
+      {
+        "date": "2026-06-06",
+        "run_id": "2026-06-06T09:39:07.040499+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitor moves or pricing changes detected in personal wash category"
+          }
+        ]
+      },
       {
         "date": "2026-06-05",
         "run_id": "2026-06-05T19:02:45.882404+00:00",
@@ -138,6 +148,16 @@
       }
     ],
     "hair-care": [
+      {
+        "date": "2026-06-06",
+        "run_id": "2026-06-06T09:39:07.040499+00:00",
+        "briefs": [
+          {
+            "text": "Godrej Professional launched 'Vybe' collection in Delhi \u2014 Godrej Expert should create retail-friendly 'Vybe-inspired' variants to bridge professional-consumer gap.",
+            "evidence": "News headline: Godrej Professional Debuts 'Vybe' Hair Colour Collection in Delhi and India"
+          }
+        ]
+      },
       {
         "date": "2026-06-05",
         "run_id": "2026-06-05T19:02:45.882404+00:00",
@@ -286,6 +306,24 @@
       }
     ],
     "mens-grooming": [
+      {
+        "date": "2026-06-06",
+        "run_id": "2026-06-06T09:39:07.040499+00:00",
+        "briefs": [
+          {
+            "text": "Denver launched 'Denver Intense EDP' with Shah Rukh Khan \u2014 Park Avenue needs immediate celebrity collaboration or premium EDP launch to counter.",
+            "evidence": "News headline: Denver launches 'Denver Intense EDP' with Bollywood Superstar Shah Rukh Khan"
+          },
+          {
+            "text": "Chemist at Play roll-on dominates Flipkart #1 (\u20b9349, 41,946 reviews) \u2014 Cinthol should launch targeted campaign emphasizing fragrance heritage vs clinical positioning.",
+            "evidence": "Flipkart bestseller #1: Chemist at Play 5% AHA Underarm Roll On, \u20b9349, 41946 reviews"
+          },
+          {
+            "text": "Kamasutra deodorant ranks #16-18 on Amazon women's category (\u20b9220-340) \u2014 leverage premium positioning for 'Signature Fragrance' body spray targeting couples.",
+            "evidence": "Amazon bestsellers #16, #18: KAMA SUTRA deodorant body sprays, \u20b9220-340 price range"
+          }
+        ]
+      },
       {
         "date": "2026-06-05",
         "run_id": "2026-06-05T19:02:45.882404+00:00",
@@ -495,6 +533,16 @@
     ],
     "home-insecticides": [
       {
+        "date": "2026-06-06",
+        "run_id": "2026-06-06T09:39:07.040499+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitor moves or pricing changes detected in home insecticides category"
+          }
+        ]
+      },
+      {
         "date": "2026-06-05",
         "run_id": "2026-06-05T19:02:45.882404+00:00",
         "briefs": [
@@ -630,6 +678,16 @@
     ],
     "air-fresheners": [
       {
+        "date": "2026-06-06",
+        "run_id": "2026-06-06T09:39:07.040499+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitor moves or pricing changes detected in air fresheners category"
+          }
+        ]
+      },
+      {
         "date": "2026-06-05",
         "run_id": "2026-06-05T19:02:45.882404+00:00",
         "briefs": [
@@ -762,6 +820,16 @@
     ],
     "sexual-wellness": [
       {
+        "date": "2026-06-06",
+        "run_id": "2026-06-06T09:39:07.040499+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitor moves or pricing changes detected in sexual wellness category"
+          }
+        ]
+      },
+      {
         "date": "2026-06-05",
         "run_id": "2026-06-05T19:02:45.882404+00:00",
         "briefs": [
@@ -892,6 +960,16 @@
       }
     ],
     "fabric-care": [
+      {
+        "date": "2026-06-06",
+        "run_id": "2026-06-06T09:39:07.040499+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitor moves or pricing changes detected in fabric care category"
+          }
+        ]
+      },
       {
         "date": "2026-06-05",
         "run_id": "2026-06-05T19:02:45.882404+00:00",
