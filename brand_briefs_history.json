@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-06-06T14:20:15.720771+00:00",
+  "last_updated": "2026-06-06T18:10:00.640940+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-06-06",
-        "run_id": "2026-06-06T14:20:15.720771+00:00",
+        "run_id": "2026-06-06T18:10:00.640940+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No GCPL personal wash brands in top rankings or trending discussions"
+            "evidence": "No actionable competitor moves or pricing changes detected in personal wash category"
           }
         ]
       },
@@ -150,15 +150,11 @@
     "hair-care": [
       {
         "date": "2026-06-06",
-        "run_id": "2026-06-06T14:20:15.720771+00:00",
+        "run_id": "2026-06-06T18:10:00.640940+00:00",
         "briefs": [
           {
-            "text": "Godrej Professional should capitalize on keratin trend dominance \u2014 Amazon's #1 bestseller is Kera Fine Keratin Shampoo at \u20b9599 with 555 reviews.",
-            "evidence": "Amazon Professional Hair Care #1: Kera Fine Keratin Shampoo \u20b9599, 4.4*, 555 reviews"
-          },
-          {
-            "text": "Leverage Vybe launch momentum by cross-promoting with Godrej Expert to showcase complete portfolio from mass to premium segments.",
-            "evidence": "News: Godrej Professional Debuts 'Vybe' Hair Colour Collection in Delhi and India"
+            "text": "Parachute dominates Amazon men's shampoo (#1 and #8 ranks at \u20b9409-\u20b9549) while Godrej Expert has zero presence \u2014 leverage Godrej Professional Vybe media coverage to launch Expert men's shampoo variant.",
+            "evidence": "Amazon Men's Shampoo bestsellers: Parachute #1 (\u20b9409) and #8 (\u20b9549), zero GCPL presence"
           }
         ]
       },
@@ -312,15 +308,15 @@
     "mens-grooming": [
       {
         "date": "2026-06-06",
-        "run_id": "2026-06-06T14:20:15.720771+00:00",
+        "run_id": "2026-06-06T18:10:00.640940+00:00",
         "briefs": [
           {
-            "text": "Denver's Shah Rukh Khan EDP launch requires immediate celebrity counter-campaign or premium EDP launch to defend fragrance leadership.",
-            "evidence": "News: Denver launches 'Denver Intense EDP' with Bollywood Superstar Shah Rukh Khan"
+            "text": "PROWL By Tiger Shroff dominates Flipkart deodorant (#1 with 769 reviews at \u20b9178) using AHA/BHA positioning \u2014 Park Avenue should add skincare benefits to existing deodorant line to compete.",
+            "evidence": "Flipkart Deodorant Roll-on #1: PROWL \u20b9178, 769 reviews"
           },
           {
-            "text": "Cinthol should launch '3-step men's routine' campaign positioning soap + face wash + moisturizer as complete solution for trending skincare simplification.",
-            "evidence": "Instagram trend: Men's Skincare Routine Simplification gaining traction"
+            "text": "Denver launches Shah Rukh Khan EDP campaign while Park Avenue lacks celebrity endorsement \u2014 immediately secure A-list celebrity for existing EDP range or launch heritage-focused counter-campaign.",
+            "evidence": "Google Trends: 'Denver launches Denver Intense EDP with Bollywood Superstar Shah Rukh Khan'"
           }
         ]
       },
@@ -534,11 +530,11 @@
     "home-insecticides": [
       {
         "date": "2026-06-06",
-        "run_id": "2026-06-06T14:20:15.720771+00:00",
+        "run_id": "2026-06-06T18:10:00.640940+00:00",
         "briefs": [
           {
-            "text": "Launch educational campaigns immediately highlighting HIT and Good Knight's proven formulations to counter scientific scrutiny on mosquito repellent effectiveness.",
-            "evidence": "Google/Social: Mosquito Repellent Effectiveness Under Scientific Scrutiny trending"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitor moves or pricing changes detected in home insecticides category"
           }
         ]
       },
@@ -679,15 +675,11 @@
     "air-fresheners": [
       {
         "date": "2026-06-06",
-        "run_id": "2026-06-06T14:20:15.720771+00:00",
+        "run_id": "2026-06-06T18:10:00.640940+00:00",
         "briefs": [
           {
-            "text": "Godrej aer dominates Amazon top 4 positions (#1-4) but Glade threatens at #8 with \u20b9166 pricing \u2014 launch value pack at \u20b9150-\u20b9170 to protect mass segment.",
-            "evidence": "Amazon Air Freshener: Godrej aer #1-4, Glade #8 at \u20b9166 vs Godrej aer \u20b9243-\u20b9389"
-          },
-          {
-            "text": "Aggressively defend leadership by launching exclusive Amazon bundles and sponsoring 'air freshener' keywords to block competitor visibility.",
-            "evidence": "Amazon Air Freshener category: Godrej aer holds #1, #2, #3, #4 positions"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitor moves or pricing changes detected in air fresheners category"
           }
         ]
       },
@@ -825,11 +817,11 @@
     "sexual-wellness": [
       {
         "date": "2026-06-06",
-        "run_id": "2026-06-06T14:20:15.720771+00:00",
+        "run_id": "2026-06-06T18:10:00.640940+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No sexual wellness brands or keywords in trending data"
+            "evidence": "No actionable competitor moves or pricing changes detected in sexual wellness category"
           }
         ]
       },
@@ -966,11 +958,11 @@
     "fabric-care": [
       {
         "date": "2026-06-06",
-        "run_id": "2026-06-06T14:20:15.720771+00:00",
+        "run_id": "2026-06-06T18:10:00.640940+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No fabric care brands or keywords in trending data"
+            "evidence": "No actionable competitor moves or pricing changes detected in fabric care category"
           }
         ]
       },
