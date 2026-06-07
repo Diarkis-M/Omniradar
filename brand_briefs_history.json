@@ -1,7 +1,17 @@
 {
-  "last_updated": "2026-06-06T18:10:00.640940+00:00",
+  "last_updated": "2026-06-07T10:18:16.500961+00:00",
   "clusters": {
     "personal-wash": [
+      {
+        "date": "2026-06-07",
+        "run_id": "2026-06-07T10:18:16.500961+00:00",
+        "briefs": [
+          {
+            "text": "Dettol handwash dominates Amazon liquid handwash category at \u20b9204 (#8 rank) \u2014 Godrej Protekt should undercut with \u20b9180 pricing and sponsor 'liquid handwash' keywords.",
+            "evidence": "Amazon Liquid Handwash #8, Dettol Sensitive \u20b9204 vs competitors at \u20b9649-\u20b911,286"
+          }
+        ]
+      },
       {
         "date": "2026-06-06",
         "run_id": "2026-06-06T18:10:00.640940+00:00",
@@ -148,6 +158,16 @@
       }
     ],
     "hair-care": [
+      {
+        "date": "2026-06-07",
+        "run_id": "2026-06-07T10:18:16.500961+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "Amazon Men's Shampoo dominated by Parachute, Brillare; no GCPL brands visible in top 20"
+          }
+        ]
+      },
       {
         "date": "2026-06-06",
         "run_id": "2026-06-06T18:10:00.640940+00:00",
@@ -306,6 +326,20 @@
       }
     ],
     "mens-grooming": [
+      {
+        "date": "2026-06-07",
+        "run_id": "2026-06-07T10:18:16.500961+00:00",
+        "briefs": [
+          {
+            "text": "Denver launches 'Denver Intense EDP' with Shah Rukh Khan \u2014 Park Avenue should counter with heritage-focused campaign highlighting sophistication vs mass-market celebrity approach.",
+            "evidence": "Google Trends: 'Denver launches Denver Intense EDP with Bollywood Superstar Shah Rukh Khan'"
+          },
+          {
+            "text": "Men's grooming market analysis reports trending on Google \u2014 Park Avenue should launch B2B content targeting distributors with growth data to expand distribution.",
+            "evidence": "Google Trends: 'Men's Grooming Appliances Market Size, Share, Growth, Analysis, 2034'"
+          }
+        ]
+      },
       {
         "date": "2026-06-06",
         "run_id": "2026-06-06T18:10:00.640940+00:00",
@@ -529,6 +563,16 @@
     ],
     "home-insecticides": [
       {
+        "date": "2026-06-07",
+        "run_id": "2026-06-07T10:18:16.500961+00:00",
+        "briefs": [
+          {
+            "text": "Mosquito repellent effectiveness concerns trending \u2014 HIT should launch immediate reassurance campaign with scientific efficacy data to counter negative sentiment.",
+            "evidence": "Cross-platform signals showing 'Mosquito Repellent Effectiveness Concerns'"
+          }
+        ]
+      },
+      {
         "date": "2026-06-06",
         "run_id": "2026-06-06T18:10:00.640940+00:00",
         "briefs": [
@@ -674,6 +718,16 @@
     ],
     "air-fresheners": [
       {
+        "date": "2026-06-07",
+        "run_id": "2026-06-07T10:18:16.500961+00:00",
+        "briefs": [
+          {
+            "text": "Room freshener content going viral on YouTube \u2014 Godrej aer should partner with creators for product placement and launch #shorts campaign showcasing innovative formats.",
+            "evidence": "YouTube Signal: 'Room Freshener Content Going Viral'"
+          }
+        ]
+      },
+      {
         "date": "2026-06-06",
         "run_id": "2026-06-06T18:10:00.640940+00:00",
         "briefs": [
@@ -816,6 +870,16 @@
     ],
     "sexual-wellness": [
       {
+        "date": "2026-06-07",
+        "run_id": "2026-06-07T10:18:16.500961+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant mentions in Reddit, e-commerce, or news feeds"
+          }
+        ]
+      },
+      {
         "date": "2026-06-06",
         "run_id": "2026-06-06T18:10:00.640940+00:00",
         "briefs": [
@@ -956,6 +1020,16 @@
       }
     ],
     "fabric-care": [
+      {
+        "date": "2026-06-07",
+        "run_id": "2026-06-07T10:18:16.500961+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant mentions in Reddit, e-commerce, or news feeds"
+          }
+        ]
+      },
       {
         "date": "2026-06-06",
         "run_id": "2026-06-06T18:10:00.640940+00:00",
