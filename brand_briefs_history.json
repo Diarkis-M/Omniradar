@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-06-07T10:18:16.500961+00:00",
+  "last_updated": "2026-06-07T14:30:55.033051+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-06-07",
-        "run_id": "2026-06-07T10:18:16.500961+00:00",
+        "run_id": "2026-06-07T14:30:55.033051+00:00",
         "briefs": [
           {
-            "text": "Dettol handwash dominates Amazon liquid handwash category at \u20b9204 (#8 rank) \u2014 Godrej Protekt should undercut with \u20b9180 pricing and sponsor 'liquid handwash' keywords.",
-            "evidence": "Amazon Liquid Handwash #8, Dettol Sensitive \u20b9204 vs competitors at \u20b9649-\u20b911,286"
+            "text": "Clean & Clear dominates Flipkart face wash category (#1, #3 with 160K+ reviews) \u2014 Cinthol should launch antibacterial soap campaign targeting acne-prone consumers.",
+            "evidence": "Flipkart Face Wash #1: Clean & Clear 480ml \u20b9398, 160521 reviews; #3: 390ml \u20b9293, 261400 reviews"
           }
         ]
       },
@@ -160,11 +160,11 @@
     "hair-care": [
       {
         "date": "2026-06-07",
-        "run_id": "2026-06-07T10:18:16.500961+00:00",
+        "run_id": "2026-06-07T14:30:55.033051+00:00",
         "briefs": [
           {
-            "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "Amazon Men's Shampoo dominated by Parachute, Brillare; no GCPL brands visible in top 20"
+            "text": "Reddit users questioning Redensyl ingredient safety citing dryness and hair loss \u2014 Godrej Expert should create educational content positioning hair colour as confidence solution without risky growth promises.",
+            "evidence": "Reddit r/IndianSkincareAddicts: 'redensyl recommended but...lots of side effects like dryness and lots of hairloss'"
           }
         ]
       },
@@ -328,15 +328,15 @@
     "mens-grooming": [
       {
         "date": "2026-06-07",
-        "run_id": "2026-06-07T10:18:16.500961+00:00",
+        "run_id": "2026-06-07T14:30:55.033051+00:00",
         "briefs": [
           {
-            "text": "Denver launches 'Denver Intense EDP' with Shah Rukh Khan \u2014 Park Avenue should counter with heritage-focused campaign highlighting sophistication vs mass-market celebrity approach.",
-            "evidence": "Google Trends: 'Denver launches Denver Intense EDP with Bollywood Superstar Shah Rukh Khan'"
+            "text": "Denver launches premium EDP with Shah Rukh Khan endorsement \u2014 Park Avenue should counter-campaign highlighting heritage in premium fragrances vs Denver's mass-market origins.",
+            "evidence": "Google Trends & News: 'Denver launches Denver Intense EDP with Bollywood Superstar Shah Rukh Khan'"
           },
           {
-            "text": "Men's grooming market analysis reports trending on Google \u2014 Park Avenue should launch B2B content targeting distributors with growth data to expand distribution.",
-            "evidence": "Google Trends: 'Men's Grooming Appliances Market Size, Share, Growth, Analysis, 2034'"
+            "text": "Nykaa launches dedicated men's platform NykaaMan.com \u2014 Park Avenue and Cinthol should secure prominent placement and exclusive launch offers immediately.",
+            "evidence": "Nykaa Bestsellers #2-5: Multiple mentions of 'Nykaa launches NykaaMan.com dedicated to men's grooming'"
           }
         ]
       },
@@ -564,11 +564,11 @@
     "home-insecticides": [
       {
         "date": "2026-06-07",
-        "run_id": "2026-06-07T10:18:16.500961+00:00",
+        "run_id": "2026-06-07T14:30:55.033051+00:00",
         "briefs": [
           {
-            "text": "Mosquito repellent effectiveness concerns trending \u2014 HIT should launch immediate reassurance campaign with scientific efficacy data to counter negative sentiment.",
-            "evidence": "Cross-platform signals showing 'Mosquito Repellent Effectiveness Concerns'"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data found in today's market signals"
           }
         ]
       },
@@ -719,11 +719,11 @@
     "air-fresheners": [
       {
         "date": "2026-06-07",
-        "run_id": "2026-06-07T10:18:16.500961+00:00",
+        "run_id": "2026-06-07T14:30:55.033051+00:00",
         "briefs": [
           {
-            "text": "Room freshener content going viral on YouTube \u2014 Godrej aer should partner with creators for product placement and launch #shorts campaign showcasing innovative formats.",
-            "evidence": "YouTube Signal: 'Room Freshener Content Going Viral'"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data found in today's market signals"
           }
         ]
       },
@@ -871,11 +871,11 @@
     "sexual-wellness": [
       {
         "date": "2026-06-07",
-        "run_id": "2026-06-07T10:18:16.500961+00:00",
+        "run_id": "2026-06-07T14:30:55.033051+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant mentions in Reddit, e-commerce, or news feeds"
+            "evidence": "No relevant data found in today's market signals"
           }
         ]
       },
@@ -1022,11 +1022,11 @@
     "fabric-care": [
       {
         "date": "2026-06-07",
-        "run_id": "2026-06-07T10:18:16.500961+00:00",
+        "run_id": "2026-06-07T14:30:55.033051+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant mentions in Reddit, e-commerce, or news feeds"
+            "evidence": "No relevant data found in today's market signals"
           }
         ]
       },
