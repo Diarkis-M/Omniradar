@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-06-08T12:19:32.504383+00:00",
+  "last_updated": "2026-06-08T16:38:39.602418+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-06-08",
-        "run_id": "2026-06-08T12:19:32.504383+00:00",
+        "run_id": "2026-06-08T16:38:39.602418+00:00",
         "briefs": [
           {
-            "text": "Minimalist 80% clearance at Reliance Smart creates pricing pressure \u2014 Godrej Protekt should launch counter-campaign highlighting superior hygiene vs skincare brands.",
-            "evidence": "Reddit post: Minimalist products 80% off at Reliance Smart, Glycolic Acid toner \u20b9100"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitor moves or pricing changes detected in personal wash category"
           }
         ]
       },
@@ -170,11 +170,11 @@
     "hair-care": [
       {
         "date": "2026-06-08",
-        "run_id": "2026-06-08T12:19:32.504383+00:00",
+        "run_id": "2026-06-08T16:38:39.602418+00:00",
         "briefs": [
           {
-            "text": "Hair serum category shows strong Amazon traction with 5 bestseller spots \u2014 Godrej Expert should emphasize anti-hair fall benefits vs growth serums.",
-            "evidence": "Amazon Hair Serum & Oil category: 5 top positions focused on hair growth/thinning solutions"
+            "text": "Reddit user seeking blue hair color salon recommendations \u2014 Godrej Expert should create DIY fashion color tutorials using existing range as base.",
+            "evidence": "Reddit r/IndianSkincareAddicts: 'Hair salons recommendations for hair colour - blue' [0 upvotes]"
           }
         ]
       },
@@ -348,15 +348,19 @@
     "mens-grooming": [
       {
         "date": "2026-06-08",
-        "run_id": "2026-06-08T12:19:32.504383+00:00",
+        "run_id": "2026-06-08T16:38:39.602418+00:00",
         "briefs": [
           {
-            "text": "Denver launches Shah Rukh Khan EDP campaign \u2014 Park Avenue should counter with heritage-focused 'Choose class over celebrity' positioning immediately.",
-            "evidence": "News headline: Denver launches Denver Intense EDP with Bollywood superstar Shah Rukh Khan"
+            "text": "AHA/BHA underarm roll-ons dominating Flipkart (#1 Chemist at Play \u20b9349, #2 PROWL \u20b9178) \u2014 Cinthol should launch competitive AHA variant.",
+            "evidence": "Flipkart Deodorant Roll-on category: Chemist at Play 5% AHA #1 rank, 42,142 reviews"
           },
           {
-            "text": "Reginald Men dominates Flipkart sunscreen at \u20b9999 (#2 rank, 37K reviews) \u2014 Godrej Protekt should launch men's sunscreen variant at \u20b9399.",
-            "evidence": "Flipkart Sunscreen #2: Reginald Men SPF 50 PA++++ \u20b9999, 37,675 reviews"
+            "text": "Denver launched 'Denver Intense EDP' with Shah Rukh Khan \u2014 Park Avenue should counter with heritage-focused campaign emphasizing class over mass appeal.",
+            "evidence": "Google Trends & News: 'Denver launches Denver Intense EDP with Bollywood Superstar Shah Rukh Khan'"
+          },
+          {
+            "text": "Nykaa launched NykaaMan.com dedicated men's platform \u2014 Park Avenue should negotiate exclusive partnerships before competitors establish dominance.",
+            "evidence": "Nykaa Bestsellers #2-5 all mention NykaaMan.com launch for male grooming"
           }
         ]
       },
@@ -598,11 +602,11 @@
     "home-insecticides": [
       {
         "date": "2026-06-08",
-        "run_id": "2026-06-08T12:19:32.504383+00:00",
+        "run_id": "2026-06-08T16:38:39.602418+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant competitor moves or pricing changes detected"
+            "evidence": "No actionable competitor moves or pricing changes detected in home insecticides category"
           }
         ]
       },
@@ -763,11 +767,11 @@
     "air-fresheners": [
       {
         "date": "2026-06-08",
-        "run_id": "2026-06-08T12:19:32.504383+00:00",
+        "run_id": "2026-06-08T16:38:39.602418+00:00",
         "briefs": [
           {
-            "text": "Amazon air freshener recalls in Canada create safety concerns \u2014 Godrej aer should emphasize 'Made in India safety standards' messaging.",
-            "evidence": "Amazon bestseller: Air freshener recalled over potentially harmful ingredients"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitor moves or pricing changes detected in air fresheners category"
           }
         ]
       },
@@ -925,11 +929,11 @@
     "sexual-wellness": [
       {
         "date": "2026-06-08",
-        "run_id": "2026-06-08T12:19:32.504383+00:00",
+        "run_id": "2026-06-08T16:38:39.602418+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant competitor moves or pricing changes detected"
+            "evidence": "No actionable competitor moves or pricing changes detected in sexual wellness category"
           }
         ]
       },
@@ -1086,11 +1090,11 @@
     "fabric-care": [
       {
         "date": "2026-06-08",
-        "run_id": "2026-06-08T12:19:32.504383+00:00",
+        "run_id": "2026-06-08T16:38:39.602418+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant competitor moves or pricing changes detected"
+            "evidence": "No actionable competitor moves or pricing changes detected in fabric care category"
           }
         ]
       },
