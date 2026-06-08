@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-06-08T16:38:39.602418+00:00",
+  "last_updated": "2026-06-08T19:27:20.202334+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-06-08",
-        "run_id": "2026-06-08T16:38:39.602418+00:00",
+        "run_id": "2026-06-08T19:27:20.202334+00:00",
         "briefs": [
           {
-            "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable competitor moves or pricing changes detected in personal wash category"
+            "text": "Dermatouch niacinamide face wash dominates Flipkart at \u20b9120 (#2 bestseller, 433K reviews) \u2014 Cinthol should fast-track niacinamide face wash launch to compete.",
+            "evidence": "Flipkart Face Wash #2, \u20b9120, 433,761 reviews"
           }
         ]
       },
@@ -170,11 +170,11 @@
     "hair-care": [
       {
         "date": "2026-06-08",
-        "run_id": "2026-06-08T16:38:39.602418+00:00",
+        "run_id": "2026-06-08T19:27:20.202334+00:00",
         "briefs": [
           {
-            "text": "Reddit user seeking blue hair color salon recommendations \u2014 Godrej Expert should create DIY fashion color tutorials using existing range as base.",
-            "evidence": "Reddit r/IndianSkincareAddicts: 'Hair salons recommendations for hair colour - blue' [0 upvotes]"
+            "text": "Parachute protein shampoo holds #1 and #7 Amazon positions (\u20b9199-\u20b9449) \u2014 Godrej Expert should launch protein variant at \u20b9299 to capture mid-tier gap.",
+            "evidence": "Amazon Men's Shampoo #1 \u20b9199, #7 \u20b9199, #10 \u20b9449"
           }
         ]
       },
@@ -348,19 +348,15 @@
     "mens-grooming": [
       {
         "date": "2026-06-08",
-        "run_id": "2026-06-08T16:38:39.602418+00:00",
+        "run_id": "2026-06-08T19:27:20.202334+00:00",
         "briefs": [
           {
-            "text": "AHA/BHA underarm roll-ons dominating Flipkart (#1 Chemist at Play \u20b9349, #2 PROWL \u20b9178) \u2014 Cinthol should launch competitive AHA variant.",
-            "evidence": "Flipkart Deodorant Roll-on category: Chemist at Play 5% AHA #1 rank, 42,142 reviews"
+            "text": "Denver launches Shah Rukh Khan EDP campaign \u2014 Park Avenue should counter with heritage-focused 'Discerning Gentleman' positioning against celebrity-driven approach.",
+            "evidence": "News: Denver launches Denver Intense EDP with Shah Rukh Khan"
           },
           {
-            "text": "Denver launched 'Denver Intense EDP' with Shah Rukh Khan \u2014 Park Avenue should counter with heritage-focused campaign emphasizing class over mass appeal.",
-            "evidence": "Google Trends & News: 'Denver launches Denver Intense EDP with Bollywood Superstar Shah Rukh Khan'"
-          },
-          {
-            "text": "Nykaa launched NykaaMan.com dedicated men's platform \u2014 Park Avenue should negotiate exclusive partnerships before competitors establish dominance.",
-            "evidence": "Nykaa Bestsellers #2-5 all mention NykaaMan.com launch for male grooming"
+            "text": "Men's grooming market expanding with boat entering personal care and comprehensive market reports highlighting growth \u2014 leverage Park Avenue's established position.",
+            "evidence": "News: boAt Enters Personal Grooming Market, Men's Personal Care Market Report"
           }
         ]
       },
@@ -602,11 +598,11 @@
     "home-insecticides": [
       {
         "date": "2026-06-08",
-        "run_id": "2026-06-08T16:38:39.602418+00:00",
+        "run_id": "2026-06-08T19:27:20.202334+00:00",
         "briefs": [
           {
-            "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable competitor moves or pricing changes detected in home insecticides category"
+            "text": "Scientific scrutiny on mosquito repellent effectiveness emerging \u2014 HIT should launch 'Advanced Formula' campaign emphasizing new generation protection against adapted mosquitoes.",
+            "evidence": "AI Trends: Mosquito Repellent Effectiveness Under Scientific Scrutiny"
           }
         ]
       },
@@ -767,11 +763,11 @@
     "air-fresheners": [
       {
         "date": "2026-06-08",
-        "run_id": "2026-06-08T16:38:39.602418+00:00",
+        "run_id": "2026-06-08T19:27:20.202334+00:00",
         "briefs": [
           {
-            "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable competitor moves or pricing changes detected in air fresheners category"
+            "text": "Korean beauty trend gaining momentum with K-drama hair tools trending \u2014 Godrej aer should consider Korean-inspired fresh variants with K-beauty packaging aesthetics.",
+            "evidence": "Google Trends: Korean sunscreen trend, Add K-drama to hair curling tools"
           }
         ]
       },
@@ -929,11 +925,11 @@
     "sexual-wellness": [
       {
         "date": "2026-06-08",
-        "run_id": "2026-06-08T16:38:39.602418+00:00",
+        "run_id": "2026-06-08T19:27:20.202334+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable competitor moves or pricing changes detected in sexual wellness category"
+            "evidence": "No relevant data points in today's signals"
           }
         ]
       },
@@ -1090,11 +1086,11 @@
     "fabric-care": [
       {
         "date": "2026-06-08",
-        "run_id": "2026-06-08T16:38:39.602418+00:00",
+        "run_id": "2026-06-08T19:27:20.202334+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable competitor moves or pricing changes detected in fabric care category"
+            "evidence": "No relevant data points in today's signals"
           }
         ]
       },
