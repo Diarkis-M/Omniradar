@@ -1,7 +1,17 @@
 {
-  "last_updated": "2026-06-07T18:08:52.891108+00:00",
+  "last_updated": "2026-06-08T12:19:32.504383+00:00",
   "clusters": {
     "personal-wash": [
+      {
+        "date": "2026-06-08",
+        "run_id": "2026-06-08T12:19:32.504383+00:00",
+        "briefs": [
+          {
+            "text": "Minimalist 80% clearance at Reliance Smart creates pricing pressure \u2014 Godrej Protekt should launch counter-campaign highlighting superior hygiene vs skincare brands.",
+            "evidence": "Reddit post: Minimalist products 80% off at Reliance Smart, Glycolic Acid toner \u20b9100"
+          }
+        ]
+      },
       {
         "date": "2026-06-07",
         "run_id": "2026-06-07T18:08:52.891108+00:00",
@@ -158,6 +168,16 @@
       }
     ],
     "hair-care": [
+      {
+        "date": "2026-06-08",
+        "run_id": "2026-06-08T12:19:32.504383+00:00",
+        "briefs": [
+          {
+            "text": "Hair serum category shows strong Amazon traction with 5 bestseller spots \u2014 Godrej Expert should emphasize anti-hair fall benefits vs growth serums.",
+            "evidence": "Amazon Hair Serum & Oil category: 5 top positions focused on hair growth/thinning solutions"
+          }
+        ]
+      },
       {
         "date": "2026-06-07",
         "run_id": "2026-06-07T18:08:52.891108+00:00",
@@ -326,6 +346,20 @@
       }
     ],
     "mens-grooming": [
+      {
+        "date": "2026-06-08",
+        "run_id": "2026-06-08T12:19:32.504383+00:00",
+        "briefs": [
+          {
+            "text": "Denver launches Shah Rukh Khan EDP campaign \u2014 Park Avenue should counter with heritage-focused 'Choose class over celebrity' positioning immediately.",
+            "evidence": "News headline: Denver launches Denver Intense EDP with Bollywood superstar Shah Rukh Khan"
+          },
+          {
+            "text": "Reginald Men dominates Flipkart sunscreen at \u20b9999 (#2 rank, 37K reviews) \u2014 Godrej Protekt should launch men's sunscreen variant at \u20b9399.",
+            "evidence": "Flipkart Sunscreen #2: Reginald Men SPF 50 PA++++ \u20b9999, 37,675 reviews"
+          }
+        ]
+      },
       {
         "date": "2026-06-07",
         "run_id": "2026-06-07T18:08:52.891108+00:00",
@@ -563,6 +597,16 @@
     ],
     "home-insecticides": [
       {
+        "date": "2026-06-08",
+        "run_id": "2026-06-08T12:19:32.504383+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant competitor moves or pricing changes detected"
+          }
+        ]
+      },
+      {
         "date": "2026-06-07",
         "run_id": "2026-06-07T18:08:52.891108+00:00",
         "briefs": [
@@ -718,6 +762,16 @@
     ],
     "air-fresheners": [
       {
+        "date": "2026-06-08",
+        "run_id": "2026-06-08T12:19:32.504383+00:00",
+        "briefs": [
+          {
+            "text": "Amazon air freshener recalls in Canada create safety concerns \u2014 Godrej aer should emphasize 'Made in India safety standards' messaging.",
+            "evidence": "Amazon bestseller: Air freshener recalled over potentially harmful ingredients"
+          }
+        ]
+      },
+      {
         "date": "2026-06-07",
         "run_id": "2026-06-07T18:08:52.891108+00:00",
         "briefs": [
@@ -870,6 +924,16 @@
     ],
     "sexual-wellness": [
       {
+        "date": "2026-06-08",
+        "run_id": "2026-06-08T12:19:32.504383+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant competitor moves or pricing changes detected"
+          }
+        ]
+      },
+      {
         "date": "2026-06-07",
         "run_id": "2026-06-07T18:08:52.891108+00:00",
         "briefs": [
@@ -1020,6 +1084,16 @@
       }
     ],
     "fabric-care": [
+      {
+        "date": "2026-06-08",
+        "run_id": "2026-06-08T12:19:32.504383+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant competitor moves or pricing changes detected"
+          }
+        ]
+      },
       {
         "date": "2026-06-07",
         "run_id": "2026-06-07T18:08:52.891108+00:00",
