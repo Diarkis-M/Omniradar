@@ -1,18 +1,14 @@
 {
-  "last_updated": "2026-06-09T10:50:38.644109+00:00",
+  "last_updated": "2026-06-09T15:39:53.922930+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-06-09",
-        "run_id": "2026-06-09T10:50:38.644109+00:00",
+        "run_id": "2026-06-09T15:39:53.922930+00:00",
         "briefs": [
           {
-            "text": "MUUCHSTAC Ocean Face Wash dominates Flipkart men's category at \u20b9220 (#4 bestseller, 1.39M reviews) \u2014 Cinthol should launch targeted digital campaigns highlighting soap's acne-fighting benefits at lower price.",
-            "evidence": "Flipkart Face Wash category, rank #4, \u20b9220, 1,390,760 reviews"
-          },
-          {
-            "text": "Reddit user reports underarm burns from cheap perfume \u2014 opportunity for Godrej Protekt to launch 'dermatologically tested' safety campaign targeting budget fragrance users switching to safer alternatives.",
-            "evidence": "Reddit post 'Burnt my left underarm with some cheap perfume', 0 upvotes, r/IndianSkincareAddicts"
+            "text": "Minimalist B5 Moisturizer reformulation backlash on Reddit \u2014 Godrej Protekt should launch 'No Silent Changes' transparency campaign to capitalize on consumer distrust.",
+            "evidence": "Reddit post: 'Minimalist Vitamin B5 Moisturizer has been silently reformulated (and downgraded) after the HUL (UNILEVER) acquisition'"
           }
         ]
       },
@@ -184,11 +180,11 @@
     "hair-care": [
       {
         "date": "2026-06-09",
-        "run_id": "2026-06-09T10:50:38.644109+00:00",
+        "run_id": "2026-06-09T15:39:53.922930+00:00",
         "briefs": [
           {
-            "text": "Godrej Professional launches Vybe Hair Colour Collection in Bengaluru \u2014 Godrej Expert should run 'Professional Choice' campaign linking salon-grade Vybe technology to consumer Expert products for credibility bridge.",
-            "evidence": "News headline: 'Godrej Professional Unveils Vybe Hair Colour Collection in Bengaluru'"
+            "text": "Godrej Professional launched 'Vybe' Hair Colour in Bengaluru \u2014 Godrej Expert should differentiate as 'home hair colour expert' emphasizing DIY convenience vs salon positioning.",
+            "evidence": "News: 'Godrej Professional Unveils Vybe Hair Colour Collection in Bengaluru; Pledges to Upskill 1,000+ Stylists Nationwide'"
           }
         ]
       },
@@ -372,15 +368,15 @@
     "mens-grooming": [
       {
         "date": "2026-06-09",
-        "run_id": "2026-06-09T10:50:38.644109+00:00",
+        "run_id": "2026-06-09T15:39:53.922930+00:00",
         "briefs": [
           {
-            "text": "Denver launches Intense EDP with Shah Rukh Khan celebrity endorsement \u2014 Park Avenue should counter with influencer partnerships or celebrity tie-ups for EDP line to prevent Denver owning premium celebrity space.",
-            "evidence": "Google Trends: 'Denver launches Denver Intense EDP with Bollywood Superstar Shah Rukh Khan'"
+            "text": "Denver launched 'Denver Intense EDP' with Shah Rukh Khan \u2014 Park Avenue should counter with 'authentic luxury, not borrowed stardom' heritage campaign.",
+            "evidence": "News: 'Denver launches Denver Intense EDP with Bollywood Superstar Shah Rukh Khan'"
           },
           {
-            "text": "Nykaa launches exclusive men's portal NykaaMan.com creating category awareness \u2014 Park Avenue should secure prominent placement and exclusive offers on this new platform targeting male grooming audience.",
-            "evidence": "Nykaa bestsellers: 'Nykaa Launches Exclusive Men's Portal NykaaMan.com'"
+            "text": "BEARDO dominates Flipkart beard oil (#1 bestseller at \u20b9502, 83,814 reviews) \u2014 Cinthol should extend into beard care at \u20b9350 price point.",
+            "evidence": "Flipkart #1 Beard Oil: BEARDO \u20b9502, 83,814 reviews"
           }
         ]
       },
@@ -636,11 +632,11 @@
     "home-insecticides": [
       {
         "date": "2026-06-09",
-        "run_id": "2026-06-09T10:50:38.644109+00:00",
+        "run_id": "2026-06-09T15:39:53.922930+00:00",
         "briefs": [
           {
-            "text": "Cross-platform buzz about mosquitoes adapting to repellents \u2014 HIT should immediately launch R&D communication about 'Next-Gen Formulation' addressing mosquito adaptation to stay ahead of efficacy concerns.",
-            "evidence": "Cross-platform signal: 'Mosquitoes Learning to Love Insect Repellents'"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data found in today's signals"
           }
         ]
       },
@@ -811,11 +807,11 @@
     "air-fresheners": [
       {
         "date": "2026-06-09",
-        "run_id": "2026-06-09T10:50:38.644109+00:00",
+        "run_id": "2026-06-09T15:39:53.922930+00:00",
         "briefs": [
           {
-            "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant data found in today's market signals"
+            "text": "Amazon recalled air freshener/deodorizer in Canada for safety concerns \u2014 Godrej aer should emphasize safety compliance in marketing communications.",
+            "evidence": "Amazon bestseller: 'Air freshener and deodorizer sold in Canada on Amazon recalled over potentially harmful ingredients'"
           }
         ]
       },
@@ -983,11 +979,11 @@
     "sexual-wellness": [
       {
         "date": "2026-06-09",
-        "run_id": "2026-06-09T10:50:38.644109+00:00",
+        "run_id": "2026-06-09T15:39:53.922930+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant data found in today's market signals"
+            "evidence": "No relevant data found in today's signals"
           }
         ]
       },
@@ -1154,11 +1150,11 @@
     "fabric-care": [
       {
         "date": "2026-06-09",
-        "run_id": "2026-06-09T10:50:38.644109+00:00",
+        "run_id": "2026-06-09T15:39:53.922930+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant data found in today's market signals"
+            "evidence": "No relevant data found in today's signals"
           }
         ]
       },
