@@ -1,14 +1,18 @@
 {
-  "last_updated": "2026-06-09T15:39:53.922930+00:00",
+  "last_updated": "2026-06-09T19:17:43.152136+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-06-09",
-        "run_id": "2026-06-09T15:39:53.922930+00:00",
+        "run_id": "2026-06-09T19:17:43.152136+00:00",
         "briefs": [
           {
-            "text": "Minimalist B5 Moisturizer reformulation backlash on Reddit \u2014 Godrej Protekt should launch 'No Silent Changes' transparency campaign to capitalize on consumer distrust.",
-            "evidence": "Reddit post: 'Minimalist Vitamin B5 Moisturizer has been silently reformulated (and downgraded) after the HUL (UNILEVER) acquisition'"
+            "text": "boAt enters personal grooming with Slazer series \u2014 Cinthol should launch 'Trusted Since 1952' heritage campaign against tech newcomers.",
+            "evidence": "News: boAt Enters Personal Grooming Market with New Slazer Series"
+          },
+          {
+            "text": "Dove Serum Bar ranks #3 on Flipkart at \u20b9458 while Ghar Soaps dominates top spots at \u20b9192-\u20b9399 \u2014 consider value positioning.",
+            "evidence": "Flipkart Bar Soaps: Dove #3 at \u20b9458, Ghar Soaps #1-2 at \u20b9192-\u20b9399"
           }
         ]
       },
@@ -180,11 +184,11 @@
     "hair-care": [
       {
         "date": "2026-06-09",
-        "run_id": "2026-06-09T15:39:53.922930+00:00",
+        "run_id": "2026-06-09T19:17:43.152136+00:00",
         "briefs": [
           {
-            "text": "Godrej Professional launched 'Vybe' Hair Colour in Bengaluru \u2014 Godrej Expert should differentiate as 'home hair colour expert' emphasizing DIY convenience vs salon positioning.",
-            "evidence": "News: 'Godrej Professional Unveils Vybe Hair Colour Collection in Bengaluru; Pledges to Upskill 1,000+ Stylists Nationwide'"
+            "text": "Godrej Professional launches Vybe hair colour in Bengaluru \u2014 Godrej Expert should cross-promote highlighting salon-grade quality for home use.",
+            "evidence": "News: Godrej Professional Unveils 'Vybe' Hair Colour Collection in Bengaluru"
           }
         ]
       },
@@ -368,15 +372,15 @@
     "mens-grooming": [
       {
         "date": "2026-06-09",
-        "run_id": "2026-06-09T15:39:53.922930+00:00",
+        "run_id": "2026-06-09T19:17:43.152136+00:00",
         "briefs": [
           {
-            "text": "Denver launched 'Denver Intense EDP' with Shah Rukh Khan \u2014 Park Avenue should counter with 'authentic luxury, not borrowed stardom' heritage campaign.",
-            "evidence": "News: 'Denver launches Denver Intense EDP with Bollywood Superstar Shah Rukh Khan'"
+            "text": "Denver launches Shah Rukh Khan EDP campaign \u2014 Park Avenue should counter with celebrity collaboration or highlight superior fragrance quality.",
+            "evidence": "News: Denver launches 'Denver Intense EDP' with Bollywood Superstar Shah Rukh Khan"
           },
           {
-            "text": "BEARDO dominates Flipkart beard oil (#1 bestseller at \u20b9502, 83,814 reviews) \u2014 Cinthol should extend into beard care at \u20b9350 price point.",
-            "evidence": "Flipkart #1 Beard Oil: BEARDO \u20b9502, 83,814 reviews"
+            "text": "Rexona dominates Flipkart deodorant rankings (#1, #7, #9 at \u20b9283-\u20b9361) \u2014 Cinthol should launch Flipkart-exclusive combo packs at competitive pricing.",
+            "evidence": "Flipkart Deodorant Roll-on: Rexona holds #1, #7, #9 positions at \u20b9283-\u20b9361"
           }
         ]
       },
@@ -632,11 +636,11 @@
     "home-insecticides": [
       {
         "date": "2026-06-09",
-        "run_id": "2026-06-09T15:39:53.922930+00:00",
+        "run_id": "2026-06-09T19:17:43.152136+00:00",
         "briefs": [
           {
-            "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant data found in today's signals"
+            "text": "Scientific warnings about mosquito repellent resistance trending \u2014 HIT should launch 'Advanced Formula' campaign highlighting multi-ingredient approach.",
+            "evidence": "AI Trends: Mosquito Repellent Resistance Scientific Warning"
           }
         ]
       },
@@ -807,11 +811,11 @@
     "air-fresheners": [
       {
         "date": "2026-06-09",
-        "run_id": "2026-06-09T15:39:53.922930+00:00",
+        "run_id": "2026-06-09T19:17:43.152136+00:00",
         "briefs": [
           {
-            "text": "Amazon recalled air freshener/deodorizer in Canada for safety concerns \u2014 Godrej aer should emphasize safety compliance in marketing communications.",
-            "evidence": "Amazon bestseller: 'Air freshener and deodorizer sold in Canada on Amazon recalled over potentially harmful ingredients'"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant market signals detected for air fresheners category"
           }
         ]
       },
@@ -979,11 +983,11 @@
     "sexual-wellness": [
       {
         "date": "2026-06-09",
-        "run_id": "2026-06-09T15:39:53.922930+00:00",
+        "run_id": "2026-06-09T19:17:43.152136+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant data found in today's signals"
+            "evidence": "No relevant market signals detected for sexual wellness category"
           }
         ]
       },
@@ -1150,11 +1154,11 @@
     "fabric-care": [
       {
         "date": "2026-06-09",
-        "run_id": "2026-06-09T15:39:53.922930+00:00",
+        "run_id": "2026-06-09T19:17:43.152136+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No relevant data found in today's signals"
+            "evidence": "No relevant market signals detected for fabric care category"
           }
         ]
       },
