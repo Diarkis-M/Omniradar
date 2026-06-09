@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-06-08T19:27:20.202334+00:00",
+  "last_updated": "2026-06-09T10:50:38.644109+00:00",
   "clusters": {
     "personal-wash": [
+      {
+        "date": "2026-06-09",
+        "run_id": "2026-06-09T10:50:38.644109+00:00",
+        "briefs": [
+          {
+            "text": "MUUCHSTAC Ocean Face Wash dominates Flipkart men's category at \u20b9220 (#4 bestseller, 1.39M reviews) \u2014 Cinthol should launch targeted digital campaigns highlighting soap's acne-fighting benefits at lower price.",
+            "evidence": "Flipkart Face Wash category, rank #4, \u20b9220, 1,390,760 reviews"
+          },
+          {
+            "text": "Reddit user reports underarm burns from cheap perfume \u2014 opportunity for Godrej Protekt to launch 'dermatologically tested' safety campaign targeting budget fragrance users switching to safer alternatives.",
+            "evidence": "Reddit post 'Burnt my left underarm with some cheap perfume', 0 upvotes, r/IndianSkincareAddicts"
+          }
+        ]
+      },
       {
         "date": "2026-06-08",
         "run_id": "2026-06-08T19:27:20.202334+00:00",
@@ -168,6 +182,16 @@
       }
     ],
     "hair-care": [
+      {
+        "date": "2026-06-09",
+        "run_id": "2026-06-09T10:50:38.644109+00:00",
+        "briefs": [
+          {
+            "text": "Godrej Professional launches Vybe Hair Colour Collection in Bengaluru \u2014 Godrej Expert should run 'Professional Choice' campaign linking salon-grade Vybe technology to consumer Expert products for credibility bridge.",
+            "evidence": "News headline: 'Godrej Professional Unveils Vybe Hair Colour Collection in Bengaluru'"
+          }
+        ]
+      },
       {
         "date": "2026-06-08",
         "run_id": "2026-06-08T19:27:20.202334+00:00",
@@ -346,6 +370,20 @@
       }
     ],
     "mens-grooming": [
+      {
+        "date": "2026-06-09",
+        "run_id": "2026-06-09T10:50:38.644109+00:00",
+        "briefs": [
+          {
+            "text": "Denver launches Intense EDP with Shah Rukh Khan celebrity endorsement \u2014 Park Avenue should counter with influencer partnerships or celebrity tie-ups for EDP line to prevent Denver owning premium celebrity space.",
+            "evidence": "Google Trends: 'Denver launches Denver Intense EDP with Bollywood Superstar Shah Rukh Khan'"
+          },
+          {
+            "text": "Nykaa launches exclusive men's portal NykaaMan.com creating category awareness \u2014 Park Avenue should secure prominent placement and exclusive offers on this new platform targeting male grooming audience.",
+            "evidence": "Nykaa bestsellers: 'Nykaa Launches Exclusive Men's Portal NykaaMan.com'"
+          }
+        ]
+      },
       {
         "date": "2026-06-08",
         "run_id": "2026-06-08T19:27:20.202334+00:00",
@@ -597,6 +635,16 @@
     ],
     "home-insecticides": [
       {
+        "date": "2026-06-09",
+        "run_id": "2026-06-09T10:50:38.644109+00:00",
+        "briefs": [
+          {
+            "text": "Cross-platform buzz about mosquitoes adapting to repellents \u2014 HIT should immediately launch R&D communication about 'Next-Gen Formulation' addressing mosquito adaptation to stay ahead of efficacy concerns.",
+            "evidence": "Cross-platform signal: 'Mosquitoes Learning to Love Insect Repellents'"
+          }
+        ]
+      },
+      {
         "date": "2026-06-08",
         "run_id": "2026-06-08T19:27:20.202334+00:00",
         "briefs": [
@@ -762,6 +810,16 @@
     ],
     "air-fresheners": [
       {
+        "date": "2026-06-09",
+        "run_id": "2026-06-09T10:50:38.644109+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data found in today's market signals"
+          }
+        ]
+      },
+      {
         "date": "2026-06-08",
         "run_id": "2026-06-08T19:27:20.202334+00:00",
         "briefs": [
@@ -924,6 +982,16 @@
     ],
     "sexual-wellness": [
       {
+        "date": "2026-06-09",
+        "run_id": "2026-06-09T10:50:38.644109+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data found in today's market signals"
+          }
+        ]
+      },
+      {
         "date": "2026-06-08",
         "run_id": "2026-06-08T19:27:20.202334+00:00",
         "briefs": [
@@ -1084,6 +1152,16 @@
       }
     ],
     "fabric-care": [
+      {
+        "date": "2026-06-09",
+        "run_id": "2026-06-09T10:50:38.644109+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant data found in today's market signals"
+          }
+        ]
+      },
       {
         "date": "2026-06-08",
         "run_id": "2026-06-08T19:27:20.202334+00:00",
