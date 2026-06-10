@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-06-10T16:18:26.615422+00:00",
+  "last_updated": "2026-06-10T19:40:10.595474+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-06-10",
-        "run_id": "2026-06-10T16:18:26.615422+00:00",
+        "run_id": "2026-06-10T19:40:10.595474+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable competitive moves or pricing changes detected in personal wash category"
+            "evidence": "No relevant pricing, ranking, or competitive moves detected in personal wash category"
           }
         ]
       },
@@ -194,10 +194,10 @@
     "hair-care": [
       {
         "date": "2026-06-10",
-        "run_id": "2026-06-10T16:18:26.615422+00:00",
+        "run_id": "2026-06-10T19:40:10.595474+00:00",
         "briefs": [
           {
-            "text": "Godrej Professional's Vybe Collection launch creates cross-sell opportunity \u2014 Godrej Expert should create 'Salon-Inspired' retail packs leveraging Professional's stylist network.",
+            "text": "Godrej Professional launched Vybe Collection with 1,000+ stylist upskilling initiative \u2014 Godrej Expert should create consumer campaigns highlighting professional expertise to differentiate from L'Oreal/Streax.",
             "evidence": "News: Godrej Professional Launches the Vybe Collection in Bangalore, to upskill 1000+ hair stylists"
           }
         ]
@@ -392,15 +392,19 @@
     "mens-grooming": [
       {
         "date": "2026-06-10",
-        "run_id": "2026-06-10T16:18:26.615422+00:00",
+        "run_id": "2026-06-10T19:40:10.595474+00:00",
         "briefs": [
           {
-            "text": "Denver launches Shah Rukh Khan EDP campaign \u2014 Park Avenue should counter with heritage-focused Google keyword bidding on 'Denver vs Park Avenue' searches.",
+            "text": "Denver launched premium EDP with Shah Rukh Khan endorsement \u2014 Park Avenue should respond with celebrity campaign or premium launch to defend fragrance leadership.",
             "evidence": "News: Denver launches Denver Intense EDP with Bollywood superstar Shah Rukh Khan"
           },
           {
-            "text": "Park Avenue deodorant combo (#8 on Flipkart at \u20b9836) trails Denver's mass-market sets (#2 at \u20b9245) \u2014 consider budget combo under \u20b9400.",
-            "evidence": "Flipkart bestsellers: Denver 4-pack \u20b9245 vs Park Avenue combo \u20b9836"
+            "text": "Men's skincare gaining mainstream coverage in India \u2014 Cinthol should reposition existing soap/shower gel with targeted men's skincare messaging beyond freshness.",
+            "evidence": "Google Trends: From brightening creams to face serums: Why men's skincare is finally having its moment in India"
+          },
+          {
+            "text": "Park Avenue ranks #13 on Flipkart deodorants while Denver combo packs dominate #2-#6 at \u20b9183-\u20b9245 \u2014 consider value combo pricing or premium differentiation strategy.",
+            "evidence": "Flipkart: Park Avenue absent from top 12, Denver #2-#6 at \u20b9183-\u20b9245 range"
           }
         ]
       },
@@ -670,11 +674,11 @@
     "home-insecticides": [
       {
         "date": "2026-06-10",
-        "run_id": "2026-06-10T16:18:26.615422+00:00",
+        "run_id": "2026-06-10T19:40:10.595474+00:00",
         "briefs": [
           {
-            "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable competitive moves or pricing changes detected in home insecticides category"
+            "text": "Mosquito repellent effectiveness facing scientific scrutiny coverage \u2014 HIT and Good Knight should launch educational campaigns highlighting advanced formulations to reassure consumers.",
+            "evidence": "AI Trends: Mosquito Repellent Effectiveness Under Scientific Scrutiny"
           }
         ]
       },
@@ -855,11 +859,11 @@
     "air-fresheners": [
       {
         "date": "2026-06-10",
-        "run_id": "2026-06-10T16:18:26.615422+00:00",
+        "run_id": "2026-06-10T19:40:10.595474+00:00",
         "briefs": [
           {
-            "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable competitive moves or pricing changes detected in air fresheners category"
+            "text": "Godrej aer dominates Amazon air freshener charts at #1 and #2 positions \u2014 leverage this leadership with Amazon-exclusive multipacks to defend against #3 BKN Super Fragrance at \u20b9347.",
+            "evidence": "Amazon: Godrej aer #1 (\u20b9243) and #2 (\u20b994) vs BKN Super Fragrance #3 (\u20b9347)"
           }
         ]
       },
@@ -1037,11 +1041,11 @@
     "sexual-wellness": [
       {
         "date": "2026-06-10",
-        "run_id": "2026-06-10T16:18:26.615422+00:00",
+        "run_id": "2026-06-10T19:40:10.595474+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable competitive moves or pricing changes detected in sexual wellness category"
+            "evidence": "No relevant pricing, ranking, or competitive moves detected in sexual wellness category"
           }
         ]
       },
@@ -1218,11 +1222,11 @@
     "fabric-care": [
       {
         "date": "2026-06-10",
-        "run_id": "2026-06-10T16:18:26.615422+00:00",
+        "run_id": "2026-06-10T19:40:10.595474+00:00",
         "briefs": [
           {
-            "text": "Godrej Fab (#6 at \u20b9474) significantly overpriced vs Beco (#3 at \u20b9335) and More Light (#2 at \u20b9358) \u2014 reduce to \u20b9399 with 'Same Quality, Better Value' messaging.",
-            "evidence": "Amazon liquid detergent bestsellers: Godrej Fab \u20b9474 vs Beco \u20b9335 vs More Light \u20b9358"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No relevant pricing, ranking, or competitive moves detected in fabric care category"
           }
         ]
       },
