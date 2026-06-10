@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-06-10T11:13:56.866029+00:00",
+  "last_updated": "2026-06-10T16:18:26.615422+00:00",
   "clusters": {
     "personal-wash": [
       {
         "date": "2026-06-10",
-        "run_id": "2026-06-10T11:13:56.866029+00:00",
+        "run_id": "2026-06-10T16:18:26.615422+00:00",
         "briefs": [
           {
-            "text": "Godrej Protekt should launch social media campaign highlighting quality control after The Deconstruct contamination issue creates trust gap in skincare category.",
-            "evidence": "Reddit post 'The deconstruct product got insect' in r/IndianSkincareAddicts"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitive moves or pricing changes detected in personal wash category"
           }
         ]
       },
@@ -194,15 +194,11 @@
     "hair-care": [
       {
         "date": "2026-06-10",
-        "run_id": "2026-06-10T11:13:56.866029+00:00",
+        "run_id": "2026-06-10T16:18:26.615422+00:00",
         "briefs": [
           {
-            "text": "Hair serum market dominated by international brands (Brillare #1 at \u20b9746, L'Oreal #8 at \u20b93,899) \u2014 Godrej Professional should launch consumer serum between Livon (\u20b994) and premium tier.",
-            "evidence": "Amazon Hair Serum bestsellers: no GCPL brands in top 20, gap between \u20b994-\u20b9600+"
-          },
-          {
-            "text": "Godrej Expert should leverage Professional's Vybe Collection launch with 'salon-grade color at home' consumer campaigns highlighting same technology.",
-            "evidence": "News: 'Godrej Professional Launches the Vybe Collection in Bangalore, to upskill 1000+ hair stylists'"
+            "text": "Godrej Professional's Vybe Collection launch creates cross-sell opportunity \u2014 Godrej Expert should create 'Salon-Inspired' retail packs leveraging Professional's stylist network.",
+            "evidence": "News: Godrej Professional Launches the Vybe Collection in Bangalore, to upskill 1000+ hair stylists"
           }
         ]
       },
@@ -396,15 +392,15 @@
     "mens-grooming": [
       {
         "date": "2026-06-10",
-        "run_id": "2026-06-10T11:13:56.866029+00:00",
+        "run_id": "2026-06-10T16:18:26.615422+00:00",
         "briefs": [
           {
-            "text": "Denver's Shah Rukh Khan EDP launch creating market buzz \u2014 Park Avenue should counter with celebrity collaboration or premium EDP to maintain share.",
-            "evidence": "News: 'Denver launches Denver Intense EDP with Bollywood superstar Shah Rukh Khan'"
+            "text": "Denver launches Shah Rukh Khan EDP campaign \u2014 Park Avenue should counter with heritage-focused Google keyword bidding on 'Denver vs Park Avenue' searches.",
+            "evidence": "News: Denver launches Denver Intense EDP with Bollywood superstar Shah Rukh Khan"
           },
           {
-            "text": "Kamasutra deodorant misplaced in Amazon Women's category (#1 Reyane Tradition at \u20b9641) \u2014 push for correct men's placement and expand variants.",
-            "evidence": "Amazon Women's Deodorant: Kamasutra appearing in wrong category, missing men's targeting"
+            "text": "Park Avenue deodorant combo (#8 on Flipkart at \u20b9836) trails Denver's mass-market sets (#2 at \u20b9245) \u2014 consider budget combo under \u20b9400.",
+            "evidence": "Flipkart bestsellers: Denver 4-pack \u20b9245 vs Park Avenue combo \u20b9836"
           }
         ]
       },
@@ -674,11 +670,11 @@
     "home-insecticides": [
       {
         "date": "2026-06-10",
-        "run_id": "2026-06-10T11:13:56.866029+00:00",
+        "run_id": "2026-06-10T16:18:26.615422+00:00",
         "briefs": [
           {
-            "text": "HIT should launch 'New Formula' variant addressing mosquito resistance concerns and run educational campaigns about proper usage to maintain efficacy.",
-            "evidence": "Cross-platform signal: 'Mosquito Repellent Resistance Scientific Warning'"
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable competitive moves or pricing changes detected in home insecticides category"
           }
         ]
       },
@@ -859,11 +855,11 @@
     "air-fresheners": [
       {
         "date": "2026-06-10",
-        "run_id": "2026-06-10T11:13:56.866029+00:00",
+        "run_id": "2026-06-10T16:18:26.615422+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable data for air freshener category"
+            "evidence": "No actionable competitive moves or pricing changes detected in air fresheners category"
           }
         ]
       },
@@ -1041,11 +1037,11 @@
     "sexual-wellness": [
       {
         "date": "2026-06-10",
-        "run_id": "2026-06-10T11:13:56.866029+00:00",
+        "run_id": "2026-06-10T16:18:26.615422+00:00",
         "briefs": [
           {
             "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable data for sexual wellness category"
+            "evidence": "No actionable competitive moves or pricing changes detected in sexual wellness category"
           }
         ]
       },
@@ -1222,11 +1218,11 @@
     "fabric-care": [
       {
         "date": "2026-06-10",
-        "run_id": "2026-06-10T11:13:56.866029+00:00",
+        "run_id": "2026-06-10T16:18:26.615422+00:00",
         "briefs": [
           {
-            "text": "No significant signals today \u2014 monitors stable.",
-            "evidence": "No actionable data for fabric care category"
+            "text": "Godrej Fab (#6 at \u20b9474) significantly overpriced vs Beco (#3 at \u20b9335) and More Light (#2 at \u20b9358) \u2014 reduce to \u20b9399 with 'Same Quality, Better Value' messaging.",
+            "evidence": "Amazon liquid detergent bestsellers: Godrej Fab \u20b9474 vs Beco \u20b9335 vs More Light \u20b9358"
           }
         ]
       },
