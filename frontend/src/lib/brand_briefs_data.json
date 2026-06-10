@@ -1,7 +1,17 @@
 {
-  "last_updated": "2026-06-09T19:17:43.152136+00:00",
+  "last_updated": "2026-06-10T11:13:56.866029+00:00",
   "clusters": {
     "personal-wash": [
+      {
+        "date": "2026-06-10",
+        "run_id": "2026-06-10T11:13:56.866029+00:00",
+        "briefs": [
+          {
+            "text": "Godrej Protekt should launch social media campaign highlighting quality control after The Deconstruct contamination issue creates trust gap in skincare category.",
+            "evidence": "Reddit post 'The deconstruct product got insect' in r/IndianSkincareAddicts"
+          }
+        ]
+      },
       {
         "date": "2026-06-09",
         "run_id": "2026-06-09T19:17:43.152136+00:00",
@@ -182,6 +192,20 @@
       }
     ],
     "hair-care": [
+      {
+        "date": "2026-06-10",
+        "run_id": "2026-06-10T11:13:56.866029+00:00",
+        "briefs": [
+          {
+            "text": "Hair serum market dominated by international brands (Brillare #1 at \u20b9746, L'Oreal #8 at \u20b93,899) \u2014 Godrej Professional should launch consumer serum between Livon (\u20b994) and premium tier.",
+            "evidence": "Amazon Hair Serum bestsellers: no GCPL brands in top 20, gap between \u20b994-\u20b9600+"
+          },
+          {
+            "text": "Godrej Expert should leverage Professional's Vybe Collection launch with 'salon-grade color at home' consumer campaigns highlighting same technology.",
+            "evidence": "News: 'Godrej Professional Launches the Vybe Collection in Bangalore, to upskill 1000+ hair stylists'"
+          }
+        ]
+      },
       {
         "date": "2026-06-09",
         "run_id": "2026-06-09T19:17:43.152136+00:00",
@@ -370,6 +394,20 @@
       }
     ],
     "mens-grooming": [
+      {
+        "date": "2026-06-10",
+        "run_id": "2026-06-10T11:13:56.866029+00:00",
+        "briefs": [
+          {
+            "text": "Denver's Shah Rukh Khan EDP launch creating market buzz \u2014 Park Avenue should counter with celebrity collaboration or premium EDP to maintain share.",
+            "evidence": "News: 'Denver launches Denver Intense EDP with Bollywood superstar Shah Rukh Khan'"
+          },
+          {
+            "text": "Kamasutra deodorant misplaced in Amazon Women's category (#1 Reyane Tradition at \u20b9641) \u2014 push for correct men's placement and expand variants.",
+            "evidence": "Amazon Women's Deodorant: Kamasutra appearing in wrong category, missing men's targeting"
+          }
+        ]
+      },
       {
         "date": "2026-06-09",
         "run_id": "2026-06-09T19:17:43.152136+00:00",
@@ -635,6 +673,16 @@
     ],
     "home-insecticides": [
       {
+        "date": "2026-06-10",
+        "run_id": "2026-06-10T11:13:56.866029+00:00",
+        "briefs": [
+          {
+            "text": "HIT should launch 'New Formula' variant addressing mosquito resistance concerns and run educational campaigns about proper usage to maintain efficacy.",
+            "evidence": "Cross-platform signal: 'Mosquito Repellent Resistance Scientific Warning'"
+          }
+        ]
+      },
+      {
         "date": "2026-06-09",
         "run_id": "2026-06-09T19:17:43.152136+00:00",
         "briefs": [
@@ -810,6 +858,16 @@
     ],
     "air-fresheners": [
       {
+        "date": "2026-06-10",
+        "run_id": "2026-06-10T11:13:56.866029+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable data for air freshener category"
+          }
+        ]
+      },
+      {
         "date": "2026-06-09",
         "run_id": "2026-06-09T19:17:43.152136+00:00",
         "briefs": [
@@ -982,6 +1040,16 @@
     ],
     "sexual-wellness": [
       {
+        "date": "2026-06-10",
+        "run_id": "2026-06-10T11:13:56.866029+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable data for sexual wellness category"
+          }
+        ]
+      },
+      {
         "date": "2026-06-09",
         "run_id": "2026-06-09T19:17:43.152136+00:00",
         "briefs": [
@@ -1152,6 +1220,16 @@
       }
     ],
     "fabric-care": [
+      {
+        "date": "2026-06-10",
+        "run_id": "2026-06-10T11:13:56.866029+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable data for fabric care category"
+          }
+        ]
+      },
       {
         "date": "2026-06-09",
         "run_id": "2026-06-09T19:17:43.152136+00:00",
