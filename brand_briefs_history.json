@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-06-10T19:40:10.595474+00:00",
+  "last_updated": "2026-06-11T11:59:52.705683+00:00",
   "clusters": {
     "personal-wash": [
+      {
+        "date": "2026-06-11",
+        "run_id": "2026-06-11T11:59:52.705683+00:00",
+        "briefs": [
+          {
+            "text": "Mamaearth Rice Face Wash dominates Flipkart #2 with 268,330 reviews at \u20b9472 \u2014 Cinthol should target 'rice water face wash' keywords for spillover demand.",
+            "evidence": "Flipkart Face Wash #2, Mamaearth Rice \u20b9472, 268,330 reviews"
+          },
+          {
+            "text": "Men's skincare education gap identified \u2014 create 'Stop Using Soap on Your Face' content series positioning Cinthol shower gel as the face-safe upgrade.",
+            "evidence": "Google Trends: 'men's skincare finally having its moment in India'"
+          }
+        ]
+      },
       {
         "date": "2026-06-10",
         "run_id": "2026-06-10T19:40:10.595474+00:00",
@@ -192,6 +206,20 @@
       }
     ],
     "hair-care": [
+      {
+        "date": "2026-06-11",
+        "run_id": "2026-06-11T11:59:52.705683+00:00",
+        "briefs": [
+          {
+            "text": "Schwarzkopf beginner interest on Reddit \u2014 Godrej Expert should create beginner-friendly tutorials targeting 'Schwarzkopf beginner' keywords with easier application messaging.",
+            "evidence": "Reddit post: 'How's Schwarzkopf for beginner?' in r/IndianSkincareAddicts"
+          },
+          {
+            "text": "Godrej Professional launched Vybe collection in Bengaluru \u2014 Expert should create consumer content bridging professional credibility to home users.",
+            "evidence": "News: 'Godrej Professional Unveils Vybe Hair Colour Collection in Bengaluru'"
+          }
+        ]
+      },
       {
         "date": "2026-06-10",
         "run_id": "2026-06-10T19:40:10.595474+00:00",
@@ -390,6 +418,20 @@
       }
     ],
     "mens-grooming": [
+      {
+        "date": "2026-06-11",
+        "run_id": "2026-06-11T11:59:52.705683+00:00",
+        "briefs": [
+          {
+            "text": "Men's skincare moment trending in India \u2014 Cinthol should launch accessible men's skincare campaign leveraging existing male customer base as entry point.",
+            "evidence": "Google Trends: 'men's skincare is finally having its moment in India'"
+          },
+          {
+            "text": "Deodorant expert testing trend emerging \u2014 Park Avenue should partner with grooming experts for product reviews positioning as expert-recommended Indian brand.",
+            "evidence": "Google Trends: 'The 10 Best Deodorants for Men, Tested by Grooming Experts'"
+          }
+        ]
+      },
       {
         "date": "2026-06-10",
         "run_id": "2026-06-10T19:40:10.595474+00:00",
@@ -673,6 +715,16 @@
     ],
     "home-insecticides": [
       {
+        "date": "2026-06-11",
+        "run_id": "2026-06-11T11:59:52.705683+00:00",
+        "briefs": [
+          {
+            "text": "Competitor effectiveness warnings surfacing \u2014 HIT should immediately launch response campaign with lab testing results and efficacy data to differentiate proven formula.",
+            "evidence": "AI Trends: 'Mosquito Repellent Effectiveness Warning' competitor alert"
+          }
+        ]
+      },
+      {
         "date": "2026-06-10",
         "run_id": "2026-06-10T19:40:10.595474+00:00",
         "briefs": [
@@ -858,6 +910,16 @@
     ],
     "air-fresheners": [
       {
+        "date": "2026-06-11",
+        "run_id": "2026-06-11T11:59:52.705683+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable data for air fresheners category"
+          }
+        ]
+      },
+      {
         "date": "2026-06-10",
         "run_id": "2026-06-10T19:40:10.595474+00:00",
         "briefs": [
@@ -1040,6 +1102,16 @@
     ],
     "sexual-wellness": [
       {
+        "date": "2026-06-11",
+        "run_id": "2026-06-11T11:59:52.705683+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable data for sexual wellness category"
+          }
+        ]
+      },
+      {
         "date": "2026-06-10",
         "run_id": "2026-06-10T19:40:10.595474+00:00",
         "briefs": [
@@ -1220,6 +1292,16 @@
       }
     ],
     "fabric-care": [
+      {
+        "date": "2026-06-11",
+        "run_id": "2026-06-11T11:59:52.705683+00:00",
+        "briefs": [
+          {
+            "text": "No significant signals today \u2014 monitors stable.",
+            "evidence": "No actionable data for fabric care category"
+          }
+        ]
+      },
       {
         "date": "2026-06-10",
         "run_id": "2026-06-10T19:40:10.595474+00:00",
